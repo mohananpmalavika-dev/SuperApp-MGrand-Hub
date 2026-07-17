@@ -26,8 +26,8 @@ if (-not (Test-Path ".env.production")) {
     Write-Host "📝 Creating .env.production file..." -ForegroundColor Yellow
     
     @"
-REACT_APP_API_URL=https://auth-service.onrender.com
-REACT_APP_AUTH_SERVICE_URL=https://auth-service.onrender.com
+REACT_APP_API_URL=https://auth-service-3lgk.onrender.com
+REACT_APP_AUTH_SERVICE_URL=https://auth-service-3lgk.onrender.com
 REACT_APP_USER_SERVICE_URL=https://user-service.onrender.com
 REACT_APP_ECOMMERCE_SERVICE_URL=https://ecommerce-service.onrender.com
 REACT_APP_PAYMENT_SERVICE_URL=https://payment-service.onrender.com

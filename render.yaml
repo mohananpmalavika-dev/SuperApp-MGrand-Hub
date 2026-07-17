@@ -54,7 +54,7 @@ services:
           name: auth-service
           envVarKey: JWT_SECRET
       - key: AUTH_SERVICE_URL
-        value: https://auth-service.onrender.com
+        value: https://auth-service-3lgk.onrender.com
     autoDeploy: true
 
   # =====================================================
