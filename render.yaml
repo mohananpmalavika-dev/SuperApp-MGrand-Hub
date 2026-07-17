@@ -1,0 +1,248 @@
+# Render Blueprint for SuperApp MGrand Hub
+# This file defines all microservices for automatic deployment
+
+services:
+  # =====================================================
+  # AUTH SERVICE - Authentication & Authorization
+  # =====================================================
+  - type: web
+    name: auth-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/auth-service && npm install
+    startCommand: cd services/auth-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: MONGO_URI
+        sync: false  # Set manually in dashboard
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true  # Auto-generate secure secret
+      - key: JWT_EXPIRE
+        value: 7d
+    autoDeploy: true
+
+  # =====================================================
+  # USER SERVICE - User Profile Management
+  # =====================================================
+  - type: web
+    name: user-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/user-service && npm install
+    startCommand: cd services/user-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3002
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: auth-service
+          envVarKey: JWT_SECRET
+      - key: AUTH_SERVICE_URL
+        value: https://auth-service.onrender.com
+    autoDeploy: true
+
+  # =====================================================
+  # ECOMMERCE SERVICE - Products & Orders
+  # =====================================================
+  - type: web
+    name: ecommerce-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/ecommerce-service && npm install
+    startCommand: cd services/ecommerce-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3003
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: auth-service
+          envVarKey: JWT_SECRET
+      - key: PAYMENT_SERVICE_URL
+        value: https://payment-service.onrender.com
+      - key: NOTIFICATION_SERVICE_URL
+        value: https://notification-service.onrender.com
+      - key: USER_SERVICE_URL
+        value: https://user-service.onrender.com
+    autoDeploy: true
+
+  # =====================================================
+  # PAYMENT SERVICE - Payment Processing
+  # =====================================================
+  - type: web
+    name: payment-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/payment-service && npm install
+    startCommand: cd services/payment-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3004
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: auth-service
+          envVarKey: JWT_SECRET
+      - key: RAZORPAY_KEY_ID
+        sync: false  # Set in dashboard
+      - key: RAZORPAY_KEY_SECRET
+        sync: false  # Set in dashboard
+      - key: NOTIFICATION_SERVICE_URL
+        value: https://notification-service.onrender.com
+    autoDeploy: true
+
+  # =====================================================
+  # CLASSIFIEDS SERVICE - Classified Listings
+  # =====================================================
+  - type: web
+    name: classifieds-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/classifieds-service && npm install
+    startCommand: cd services/classifieds-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3005
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: auth-service
+          envVarKey: JWT_SECRET
+      - key: PAYMENT_SERVICE_URL
+        value: https://payment-service.onrender.com
+      - key: NOTIFICATION_SERVICE_URL
+        value: https://notification-service.onrender.com
+      - key: USER_SERVICE_URL
+        value: https://user-service.onrender.com
+    autoDeploy: true
+
+  # =====================================================
+  # FOOD DELIVERY SERVICE - Restaurant & Food Orders
+  # =====================================================
+  - type: web
+    name: food-delivery-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/food-delivery-service && npm install
+    startCommand: cd services/food-delivery-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3006
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: auth-service
+          envVarKey: JWT_SECRET
+      - key: PAYMENT_SERVICE_URL
+        value: https://payment-service.onrender.com
+      - key: NOTIFICATION_SERVICE_URL
+        value: https://notification-service.onrender.com
+      - key: USER_SERVICE_URL
+        value: https://user-service.onrender.com
+    autoDeploy: true
+
+  # =====================================================
+  # NOTIFICATION SERVICE - Email, SMS, Push Notifications
+  # =====================================================
+  - type: web
+    name: notification-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/notification-service && npm install
+    startCommand: cd services/notification-service && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3012
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_HOST
+        sync: false
+      - key: REDIS_PORT
+        value: 6379
+      - key: REDIS_PASSWORD
+        sync: false
+      - key: SENDGRID_API_KEY
+        sync: false  # Set in dashboard
+      - key: TWILIO_ACCOUNT_SID
+        sync: false  # Set in dashboard
+      - key: TWILIO_AUTH_TOKEN
+        sync: false  # Set in dashboard
+      - key: TWILIO_PHONE_NUMBER
+        sync: false  # Set in dashboard
+    autoDeploy: true

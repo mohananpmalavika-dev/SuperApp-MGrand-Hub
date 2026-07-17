@@ -395,11 +395,31 @@ SENDGRID_API_KEY=your-key
 
 ## 📚 Documentation
 
-- [Architecture Guide](docs/ARCHITECTURE.md)
-- [API Documentation](docs/API.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [Development Guide](docs/DEVELOPMENT.md)
-- [Testing Guide](docs/TESTING.md)
+### Getting Started
+- **[README.md](README.md)** - This file - Project overview
+- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Local development setup guide
+- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Quick command reference
+
+### Architecture & Design
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Complete system architecture
+- **[PROJECT_STATUS.md](PROJECT_STATUS.md)** - Current project status
+
+### Deployment & Publishing 🚀
+
+#### Render Deployment (Recommended) ⭐
+- **[RENDER_QUICK_START.md](RENDER_QUICK_START.md)** - Deploy to Render in 30 minutes!
+- **[RENDER_DEPLOYMENT_GUIDE.md](RENDER_DEPLOYMENT_GUIDE.md)** - Complete Render deployment guide
+- **[DEPLOYMENT_COMPARISON.md](DEPLOYMENT_COMPARISON.md)** - Compare all platforms
+
+#### Google Cloud Run Deployment
+- **[PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md)** - Complete GCP deployment guide
+- **[DEPLOYMENT_QUICK_REFERENCE.md](DEPLOYMENT_QUICK_REFERENCE.md)** - GCP quick commands
+- **[scripts/README.md](scripts/README.md)** - Automated deployment scripts
+
+### Service Documentation
+- [Auth Service](services/auth-service/README.md)
+- [Shared Package](packages/shared/README.md)
+- [Gateway](gateway/README.md)
 
 ## 📄 License
 
