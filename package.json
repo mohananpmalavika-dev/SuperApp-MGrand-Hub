@@ -16,7 +16,8 @@
     "docker:down": "docker-compose down",
     "docker:logs": "docker-compose logs -f",
     "deploy:gcloud": "node scripts/deploy-gcloud.js",
-    "deploy:aws": "node scripts/deploy-aws.js"
+    "deploy:aws": "node scripts/deploy-aws.js",
+    "build:auth-service": "cd packages/shared && npm install && cd ../.. && cd services/auth-service && npm install"
   },
   "keywords": [
     "microservices",

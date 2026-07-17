@@ -10,8 +10,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    rootDirectory: .
-    buildCommand: cd packages/shared && npm install && cd ../../services/auth-service && npm install
+    buildCommand: npm run build:auth-service
     startCommand: cd services/auth-service && npm start
     healthCheckPath: /health
     envVars:
