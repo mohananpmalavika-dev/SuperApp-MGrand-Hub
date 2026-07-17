@@ -10,7 +10,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: bash scripts/render-build.sh auth-service
+    buildCommand: cd services/auth-service && npm install
     startCommand: cd services/auth-service && npm start
     healthCheckPath: /health
     envVars:
