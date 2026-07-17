@@ -13,7 +13,7 @@ const app = express();
 
 // Security middleware
 app.use(helmet());
-app.use(cors({ origin: process.env.CORS_ORIGIN || '*', credentials: true }));
+app.use(cors({ origin: process.env.CORS_ORIGIN || false, credentials: true }));
 
 // Parsing middleware
 app.use(express.json());
