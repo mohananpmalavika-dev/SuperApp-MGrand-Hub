@@ -135,8 +135,13 @@ SuperApp-MGrand-Hub/
 │   ├── kubernetes/
 │   └── terraform/
 │
-├── frontend/                    # Frontend application
-│   └── react-app/
+├── frontend/                    # Frontend application (React SPA)
+│   ├── src/
+│   │   ├── pages/              # All page components
+│   │   ├── App.js              # Main app
+│   │   └── index.js            # Entry point
+│   ├── public/
+│   └── package.json
 │
 ├── monitoring/                  # Monitoring & Logging
 │   ├── prometheus/

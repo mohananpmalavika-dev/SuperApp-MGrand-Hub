@@ -5,7 +5,8 @@
 const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/auth.controller');
-const { validate, commonSchemas, Joi } = require('@mgrand-hub/shared');
+const Joi = require('joi'); // Import Joi directly
+const { validate, commonSchemas } = require('@mgrand-hub/shared');
 const { authenticate } = require('@mgrand-hub/shared');
 
 // Validation schemas
