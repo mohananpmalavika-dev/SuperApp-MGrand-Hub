@@ -10,7 +10,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm install --prefix packages/shared && npm install --prefix services/auth-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/auth-service && npm install && npm install ../../packages/shared
     startCommand: cd services/auth-service && npm start
     healthCheckPath: /health
     envVars:
@@ -36,7 +36,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm install --prefix packages/shared && npm install --prefix services/user-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/user-service && npm install && npm install ../../packages/shared
     startCommand: cd services/user-service && npm start
     healthCheckPath: /health
     envVars:
@@ -65,7 +65,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm install --prefix packages/shared && npm install --prefix services/ecommerce-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/ecommerce-service && npm install && npm install ../../packages/shared
     startCommand: cd services/ecommerce-service && npm start
     healthCheckPath: /health
     envVars:
@@ -98,7 +98,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm run build:payment-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/payment-service && npm install && npm install ../../packages/shared
     startCommand: cd services/payment-service && npm start
     healthCheckPath: /health
     envVars:
@@ -131,7 +131,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm run build:classifieds-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/classifieds-service && npm install && npm install ../../packages/shared
     startCommand: cd services/classifieds-service && npm start
     healthCheckPath: /health
     envVars:
@@ -164,7 +164,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm install --prefix packages/shared && npm install --prefix services/food-delivery-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/food-delivery-service && npm install && npm install ../../packages/shared
     startCommand: cd services/food-delivery-service && npm start
     healthCheckPath: /health
     envVars:
@@ -197,7 +197,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: npm install --prefix packages/shared && npm install --prefix services/notification-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/notification-service && npm install && npm install ../../packages/shared
     startCommand: cd services/notification-service && npm start
     healthCheckPath: /health
     envVars:

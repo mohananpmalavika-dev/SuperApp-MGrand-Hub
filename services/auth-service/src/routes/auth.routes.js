@@ -5,9 +5,58 @@
 const express = require('express');
 const router = express.Router();
 const authController = require('../controllers/auth.controller');
-const Joi = require('joi'); // Import Joi directly
-const { validate, commonSchemas } = require('@mgrand-hub/shared');
-const { authenticate } = require('@mgrand-hub/shared');
+const Joi = require('joi');
+
+// Define schemas directly (since shared package isn't loading)
+const commonSchemas = {
+  email: Joi.string().email().lowercase().trim(),
+  password: Joi.string()
+    .min(8)
+    .pattern(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/)
+    .message('Password must be at least 8 characters with 1 uppercase, 1 lowercase, and 1 number'),
+  phone: Joi.string().pattern(/^[0-9]{10}$/).message('Phone must be 10 digits'),
+};
+
+// Simple validate middleware
+const validate = (schema) => {
+  return (req, res, next) => {
+    const { error, value } = Joi.object(schema).validate(
+      { body: req.body, query: req.query, params: req.params },
+      { abortEarly: false, allowUnknown: true, stripUnknown: true }
+    );
+
+    if (error) {
+      const errorMessage = error.details.map(d => d.message).join(', ');
+      return res.status(400).json({ error: errorMessage });
+    }
+
+    if (value.body) req.body = value.body;
+    if (value.query) req.query = value.query;
+    if (value.params) req.params = value.params;
+    next();
+  };
+};
+
+// Get authenticate from shared (or define locally if needed)
+let authenticate;
+try {
+  ({ authenticate } = require('@mgrand-hub/shared'));
+} catch (err) {
+  // Fallback: define authenticate middleware locally
+  const jwt = require('jsonwebtoken');
+  authenticate = (req, res, next) => {
+    const token = req.headers.authorization?.split(' ')[1];
+    if (!token) return res.status(401).json({ error: 'No token provided' });
+    
+    try {
+      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+      req.user = decoded;
+      next();
+    } catch (error) {
+      return res.status(401).json({ error: 'Invalid token' });
+    }
+  };
+}
 
 // Validation schemas
 const registerSchema = {

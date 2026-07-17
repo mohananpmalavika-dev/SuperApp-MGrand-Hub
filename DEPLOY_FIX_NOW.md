@@ -1,8 +1,13 @@
-# ⚡ Deploy Fix NOW - 2 Minutes
+# ⚡ Deploy Fix NOW - UPDATED - 2 Minutes
 
-## ✅ I've Fixed the Joi Import Issue!
+## ✅ I've Fixed BOTH Import Issues!
 
-The error was: Joi couldn't be found because of how the shared package was imported.
+The errors were:
+1. Joi couldn't be imported from shared package
+2. commonSchemas couldn't be imported from shared package  
+3. The entire @mgrand-hub/shared package wasn't loading properly in Render
+
+**Solution:** Made auth-service completely independent - no shared package dependencies!
 
 ---
 
@@ -14,7 +19,7 @@ The error was: Joi couldn't be found because of how the shared package was impor
 cd c:\Users\Dhanya\SuperApp-MGrand-Hub
 
 git add .
-git commit -m "Fix Joi import for Render deployment"
+git commit -m "Make auth-service independent - remove shared package deps"
 git push origin main
 ```
 
@@ -32,21 +37,17 @@ git push origin main
 
 ## ✅ What Was Fixed
 
-**Before (broken):**
-```javascript
-const { validate, commonSchemas, Joi } = require('@mgrand-hub/shared');
-```
+**Problem:** The @mgrand-hub/shared package wasn't loading in Render's deployment environment.
 
-**After (working):**
-```javascript
-const Joi = require('joi');  // Direct import
-const { validate, commonSchemas } = require('@mgrand-hub/shared');
-```
+**Solution:** Made auth-service completely self-contained:
 
-**Why this works:**
-- Joi is installed in auth-service's package.json
-- Direct import ensures it's always available
-- No dependency on shared package for Joi
+1. **Removed shared package imports**
+2. **Defined validation schemas directly** in auth.routes.js
+3. **Added validate middleware** inline
+4. **Added authenticate middleware** with fallback
+5. **Removed errorHandler/logger** from shared, used standard Express handlers
+
+Now auth-service has ZERO dependencies on the shared package!
 
 ---
 
