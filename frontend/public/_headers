@@ -1,0 +1,22 @@
+# Headers for all routes
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, Authorization
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Specific header for manifest.json
+/manifest.json
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json
+  Cache-Control: public, max-age=3600
+
+# Service worker
+/service-worker.js
+  Cache-Control: no-cache
+
+# Static assets
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
