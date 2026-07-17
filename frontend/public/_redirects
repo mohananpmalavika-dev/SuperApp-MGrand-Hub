@@ -1,9 +1,15 @@
-# Redirect www to non-www (or vice versa - choose one direction)
-# Option 1: Redirect www to non-www
-https://www.malabarbazaar.shop/* https://malabarbazaar.shop/:splat 301!
+# Redirect www to non-www at DNS/CDN level
+# This should be configured in Render Dashboard, not here
+# If you must use file-based redirects, use this approach:
 
-# Option 2: If you prefer www, uncomment this instead and comment the above
-# https://malabarbazaar.shop/* https://www.malabarbazaar.shop/:splat 301!
+# Don't redirect API calls or static files
+/manifest.json  /manifest.json  200
+/favicon.ico    /favicon.ico    200
+/static/*       /static/:splat  200
+/logo*.png      /logo:splat.png 200
+
+# Redirect www to non-www for HTML pages only
+https://www.malabarbazaar.shop/*  https://malabarbazaar.shop/:splat  301!
 
 # SPA fallback - must be last
 /*    /index.html   200
