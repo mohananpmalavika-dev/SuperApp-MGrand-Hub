@@ -11,7 +11,7 @@ services:
     region: oregon
     plan: standard
     rootDirectory: .
-    buildCommand: npm install --prefix packages/shared && npm install --prefix services/auth-service
+    buildCommand: cd packages/shared && npm install && cd ../../services/auth-service && npm install
     startCommand: cd services/auth-service && npm start
     healthCheckPath: /health
     envVars:
