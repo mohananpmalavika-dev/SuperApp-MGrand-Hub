@@ -5,8 +5,9 @@
 const express = require('express');
 const router = express.Router();
 const notificationController = require('../controllers/notification.controller');
-const { validate, Joi } = require('@mgrand-hub/shared');
+const { validate } = require('@mgrand-hub/shared');
 const { authenticate, authorize } = require('@mgrand-hub/shared');
+const Joi = require('joi');
 
 // Validation schemas
 const sendEmailSchema = {

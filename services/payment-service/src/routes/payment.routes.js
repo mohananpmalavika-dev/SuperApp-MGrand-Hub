@@ -5,8 +5,9 @@
 const express = require('express');
 const router = express.Router();
 const paymentController = require('../controllers/payment.controller');
-const { validate, commonSchemas, Joi } = require('@mgrand-hub/shared');
+const { validate, commonSchemas } = require('@mgrand-hub/shared');
 const { authenticate, authorize } = require('@mgrand-hub/shared');
+const Joi = require('joi');
 
 // Validation schemas
 const createOrderSchema = {

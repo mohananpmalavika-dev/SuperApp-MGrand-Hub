@@ -5,8 +5,9 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/user.controller');
-const { validate, Joi } = require('@mgrand-hub/shared');
+const { validate } = require('@mgrand-hub/shared');
 const { authenticate, authorize } = require('@mgrand-hub/shared');
+const Joi = require('joi');
 const multer = require('multer');
 
 const upload = multer({ dest: 'uploads/avatars/' });
