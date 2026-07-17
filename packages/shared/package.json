@@ -1,0 +1,25 @@
+{
+  "name": "@mgrand-hub/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and configurations for MGrand Hub microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "shared",
+    "utilities",
+    "microservices"
+  ],
+  "author": "MGrand Hub Team",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.11.0",
+    "mongoose": "^8.0.3",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.11.0",
+    "axios": "^1.6.2"
+  }
+}

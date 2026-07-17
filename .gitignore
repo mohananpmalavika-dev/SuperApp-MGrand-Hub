@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.settings/
+
+# Build output
+dist/
+build/
+*.out
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js.snap
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# MongoDB
+data/
+
+# Redis
+dump.rdb
+
+# Uploads
+uploads/
+public/uploads/
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Misc
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
