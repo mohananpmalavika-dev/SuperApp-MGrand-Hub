@@ -8,7 +8,7 @@ const database = require('./src/database');
 const redis = require('./src/redis');
 const { authenticate, authorize, serviceAuth } = require('./src/middleware/auth');
 const errorHandler = require('./src/middleware/errorHandler');
-const validator = require('./src/middleware/validator');
+const { validate, commonSchemas, Joi } = require('./src/middleware/validator');
 const rateLimiter = require('./src/middleware/rateLimiter');
 const { ApiError, ApiResponse } = require('./src/utils/apiResponse');
 const { asyncHandler } = require('./src/utils/asyncHandler');
@@ -26,7 +26,9 @@ module.exports = {
   authorize,
   serviceAuth,
   errorHandler,
-  validator,
+  validate,
+  commonSchemas,
+  Joi,
   rateLimiter,
   
   // Utilities
