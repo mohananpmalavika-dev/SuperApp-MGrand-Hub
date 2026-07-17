@@ -51,7 +51,11 @@ function LoginPage({ onLogin }) {
         navigate(returnTo);
       }
     } catch (err) {
-      setError(err.response?.data?.message || 'Login failed. Please try again.');
+      setError(
+        err.response?.data?.error ||
+        err.response?.data?.message ||
+        'Login failed. Please try again.'
+      );
     } finally {
       setLoading(false);
     }
@@ -75,6 +79,12 @@ function LoginPage({ onLogin }) {
           <Typography variant="body2" color="text.secondary" align="center" sx={{ mb: 3 }}>
             Login to access your MGrand Hub account
           </Typography>
+
+          {location.state?.message && (
+            <Alert severity="success" sx={{ mb: 2 }}>
+              {location.state.message}
+            </Alert>
+          )}
 
           {error && (
             <Alert severity="error" sx={{ mb: 2 }}>

@@ -19,7 +19,7 @@ import './AuthPages.css';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
 
-function RegisterPage({ onRegister }) {
+function RegisterPage() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -43,8 +43,15 @@ function RegisterPage({ onRegister }) {
       setError('Passwords do not match');
       return false;
     }
-    if (formData.password.length < 6) {
-      setError('Password must be at least 6 characters long');
+    if (
+      formData.password.length < 8 ||
+      !/[a-z]/.test(formData.password) ||
+      !/[A-Z]/.test(formData.password) ||
+      !/\d/.test(formData.password)
+    ) {
+      setError(
+        'Password must be at least 8 characters and include uppercase, lowercase, and a number'
+      );
       return false;
     }
     if (!/^\d{10}$/.test(formData.phone)) {
@@ -65,16 +72,29 @@ function RegisterPage({ onRegister }) {
     setError('');
 
     try {
-      const { confirmPassword, ...registerData } = formData;
+      const {
+        confirmPassword,
+        firstName,
+        lastName,
+        ...registrationFields
+      } = formData;
+      const registerData = {
+        ...registrationFields,
+        name: `${firstName.trim()} ${lastName.trim()}`.trim(),
+      };
       const response = await axios.post(`${API_URL}/api/auth/register`, registerData);
       
       if (response.data.success) {
-        const { user, accessToken } = response.data.data;
-        onRegister(user, accessToken);
-        navigate('/dashboard');
+        navigate('/login', {
+          state: { message: 'Account created successfully. Please log in.' },
+        });
       }
     } catch (err) {
-      setError(err.response?.data?.message || 'Registration failed. Please try again.');
+      setError(
+        err.response?.data?.error ||
+        err.response?.data?.message ||
+        'Registration failed. Please try again.'
+      );
     } finally {
       setLoading(false);
     }
