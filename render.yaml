@@ -10,7 +10,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/auth-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/auth-service && npm install
     startCommand: cd services/auth-service && npm start
     healthCheckPath: /health
     envVars:
@@ -20,12 +20,8 @@ services:
         value: 3001
       - key: MONGO_URI
         sync: false  # Set manually in dashboard
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
-        sync: false
+      - key: REDIS_URL
+        sync: false  # Set manually: redis://user:pass@host:port
       - key: JWT_SECRET
         generateValue: true  # Auto-generate secure secret
       - key: JWT_EXPIRE
@@ -40,7 +36,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/user-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/user-service && npm install
     startCommand: cd services/user-service && npm start
     healthCheckPath: /health
     envVars:
@@ -50,11 +46,7 @@ services:
         value: 3002
       - key: MONGO_URI
         sync: false
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
+      - key: REDIS_URL
         sync: false
       - key: JWT_SECRET
         fromService:
@@ -73,7 +65,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/ecommerce-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/ecommerce-service && npm install
     startCommand: cd services/ecommerce-service && npm start
     healthCheckPath: /health
     envVars:
@@ -83,11 +75,7 @@ services:
         value: 3003
       - key: MONGO_URI
         sync: false
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
+      - key: REDIS_URL
         sync: false
       - key: JWT_SECRET
         fromService:
@@ -110,7 +98,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/payment-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/payment-service && npm install
     startCommand: cd services/payment-service && npm start
     healthCheckPath: /health
     envVars:
@@ -120,11 +108,7 @@ services:
         value: 3004
       - key: MONGO_URI
         sync: false
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
+      - key: REDIS_URL
         sync: false
       - key: JWT_SECRET
         fromService:
@@ -147,7 +131,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/classifieds-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/classifieds-service && npm install
     startCommand: cd services/classifieds-service && npm start
     healthCheckPath: /health
     envVars:
@@ -157,11 +141,7 @@ services:
         value: 3005
       - key: MONGO_URI
         sync: false
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
+      - key: REDIS_URL
         sync: false
       - key: JWT_SECRET
         fromService:
@@ -184,7 +164,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/food-delivery-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/food-delivery-service && npm install
     startCommand: cd services/food-delivery-service && npm start
     healthCheckPath: /health
     envVars:
@@ -194,11 +174,7 @@ services:
         value: 3006
       - key: MONGO_URI
         sync: false
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
+      - key: REDIS_URL
         sync: false
       - key: JWT_SECRET
         fromService:
@@ -221,7 +197,7 @@ services:
     env: node
     region: oregon
     plan: standard
-    buildCommand: cd services/notification-service && npm install
+    buildCommand: cd packages/shared && npm install && cd ../../services/notification-service && npm install
     startCommand: cd services/notification-service && npm start
     healthCheckPath: /health
     envVars:
@@ -231,11 +207,7 @@ services:
         value: 3012
       - key: MONGO_URI
         sync: false
-      - key: REDIS_HOST
-        sync: false
-      - key: REDIS_PORT
-        value: 6379
-      - key: REDIS_PASSWORD
+      - key: REDIS_URL
         sync: false
       - key: SENDGRID_API_KEY
         sync: false  # Set in dashboard
