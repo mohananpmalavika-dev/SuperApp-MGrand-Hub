@@ -1,0 +1,38 @@
+{
+  "name": "education-service",
+  "version": "1.0.0",
+  "description": "AI-powered education service with Groq, Gemini, and Edge TTS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["education", "ai", "groq", "gemini", "tts"],
+  "author": "MGrand Hub",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "edge-tts": "^1.1.0",
+    "groq-sdk": "^0.3.1",
+    "@google/generative-ai": "^0.2.1",
+    "redis": "^4.6.8",
+    "ioredis": "^5.3.2",
+    "winston": "^3.10.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "@types/node": "^20.5.9"
+  }
+}

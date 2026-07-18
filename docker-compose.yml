@@ -199,27 +199,28 @@ services:
       timeout: 10s
       retries: 3
 
-  tutor-service:
+  education-service:
     build:
-      context: ./services/tutor-service
+      context: ./services/education-service
       dockerfile: Dockerfile
-    container_name: mgrand-tutor-service
+    container_name: mgrand-education-service
     restart: unless-stopped
     ports:
-      - "3005:3005"
+      - "3013:3013"
     environment:
       NODE_ENV: ${NODE_ENV:-development}
-      PORT: 3005
-      SERVICE_NAME: tutor-service
+      PORT: 3013
       MONGO_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password}@mongodb:27017/mgrand-hub?authSource=admin
       REDIS_HOST: redis
       REDIS_PORT: 6379
       JWT_SECRET: ${JWT_SECRET}
       AUTH_SERVICE_URL: http://auth-service:3001
-      USER_SERVICE_URL: http://user-service:3002
-      NOTIFICATION_SERVICE_URL: http://notification-service:3012
-      ENABLE_AI_TUTOR: ${ENABLE_AI_TUTOR:-true}
-      ENABLE_GAMIFICATION: ${ENABLE_GAMIFICATION:-true}
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      TTS_VOICE: en-IN-NeerjaNeural
+      CACHE_CURRICULUM_TTL: 86400
+      CACHE_LESSON_TTL: 3600
+      CACHE_QUESTION_TTL: 1800
     depends_on:
       mongodb:
         condition: service_healthy
@@ -229,8 +230,10 @@ services:
         condition: service_healthy
     networks:
       - mgrand-network
+    volumes:
+      - ./services/education-service/uploads:/app/uploads
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3005/api/tutor/health"]
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3013/api/education/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -312,6 +315,7 @@ services:
       - payment-service
       - ecommerce-service
       - notification-service
+      - education-service
       - classifieds-service
       - food-delivery-service
     networks:
