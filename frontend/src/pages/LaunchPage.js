@@ -13,9 +13,6 @@ import {
 } from '@mui/material';
 import {
   ShoppingCart,
-  Payment,
-  Notifications,
-  Person,
   Restaurant,
   Category,
   Business,
@@ -24,10 +21,23 @@ import {
   AccountBalance,
   Login,
   PersonAdd,
+  Payment,
+  Notifications,
+  Person,
+  School,
 } from '@mui/icons-material';
 import './LaunchPage.css';
 
 const modules = [
+  {
+    id: 'tutor',
+    name: 'Personal Tutor',
+    description: 'AI-powered adaptive learning with quizzes',
+    icon: <School sx={{ fontSize: 48 }} />,
+    color: '#9B59B6',
+    status: 'Active',
+    path: '/tutor/dashboard',
+  },
   {
     id: 'ecommerce',
     name: 'E-Commerce',
@@ -36,33 +46,6 @@ const modules = [
     color: '#FF6B6B',
     status: 'Coming Soon',
     path: '/ecommerce',
-  },
-  {
-    id: 'payments',
-    name: 'Payments',
-    description: 'Secure payment processing with Razorpay',
-    icon: <Payment sx={{ fontSize: 48 }} />,
-    color: '#4ECDC4',
-    status: 'Active',
-    path: '/payments',
-  },
-  {
-    id: 'profile',
-    name: 'My Profile',
-    description: 'Manage your profile and preferences',
-    icon: <Person sx={{ fontSize: 48 }} />,
-    color: '#95E1D3',
-    status: 'Active',
-    path: '/profile',
-  },
-  {
-    id: 'notifications',
-    name: 'Notifications',
-    description: 'Email, SMS, and push notifications',
-    icon: <Notifications sx={{ fontSize: 48 }} />,
-    color: '#F38181',
-    status: 'Active',
-    path: '/notifications',
   },
   {
     id: 'food',

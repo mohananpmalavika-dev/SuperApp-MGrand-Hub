@@ -1,0 +1,18 @@
+.tutor-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.tutor-dashboard .MuiCard-root {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tutor-dashboard .MuiCard-root:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.tutor-dashboard .MuiLinearProgress-root {
+  height: 8px;
+  border-radius: 4px;
+}

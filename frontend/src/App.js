@@ -7,6 +7,8 @@ import Dashboard from './pages/Dashboard';
 import ProfilePage from './pages/ProfilePage';
 import PaymentPage from './pages/PaymentPage';
 import NotificationsPage from './pages/NotificationsPage';
+import TutorDashboard from './pages/TutorDashboard';
+import NewSessionPage from './pages/NewSessionPage';
 import './App.css';
 
 function App() {
@@ -68,6 +70,14 @@ function App() {
           <Route 
             path="/notifications" 
             element={user ? <NotificationsPage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/tutor/dashboard" 
+            element={user ? <TutorDashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/tutor/session/new" 
+            element={user ? <NewSessionPage user={user} /> : <Navigate to="/login" />} 
           />
         </Routes>
       </div>

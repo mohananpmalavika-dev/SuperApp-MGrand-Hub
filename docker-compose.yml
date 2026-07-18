@@ -199,6 +199,42 @@ services:
       timeout: 10s
       retries: 3
 
+  tutor-service:
+    build:
+      context: ./services/tutor-service
+      dockerfile: Dockerfile
+    container_name: mgrand-tutor-service
+    restart: unless-stopped
+    ports:
+      - "3005:3005"
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: 3005
+      SERVICE_NAME: tutor-service
+      MONGO_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password}@mongodb:27017/mgrand-hub?authSource=admin
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      JWT_SECRET: ${JWT_SECRET}
+      AUTH_SERVICE_URL: http://auth-service:3001
+      USER_SERVICE_URL: http://user-service:3002
+      NOTIFICATION_SERVICE_URL: http://notification-service:3012
+      ENABLE_AI_TUTOR: ${ENABLE_AI_TUTOR:-true}
+      ENABLE_GAMIFICATION: ${ENABLE_GAMIFICATION:-true}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      auth-service:
+        condition: service_healthy
+    networks:
+      - mgrand-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3005/api/tutor/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
   classifieds-service:
     build:
       context: ./services/classifieds-service
