@@ -1,14 +1,14 @@
 {
-  "name": "tutor-service",
+  "name": "resume-service",
   "version": "1.0.0",
-  "description": "Enhanced Personal Tutor Service with AI-powered adaptive learning",
+  "description": "Professional Resume Builder Service with cloud storage and export features",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "jest"
   },
-  "keywords": ["tutor", "learning", "education", "ai", "adaptive"],
+  "keywords": ["resume", "builder", "cv", "pdf", "export", "career"],
   "author": "MGrand Hub Team",
   "license": "MIT",
   "dependencies": {
@@ -23,6 +23,10 @@
     "winston": "^3.11.0",
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
+    "jspdf": "^2.5.1",
+    "docx": "^8.5.0",
+    "puppeteer": "^21.6.0",
+    "handlebars": "^4.7.8",
     "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {

@@ -6,6 +6,12 @@ const auth = require('../../../packages/shared/src/middleware/auth');
 const sessionController = require('../controllers/session.controller');
 const quizController = require('../controllers/quiz.controller');
 
+// Sub-routes
+const voiceRoutes = require('./voice.routes');
+
+// ========== VOICE & AVATAR ROUTES ==========
+router.use('/voice', voiceRoutes);
+
 // ========== SESSION ROUTES ==========
 router.post('/sessions/start', auth, sessionController.startSession);
 router.get('/sessions/:sessionId', auth, sessionController.getSession);

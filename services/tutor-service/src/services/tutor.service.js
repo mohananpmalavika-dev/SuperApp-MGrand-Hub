@@ -647,6 +647,19 @@ class TutorService {
     // Suggest relevant learning paths
     return null;
   }
+
+  /**
+   * Get session by ID
+   */
+  async getSessionById(sessionId) {
+    try {
+      const session = await TutorSession.findById(sessionId);
+      return session;
+    } catch (error) {
+      logger.error('Error fetching session by ID:', error);
+      throw error;
+    }
+  }
 }
 
 module.exports = new TutorService();

@@ -1,0 +1,278 @@
+/* Voice Avatar Styles */
+
+.voice-avatar-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.voice-avatar-stage {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Scenario Backgrounds */
+.video-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  transition: background 0.5s ease;
+}
+
+.scenario-room .video-backdrop {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.scenario-park .video-backdrop {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.scenario-beach .video-backdrop {
+  background: linear-gradient(135deg, #ffa751 0%, #ffe259 100%);
+}
+
+.scenario-cafe .video-backdrop {
+  background: linear-gradient(135deg, #d4a574 0%, #c48a4f 100%);
+}
+
+.scenario-library .video-backdrop {
+  background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+}
+
+.scenario-classroom .video-backdrop {
+  background: linear-gradient(135deg, #5f9ea0 0%, #4682b4 100%);
+}
+
+/* Live Badge */
+.live-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #f44336;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 3;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Avatar Image */
+.avatar-image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar-image.speaking {
+  transform: scale(1.05);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+  animation: avatarPulse 1s ease-in-out infinite;
+}
+
+@keyframes avatarPulse {
+  0%, 100% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+/* Animated Mouth */
+.avatar-mouth {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 20px;
+  background: #333;
+  border-radius: 0 0 20px 20px;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.avatar-mouth.animated {
+  animation: mouthMove 0.3s ease-in-out infinite;
+}
+
+@keyframes mouthMove {
+  0%, 100% {
+    height: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  50% {
+    height: 30px;
+    border-radius: 0 0 25px 25px;
+  }
+}
+
+/* Avatar Label */
+.avatar-label {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+/* Waveform Visualization */
+.voice-waveform {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0;
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+.voice-waveform.active {
+  opacity: 1;
+}
+
+.voice-waveform .wave {
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+  border-radius: 4px;
+  animation: waveAnimation 1.2s ease-in-out infinite;
+}
+
+.voice-waveform.active .wave {
+  animation: waveAnimation 0.6s ease-in-out infinite;
+}
+
+.voice-waveform .wave:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.voice-waveform .wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.voice-waveform .wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.voice-waveform .wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.voice-waveform .wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+@keyframes waveAnimation {
+  0%, 100% {
+    height: 20px;
+  }
+  50% {
+    height: 50px;
+  }
+}
+
+/* Voice Controls */
+.voice-controls {
+  width: 100%;
+  padding: 16px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.voice-settings-panel {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .voice-avatar-stage {
+    height: 300px;
+  }
+
+  .avatar-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .voice-waveform {
+    height: 40px;
+  }
+
+  .voice-waveform .wave {
+    width: 3px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .voice-avatar-stage {
+    height: 250px;
+    border-radius: 12px;
+  }
+
+  .avatar-image {
+    width: 120px;
+    height: 120px;
+    border-width: 4px;
+  }
+
+  .live-badge {
+    top: 12px;
+    right: 12px;
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+}

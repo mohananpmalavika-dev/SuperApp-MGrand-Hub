@@ -1,0 +1,79 @@
+/* Lesson View Styles */
+
+.lesson-view-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.lesson-view-page .MuiCard-root {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.lesson-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.lesson-example-box {
+  background: #f8f9fa;
+  border-left: 4px solid #667eea;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 4px;
+}
+
+.voice-commands-help {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.voice-commands-help ul {
+  margin: 8px 0 0 20px;
+  padding: 0;
+}
+
+.voice-commands-help li {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+/* Animation for content transitions */
+.lesson-content-enter {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.lesson-content-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.lesson-content-exit {
+  opacity: 1;
+}
+
+.lesson-content-exit-active {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+  .lesson-view-page .MuiGrid-container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .lesson-content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

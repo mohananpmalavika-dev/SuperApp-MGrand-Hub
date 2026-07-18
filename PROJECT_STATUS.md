@@ -45,9 +45,12 @@ A modern, scalable microservices architecture for a comprehensive super app plat
 
 ---
 
-### 3. Auth Microservice (100% Complete)
+### 3. Microservices (5 Complete)
 
-#### Features Implemented
+#### 3.1 Auth Service (Port 3001) ✅
+**Status**: 100% Complete
+
+**Features**:
 - ✅ User registration (email/phone)
 - ✅ User login with JWT tokens
 - ✅ Token refresh mechanism

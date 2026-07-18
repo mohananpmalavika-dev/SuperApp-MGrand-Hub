@@ -9,6 +9,7 @@ import PaymentPage from './pages/PaymentPage';
 import NotificationsPage from './pages/NotificationsPage';
 import TutorDashboard from './pages/TutorDashboard';
 import NewSessionPage from './pages/NewSessionPage';
+import LessonView from './pages/LessonView';
 import './App.css';
 
 function App() {
@@ -78,6 +79,10 @@ function App() {
           <Route 
             path="/tutor/session/new" 
             element={user ? <NewSessionPage user={user} /> : <Navigate to="/login" />} 
+          />
+          <Route 
+            path="/tutor/session/:sessionId" 
+            element={user ? <LessonView user={user} /> : <Navigate to="/login" />} 
           />
         </Routes>
       </div>

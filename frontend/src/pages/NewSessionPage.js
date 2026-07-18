@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Container,
@@ -15,9 +15,13 @@ import {
   Grid,
   CircularProgress,
   Alert,
+  Dialog,
+  DialogTitle,
+  DialogContent,
 } from '@mui/material';
-import { ArrowBack, PlayArrow } from '@mui/icons-material';
+import { ArrowBack, PlayArrow, Mic } from '@mui/icons-material';
 import axios from 'axios';
+import VoiceAvatar from '../components/VoiceAvatar';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
 
@@ -54,6 +58,9 @@ function NewSessionPage() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [voicePreferences, setVoicePreferences] = useState(null);
+  const [showVoiceDialog, setShowVoiceDialog] = useState(false);
+  const [speaking, setSpeaking] = useState(false);
   const [formData, setFormData] = useState({
     subject: '',
     topic: '',
@@ -61,6 +68,64 @@ function NewSessionPage() {
     learningGoal: '',
     learningStyle: 'balanced',
   });
+
+  useEffect(() => {
+    fetchVoicePreferences();
+  }, []);
+
+  const fetchVoicePreferences = async () => {
+    try {
+      const token = localStorage.getItem('token');
+      const response = await axios.get(`${API_URL}/api/tutor/voice/preferences`, {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+
+      if (response.data.success) {
+        setVoicePreferences(response.data.data);
+      }
+    } catch (err) {
+      console.error('Failed to load voice preferences:', err);
+    }
+  };
+
+  const handleVoiceInput = (transcript) => {
+    // Parse voice input for topic or learning goal
+    setFormData(prev => ({ ...prev, learningGoal: transcript }));
+    setShowVoiceDialog(false);
+    speakText('I have set your learning goal. Please review and start your session.');
+  };
+
+  const handleSettingsChange = async (settings) => {
+    try {
+      const token = localStorage.getItem('token');
+      await axios.put(
+        `${API_URL}/api/tutor/voice/preferences`,
+        settings,
+        { headers: { Authorization: `Bearer ${token}` } }
+      );
+      fetchVoicePreferences();
+    } catch (err) {
+      console.error('Failed to update settings:', err);
+    }
+  };
+
+  const speakText = (text) => {
+    if (!window.speechSynthesis) return;
+    
+    setSpeaking(true);
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = voicePreferences?.language === 'en' ? 'en-IN' : 
+                     voicePreferences?.language === 'hi' ? 'hi-IN' :
+                     voicePreferences?.language === 'ml' ? 'ml-IN' :
+                     voicePreferences?.language === 'kn' ? 'kn-IN' : 'en-IN';
+    utterance.rate = voicePreferences?.voiceSpeed || 1.0;
+    utterance.pitch = voicePreferences?.voicePitch || 1.0;
+    
+    utterance.onend = () => setSpeaking(false);
+    utterance.onerror = () => setSpeaking(false);
+    
+    window.speechSynthesis.speak(utterance);
+  };
 
   const handleChange = (e) => {
     setFormData({
@@ -112,8 +177,27 @@ function NewSessionPage() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Start New Learning Session
           </Typography>
+          <IconButton color="inherit" onClick={() => setShowVoiceDialog(true)}>
+            <Mic />
+          </IconButton>
         </Toolbar>
       </AppBar>
+
+      {/* Voice Avatar Dialog */}
+      <Dialog open={showVoiceDialog} onClose={() => setShowVoiceDialog(false)} maxWidth="md" fullWidth>
+        <DialogTitle>Voice Assistant - Tell me your learning goal</DialogTitle>
+        <DialogContent>
+          <VoiceAvatar
+            avatarUrl={voicePreferences?.avatarUrl}
+            tutorName={voicePreferences?.customAvatarName || 'AI Tutor'}
+            scenario={voicePreferences?.preferredScenario || 'classroom'}
+            onVoiceInput={handleVoiceInput}
+            onSettingsChange={handleSettingsChange}
+            speaking={speaking}
+            voiceEnabled={voicePreferences?.enableVoiceInput !== false}
+          />
+        </DialogContent>
+      </Dialog>
 
       <Container maxWidth="md" sx={{ mt: 4, mb: 4 }}>
         <Card>
