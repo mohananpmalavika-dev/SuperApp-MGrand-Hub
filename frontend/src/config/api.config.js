@@ -3,19 +3,25 @@
  * Centralized API endpoint configuration for all microservices
  */
 
+// Helper function to remove trailing slashes from URLs
+const normalizeUrl = (url) => {
+  if (!url) return url;
+  return url.replace(/\/+$/, ''); // Remove one or more trailing slashes
+};
+
 const config = {
   // Main API URL (auth service)
-  API_URL: process.env.REACT_APP_API_URL || 'http://localhost:8080',
+  API_URL: normalizeUrl(process.env.REACT_APP_API_URL) || 'http://localhost:8080',
   
   // Individual service URLs
-  AUTH_SERVICE_URL: process.env.REACT_APP_AUTH_SERVICE_URL || process.env.REACT_APP_API_URL || 'http://localhost:3001',
-  USER_SERVICE_URL: process.env.REACT_APP_USER_SERVICE_URL || 'http://localhost:3002',
-  ECOMMERCE_SERVICE_URL: process.env.REACT_APP_ECOMMERCE_SERVICE_URL || 'http://localhost:3003',
-  PAYMENT_SERVICE_URL: process.env.REACT_APP_PAYMENT_SERVICE_URL || 'http://localhost:3004',
-  CLASSIFIEDS_SERVICE_URL: process.env.REACT_APP_CLASSIFIEDS_SERVICE_URL || 'http://localhost:3005',
-  FOOD_SERVICE_URL: process.env.REACT_APP_FOOD_SERVICE_URL || 'http://localhost:3006',
-  NOTIFICATION_SERVICE_URL: process.env.REACT_APP_NOTIFICATION_SERVICE_URL || 'http://localhost:3012',
-  TUTOR_SERVICE_URL: process.env.REACT_APP_TUTOR_SERVICE_URL || 'http://localhost:3013',
+  AUTH_SERVICE_URL: normalizeUrl(process.env.REACT_APP_AUTH_SERVICE_URL || process.env.REACT_APP_API_URL) || 'http://localhost:3001',
+  USER_SERVICE_URL: normalizeUrl(process.env.REACT_APP_USER_SERVICE_URL) || 'http://localhost:3002',
+  ECOMMERCE_SERVICE_URL: normalizeUrl(process.env.REACT_APP_ECOMMERCE_SERVICE_URL) || 'http://localhost:3003',
+  PAYMENT_SERVICE_URL: normalizeUrl(process.env.REACT_APP_PAYMENT_SERVICE_URL) || 'http://localhost:3004',
+  CLASSIFIEDS_SERVICE_URL: normalizeUrl(process.env.REACT_APP_CLASSIFIEDS_SERVICE_URL) || 'http://localhost:3005',
+  FOOD_SERVICE_URL: normalizeUrl(process.env.REACT_APP_FOOD_SERVICE_URL) || 'http://localhost:3006',
+  NOTIFICATION_SERVICE_URL: normalizeUrl(process.env.REACT_APP_NOTIFICATION_SERVICE_URL) || 'http://localhost:3012',
+  TUTOR_SERVICE_URL: normalizeUrl(process.env.REACT_APP_TUTOR_SERVICE_URL) || 'http://localhost:3013',
   
   // Razorpay
   RAZORPAY_KEY_ID: process.env.REACT_APP_RAZORPAY_KEY_ID || '',
