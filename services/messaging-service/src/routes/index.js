@@ -2,8 +2,10 @@ const express = require('express');
 const router = express.Router();
 const multer = require('multer');
 const path = require('path');
-const messagingController = require('../controllers/messaging.controller');
-const { authenticate } = require('../middleware/auth.middleware');
+const messagingController = require('../controllers/messagingController');
+const contactController = require('../controllers/contactController');
+const { authenticate } = require('../middleware/auth');
+const contactRoutes = require('./contacts');
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
@@ -48,13 +50,12 @@ router.use(authenticate);
 router.post('/chats', messagingController.createChat);
 router.get('/chats', messagingController.getUserChats);
 router.get('/chats/:chatId', messagingController.getChatById);
-router.put('/chats/:chatId', messagingController.updateChat);
-router.delete('/chats/:chatId', messagingController.deleteChat);
+router.post('/chats/:chatId/participants', messagingController.addParticipants);
 router.post('/chats/:chatId/leave', messagingController.leaveChat);
 
 // Message Management
 router.post('/chats/:chatId/messages', upload.array('files', 10), messagingController.sendMessage);
-router.get('/chats/:chatId/messages', messagingController.getChatMessages);
+router.get('/chats/:chatId/messages', messagingController.getMessages);
 router.put('/messages/:messageId', messagingController.editMessage);
 router.delete('/messages/:messageId', messagingController.deleteMessage);
 router.post('/messages/:messageId/react', messagingController.reactToMessage);
@@ -73,10 +74,13 @@ router.post('/chats/:chatId/calls', messagingController.initiateCall);
 router.post('/calls/:callId/answer', messagingController.answerCall);
 router.post('/calls/:callId/end', messagingController.endCall);
 
-// Contacts
-router.get('/contacts', messagingController.getContacts);
-router.post('/contacts', messagingController.addContact);
-router.post('/contacts/block', messagingController.blockUser);
+// Contacts (new comprehensive contact management)
+router.use('/contacts', contactRoutes);
+
+// Legacy contact endpoints (can be removed if not used)
+// router.get('/contacts', messagingController.getContacts);
+// router.post('/contacts', messagingController.addContact);
+// router.post('/contacts/block', messagingController.blockUser);
 
 // Media Upload
 router.post('/upload', upload.single('file'), messagingController.uploadMedia);

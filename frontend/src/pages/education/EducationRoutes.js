@@ -18,6 +18,7 @@ import SubscriptionManagement from './SubscriptionManagement';
 import CAFoundationCourses from './CAFoundationCourses';
 import CAFoundationCourse from './CAFoundationCourse';
 import CAFoundationLesson from './CAFoundationLesson';
+import PDFContentGenerator from './PDFContentGenerator';
 
 const EducationRoutes = () => {
   return (
@@ -41,6 +42,7 @@ const EducationRoutes = () => {
         <Route path="/study-plan" element={<StudyPlan />} />
         <Route path="/subscription-plans" element={<SubscriptionPlans />} />
         <Route path="/subscription" element={<SubscriptionManagement />} />
+        <Route path="/content-generator" element={<PDFContentGenerator />} />
       </Routes>
     </EducationLayout>
   );

@@ -35,6 +35,8 @@ import { io } from 'socket.io-client';
 import axios from 'axios';
 import ChatWindow from '../../components/messaging/ChatWindow';
 import ContactList from '../../components/messaging/ContactList';
+import AddContactDialog from '../../components/messaging/AddContactDialog';
+import ContactRequestsDialog from '../../components/messaging/ContactRequestsDialog';
 
 const MessagingDashboard = () => {
   const [chats, setChats] = useState([]);
@@ -44,6 +46,9 @@ const MessagingDashboard = () => {
   const [socket, setSocket] = useState(null);
   const [onlineUsers, setOnlineUsers] = useState(new Set());
   const [newChatDialog, setNewChatDialog] = useState(false);
+  const [addContactDialog, setAddContactDialog] = useState(false);
+  const [contactRequestsDialog, setContactRequestsDialog] = useState(false);
+  const [pendingRequestsCount, setPendingRequestsCount] = useState(0);
   const [newChatType, setNewChatType] = useState('direct');
   const [newChatData, setNewChatData] = useState({
     participants: [],
@@ -99,6 +104,7 @@ const MessagingDashboard = () => {
   useEffect(() => {
     loadChats();
     loadContacts();
+    loadPendingRequestsCount();
   }, []);
 
   const loadChats = async () => {
@@ -120,6 +126,17 @@ const MessagingDashboard = () => {
       setContacts(response.data.data);
     } catch (error) {
       console.error('Load contacts error:', error);
+    }
+  };
+
+  const loadPendingRequestsCount = async () => {
+    try {
+      const response = await axios.get(`${API_URL}/api/messaging/contacts/requests`, {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+      setPendingRequestsCount(response.data.data?.length || 0);
+    } catch (error) {
+      console.error('Load pending requests error:', error);
     }
   };
 
@@ -235,9 +252,23 @@ const MessagingDashboard = () => {
             <Box sx={{ p: 2, borderBottom: 1, borderColor: 'divider' }}>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 2 }}>
                 <Typography variant="h6">Messages</Typography>
-                <IconButton size="small" onClick={() => setNewChatDialog(true)}>
-                  <AddIcon />
-                </IconButton>
+                <Box>
+                  <IconButton 
+                    size="small" 
+                    onClick={() => setContactRequestsDialog(true)}
+                    sx={{ mr: 1 }}
+                  >
+                    <Badge badgeContent={pendingRequestsCount} color="error">
+                      <PersonIcon />
+                    </Badge>
+                  </IconButton>
+                  <IconButton size="small" onClick={() => setAddContactDialog(true)} sx={{ mr: 1 }}>
+                    <PersonIcon />
+                  </IconButton>
+                  <IconButton size="small" onClick={() => setNewChatDialog(true)}>
+                    <AddIcon />
+                  </IconButton>
+                </Box>
               </Box>
               <TextField
                 fullWidth
@@ -437,6 +468,30 @@ const MessagingDashboard = () => {
         <MenuItem onClick={() => {/* Clear */}}>Clear Messages</MenuItem>
         <MenuItem onClick={() => {/* Leave */}}>Leave Chat</MenuItem>
       </Menu>
+
+      {/* Add Contact Dialog */}
+      <AddContactDialog
+        open={addContactDialog}
+        onClose={() => setAddContactDialog(false)}
+        apiUrl={API_URL}
+        token={token}
+        onContactAdded={() => {
+          loadContacts();
+          setAddContactDialog(false);
+        }}
+      />
+
+      {/* Contact Requests Dialog */}
+      <ContactRequestsDialog
+        open={contactRequestsDialog}
+        onClose={() => setContactRequestsDialog(false)}
+        apiUrl={API_URL}
+        token={token}
+        onRequestHandled={() => {
+          loadContacts();
+          loadPendingRequestsCount();
+        }}
+      />
     </Box>
   );
 };

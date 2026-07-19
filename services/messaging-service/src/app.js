@@ -1,52 +1,68 @@
 const express = require('express');
+const http = require('http');
+const { Server } = require('socket.io');
 const cors = require('cors');
-const helmet = require('helmet');
 const morgan = require('morgan');
-const path = require('path');
+const helmet = require('helmet');
+const mongoose = require('mongoose');
+const { socketHandler } = require('./socket/socketHandler');
 const routes = require('./routes');
+const logger = require('./utils/logger');
 
 const app = express();
+const server = http.createServer(app);
 
-// Security middleware
+// Socket.IO setup
+const io = new Server(server, {
+  cors: {
+    origin: process.env.CORS_ORIGIN || '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
+    credentials: true
+  },
+  transports: ['websocket', 'polling']
+});
+
+// Initialize socket handler
+socketHandler(io);
+
+// Store io instance in app
+app.set('io', io);
+
+// Middleware
 app.use(helmet());
-
-// CORS configuration
 app.use(cors({
   origin: process.env.CORS_ORIGIN || '*',
   credentials: true
 }));
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
+app.use(morgan('combined', { stream: { write: message => logger.info(message.trim()) } }));
 
-// Body parsing middleware
-app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-
-// Logging middleware
-if (process.env.NODE_ENV !== 'production') {
-  app.use(morgan('dev'));
-} else {
-  app.use(morgan('combined'));
-}
-
-// Serve static files (uploads)
-app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
+// Static files for uploads
+app.use('/uploads', express.static('uploads'));
 
 // API routes
 app.use('/api/messaging', routes);
 
-// Root endpoint
-app.get('/', (req, res) => {
+// Health check
+app.get('/health', (req, res) => {
   res.json({
-    service: 'Messaging Service',
-    version: '1.0.0',
-    status: 'running',
-    endpoints: {
-      health: '/api/messaging/health',
-      chats: '/api/messaging/chats',
-      messages: '/api/messaging/chats/:chatId/messages',
-      calls: '/api/messaging/chats/:chatId/calls',
-      contacts: '/api/messaging/contacts',
-      search: '/api/messaging/search'
-    }
+    success: true,
+    service: 'messaging-service',
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected'
+  });
+});
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  logger.error('Unhandled error:', err);
+  
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Internal server error',
+    ...(process.env.NODE_ENV === 'development' && { stack: err.stack })
   });
 });
 
@@ -54,50 +70,32 @@ app.get('/', (req, res) => {
 app.use((req, res) => {
   res.status(404).json({
     success: false,
-    error: 'Endpoint not found'
+    message: 'Route not found'
   });
 });
 
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error('Error:', err);
+// MongoDB connection
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/messaging', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+.then(() => {
+  logger.info('MongoDB connected successfully');
+})
+.catch((error) => {
+  logger.error('MongoDB connection error:', error);
+  process.exit(1);
+});
 
-  // Multer errors
-  if (err.code === 'LIMIT_FILE_SIZE') {
-    return res.status(413).json({
-      success: false,
-      error: 'File too large'
+// Graceful shutdown
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM received, closing server gracefully');
+  server.close(() => {
+    mongoose.connection.close(false, () => {
+      logger.info('MongoDB connection closed');
+      process.exit(0);
     });
-  }
-
-  if (err.code === 'LIMIT_UNEXPECTED_FILE') {
-    return res.status(400).json({
-      success: false,
-      error: 'Too many files'
-    });
-  }
-
-  // Mongoose validation errors
-  if (err.name === 'ValidationError') {
-    return res.status(400).json({
-      success: false,
-      error: err.message
-    });
-  }
-
-  // MongoDB duplicate key error
-  if (err.code === 11000) {
-    return res.status(409).json({
-      success: false,
-      error: 'Resource already exists'
-    });
-  }
-
-  // Default error
-  res.status(err.status || 500).json({
-    success: false,
-    error: err.message || 'Internal server error'
   });
 });
 
-module.exports = app;
+module.exports = { app, server, io };
