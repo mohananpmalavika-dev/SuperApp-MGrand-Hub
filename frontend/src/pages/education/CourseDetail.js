@@ -92,49 +92,22 @@ const CourseDetail = () => {
 
   const course = currentCourse;
 
-  // Mock curriculum data (in real app, this comes from API)
-  const curriculum = course.curriculum || {
-    modules: [
-      {
-        moduleNumber: 1,
-        title: 'Introduction to the Subject',
-        description: 'Foundation concepts and overview',
-        chapters: [
-          { title: 'Getting Started', duration: '15 min', completed: false },
-          { title: 'Key Concepts', duration: '20 min', completed: false },
-          { title: 'Basic Principles', duration: '25 min', completed: false },
-        ],
-      },
-      {
-        moduleNumber: 2,
-        title: 'Core Fundamentals',
-        description: 'Deep dive into core topics',
-        chapters: [
-          { title: 'Topic 1', duration: '30 min', completed: false },
-          { title: 'Topic 2', duration: '25 min', completed: false },
-          { title: 'Practice Problems', duration: '45 min', completed: false },
-        ],
-      },
-    ],
-  };
-
+  const curriculum = course.curriculum || { modules: [] };
+  const curriculumLessons = curriculum.modules.reduce(
+    (total, module) => total + (module.chapters?.length || 0),
+    0
+  );
+  const totalLessons = course.totalLessons ?? curriculumLessons;
+  const estimatedHours = course.estimatedHours;
   const features = [
-    { icon: <OndemandVideo />, text: 'HD Video Lectures', value: `${course.totalLessons || 40} lessons` },
-    { icon: <Headphones />, text: 'Audio Lectures', value: 'Full course audio' },
-    { icon: <Description />, text: 'Study Material', value: '2000+ pages' },
-    { icon: <Quiz />, text: 'Practice Questions', value: '500+ questions' },
-    { icon: <MenuBook />, text: 'Mock Tests', value: '10+ full tests' },
-    { icon: <TrendingUp />, text: 'Progress Tracking', value: 'Real-time analytics' },
-  ];
-
-  const learningOutcomes = [
-    'Master all concepts from official syllabus',
-    'Solve 500+ practice questions with detailed explanations',
-    'Understand exam patterns and scoring strategies',
-    'Build strong foundation with AI-powered tutoring',
-    'Access 24/7 doubt resolution support',
-    'Get personalized study plans based on your progress',
-  ];
+    course.videoCount > 0 && { icon: <OndemandVideo />, text: 'Video lectures', value: `${course.videoCount} videos` },
+    course.audioCount > 0 && { icon: <Headphones />, text: 'Audio lessons', value: `${course.audioCount} recordings` },
+    course.studyMaterialCount > 0 && { icon: <Description />, text: 'Study material', value: `${course.studyMaterialCount} resources` },
+    course.practiceQuestionCount > 0 && { icon: <Quiz />, text: 'Practice questions', value: `${course.practiceQuestionCount} questions` },
+    course.mockTestCount > 0 && { icon: <MenuBook />, text: 'Mock tests', value: `${course.mockTestCount} tests` },
+    course.progressTracking && { icon: <TrendingUp />, text: 'Progress tracking', value: 'Enabled' },
+  ].filter(Boolean);
+  const learningOutcomes = course.learningOutcomes || [];
 
   return (
     <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
@@ -163,49 +136,53 @@ const CourseDetail = () => {
                 {course.name}
               </Typography>
               <Typography variant="body1" color="textSecondary" paragraph>
-                {course.description || 'Comprehensive AI-powered course designed to help you master the subject with video lectures, practice questions, and mock tests.'}
+                {course.description || 'A description has not been added for this course yet.'}
               </Typography>
               <Box display="flex" alignItems="center" gap={3} mt={3}>
-                <Box display="flex" alignItems="center" gap={1}>
-                  <Star sx={{ color: '#ffc107' }} />
-                  <Typography variant="body1">
-                    <strong>{course.rating || 4.5}</strong> ({course.enrolledCount || 0} students)
-                  </Typography>
-                </Box>
+                {course.rating != null && (
+                  <Box display="flex" alignItems="center" gap={1}>
+                    <Star sx={{ color: '#ffc107' }} />
+                    <Typography variant="body1">
+                      <strong>{course.rating}</strong> ({course.enrolledCount ?? 0} students)
+                    </Typography>
+                  </Box>
+                )}
                 <Box display="flex" alignItems="center" gap={1}>
                   <MenuBook color="action" />
                   <Typography variant="body1">
-                    {course.totalLessons || 40} Lessons
+                    {totalLessons} Lessons
                   </Typography>
                 </Box>
-                <Box display="flex" alignItems="center" gap={1}>
-                  <AccessTime color="action" />
-                  <Typography variant="body1">
-                    {course.estimatedHours || 120} Hours
-                  </Typography>
-                </Box>
+                {estimatedHours != null && (
+                  <Box display="flex" alignItems="center" gap={1}>
+                    <AccessTime color="action" />
+                    <Typography variant="body1">{estimatedHours} Hours</Typography>
+                  </Box>
+                )}
               </Box>
             </CardContent>
           </Card>
 
           {/* What You'll Learn */}
-          <Card sx={{ mb: 3 }}>
-            <CardContent>
-              <Typography variant="h6" gutterBottom fontWeight="bold">
-                What You'll Learn
-              </Typography>
-              <Grid container spacing={2} mt={1}>
-                {learningOutcomes.map((outcome, index) => (
-                  <Grid item xs={12} sm={6} key={index}>
-                    <Box display="flex" alignItems="flex-start" gap={1}>
-                      <CheckCircle color="success" fontSize="small" sx={{ mt: 0.5 }} />
-                      <Typography variant="body2">{outcome}</Typography>
-                    </Box>
-                  </Grid>
-                ))}
-              </Grid>
-            </CardContent>
-          </Card>
+          {learningOutcomes.length > 0 && (
+            <Card sx={{ mb: 3 }}>
+              <CardContent>
+                <Typography variant="h6" gutterBottom fontWeight="bold">
+                  What You'll Learn
+                </Typography>
+                <Grid container spacing={2} mt={1}>
+                  {learningOutcomes.map((outcome, index) => (
+                    <Grid item xs={12} sm={6} key={index}>
+                      <Box display="flex" alignItems="flex-start" gap={1}>
+                        <CheckCircle color="success" fontSize="small" sx={{ mt: 0.5 }} />
+                        <Typography variant="body2">{outcome}</Typography>
+                      </Box>
+                    </Grid>
+                  ))}
+                </Grid>
+              </CardContent>
+            </Card>
+          )}
 
           {/* Course Content */}
           <Card sx={{ mb: 3 }}>
@@ -214,10 +191,17 @@ const CourseDetail = () => {
                 Course Content
               </Typography>
               <Typography variant="body2" color="textSecondary" mb={2}>
-                {curriculum.modules?.length || 0} modules • {course.totalLessons || 40} lessons • {course.estimatedHours || 120}h total
+                {curriculum.modules.length} modules • {totalLessons} lessons
+                {estimatedHours != null ? ` • ${estimatedHours}h total` : ''}
               </Typography>
-              
-              {curriculum.modules?.map((module, moduleIndex) => (
+
+              {curriculum.modules.length === 0 && (
+                <Alert severity="info">
+                  The curriculum has not been published for this course yet.
+                </Alert>
+              )}
+
+              {curriculum.modules.map((module, moduleIndex) => (
                 <Accordion
                   key={moduleIndex}
                   expanded={expandedModule === moduleIndex}
@@ -288,6 +272,11 @@ const CourseDetail = () => {
                     </Box>
                   </Grid>
                 ))}
+                {features.length === 0 && (
+                  <Grid item xs={12}>
+                    <Alert severity="info">No course features have been published yet.</Alert>
+                  </Grid>
+                )}
               </Grid>
             </CardContent>
           </Card>
@@ -324,10 +313,13 @@ const CourseDetail = () => {
                 <>
                   <Box textAlign="center" mb={3}>
                     <Typography variant="h4" fontWeight="bold" color="primary" gutterBottom>
-                      ₹999
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary">
-                      per month
+                      {course.price != null
+                        ? new Intl.NumberFormat('en-IN', {
+                            style: 'currency',
+                            currency: course.currency || 'INR',
+                            maximumFractionDigits: 0,
+                          }).format(course.price)
+                        : 'Enrollment available'}
                     </Typography>
                   </Box>
                   <Button
@@ -340,9 +332,11 @@ const CourseDetail = () => {
                   >
                     {enrolling ? 'Enrolling...' : 'Enroll Now'}
                   </Button>
-                  <Typography variant="caption" color="textSecondary" textAlign="center" display="block">
-                    7-day money back guarantee
-                  </Typography>
+                  {course.moneyBackGuaranteeDays > 0 && (
+                    <Typography variant="caption" color="textSecondary" textAlign="center" display="block">
+                      {course.moneyBackGuaranteeDays}-day money-back guarantee
+                    </Typography>
+                  )}
                 </>
               )}
 
@@ -364,6 +358,11 @@ const CourseDetail = () => {
                   </ListItem>
                 ))}
               </List>
+              {features.length === 0 && (
+                <Typography variant="body2" color="text.secondary">
+                  Feature details have not been published yet.
+                </Typography>
+              )}
 
               <Divider sx={{ my: 3 }} />
 

@@ -138,11 +138,12 @@ class DriveCourseService {
         }
       });
 
-      if (Array.isArray(response.data)) {
-        return response.data;
+      const lessons = this.normalizeLessons(response.data);
+      if (this.hasDistinctLessons(lessons)) {
+        return lessons;
       }
 
-      throw new Error('Invalid data format from Drive');
+      throw new Error('Drive course contains repeated or invalid lessons');
     } catch (error) {
       console.error('Error fetching from Drive:', error.message);
       
@@ -176,16 +177,50 @@ class DriveCourseService {
 
     const filePath = path.resolve(
       __dirname,
-      '../../../../scripts/google-drive-content',
+      '../../../../scripts/generated-courses',
       fileName
     );
     const content = JSON.parse(await fs.readFile(filePath, 'utf8'));
+    const lessons = this.normalizeLessons(content);
 
-    if (!Array.isArray(content)) {
+    if (!this.hasDistinctLessons(lessons)) {
       throw new Error(`Invalid bundled course format: ${fileName}`);
     }
 
-    return content;
+    return lessons;
+  }
+
+  normalizeLessons(content) {
+    if (Array.isArray(content)) {
+      return content;
+    }
+
+    if (Array.isArray(content?.lessons)) {
+      return content.lessons.map((lesson, index) => ({
+        ...(lesson.content || {}),
+        topic: lesson.title || lesson.content?.topic || `Lesson ${index + 1}`,
+        subject: lesson.content?.subject || content.course?.subject,
+        duration: lesson.content?.duration || 45,
+        moduleNumber: lesson.moduleNumber || index + 1,
+        chapterNumber: index + 1,
+        topics: lesson.topics || []
+      }));
+    }
+
+    return [];
+  }
+
+  hasDistinctLessons(lessons) {
+    if (!Array.isArray(lessons) || lessons.length === 0) {
+      return false;
+    }
+
+    const normalizedTopics = lessons
+      .map(lesson => (lesson.topic || '').trim().toLowerCase())
+      .filter(Boolean);
+    const uniqueTopics = new Set(normalizedTopics);
+
+    return uniqueTopics.size >= Math.ceil(lessons.length * 0.75);
   }
 
   /**

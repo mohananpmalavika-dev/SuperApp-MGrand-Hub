@@ -23,18 +23,16 @@ module.exports = {
       examType: 'CA_FOUNDATION',
       subject: 'Accounting',
       level: 'Foundation',
-      duration: 540, // 12 lessons x 45 min
-      totalLessons: 12,
+      duration: 630,
+      totalLessons: 10,
       instructor: 'CA Expert Team',
       price: 4999,
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/2196F3/ffffff?text=CA+Foundation+Accounting',
       tags: ['CA', 'Accounting', 'Foundation', 'Professional', 'Indian Exam'],
-      localFile: 'ca-f-accounting.json',
+      localFile: 'ca-f-acc.json',
       driveFileId: '', // Will be set from driveFileIds
       language: 'English',
-      rating: 4.5,
-      enrolled: 0,
       featured: true
     },
     {
@@ -53,11 +51,9 @@ module.exports = {
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/4CAF50/ffffff?text=CA+Foundation+Economics',
       tags: ['CA', 'Economics', 'Foundation', 'Professional', 'Indian Exam'],
-      localFile: 'ca-f-business-economics.json',
+      localFile: 'ca-f-eco.json',
       driveFileId: '',
       language: 'English',
-      rating: 4.6,
-      enrolled: 0,
       featured: true
     },
     {
@@ -69,18 +65,16 @@ module.exports = {
       examType: 'CA_FOUNDATION',
       subject: 'Business Laws',
       level: 'Foundation',
-      duration: 450, // 10 lessons x 45 min
-      totalLessons: 10,
+      duration: 480,
+      totalLessons: 8,
       instructor: 'CA Expert Team',
       price: 3999,
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/FF9800/ffffff?text=CA+Foundation+Laws',
       tags: ['CA', 'Business Laws', 'Foundation', 'Professional', 'Indian Exam'],
-      localFile: 'ca-f-business-laws.json',
+      localFile: 'ca-f-law.json',
       driveFileId: '',
       language: 'English',
-      rating: 4.4,
-      enrolled: 0,
       featured: true
     },
     {
@@ -99,11 +93,9 @@ module.exports = {
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/9C27B0/ffffff?text=CA+Foundation+Maths',
       tags: ['CA', 'Mathematics', 'Foundation', 'Professional', 'Indian Exam'],
-      localFile: 'ca-f-business-mathematics.json',
+      localFile: 'ca-f-maths.json',
       driveFileId: '',
       language: 'English',
-      rating: 4.7,
-      enrolled: 0,
       featured: true
     }
   ],

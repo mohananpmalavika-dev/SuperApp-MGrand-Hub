@@ -1,7 +1,10 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_EDUCATION_SERVICE_URL || 'http://localhost:3013';
+const configuredApiUrl = process.env.REACT_APP_EDUCATION_SERVICE_URL || 'http://localhost:3013';
+const API_URL = configuredApiUrl.endsWith('/api/education')
+  ? configuredApiUrl
+  : `${configuredApiUrl.replace(/\/$/, '')}/api/education`;
 
 // Async thunks
 export const fetchCourses = createAsyncThunk(

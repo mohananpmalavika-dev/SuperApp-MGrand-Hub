@@ -21,29 +21,12 @@ import {
   Assessment,
   TrendingUp,
   LocalFireDepartment,
-  AccessTime,
   PlayArrow,
   EmojiEvents,
 } from '@mui/icons-material';
 import { fetchEnrolledCourses } from '../../store/slices/educationSlice';
 import { fetchProgress } from '../../store/slices/progressSlice';
-import {
-  LineChart,
-  Line,
-  BarChart,
-  Bar,
-  PieChart,
-  Pie,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
-} from 'recharts';
-
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8'];
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const StatCard = ({ icon: Icon, title, value, subtitle, color, action }) => (
   <Card sx={{ height: '100%', position: 'relative', overflow: 'visible' }}>
@@ -134,7 +117,7 @@ const EducationDashboard = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { enrolledCourses, loading } = useSelector((state) => state.education);
-  const { stats } = useSelector((state) => state.progress);
+  const { stats, userProgress } = useSelector((state) => state.progress);
 
   useEffect(() => {
     dispatch(fetchEnrolledCourses());
@@ -157,23 +140,9 @@ const EducationDashboard = () => {
     navigate('/education/progress');
   };
 
-  // Sample data for charts
-  const weeklyProgress = [
-    { day: 'Mon', hours: 2.5 },
-    { day: 'Tue', hours: 3.2 },
-    { day: 'Wed', hours: 1.8 },
-    { day: 'Thu', hours: 4.1 },
-    { day: 'Fri', hours: 2.9 },
-    { day: 'Sat', hours: 5.5 },
-    { day: 'Sun', hours: 4.2 },
-  ];
-
-  const subjectProgress = [
-    { subject: 'Accounting', progress: 75 },
-    { subject: 'Mathematics', progress: 60 },
-    { subject: 'Economics', progress: 45 },
-    { subject: 'Business Laws', progress: 30 },
-  ];
+  const weeklyProgress = stats.weeklyProgress || userProgress?.weeklyProgress || [];
+  const subjectProgress = stats.subjectProgress || userProgress?.subjectProgress || [];
+  const nextAchievement = stats.nextAchievement || userProgress?.nextAchievement;
 
   return (
     <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
@@ -286,17 +255,25 @@ const EducationDashboard = () => {
               <Typography variant="h6" gutterBottom fontWeight="bold">
                 Weekly Study Time
               </Typography>
-              <Box height={300}>
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={weeklyProgress}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="day" />
-                    <YAxis label={{ value: 'Hours', angle: -90, position: 'insideLeft' }} />
-                    <Tooltip />
-                    <Bar dataKey="hours" fill="#2196f3" radius={[8, 8, 0, 0]} />
-                  </BarChart>
-                </ResponsiveContainer>
-              </Box>
+              {weeklyProgress.length > 0 ? (
+                <Box height={300}>
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={weeklyProgress}>
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="day" />
+                      <YAxis label={{ value: 'Hours', angle: -90, position: 'insideLeft' }} />
+                      <Tooltip />
+                      <Bar dataKey="hours" fill="#2196f3" radius={[8, 8, 0, 0]} />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </Box>
+              ) : (
+                <Box textAlign="center" py={6}>
+                  <Typography color="text.secondary">
+                    Your study-time chart will appear after you complete lessons.
+                  </Typography>
+                </Box>
+              )}
             </CardContent>
           </Card>
         </Grid>
@@ -363,33 +340,46 @@ const EducationDashboard = () => {
                     />
                   </Box>
                 ))}
+                {subjectProgress.length === 0 && (
+                  <Typography variant="body2" color="text.secondary">
+                    No subject progress recorded yet.
+                  </Typography>
+                )}
               </Box>
             </CardContent>
           </Card>
 
-          {/* Achievement Badge */}
+          {/* Achievement */}
           <Card sx={{ bgcolor: 'primary.main', color: 'white' }}>
             <CardContent>
               <Box textAlign="center">
                 <EmojiEvents sx={{ fontSize: 48, mb: 1 }} />
                 <Typography variant="h6" fontWeight="bold" gutterBottom>
-                  Keep Going!
+                  {nextAchievement?.title || 'Start learning'}
                 </Typography>
                 <Typography variant="body2" mb={2}>
-                  You're making great progress. Complete 5 more lessons to unlock your next achievement.
+                  {nextAchievement?.description || 'Open CA Foundation and complete your first real lesson.'}
                 </Typography>
-                <LinearProgress
-                  variant="determinate"
-                  value={60}
-                  sx={{
-                    height: 8,
-                    borderRadius: 4,
-                    bgcolor: 'rgba(255,255,255,0.3)',
-                    '& .MuiLinearProgress-bar': {
-                      bgcolor: 'white',
-                    },
-                  }}
-                />
+                {nextAchievement?.progress != null ? (
+                  <LinearProgress
+                    variant="determinate"
+                    value={nextAchievement.progress}
+                    sx={{
+                      height: 8,
+                      borderRadius: 4,
+                      bgcolor: 'rgba(255,255,255,0.3)',
+                      '& .MuiLinearProgress-bar': { bgcolor: 'white' },
+                    }}
+                  />
+                ) : (
+                  <Button
+                    variant="contained"
+                    onClick={() => navigate('/education/ca-foundation')}
+                    sx={{ bgcolor: 'white', color: 'primary.main' }}
+                  >
+                    Open CA Foundation
+                  </Button>
+                )}
               </Box>
             </CardContent>
           </Card>

@@ -106,19 +106,19 @@ const CourseCard = ({ course, view, onEnroll, onViewDetails }) => {
                 <Box display="flex" alignItems="center" gap={1}>
                   <MenuBook fontSize="small" color="action" />
                   <Typography variant="body2" color="textSecondary">
-                    {course.totalLessons || 40} Lessons
+                    {course.totalLessons ?? 0} Lessons
                   </Typography>
                 </Box>
                 <Box display="flex" alignItems="center" gap={1}>
                   <AccessTime fontSize="small" color="action" />
                   <Typography variant="body2" color="textSecondary">
-                    {course.estimatedHours || 120} Hours
+                    {course.estimatedHours ?? 0} Hours
                   </Typography>
                 </Box>
                 <Box display="flex" alignItems="center" gap={1}>
                   <Star fontSize="small" sx={{ color: '#ffc107' }} />
                   <Typography variant="body2" color="textSecondary">
-                    {course.rating || 4.5} ({course.enrolledCount || 0} enrolled)
+                    {course.rating != null ? `${course.rating} (${course.enrolledCount ?? 0} enrolled)` : 'Not yet rated'}
                   </Typography>
                 </Box>
                 {course.isEnrolled ? (
@@ -210,20 +210,20 @@ const CourseCard = ({ course, view, onEnroll, onViewDetails }) => {
           <Box display="flex" alignItems="center" gap={0.5}>
             <MenuBook fontSize="small" color="action" />
             <Typography variant="body2" color="textSecondary">
-              {course.totalLessons || 40} Lessons
+              {course.totalLessons ?? 0} Lessons
             </Typography>
           </Box>
           <Box display="flex" alignItems="center" gap={0.5}>
             <AccessTime fontSize="small" color="action" />
             <Typography variant="body2" color="textSecondary">
-              {course.estimatedHours || 120}h
+              {course.estimatedHours ?? 0}h
             </Typography>
           </Box>
         </Box>
         <Box display="flex" alignItems="center" gap={0.5}>
           <Star fontSize="small" sx={{ color: '#ffc107' }} />
           <Typography variant="body2" color="textSecondary">
-            {course.rating || 4.5} • {course.enrolledCount || 0} students
+            {course.rating != null ? `${course.rating} • ${course.enrolledCount ?? 0} students` : 'Not yet rated'}
           </Typography>
         </Box>
       </CardContent>
