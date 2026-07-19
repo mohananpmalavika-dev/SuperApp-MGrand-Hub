@@ -1,0 +1,1052 @@
+[
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Key concepts: offer, acceptance, consideration, free consent",
+        "Part I: General Principles (Section 1-25)",
+        "Part II: Specific Contracts (Section 54-75)",
+        "Part III: General Effects of Contracts (Section 76-145)"
+      ],
+      "formulas": [
+        "Offer + Acceptance + Consideration = Valid Contract"
+      ],
+      "mnemonics": [
+        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+      ]
+    },
+    "_id": "6a5caae5f5ce74ecaa512bff",
+    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Indian Contract Act Basics",
+    "subject": "Business Laws",
+    "duration": 45,
+    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "keyConcepts": [
+      {
+        "concept": "Offer and Acceptance",
+        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
+        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
+        "_id": "6a5caae5f5ce74ecaa512c00"
+      },
+      {
+        "concept": "Consideration",
+        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
+        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
+        "_id": "6a5caae5f5ce74ecaa512c01"
+      },
+      {
+        "concept": "Free Consent",
+        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
+        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
+        "_id": "6a5caae5f5ce74ecaa512c02"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "solvedExamples": [
+      {
+        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
+        "keyTakeaway": "Free consent is essential for a valid contract.",
+        "_id": "6a5caae5f5ce74ecaa512c03"
+      }
+    ],
+    "realWorldApplications": [
+      "Businesses use contracts to secure deals and protect their interests.",
+      "Individuals use contracts to buy and sell goods and services.",
+      "Professionals use contracts to establish partnerships and collaborations."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring free consent",
+        "why": "Lack of free consent can lead to invalid contracts and disputes.",
+        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
+        "_id": "6a5caae5f5ce74ecaa512c04"
+      },
+      {
+        "mistake": "Failing to specify terms and conditions",
+        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
+        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
+        "_id": "6a5caae5f5ce74ecaa512c05"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
+        "difficulty": "Easy",
+        "_id": "6a5caae5f5ce74ecaa512c06"
+      },
+      {
+        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
+        "difficulty": "Medium",
+        "_id": "6a5caae5f5ce74ecaa512c07"
+      },
+      {
+        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
+        "difficulty": "Hard",
+        "_id": "6a5caae5f5ce74ecaa512c08"
+      }
+    ],
+    "examTips": [
+      "Read the question carefully and understand what is being asked.",
+      "Manage your time effectively and allocate sufficient time for each question.",
+      "Use the quick revision points to recall key concepts and formulas."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:45:57.598Z",
+    "createdAt": "2026-07-19T10:45:57.602Z",
+    "updatedAt": "2026-07-19T10:45:57.602Z",
+    "__v": 0
+  }
+]

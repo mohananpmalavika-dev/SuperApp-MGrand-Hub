@@ -235,7 +235,7 @@ function Dashboard({ user, onLogout }) {
             <Card sx={{ bgcolor: '#667eea', color: 'white' }}>
               <CardContent>
                 <Typography variant="h6">Active Services</Typography>
-                <Typography variant="h3">4</Typography>
+                <Typography variant="h3">7</Typography>
               </CardContent>
             </Card>
           </Grid>

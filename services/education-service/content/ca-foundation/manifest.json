@@ -1,0 +1,1267 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-07-19T10:49:57.010Z",
+  "totalLessons": 126,
+  "successful": 125,
+  "failed": 1,
+  "tracks": {
+    "CA-Foundation": [
+      {
+        "lessonNumber": 1,
+        "subject": "Accounting",
+        "topic": "Introduction to Accounting",
+        "fileName": "lesson-001-introduction-to-accounting.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Accounting",
+        "topic": "Journal Entries",
+        "fileName": "lesson-002-journal-entries.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Accounting",
+        "topic": "Ledger Posting",
+        "fileName": "lesson-003-ledger-posting.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Accounting",
+        "topic": "Cash Book",
+        "fileName": "lesson-004-cash-book.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Accounting",
+        "topic": "Purchase Book",
+        "fileName": "lesson-005-purchase-book.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Accounting",
+        "topic": "Sales Book",
+        "fileName": "lesson-006-sales-book.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Accounting",
+        "topic": "Trading Account",
+        "fileName": "lesson-007-trading-account.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Accounting",
+        "topic": "Profit & Loss Account",
+        "fileName": "lesson-008-profit-loss-account.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Accounting",
+        "topic": "Balance Sheet",
+        "fileName": "lesson-009-balance-sheet.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 10,
+        "subject": "Accounting",
+        "topic": "Trial Balance",
+        "fileName": "lesson-010-trial-balance.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 11,
+        "subject": "Accounting",
+        "topic": "Error Rectification",
+        "fileName": "lesson-011-error-rectification.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 12,
+        "subject": "Accounting",
+        "topic": "Bank Reconciliation",
+        "fileName": "lesson-012-bank-reconciliation.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "Business Laws",
+        "topic": "Indian Contract Act Basics",
+        "fileName": "lesson-001-indian-contract-act-basics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Business Laws",
+        "topic": "Offer and Acceptance",
+        "fileName": "lesson-002-offer-and-acceptance.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Business Laws",
+        "topic": "Consideration",
+        "fileName": "lesson-003-consideration.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Business Laws",
+        "topic": "Capacity to Contract",
+        "fileName": "lesson-004-capacity-to-contract.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Business Laws",
+        "topic": "Free Consent",
+        "fileName": "lesson-005-free-consent.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Business Laws",
+        "topic": "Valid Contracts",
+        "fileName": "lesson-006-valid-contracts.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Business Laws",
+        "topic": "Sale of Goods Act",
+        "fileName": "lesson-007-sale-of-goods-act.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Business Laws",
+        "topic": "Indian Partnership Act",
+        "fileName": "lesson-008-indian-partnership-act.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Business Laws",
+        "topic": "LLP Basics",
+        "fileName": "lesson-009-llp-basics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 10,
+        "subject": "Business Laws",
+        "topic": "Companies Act Basics",
+        "fileName": "lesson-010-companies-act-basics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "Business Mathematics",
+        "topic": "Ratio and Proportion",
+        "fileName": "lesson-001-ratio-and-proportion.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Business Mathematics",
+        "topic": "Indices",
+        "fileName": "lesson-002-indices.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Business Mathematics",
+        "topic": "Logarithms",
+        "fileName": "lesson-003-logarithms.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Business Mathematics",
+        "topic": "Linear Equations",
+        "fileName": "lesson-004-linear-equations.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Business Mathematics",
+        "topic": "Quadratic Equations",
+        "fileName": "lesson-005-quadratic-equations.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Business Mathematics",
+        "topic": "Sets and Relations",
+        "fileName": "lesson-006-sets-and-relations.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Business Mathematics",
+        "topic": "Permutations",
+        "fileName": "lesson-007-permutations.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Business Mathematics",
+        "topic": "Combinations",
+        "fileName": "lesson-008-combinations.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Business Mathematics",
+        "topic": "Sequences and Series",
+        "fileName": "lesson-009-sequences-and-series.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 10,
+        "subject": "Business Mathematics",
+        "topic": "Statistics Basics",
+        "fileName": "lesson-010-statistics-basics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 11,
+        "subject": "Business Mathematics",
+        "topic": "Probability",
+        "fileName": "lesson-011-probability.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 12,
+        "subject": "Business Mathematics",
+        "topic": "Logical Reasoning",
+        "fileName": "lesson-012-logical-reasoning.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "Business Economics",
+        "topic": "Introduction to Microeconomics",
+        "fileName": "lesson-001-introduction-to-microeconomics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Business Economics",
+        "topic": "Demand and Supply",
+        "fileName": "lesson-002-demand-and-supply.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Business Economics",
+        "topic": "Equilibrium",
+        "fileName": "lesson-003-equilibrium.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Business Economics",
+        "topic": "Production Theory",
+        "fileName": "lesson-004-production-theory.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Business Economics",
+        "topic": "Cost Analysis",
+        "fileName": "lesson-005-cost-analysis.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Business Economics",
+        "topic": "Perfect Competition",
+        "fileName": "lesson-006-perfect-competition.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Business Economics",
+        "topic": "Monopoly",
+        "fileName": "lesson-007-monopoly.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Business Economics",
+        "topic": "Monopolistic Competition",
+        "fileName": "lesson-008-monopolistic-competition.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Business Economics",
+        "topic": "Government Policies",
+        "fileName": "lesson-009-government-policies.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 10,
+        "subject": "Business Economics",
+        "topic": "Business Organization",
+        "fileName": "lesson-010-business-organization.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      }
+    ],
+    "JEE-Physics": [
+      {
+        "lessonNumber": 1,
+        "subject": "Physics",
+        "topic": "Kinematics - Motion in One Dimension",
+        "fileName": "lesson-001-kinematics-motion-in-one-dimension.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Physics",
+        "topic": "Motion in Two Dimensions",
+        "fileName": "lesson-002-motion-in-two-dimensions.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Physics",
+        "topic": "Laws of Motion",
+        "fileName": "lesson-003-laws-of-motion.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Physics",
+        "topic": "Work Energy and Power",
+        "fileName": "lesson-004-work-energy-and-power.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Physics",
+        "topic": "Circular Motion",
+        "fileName": "lesson-005-circular-motion.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Physics",
+        "topic": "Center of Mass",
+        "fileName": "lesson-006-center-of-mass.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Physics",
+        "topic": "Rotational Motion",
+        "fileName": "lesson-007-rotational-motion.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Physics",
+        "topic": "Gravitation",
+        "fileName": "lesson-008-gravitation.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Physics",
+        "topic": "Simple Harmonic Motion",
+        "fileName": "lesson-009-simple-harmonic-motion.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 10,
+        "subject": "Physics",
+        "topic": "Elasticity",
+        "fileName": "lesson-010-elasticity.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 11,
+        "subject": "Physics",
+        "topic": "Fluid Mechanics",
+        "fileName": "lesson-011-fluid-mechanics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 12,
+        "subject": "Physics",
+        "topic": "Surface Tension",
+        "fileName": "lesson-012-surface-tension.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 13,
+        "subject": "Physics",
+        "topic": "Thermodynamics First Law",
+        "fileName": "lesson-013-thermodynamics-first-law.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 14,
+        "subject": "Physics",
+        "topic": "Thermodynamics Second Law",
+        "fileName": "lesson-014-thermodynamics-second-law.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 15,
+        "subject": "Physics",
+        "topic": "Kinetic Theory of Gases",
+        "fileName": "lesson-015-kinetic-theory-of-gases.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 16,
+        "subject": "Physics",
+        "topic": "Wave Motion",
+        "fileName": "lesson-016-wave-motion.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 17,
+        "subject": "Physics",
+        "topic": "Sound Waves",
+        "fileName": "lesson-017-sound-waves.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 18,
+        "subject": "Physics",
+        "topic": "Electrostatics",
+        "fileName": "lesson-018-electrostatics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 19,
+        "subject": "Physics",
+        "topic": "Capacitance",
+        "fileName": "lesson-019-capacitance.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 20,
+        "subject": "Physics",
+        "topic": "Current Electricity",
+        "fileName": "lesson-020-current-electricity.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 21,
+        "subject": "Physics",
+        "topic": "Magnetic Effects of Current",
+        "fileName": "lesson-021-magnetic-effects-of-current.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 22,
+        "subject": "Physics",
+        "topic": "Magnetism",
+        "fileName": "lesson-022-magnetism.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 23,
+        "subject": "Physics",
+        "topic": "Electromagnetic Induction",
+        "fileName": "lesson-023-electromagnetic-induction.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 24,
+        "subject": "Physics",
+        "topic": "AC Circuits",
+        "fileName": "lesson-024-ac-circuits.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 25,
+        "subject": "Physics",
+        "topic": "Electromagnetic Waves",
+        "fileName": "lesson-025-electromagnetic-waves.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 26,
+        "subject": "Physics",
+        "topic": "Ray Optics",
+        "fileName": "lesson-026-ray-optics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 27,
+        "subject": "Physics",
+        "topic": "Wave Optics",
+        "fileName": "lesson-027-wave-optics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 28,
+        "subject": "Physics",
+        "topic": "Dual Nature of Matter",
+        "fileName": "lesson-028-dual-nature-of-matter.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 29,
+        "subject": "Physics",
+        "topic": "Atomic Physics",
+        "fileName": "lesson-029-atomic-physics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 30,
+        "subject": "Physics",
+        "topic": "Nuclear Physics",
+        "fileName": "lesson-030-nuclear-physics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      }
+    ],
+    "CBSE-Class-10": [
+      {
+        "lessonNumber": 2,
+        "subject": "Mathematics",
+        "topic": "Polynomials",
+        "fileName": "lesson-002-polynomials.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Mathematics",
+        "topic": "Linear Equations in Two Variables",
+        "fileName": "lesson-003-linear-equations-in-two-variables.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Mathematics",
+        "topic": "Quadratic Equations",
+        "fileName": "lesson-004-quadratic-equations.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Mathematics",
+        "topic": "Arithmetic Progressions",
+        "fileName": "lesson-005-arithmetic-progressions.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Mathematics",
+        "topic": "Triangles",
+        "fileName": "lesson-006-triangles.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Mathematics",
+        "topic": "Coordinate Geometry",
+        "fileName": "lesson-007-coordinate-geometry.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Mathematics",
+        "topic": "Introduction to Trigonometry",
+        "fileName": "lesson-008-introduction-to-trigonometry.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Mathematics",
+        "topic": "Trigonometric Identities",
+        "fileName": "lesson-009-trigonometric-identities.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 10,
+        "subject": "Mathematics",
+        "topic": "Heights and Distances",
+        "fileName": "lesson-010-heights-and-distances.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 11,
+        "subject": "Mathematics",
+        "topic": "Circles",
+        "fileName": "lesson-011-circles.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 12,
+        "subject": "Mathematics",
+        "topic": "Constructions",
+        "fileName": "lesson-012-constructions.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 13,
+        "subject": "Mathematics",
+        "topic": "Areas Related to Circles",
+        "fileName": "lesson-013-areas-related-to-circles.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 14,
+        "subject": "Mathematics",
+        "topic": "Surface Areas and Volumes",
+        "fileName": "lesson-014-surface-areas-and-volumes.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 15,
+        "subject": "Mathematics",
+        "topic": "Statistics",
+        "fileName": "lesson-015-statistics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 16,
+        "subject": "Mathematics",
+        "topic": "Probability",
+        "fileName": "lesson-016-probability.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      }
+    ],
+    "IAS-Prelims": [
+      {
+        "lessonNumber": 1,
+        "subject": "Polity",
+        "topic": "Indian Constitution Basics",
+        "fileName": "lesson-001-indian-constitution-basics.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Polity",
+        "topic": "Fundamental Rights",
+        "fileName": "lesson-002-fundamental-rights.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Polity",
+        "topic": "Directive Principles",
+        "fileName": "lesson-003-directive-principles.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Polity",
+        "topic": "Union Government",
+        "fileName": "lesson-004-union-government.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Polity",
+        "topic": "State Government",
+        "fileName": "lesson-005-state-government.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Polity",
+        "topic": "Panchayati Raj",
+        "fileName": "lesson-006-panchayati-raj.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Polity",
+        "topic": "Judiciary System",
+        "fileName": "lesson-007-judiciary-system.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Polity",
+        "topic": "Constitutional Amendments",
+        "fileName": "lesson-008-constitutional-amendments.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Polity",
+        "topic": "Emergency Provisions",
+        "fileName": "lesson-009-emergency-provisions.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "History",
+        "topic": "Ancient India - Indus Valley",
+        "fileName": "lesson-001-ancient-india-indus-valley.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "History",
+        "topic": "Vedic Period",
+        "fileName": "lesson-002-vedic-period.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "History",
+        "topic": "Mauryan Empire",
+        "fileName": "lesson-003-mauryan-empire.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "History",
+        "topic": "Gupta Period",
+        "fileName": "lesson-004-gupta-period.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "History",
+        "topic": "Medieval India - Delhi Sultanate",
+        "fileName": "lesson-005-medieval-india-delhi-sultanate.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "History",
+        "topic": "Mughal Empire",
+        "fileName": "lesson-006-mughal-empire.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "History",
+        "topic": "Modern India - British Rule",
+        "fileName": "lesson-007-modern-india-british-rule.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "History",
+        "topic": "Freedom Struggle",
+        "fileName": "lesson-008-freedom-struggle.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "History",
+        "topic": "Independence Movement",
+        "fileName": "lesson-009-independence-movement.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "Geography",
+        "topic": "Physical Geography",
+        "fileName": "lesson-001-physical-geography.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Geography",
+        "topic": "Climate of India",
+        "fileName": "lesson-002-climate-of-india.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Geography",
+        "topic": "Drainage System",
+        "fileName": "lesson-003-drainage-system.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Geography",
+        "topic": "Natural Resources",
+        "fileName": "lesson-004-natural-resources.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Geography",
+        "topic": "Agriculture",
+        "fileName": "lesson-005-agriculture.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Geography",
+        "topic": "Industries",
+        "fileName": "lesson-006-industries.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "Economics",
+        "topic": "Indian Economy Overview",
+        "fileName": "lesson-001-indian-economy-overview.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Economics",
+        "topic": "Economic Planning",
+        "fileName": "lesson-002-economic-planning.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Economics",
+        "topic": "Agriculture Economy",
+        "fileName": "lesson-003-agriculture-economy.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 4,
+        "subject": "Economics",
+        "topic": "Industrial Development",
+        "fileName": "lesson-004-industrial-development.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 5,
+        "subject": "Economics",
+        "topic": "Banking System",
+        "fileName": "lesson-005-banking-system.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 6,
+        "subject": "Economics",
+        "topic": "Budget and Fiscal Policy",
+        "fileName": "lesson-006-budget-and-fiscal-policy.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 7,
+        "subject": "Economics",
+        "topic": "International Trade",
+        "fileName": "lesson-007-international-trade.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 8,
+        "subject": "Economics",
+        "topic": "Economic Reforms",
+        "fileName": "lesson-008-economic-reforms.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 9,
+        "subject": "Economics",
+        "topic": "Current Economic Issues",
+        "fileName": "lesson-009-current-economic-issues.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 1,
+        "subject": "Science & Technology",
+        "topic": "Basic Science Concepts",
+        "fileName": "lesson-001-basic-science-concepts.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 2,
+        "subject": "Science & Technology",
+        "topic": "Technology in India",
+        "fileName": "lesson-002-technology-in-india.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      },
+      {
+        "lessonNumber": 3,
+        "subject": "Science & Technology",
+        "topic": "Space Technology",
+        "fileName": "lesson-003-space-technology.json",
+        "hasIntroduction": true,
+        "conceptsCount": 3,
+        "examplesCount": 0,
+        "questionsCount": 0
+      }
+    ]
+  }
+}

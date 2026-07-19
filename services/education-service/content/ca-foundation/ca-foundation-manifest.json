@@ -1,0 +1,403 @@
+{
+  "version": "1.0",
+  "course": "CA Foundation",
+  "generatedAt": "2026-07-19T11:19:37.150Z",
+  "totalLessons": 44,
+  "failed": 0,
+  "subjects": {
+    "Accounting": {
+      "lessonsCount": 12,
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 2,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 3,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 4,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 5,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 6,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 7,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 8,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 9,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 10,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 11,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 12,
+          "topic": "Introduction to Accounting",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        }
+      ]
+    },
+    "Business Laws": {
+      "lessonsCount": 10,
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 2,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 3,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 4,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 5,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 6,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 7,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 8,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 9,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 10,
+          "topic": "Indian Contract Act Basics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        }
+      ]
+    },
+    "Business Mathematics": {
+      "lessonsCount": 12,
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 2,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 3,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 4,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 5,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 6,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 7,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 8,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 9,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 10,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 11,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 12,
+          "topic": "Ratio and Proportion",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        }
+      ]
+    },
+    "Business Economics": {
+      "lessonsCount": 10,
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 2,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 3,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 4,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 5,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 6,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 7,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 8,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 9,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        },
+        {
+          "lessonNumber": 10,
+          "topic": "Introduction to Microeconomics",
+          "hasIntroduction": true,
+          "conceptsCount": 3,
+          "examplesCount": 0,
+          "questionsCount": 0
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "subject": "Accounting",
+      "fileName": "ca-f-accounting.json",
+      "fileSize": "81.79"
+    },
+    {
+      "subject": "Business Laws",
+      "fileName": "ca-f-business-laws.json",
+      "fileSize": "59.00"
+    },
+    {
+      "subject": "Business Mathematics",
+      "fileName": "ca-f-business-mathematics.json",
+      "fileSize": "97.10"
+    },
+    {
+      "subject": "Business Economics",
+      "fileName": "ca-f-business-economics.json",
+      "fileSize": "68.14"
+    }
+  ]
+}

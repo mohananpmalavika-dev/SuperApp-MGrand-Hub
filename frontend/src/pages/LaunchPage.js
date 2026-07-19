@@ -25,6 +25,8 @@ import {
   Notifications,
   Person,
   School,
+  Description,
+  Message,
 } from '@mui/icons-material';
 import './LaunchPage.css';
 
