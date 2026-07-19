@@ -4,8 +4,8 @@ const logger = require('../utils/logger');
 class GeminiClient {
   constructor() {
     this.client = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    this.model = 'gemini-1.5-flash'; // Fast and free (2M tokens/min)
-    this.proModel = 'gemini-1.5-pro'; // More capable for complex tasks
+    this.model = 'gemini-2.5-flash';
+    this.proModel = 'gemini-2.5-flash';
     this.maxRetries = 3;
   }
 
@@ -20,29 +20,48 @@ class GeminiClient {
       temperature = 0.7,
       maxTokens = 8192,
       usePro = false,
+      responseMimeType,
       systemPrompt = 'You are an expert educator who creates clear, engaging, and accurate educational content.',
     } = options;
 
     try {
-      const model = this.client.getGenerativeModel({
-        model: usePro ? this.proModel : this.model,
-      });
-
+      const modelName = usePro ? this.proModel : this.model;
       const fullPrompt = `${systemPrompt}\n\n${prompt}`;
-
-      const result = await model.generateContent({
-        contents: [{ role: 'user', parts: [{ text: fullPrompt }] }],
-        generationConfig: {
-          temperature,
-          maxOutputTokens: maxTokens,
-        },
+      const endpoint =
+        `https://generativelanguage.googleapis.com/v1beta/models/` +
+        `${modelName}:generateContent?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`;
+      const apiResponse = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ role: 'user', parts: [{ text: fullPrompt }] }],
+          generationConfig: {
+            temperature,
+            maxOutputTokens: maxTokens,
+            thinkingConfig: { thinkingBudget: 0 },
+            ...(responseMimeType ? { responseMimeType } : {}),
+          },
+        }),
       });
 
-      const response = result.response;
-      const content = response.text();
+      const response = await apiResponse.json();
+      if (!apiResponse.ok) {
+        throw new Error(
+          response.error?.message || `Gemini request failed with ${apiResponse.status}`
+        );
+      }
+
+      const content = response.candidates?.[0]?.content?.parts
+        ?.map((part) => part.text || '')
+        .join('');
+      if (!content) {
+        throw new Error('Gemini returned no text content');
+      }
 
       logger.info('Gemini API call successful', {
-        model: usePro ? this.proModel : this.model,
+        model: modelName,
+        finishReason: response.candidates?.[0]?.finishReason,
+        outputTokens: response.usageMetadata?.candidatesTokenCount,
       });
 
       return content;
@@ -63,10 +82,14 @@ class GeminiClient {
         return await this.generate(prompt, options);
       } catch (error) {
         lastError = error;
-        logger.warn(`Gemini API attempt ${attempt} failed, retrying...`);
-        
+        const retryMatch = error.message.match(/retry in ([\d.]+)s/i);
+        const retryDelay = retryMatch
+          ? Math.ceil(Number(retryMatch[1]) * 1000) + 1000
+          : 1000 * attempt;
+
         if (attempt < this.maxRetries) {
-          await this.delay(1000 * attempt);
+          logger.warn(`Gemini API attempt ${attempt} failed; retrying after ${retryDelay}ms`);
+          await this.delay(retryDelay);
         }
       }
     }
@@ -82,21 +105,80 @@ class GeminiClient {
     const response = await this.generateWithRetry(jsonPrompt, {
       ...options,
       temperature: 0.5,
+      responseMimeType: 'application/json',
     });
 
     try {
       let cleanResponse = response.trim();
       if (cleanResponse.startsWith('```json')) {
-        cleanResponse = cleanResponse.replace(/```json\n?/g, '').replace(/```\n?/g, '');
+        cleanResponse = cleanResponse.slice(7).trim();
       } else if (cleanResponse.startsWith('```')) {
-        cleanResponse = cleanResponse.replace(/```\n?/g, '');
+        cleanResponse = cleanResponse.slice(3).trim();
+      }
+      if (cleanResponse.endsWith('```')) {
+        cleanResponse = cleanResponse.slice(0, -3).trim();
       }
 
-      return JSON.parse(cleanResponse);
+      try {
+        return JSON.parse(cleanResponse);
+      } catch {
+        return JSON.parse(this.repairJSONString(cleanResponse));
+      }
     } catch (error) {
-      logger.error('Failed to parse JSON from Gemini response:', { response, error });
+      logger.error('Failed to parse JSON from Gemini response:', {
+        responseLength: response.length,
+        error: error.message,
+      });
       throw new Error('Invalid JSON response from AI');
     }
+  }
+
+  repairJSONString(value) {
+    let repaired = '';
+    let inString = false;
+
+    for (let index = 0; index < value.length; index++) {
+      const character = value[index];
+
+      if (!inString) {
+        repaired += character;
+        if (character === '"') inString = true;
+        continue;
+      }
+
+      if (character === '"') {
+        repaired += character;
+        inString = false;
+        continue;
+      }
+
+      if (character === '\\') {
+        const next = value[index + 1];
+        const validEscape = next && '"\\/bfnrt'.includes(next);
+        const validUnicode =
+          next === 'u' && /^[0-9a-fA-F]{4}$/.test(value.slice(index + 2, index + 6));
+
+        if (validEscape || validUnicode) {
+          repaired += character + next;
+          index++;
+        } else {
+          repaired += '\\\\';
+        }
+        continue;
+      }
+
+      if (character === '\n') {
+        repaired += '\\n';
+      } else if (character === '\r') {
+        repaired += '\\r';
+      } else if (character === '\t') {
+        repaired += '\\t';
+      } else {
+        repaired += character;
+      }
+    }
+
+    return repaired;
   }
 
   /**

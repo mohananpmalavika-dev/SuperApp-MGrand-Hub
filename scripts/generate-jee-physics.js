@@ -71,29 +71,16 @@ async function generateLesson(module, index, courseId) {
   log(`\n  📖 [${index + 1}/${course.modules.length}] ${module.title}`, 'yellow');
 
   try {
-    const lessonRes = await axios.post(`${API_BASE}/lessons/generate`, {
-      courseId: courseId,
-      chapterIndex: index,
-      chapterTitle: module.title,
-      topics: module.topics,
-      generationOptions: {
-        includeAudio: true,
-        includeVideo: true,
-        includeAnimations: true,
-        includeQuestions: true,
-        detailLevel: 'comprehensive',
-        wordCount: 2500,
-        targetExam: 'JEE Main',
-        difficulty: 'intermediate',
-        includeFormulas: true,
-        includeNumericals: true
-      }
+    const lessonRes = await axios.post(`${API_BASE}/courses/${courseId}/generate-lesson`, {
+      moduleNumber: index + 1,
+      chapterNumber: 1,
+      topic: `${module.title}: ${module.topics.join(', ')}`
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {},
       timeout: 120000 // 2 minutes timeout
     });
 
-    const lesson = lessonRes.data.lesson || lessonRes.data;
+    const lesson = lessonRes.data.data || lessonRes.data.lesson || lessonRes.data;
 
     log(`     ✓ Lesson ID: ${lesson._id || lesson.lessonId}`, 'green');
     log(`     ✓ Content: ${lesson.content?.length || 2500} characters`);
@@ -135,18 +122,16 @@ async function main() {
     // Create course
     log(`🎓 Creating Course: ${course.name}`, 'bright');
     const courseRes = await axios.post(`${API_BASE}/courses/generate`, {
-      courseCode: course.code,
-      courseName: course.name,
-      category: 'engineering',
-      difficulty: 'intermediate',
-      targetExam: 'JEE Main',
-      totalHours: 150,
-      description: 'Complete Physics course for JEE Main covering mechanics, thermodynamics, waves, electromagnetism, and modern physics with numerical problem solving'
+      subject: 'Physics',
+      level: 'INTERMEDIATE',
+      examType: 'JEE_MAIN',
+      courseTitle: course.name,
+      modules: course.modules
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}
     });
 
-    results.courseId = courseRes.data.courseId || courseRes.data.course?._id;
+    results.courseId = courseRes.data.data?._id;
     log(`✓ Course created: ${results.courseId}\n`, 'green');
 
     // Generate lessons in batches of 5

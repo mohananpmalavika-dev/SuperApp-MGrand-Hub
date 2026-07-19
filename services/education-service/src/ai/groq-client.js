@@ -6,8 +6,17 @@ class GroqClient {
     this.client = new Groq({
       apiKey: process.env.GROQ_API_KEY,
     });
-    this.model = 'llama-3.3-70b-versatile'; // Fast and free
-    this.maxRetries = 3;
+    this.models = (
+      process.env.GROQ_MODELS ||
+      [
+        'llama-3.1-8b-instant',
+      ].join(',')
+    )
+      .split(',')
+      .map((model) => model.trim())
+      .filter(Boolean);
+    this.modelIndex = 0;
+    this.maxRetries = this.models.length * 5;
   }
 
   /**
@@ -21,12 +30,14 @@ class GroqClient {
       temperature = 0.7,
       maxTokens = 4096,
       stream = false,
+      responseFormat,
       systemPrompt = 'You are an expert educator who creates clear, engaging, and accurate educational content.',
     } = options;
 
     try {
+      const model = this.models[this.modelIndex];
       const response = await this.client.chat.completions.create({
-        model: this.model,
+        model,
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: prompt },
@@ -34,6 +45,10 @@ class GroqClient {
         temperature,
         max_tokens: maxTokens,
         stream,
+        ...(responseFormat ? { response_format: responseFormat } : {}),
+        ...(model.startsWith('qwen/')
+          ? { reasoning_effort: 'none', reasoning_format: 'hidden' }
+          : {}),
       });
 
       if (stream) {
@@ -42,14 +57,17 @@ class GroqClient {
 
       const content = response.choices[0]?.message?.content;
       logger.info('Groq API call successful', {
-        model: this.model,
+        model,
         tokens: response.usage?.total_tokens,
       });
+      this.modelIndex = (this.modelIndex + 1) % this.models.length;
 
       return content;
     } catch (error) {
       logger.error('Groq API error:', error);
-      throw new Error(`Groq API error: ${error.message}`);
+      const wrappedError = new Error(`Groq API error: ${error.message}`);
+      wrappedError.status = error.status;
+      throw wrappedError;
     }
   }
 
@@ -64,6 +82,14 @@ class GroqClient {
         return await this.generate(prompt, options);
       } catch (error) {
         lastError = error;
+        if (error.status === 429 || error.status === 404 || error.status === 400) {
+          this.modelIndex = (this.modelIndex + 1) % this.models.length;
+          if (attempt % this.models.length === 0 && attempt < this.maxRetries) {
+            logger.warn('All Groq models are temporarily limited; waiting 30 seconds');
+            await this.delay(30000);
+          }
+          continue;
+        }
         logger.warn(`Groq API attempt ${attempt} failed, retrying...`);
         
         if (attempt < this.maxRetries) {
@@ -80,25 +106,40 @@ class GroqClient {
    */
   async generateJSON(prompt, options = {}) {
     const jsonPrompt = `${prompt}\n\nIMPORTANT: Return ONLY valid JSON, no additional text.`;
-    const response = await this.generateWithRetry(jsonPrompt, {
-      ...options,
-      temperature: 0.5, // Lower temperature for structured output
-    });
+    let lastError;
 
-    try {
-      // Clean response - remove markdown code blocks if present
-      let cleanResponse = response.trim();
-      if (cleanResponse.startsWith('```json')) {
-        cleanResponse = cleanResponse.replace(/```json\n?/g, '').replace(/```\n?/g, '');
-      } else if (cleanResponse.startsWith('```')) {
-        cleanResponse = cleanResponse.replace(/```\n?/g, '');
+    for (let attempt = 1; attempt <= this.models.length + 1; attempt++) {
+      const response = await this.generateWithRetry(jsonPrompt, {
+        ...options,
+        temperature: 0.3,
+        responseFormat: { type: 'json_object' },
+      });
+
+      try {
+        let cleanResponse = response.trim();
+        if (cleanResponse.startsWith('```json')) {
+          cleanResponse = cleanResponse.slice(7).trim();
+        } else if (cleanResponse.startsWith('```')) {
+          cleanResponse = cleanResponse.slice(3).trim();
+        }
+        if (cleanResponse.endsWith('```')) {
+          cleanResponse = cleanResponse.slice(0, -3).trim();
+        }
+
+        const firstBrace = cleanResponse.indexOf('{');
+        const lastBrace = cleanResponse.lastIndexOf('}');
+        if (firstBrace >= 0 && lastBrace > firstBrace) {
+          cleanResponse = cleanResponse.slice(firstBrace, lastBrace + 1);
+        }
+
+        return JSON.parse(cleanResponse);
+      } catch (error) {
+        lastError = error;
+        logger.warn(`Groq returned invalid JSON on attempt ${attempt}; rotating model`);
       }
-
-      return JSON.parse(cleanResponse);
-    } catch (error) {
-      logger.error('Failed to parse JSON from Groq response:', { response, error });
-      throw new Error('Invalid JSON response from AI');
     }
+
+    throw new Error(`Invalid JSON response from AI: ${lastError?.message || 'parse failed'}`);
   }
 
   /**

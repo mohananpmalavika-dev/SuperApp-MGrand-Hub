@@ -36,9 +36,10 @@ import {
 } from '@mui/icons-material';
 import axios from 'axios';
 import VoiceAvatar from '../components/VoiceAvatar';
+import { API_ENDPOINTS } from '../config/api.config';
 import './TutorDashboard.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+const API_URL = process.env.REACT_APP_TUTOR_SERVICE_URL || 'http://localhost:3013';
 
 function TutorDashboard({ user }) {
   const navigate = useNavigate();

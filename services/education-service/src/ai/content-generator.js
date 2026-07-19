@@ -67,7 +67,10 @@ Return as JSON with this exact structure:
 }`;
 
     try {
-      const curriculum = await aiRouter.generateJSON(prompt, { usePro: true });
+      const curriculum = await aiRouter.generateJSON(prompt, {
+        usePro: true,
+        maxTokens: 8192,
+      });
       
       // Cache for 24 hours
       await cache.set(cacheKey, curriculum, 86400);
@@ -102,12 +105,12 @@ Course Details:
 
 Generate a detailed, engaging lesson with:
 
-1. INTRODUCTION (2-3 paragraphs)
+1. INTRODUCTION (1 concise paragraph)
    - Hook the student with why this topic matters
    - Overview of what will be covered
    - Real-world relevance for ${examType}
 
-2. KEY CONCEPTS (5-7 main concepts)
+2. KEY CONCEPTS (exactly 3 main concepts)
    - Clear definitions
    - Simple explanations
    - Visual descriptions (what diagrams would help)
@@ -118,7 +121,7 @@ Generate a detailed, engaging lesson with:
    - Include relevant formulas/rules/principles
    - Explain the "why" not just the "what"
 
-4. SOLVED EXAMPLES (3-5 problems)
+4. SOLVED EXAMPLES (exactly 1 problem)
    - Start with easy, progress to challenging
    - Show complete step-by-step solutions
    - Highlight common mistakes
@@ -130,11 +133,11 @@ Generate a detailed, engaging lesson with:
    - Current affairs connections (if applicable)
 
 6. COMMON MISTAKES TO AVOID
-   - List 5-7 typical errors students make
+   - List exactly 2 typical errors students make
    - Why they happen
    - How to avoid them
 
-7. PRACTICE PROBLEMS (5 unsolved)
+7. PRACTICE PROBLEMS (exactly 2 unsolved)
    - Mix of easy, medium, hard
    - ${examType} exam pattern
    - Just the questions (solutions separate)
@@ -155,6 +158,7 @@ Make the content:
 - Appropriate for ${level} level
 - Include specific numbers, facts, dates where relevant
 - Use Indian context and examples
+- Keep the complete JSON response under 2,000 tokens
 
 Return as JSON with this structure:
 {
@@ -169,7 +173,7 @@ Return as JSON with this structure:
       "explanation": "string"
     }
   ],
-  "detailedContent": "string (markdown supported, 1500+ words)",
+  "detailedContent": "string (markdown supported, 300-450 words)",
   "solvedExamples": [
     {
       "question": "string",
@@ -202,7 +206,7 @@ Return as JSON with this structure:
     try {
       const lesson = await aiRouter.generateJSON(prompt, { 
         usePro: true,
-        maxTokens: 8192 
+        maxTokens: 6000
       });
       
       // Cache for 1 hour
@@ -476,6 +480,7 @@ Return plain text script (not JSON).`;
       'IAS_MAINS': 'UPSC Civil Services Main Examination',
       'JEE_MAIN': 'Joint Entrance Examination Main - Engineering entrance',
       'JEE_ADVANCED': 'JEE Advanced - IIT entrance examination',
+      'CBSE_CLASS_10': 'CBSE Class 10 Board Examination',
       'NEET': 'National Eligibility cum Entrance Test - Medical entrance',
       'GATE': 'Graduate Aptitude Test in Engineering',
       'CAT': 'Common Admission Test - MBA entrance'

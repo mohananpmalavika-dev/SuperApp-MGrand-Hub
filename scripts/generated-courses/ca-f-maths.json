@@ -1,0 +1,1181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-19T09:37:51.084Z",
+  "course": {
+    "code": "CA-F-MATHS",
+    "name": "CA Foundation - Business Mathematics",
+    "subject": "Business Mathematics",
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "lessonCount": 12
+  },
+  "lessons": [
+    {
+      "moduleNumber": 1,
+      "title": "Ratio, Proportion and Indices",
+      "topics": [
+        "Ratios",
+        "Proportions",
+        "Variations"
+      ],
+      "content": {
+        "topic": "Ratio, Proportion and Indices",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "## Why Ratios Matter\nIn business, ratios and proportions are essential tools for decision-making. By analyzing ratios, companies can assess their performance, identify areas for improvement, and make informed decisions. For instance, a company's profit margin ratio can help investors understand its financial health. In this lesson, we'll explore the concepts of ratios, proportions, and indices, and see how they apply in real-world scenarios.\n\n## What to Expect\nWe'll cover the key concepts of ratios, proportions, and indices, and provide detailed explanations, solved examples, and practice problems. We'll also discuss real-world applications, common mistakes to avoid, and exam tips for the CA_FOUNDATION exam.\n\n## Real-World Relevance\nRatios and proportions are used in various industries, such as finance, marketing, and operations. For example, a company's customer acquisition ratio can help it understand its marketing effectiveness. By understanding ratios and proportions, you'll be better equipped to analyze business data and make informed decisions.",
+        "keyConcepts": [
+          {
+            "concept": "Ratio",
+            "definition": "A comparison of two or more numbers",
+            "explanation": "A ratio is a way to compare two or more numbers. It's often expressed as a fraction or a ratio of two numbers. For example, the ratio of boys to girls in a class is 3:5."
+          },
+          {
+            "concept": "Proportion",
+            "definition": "A statement that two ratios are equal",
+            "explanation": "A proportion is a statement that two ratios are equal. It's often expressed as a:b = c:d. For example, 2:3 = 4:6 is a proportion."
+          },
+          {
+            "concept": "Indices",
+            "definition": "A way to represent repeated multiplication",
+            "explanation": "Indices are a way to represent repeated multiplication. For example, 2^3 means 2 multiplied by itself 3 times."
+          },
+          {
+            "concept": "Variation",
+            "definition": "A change in one or more variables",
+            "explanation": "Variation is a change in one or more variables. It can be expressed as a ratio or a proportion. For example, a company's sales may vary from month to month."
+          }
+        ],
+        "detailedContent": "## Detailed Explanation\n\n### Ratios\n\nA ratio is a comparison of two or more numbers. It's often expressed as a fraction or a ratio of two numbers. For example, the ratio of boys to girls in a class is 3:5.\n\n### Proportions\n\nA proportion is a statement that two ratios are equal. It's often expressed as a:b = c:d. For example, 2:3 = 4:6 is a proportion.\n\n### Indices\n\nIndices are a way to represent repeated multiplication. For example, 2^3 means 2 multiplied by itself 3 times.\n\n### Variation\n\nVariation is a change in one or more variables. It can be expressed as a ratio or a proportion. For example, a company's sales may vary from month to month.\n\n## Formulas and Rules\n\n* The ratio of two numbers is equal to their proportion.\n* The product of two ratios is equal to their product.\n* The sum of two ratios is equal to their sum.\n\n## Why it Matters\n\nRatios and proportions are essential tools for decision-making in business. By analyzing ratios, companies can assess their performance, identify areas for improvement, and make informed decisions. For instance, a company's profit margin ratio can help investors understand its financial health.\n\n## Real-World Applications\n\nRatios and proportions are used in various industries, such as finance, marketing, and operations. For example, a company's customer acquisition ratio can help it understand its marketing effectiveness. By understanding ratios and proportions, you'll be better equipped to analyze business data and make informed decisions.\n\n## Common Mistakes to Avoid\n\n* Confusing ratios and proportions.\n* Not considering the context of the problem.\n* Not using the correct formula or rule.\n\n## Practice Problems\n\n* What is the ratio of boys to girls in a class if there are 15 boys and 25 girls?\n* If a company's sales vary from month to month, what is the variation in sales?\n* What is the proportion of a company's profit to its revenue?\n\n## Quick Revision Points\n\n* A ratio is a comparison of two or more numbers.\n* A proportion is a statement that two ratios are equal.\n* Indices are a way to represent repeated multiplication.\n* Variation is a change in one or more variables.\n* The ratio of two numbers is equal to their proportion.\n* The product of two ratios is equal to their product.\n* The sum of two ratios is equal to their sum.\n\n## Exam Tips\n\n* Make sure to read the question carefully and understand the context.\n* Use the correct formula or rule to solve the problem.\n* Check your answer to make sure it makes sense in the context of the problem.",
+        "solvedExamples": [
+          {
+            "question": "What is the ratio of boys to girls in a class if there are 15 boys and 25 girls?",
+            "solution": "The ratio of boys to girls is 15:25 or 3:5.",
+            "keyTakeaway": "To find the ratio, simply divide the number of boys by the number of girls."
+          },
+          {
+            "question": "If a company's sales vary from month to month, what is the variation in sales?",
+            "solution": "The variation in sales is the difference between the highest and lowest sales figures.",
+            "keyTakeaway": "To find the variation, subtract the lowest sales figure from the highest sales figure."
+          }
+        ],
+        "realWorldApplications": [
+          "Finance: Ratios and proportions are used to analyze financial data and make informed decisions.",
+          "Marketing: Ratios and proportions are used to understand marketing effectiveness and make data-driven decisions.",
+          "Operations: Ratios and proportions are used to optimize business processes and improve efficiency."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Confusing ratios and proportions.",
+            "why": "Ratios and proportions are often used interchangeably, but they have different meanings.",
+            "howToAvoid": "Make sure to read the question carefully and understand the context."
+          },
+          {
+            "mistake": "Not considering the context of the problem.",
+            "why": "Ratios and proportions can be used in different contexts, and the answer may depend on the context.",
+            "howToAvoid": "Make sure to read the question carefully and understand the context."
+          },
+          {
+            "mistake": "Not using the correct formula or rule.",
+            "why": "Ratios and proportions have specific formulas and rules that must be followed.",
+            "howToAvoid": "Make sure to use the correct formula or rule to solve the problem."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "What is the ratio of boys to girls in a class if there are 20 boys and 30 girls?",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "If a company's sales vary from month to month, what is the variation in sales?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "What is the proportion of a company's profit to its revenue?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "A ratio is a comparison of two or more numbers.",
+            "A proportion is a statement that two ratios are equal.",
+            "Indices are a way to represent repeated multiplication.",
+            "Variation is a change in one or more variables."
+          ],
+          "formulas": [
+            "The ratio of two numbers is equal to their proportion.",
+            "The product of two ratios is equal to their product.",
+            "The sum of two ratios is equal to their sum."
+          ],
+          "mnemonics": [
+            "Ratios are like recipes, proportions are like proportions of ingredients.",
+            "Indices are like exponents, variation is like change."
+          ]
+        },
+        "examTips": [
+          "Make sure to read the question carefully and understand the context.",
+          "Use the correct formula or rule to solve the problem.",
+          "Check your answer to make sure it makes sense in the context of the problem."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:38:30.515Z"
+    },
+    {
+      "moduleNumber": 2,
+      "title": "Logarithms",
+      "topics": [
+        "Log Properties",
+        "Log Equations",
+        "Applications"
+      ],
+      "content": {
+        "topic": "Logarithms: Log Properties, Log Equations, Applications",
+        "subject": "Business Mathematics",
+        "duration": 45,
+        "introduction": "### Logarithms: Unlocking Business Secrets\n\nLogarithms might seem like a complex topic, but trust us, it's a game-changer in business mathematics. By understanding logarithms, you'll be able to analyze and solve problems related to growth rates, investments, and more. In this lesson, we'll explore the world of logarithms and show you how to apply them in real-world scenarios. So, get ready to unlock the secrets of logarithms and boost your business math skills!\n\n**CA_FOUNDATION Exam Focus:** Logarithms are a crucial topic in the CA FOUNDATION exam, and understanding them will help you tackle questions on growth rates, investments, and more.",
+        "keyConcepts": [
+          {
+            "concept": "Logarithmic Functions",
+            "definition": "A logarithmic function is a function that represents the power to which a base number must be raised to obtain a given value.",
+            "explanation": "Imagine you have a bank account with a 5% annual interest rate. After 5 years, your investment will grow to Rs. 1,276.28. To find the number of years it takes for your investment to grow to Rs. 1,276.28, you can use a logarithmic function. This is just one example of how logarithms are used in real-world scenarios."
+          },
+          {
+            "concept": "Logarithmic Properties",
+            "definition": "Logarithmic properties are rules that help us simplify and manipulate logarithmic expressions.",
+            "explanation": "For example, the product rule states that log(a × b) = log(a) + log(b). This means that we can break down a complex logarithmic expression into simpler components."
+          },
+          {
+            "concept": "Logarithmic Equations",
+            "definition": "A logarithmic equation is an equation that involves logarithmic expressions.",
+            "explanation": "For example, the equation log(x) = 2 can be solved by raising the base number (10) to the power of 2, which gives us x = 100."
+          },
+          {
+            "concept": "Logarithmic Applications",
+            "definition": "Logarithmic applications refer to the use of logarithms in real-world scenarios.",
+            "explanation": "For example, logarithms are used in finance to calculate growth rates and investment returns. They're also used in science to analyze data and make predictions."
+          }
+        ],
+        "detailedContent": "### Logarithmic Functions\n\nA logarithmic function is a function that represents the power to which a base number must be raised to obtain a given value. For example, the function log(x) = 2 represents the power to which the base number 10 must be raised to obtain the value x. In this case, x = 100.\n\n### Logarithmic Properties\n\nLogarithmic properties are rules that help us simplify and manipulate logarithmic expressions. For example, the product rule states that log(a × b) = log(a) + log(b). This means that we can break down a complex logarithmic expression into simpler components.\n\n### Logarithmic Equations\n\nA logarithmic equation is an equation that involves logarithmic expressions. For example, the equation log(x) = 2 can be solved by raising the base number (10) to the power of 2, which gives us x = 100.\n\n### Logarithmic Applications\n\nLogarithmic applications refer to the use of logarithms in real-world scenarios. For example, logarithms are used in finance to calculate growth rates and investment returns. They're also used in science to analyze data and make predictions.",
+        "solvedExamples": [
+          {
+            "question": "Solve the equation log(x) = 3",
+            "solution": "To solve the equation log(x) = 3, we need to raise the base number (10) to the power of 3, which gives us x = 1000.",
+            "keyTakeaway": "Remember to always raise the base number to the power of the logarithmic expression to solve the equation."
+          },
+          {
+            "question": "Solve the equation log(x) = 2 + log(5)",
+            "solution": "To solve the equation log(x) = 2 + log(5), we can use the product rule to simplify the expression. This gives us log(x) = log(25). To solve for x, we need to raise the base number (10) to the power of log(25), which gives us x = 25.",
+            "keyTakeaway": "Remember to use the product rule to simplify complex logarithmic expressions."
+          }
+        ],
+        "realWorldApplications": [
+          "Finance: Logarithms are used to calculate growth rates and investment returns.",
+          "Science: Logarithms are used to analyze data and make predictions.",
+          "Engineering: Logarithms are used to design and optimize systems."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not using the correct base number",
+            "why": "Using the wrong base number can lead to incorrect solutions.",
+            "howToAvoid": "Always check the base number used in the logarithmic expression."
+          },
+          {
+            "mistake": "Not applying the product rule",
+            "why": "Failing to apply the product rule can lead to complex and difficult-to-solve expressions.",
+            "howToAvoid": "Always apply the product rule to simplify complex logarithmic expressions."
+          },
+          {
+            "mistake": "Not checking the domain of the logarithmic function",
+            "why": "Ignoring the domain of the logarithmic function can lead to incorrect solutions.",
+            "howToAvoid": "Always check the domain of the logarithmic function before solving the equation."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Solve the equation log(x) = 4",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Solve the equation log(x) = 2 + log(3)",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Solve the equation log(x) = 3 - log(2)",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Logarithmic functions represent the power to which a base number must be raised to obtain a given value.",
+            "Logarithmic properties help us simplify and manipulate logarithmic expressions.",
+            "Logarithmic equations involve logarithmic expressions and can be solved by raising the base number to the power of the logarithmic expression."
+          ],
+          "formulas": [
+            "log(a × b) = log(a) + log(b) (product rule)",
+            "log(a ÷ b) = log(a) - log(b) (quotient rule)",
+            "log(a^b) = b × log(a) (power rule)"
+          ],
+          "mnemonics": [
+            "Product rule: 'P' for 'product' and 'L' for 'log'",
+            "Quotient rule: 'Q' for 'quotient' and 'L' for 'log'",
+            "Power rule: 'P' for 'power' and 'L' for 'log'"
+          ]
+        },
+        "examTips": [
+          "Practice, practice, practice! Logarithms can be tricky, so make sure to practice solving equations and applying properties.",
+          "Use the product rule to simplify complex logarithmic expressions.",
+          "Check the domain of the logarithmic function before solving the equation."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:39:02.224Z"
+    },
+    {
+      "moduleNumber": 3,
+      "title": "Linear Equations",
+      "topics": [
+        "Single Variable",
+        "Two Variables",
+        "Word Problems"
+      ],
+      "content": {
+        "topic": "Linear Equations: Single Variable, Two Variables, Word Problems",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Linear Equations Matter\n\nIn the world of business, making informed decisions requires analyzing data and understanding the relationships between variables. Linear equations are a fundamental tool in this process, helping us model real-world scenarios and make predictions. As a CA FOUNDATION aspirant, mastering linear equations will enable you to tackle complex business problems with confidence.\n\n### What We'll Cover\n\nIn this lesson, we'll delve into the world of linear equations, exploring single-variable, two-variable, and word problems. By the end of this session, you'll be able to:\n\n* Understand the concept of linear equations and their applications in business\n* Solve single-variable and two-variable linear equations\n* Translate word problems into linear equations and solve them\n\n### Real-World Relevance\n\nLinear equations are used in various business contexts, such as:\n\n* Cost-benefit analysis\n* Revenue forecasting\n* Supply and demand modeling\n\nLet's get started!",
+        "keyConcepts": [
+          {
+            "concept": "Single-Variable Linear Equations",
+            "definition": "An equation of the form ax = b, where a and b are constants, and x is the variable.",
+            "explanation": "Imagine a straight line on a number line. The equation ax = b represents a point on this line, where a is the slope and b is the y-intercept."
+          },
+          {
+            "concept": "Two-Variable Linear Equations",
+            "definition": "An equation of the form ax + by = c, where a, b, and c are constants, and x and y are variables.",
+            "explanation": "Think of a two-variable linear equation as a line in a 2D coordinate system. The equation ax + by = c represents a line with slope a and y-intercept b."
+          },
+          {
+            "concept": "Word Problems",
+            "definition": "Problems that involve translating real-world scenarios into linear equations.",
+            "explanation": "Word problems require us to read between the lines and translate the given information into a mathematical equation. This involves identifying the variables, constants, and relationships between them."
+          },
+          {
+            "concept": "Graphical Representation",
+            "definition": "A visual representation of a linear equation on a coordinate plane.",
+            "explanation": "Graphical representation helps us visualize the relationship between the variables and understand the equation's behavior."
+          }
+        ],
+        "detailedContent": "### Single-Variable Linear Equations\n\nA single-variable linear equation is of the form ax = b, where a and b are constants, and x is the variable. To solve such an equation, we can use the following steps:\n\n1. Divide both sides of the equation by a to isolate x.\n2. Simplify the equation to get the value of x.\n\nExample: Solve the equation 2x = 6.\n\n1. Divide both sides by 2: x = 6/2\n2. Simplify: x = 3\n\n### Two-Variable Linear Equations\n\nA two-variable linear equation is of the form ax + by = c, where a, b, and c are constants, and x and y are variables. To solve such an equation, we can use the following steps:\n\n1. Rearrange the equation to isolate one variable.\n2. Substitute the value of the isolated variable into the original equation.\n3. Solve for the other variable.\n\nExample: Solve the equation 2x + 3y = 5.\n\n1. Rearrange the equation to isolate x: x = (5 - 3y)/2\n2. Substitute x into the original equation: 2((5 - 3y)/2) + 3y = 5\n3. Simplify and solve for y.\n\n### Word Problems\n\nWord problems require us to translate real-world scenarios into linear equations. Let's consider an example:\n\nA bakery sells a total of 250 loaves of bread per day. They sell a combination of whole wheat and white bread, with a profit of ₹5 per whole wheat loaf and ₹3 per white bread loaf. If they make a total profit of ₹700 per day, how many loaves of each type do they sell?\n\nLet's translate this problem into a linear equation:\n\nLet x be the number of whole wheat loaves and y be the number of white bread loaves.\n\nThe equation becomes: 5x + 3y = 700\n\nTo solve this equation, we can use the steps outlined earlier.\n\n### Graphical Representation\n\nGraphical representation helps us visualize the relationship between the variables and understand the equation's behavior. Let's consider an example:\n\nThe equation 2x + 3y = 5 can be graphed on a coordinate plane. The graph will be a line with slope 2 and y-intercept 5/3.\n\nBy analyzing the graph, we can understand the relationship between x and y and make predictions about the values of x and y.",
+        "solvedExamples": [
+          {
+            "question": "Solve the equation 3x = 9.",
+            "solution": "1. Divide both sides by 3: x = 9/3\n2. Simplify: x = 3",
+            "keyTakeaway": "To solve a single-variable linear equation, divide both sides by the coefficient of the variable."
+          },
+          {
+            "question": "Solve the equation 2x + 4y = 12.",
+            "solution": "1. Rearrange the equation to isolate x: x = (12 - 4y)/2\n2. Substitute x into the original equation: 2((12 - 4y)/2) + 4y = 12\n3. Simplify and solve for y.",
+            "keyTakeaway": "To solve a two-variable linear equation, rearrange the equation to isolate one variable and then substitute it into the original equation."
+          }
+        ],
+        "realWorldApplications": [
+          "Cost-benefit analysis",
+          "Revenue forecasting",
+          "Supply and demand modeling"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Dividing both sides by a fraction without simplifying.",
+            "why": "This can lead to incorrect solutions.",
+            "howToAvoid": "Simplify fractions before dividing both sides."
+          },
+          {
+            "mistake": "Rearranging the equation incorrectly.",
+            "why": "This can lead to incorrect solutions.",
+            "howToAvoid": "Rearrange the equation carefully and check the solution."
+          },
+          {
+            "mistake": "Not checking the solution.",
+            "why": "This can lead to incorrect solutions.",
+            "howToAvoid": "Check the solution by plugging it back into the original equation."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Solve the equation 4x = 16.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Solve the equation 2x + 5y = 15.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Solve the equation 3x - 2y = 7.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Single-variable linear equations: ax = b",
+            "Two-variable linear equations: ax + by = c",
+            "Word problems: translate real-world scenarios into linear equations"
+          ],
+          "formulas": [
+            "ax = b",
+            "ax + by = c"
+          ],
+          "mnemonics": [
+            "Slope-Intercept Form: y = mx + c",
+            "Point-Slope Form: y - y1 = m(x - x1)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and practice under timed conditions.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the process of elimination to narrow down the options."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:39:34.775Z"
+    },
+    {
+      "moduleNumber": 4,
+      "title": "Quadratic Equations",
+      "topics": [
+        "Standard Form",
+        "Factorization",
+        "Discriminant"
+      ],
+      "content": {
+        "topic": "Quadratic Equations: Standard Form, Factorization, Discriminant",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Quadratic Equations Matter\nQuadratic equations are crucial in business mathematics as they help in modeling real-world scenarios, such as revenue growth, cost functions, and optimization problems. In the CA_FOUNDATION exam, quadratic equations are a significant portion of the paper, and understanding them is essential to score well.\n\n### What We Will Cover\nIn this lesson, we will cover the standard form of quadratic equations, factorization, and the discriminant. We will also explore real-world applications and provide practice problems to help you prepare for the CA_FOUNDATION exam.\n\n### Real-World Relevance\nQuadratic equations are used in various industries, such as finance, marketing, and operations management. For example, a company may use quadratic equations to model the growth of their revenue or to optimize their production costs.",
+        "keyConcepts": [
+          {
+            "concept": "Standard Form of Quadratic Equations",
+            "definition": "A quadratic equation in standard form is written as ax^2 + bx + c = 0, where a, b, and c are constants.",
+            "explanation": "The standard form helps in identifying the coefficients of the quadratic equation, which is essential for solving and analyzing the equation."
+          },
+          {
+            "concept": "Factorization of Quadratic Equations",
+            "definition": "Factorization is the process of expressing a quadratic equation as a product of two binomial expressions.",
+            "explanation": "Factorization helps in simplifying the quadratic equation and making it easier to solve."
+          },
+          {
+            "concept": "Discriminant of Quadratic Equations",
+            "definition": "The discriminant of a quadratic equation is the value of b^2 - 4ac.",
+            "explanation": "The discriminant helps in determining the nature of the roots of the quadratic equation, whether they are real or complex."
+          }
+        ],
+        "detailedContent": "### Detailed Explanation\n\nA quadratic equation in standard form is written as ax^2 + bx + c = 0, where a, b, and c are constants. The standard form helps in identifying the coefficients of the quadratic equation, which is essential for solving and analyzing the equation.\n\nTo factorize a quadratic equation, we need to express it as a product of two binomial expressions. This can be done by finding two numbers whose product is equal to ac and whose sum is equal to b.\n\nThe discriminant of a quadratic equation is the value of b^2 - 4ac. If the discriminant is positive, the equation has two real and distinct roots. If the discriminant is zero, the equation has one real root. If the discriminant is negative, the equation has two complex roots.\n\n### Analogies and Real-Life Examples\nQuadratic equations can be used to model real-world scenarios, such as revenue growth, cost functions, and optimization problems. For example, a company may use a quadratic equation to model the growth of their revenue, where the equation represents the relationship between the revenue and the number of units sold.\n\n### Formulas and Principles\nThe formula for the discriminant is b^2 - 4ac. The principle of factorization is to express the quadratic equation as a product of two binomial expressions.\n\n### Why It Matters\nQuadratic equations are essential in business mathematics as they help in modeling real-world scenarios and making predictions. Understanding quadratic equations is crucial for solving optimization problems and making informed decisions.",
+        "solvedExamples": [
+          {
+            "question": "Solve the quadratic equation x^2 + 5x + 6 = 0.",
+            "solution": "Step 1: Factorize the quadratic equation as (x + 3)(x + 2) = 0.\nStep 2: Set each factor equal to zero and solve for x.\nStep 3: x + 3 = 0 => x = -3\nStep 4: x + 2 = 0 => x = -2\nKey Takeaway: The quadratic equation has two real and distinct roots, x = -3 and x = -2.",
+            "keyTakeaway": "The quadratic equation has two real and distinct roots."
+          }
+        ],
+        "realWorldApplications": [
+          "Revenue growth modeling",
+          "Cost function optimization",
+          "Production planning"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not checking the discriminant before solving the quadratic equation.",
+            "why": "If the discriminant is negative, the equation has two complex roots, and solving it will result in complex numbers.",
+            "howToAvoid": "Always check the discriminant before solving the quadratic equation."
+          },
+          {
+            "mistake": "Not factoring the quadratic equation correctly.",
+            "why": "If the quadratic equation is not factored correctly, it will result in incorrect solutions.",
+            "howToAvoid": "Double-check the factorization of the quadratic equation."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Solve the quadratic equation x^2 - 4x - 5 = 0.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Factorize the quadratic equation x^2 + 7x + 12 = 0.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Standard form of quadratic equations: ax^2 + bx + c = 0",
+            "Factorization of quadratic equations: express as a product of two binomial expressions",
+            "Discriminant of quadratic equations: b^2 - 4ac"
+          ],
+          "formulas": [
+            "b^2 - 4ac"
+          ],
+          "mnemonics": [
+            "Remember the formula for the discriminant: b^2 - 4ac"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively during the exam.",
+          "Read the questions carefully and understand what is being asked.",
+          "Use the formulas and principles learned in this lesson to solve the problems."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:40:41.079Z"
+    },
+    {
+      "moduleNumber": 5,
+      "title": "Sets, Relations and Functions",
+      "topics": [
+        "Set Theory",
+        "Relations",
+        "Functions"
+      ],
+      "content": {
+        "topic": "Sets, Relations and Functions: Set Theory, Relations, Functions",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Sets, Relations, and Functions Matter\nAs a CA FOUNDATION aspirant, understanding sets, relations, and functions is crucial for solving problems in business mathematics. These concepts help you analyze and interpret data, make informed decisions, and optimize business processes. In this lesson, we'll explore the key concepts, real-world applications, and practice problems to help you master these essential topics.\n\n### What to Expect\nWe'll cover the basics of sets, relations, and functions, including their definitions, properties, and applications. You'll learn how to solve problems using these concepts and understand their relevance in business mathematics. By the end of this lesson, you'll be able to apply sets, relations, and functions to real-world scenarios and solve problems with confidence.\n\n### Real-World Relevance\nSets, relations, and functions are used in various business applications, such as data analysis, marketing research, and operations management. For example, a company may use set theory to segment its customer base or use functions to model the relationship between variables. By understanding these concepts, you'll be able to analyze and interpret data, make informed decisions, and optimize business processes.",
+        "keyConcepts": [
+          {
+            "concept": "Set Theory",
+            "definition": "A set is a collection of unique elements, called members or elements, that can be anything (numbers, letters, objects, etc.).",
+            "explanation": "Think of a set as a container that holds a group of unique elements. For example, {1, 2, 3, 4, 5} is a set of numbers. Sets can be finite or infinite, and they can be represented using curly brackets or other notation."
+          },
+          {
+            "concept": "Relations",
+            "definition": "A relation is a set of ordered pairs that connect elements from two or more sets.",
+            "explanation": "Imagine a relation as a bridge that connects two sets. For example, {(1, 2), (2, 3), (3, 4)} is a relation that connects the sets {1, 2, 3} and {2, 3, 4}. Relations can be represented using ordered pairs or other notation."
+          },
+          {
+            "concept": "Functions",
+            "definition": "A function is a relation that assigns each element from one set to exactly one element in another set.",
+            "explanation": "Think of a function as a machine that takes input from one set and produces output in another set. For example, f(x) = 2x is a function that takes input from the set of numbers and produces output in the set of numbers. Functions can be represented using equations or other notation."
+          }
+        ],
+        "detailedContent": "### Set Theory\nSet theory is a branch of mathematics that deals with the study of sets, which are collections of unique elements. Sets can be finite or infinite, and they can be represented using curly brackets or other notation.\n\n#### Properties of Sets\nSets have several properties, including:\n\n* **Union**: The union of two sets is the set of all elements that are in either set.\n* **Intersection**: The intersection of two sets is the set of all elements that are in both sets.\n* **Difference**: The difference of two sets is the set of all elements that are in one set but not in the other.\n\n### Relations\nRelations are sets of ordered pairs that connect elements from two or more sets. Relations can be represented using ordered pairs or other notation.\n\n#### Types of Relations\nThere are several types of relations, including:\n\n* **Reflexive**: A relation is reflexive if every element in the set is related to itself.\n* **Symmetric**: A relation is symmetric if whenever (a, b) is in the relation, then (b, a) is also in the relation.\n* **Transitive**: A relation is transitive if whenever (a, b) and (b, c) are in the relation, then (a, c) is also in the relation.\n\n### Functions\nFunctions are relations that assign each element from one set to exactly one element in another set. Functions can be represented using equations or other notation.\n\n#### Types of Functions\nThere are several types of functions, including:\n\n* **One-to-one**: A function is one-to-one if every element in the domain maps to a unique element in the range.\n* **Onto**: A function is onto if every element in the range is mapped to by at least one element in the domain.\n* **Bijective**: A function is bijective if it is both one-to-one and onto.",
+        "solvedExamples": [
+          {
+            "question": "Let A = {1, 2, 3} and B = {4, 5, 6}. Find the union, intersection, and difference of A and B.",
+            "solution": "To find the union of A and B, we need to combine all the elements in both sets. The union of A and B is {1, 2, 3, 4, 5, 6}.\n\nTo find the intersection of A and B, we need to find the elements that are common to both sets. There are no common elements in A and B, so the intersection is the empty set.\n\nTo find the difference of A and B, we need to find the elements that are in one set but not in the other. The difference of A and B is {1, 2, 3} because these elements are in A but not in B.",
+            "keyTakeaway": "When working with sets, it's essential to understand the properties of union, intersection, and difference."
+          }
+        ],
+        "realWorldApplications": [
+          "Data analysis and interpretation",
+          "Marketing research and segmentation",
+          "Operations management and optimization"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Confusing sets with relations",
+            "why": "Sets and relations are related but distinct concepts. Sets are collections of unique elements, while relations are sets of ordered pairs that connect elements from two or more sets.",
+            "howToAvoid": "To avoid this mistake, make sure to understand the definitions and properties of sets and relations before applying them to problems."
+          },
+          {
+            "mistake": "Not checking for one-to-one and onto functions",
+            "why": "One-to-one and onto functions are essential in many business applications, such as data analysis and operations management.",
+            "howToAvoid": "To avoid this mistake, always check if a function is one-to-one and onto before applying it to problems."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Let A = {1, 2, 3} and B = {4, 5, 6}. Find the union, intersection, and difference of A and B.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Let f(x) = 2x be a function from the set of numbers to the set of numbers. Is f(x) one-to-one, onto, or bijective?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Let A = {1, 2, 3} and B = {4, 5, 6}. Find the reflexive, symmetric, and transitive relations on A and B.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Sets are collections of unique elements.",
+            "Relations are sets of ordered pairs that connect elements from two or more sets.",
+            "Functions are relations that assign each element from one set to exactly one element in another set."
+          ],
+          "formulas": [
+            "Union: A ∪ B = {x | x ∈ A or x ∈ B}",
+            "Intersection: A ∩ B = {x | x ∈ A and x ∈ B}",
+            "Difference: A - B = {x | x ∈ A and x ∉ B}"
+          ],
+          "mnemonics": [
+            "Union: 'United We Stand'",
+            "Intersection: 'In Common We Find'",
+            "Difference: 'Distinct We Are'"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Make sure to allocate sufficient time for each question.",
+          "Read the questions carefully and understand what is being asked.",
+          "Use the formulas and properties of sets, relations, and functions to solve problems."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:40:48.499Z"
+    },
+    {
+      "moduleNumber": 6,
+      "title": "Permutations",
+      "topics": [
+        "Fundamental Principle",
+        "Factorial",
+        "Arrangements"
+      ],
+      "content": {
+        "topic": "Permutations: Fundamental Principle, Factorial, Arrangements",
+        "subject": "Business Mathematics",
+        "duration": 45,
+        "introduction": "### Why Permutations Matter\nPermutations are crucial in business mathematics as they help in determining the number of ways a set of items can be arranged. This is essential in various business scenarios such as product packaging, marketing strategies, and even in the allocation of resources.\n\n### What to Expect\nIn this lesson, we will cover the fundamental principle of permutations, factorial, and arrangements. We will also explore real-world applications and provide practice problems to help you master this concept.\n\n### CA_FOUNDATION Relevance\nPermutations are a key concept in the CA_FOUNDATION exam, and understanding this concept will help you solve problems related to probability, statistics, and mathematical finance.",
+        "keyConcepts": [
+          {
+            "concept": "Fundamental Principle of Permutations",
+            "definition": "The fundamental principle of permutations states that if one event can occur in 'm' ways and a second independent event can occur in 'n' ways, then the events together can occur in m*n ways.",
+            "explanation": "This principle is often represented by the formula: nPr = n! / (n-r)!"
+          },
+          {
+            "concept": "Factorial",
+            "definition": "The factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.",
+            "explanation": "For example, 5! = 5*4*3*2*1 = 120"
+          },
+          {
+            "concept": "Arrangements",
+            "definition": "Arrangements refer to the number of ways a set of items can be arranged in a particular order.",
+            "explanation": "For example, if we have 3 items: A, B, and C, the number of arrangements is 3! = 6"
+          }
+        ],
+        "detailedContent": "### Detailed Explanation\nPermutations are a way to calculate the number of ways a set of items can be arranged. The fundamental principle of permutations states that if one event can occur in 'm' ways and a second independent event can occur in 'n' ways, then the events together can occur in m*n ways.\n\nTo calculate permutations, we use the formula: nPr = n! / (n-r)!. This formula calculates the number of ways to choose 'r' items from a set of 'n' items.\n\nFor example, let's say we have 5 items: A, B, C, D, and E, and we want to choose 3 items. The number of permutations is 5P3 = 5! / (5-3)! = 60.\n\n### Real-Life Examples\nPermutations are used in various real-life scenarios such as:\n\n* Product packaging: A company wants to package 5 different products in a box. The number of permutations is 5! = 120.\n* Marketing strategies: A company wants to create 3 different marketing campaigns. The number of permutations is 3! = 6.\n\n### Formula and Principles\nThe formula for permutations is: nPr = n! / (n-r)!. This formula calculates the number of ways to choose 'r' items from a set of 'n' items.\n\n### Why Permutations Matter\nPermutations are crucial in business mathematics as they help in determining the number of ways a set of items can be arranged. This is essential in various business scenarios such as product packaging, marketing strategies, and even in the allocation of resources.",
+        "solvedExamples": [
+          {
+            "question": "A company wants to choose 4 items from a set of 6 items. The number of permutations is:",
+            "solution": "6P4 = 6! / (6-4)! = 360",
+            "keyTakeaway": "The formula for permutations is: nPr = n! / (n-r)!"
+          }
+        ],
+        "realWorldApplications": [
+          "Product packaging",
+          "Marketing strategies",
+          "Allocation of resources"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not considering the order of items",
+            "why": "Permutations are sensitive to the order of items. If the order matters, permutations are used.",
+            "howToAvoid": "Always check if the order of items matters before using permutations."
+          },
+          {
+            "mistake": "Using the wrong formula",
+            "why": "The formula for permutations is: nPr = n! / (n-r)!. Using the wrong formula can lead to incorrect results.",
+            "howToAvoid": "Always use the correct formula for permutations."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A company wants to choose 3 items from a set of 5 items. The number of permutations is:",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A company wants to choose 4 items from a set of 7 items. The number of permutations is:",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A company wants to choose 5 items from a set of 9 items. The number of permutations is:",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Permutations are a way to calculate the number of ways a set of items can be arranged.",
+            "The fundamental principle of permutations states that if one event can occur in 'm' ways and a second independent event can occur in 'n' ways, then the events together can occur in m*n ways."
+          ],
+          "formulas": [
+            "nPr = n! / (n-r)!"
+          ],
+          "mnemonics": [
+            "Permutations are like arranging items in a particular order."
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA_FOUNDATION exam. Allocate time for each question and stick to it.",
+          "Use the correct formula for permutations: nPr = n! / (n-r)!",
+          "Practice problems are essential to master the concept of permutations."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:40:57.253Z"
+    },
+    {
+      "moduleNumber": 7,
+      "title": "Combinations",
+      "topics": [
+        "Selection",
+        "Properties",
+        "Applications"
+      ],
+      "content": {
+        "topic": "Combinations: Selection, Properties, Applications",
+        "subject": "Business Mathematics",
+        "duration": 45,
+        "introduction": "### Why Combinations Matter\nCombinations play a crucial role in business mathematics, especially in the context of CA_FOUNDATION. It helps in understanding the concept of selection, which is vital in decision-making processes. For instance, in finance, combinations are used to calculate the number of ways to invest in a portfolio. In this lesson, we will explore the concept of combinations, its properties, and applications.\n\n### What to Expect\nIn this lesson, we will cover the key concepts of combinations, including its definition, formula, and properties. We will also explore real-world applications and provide solved examples to help you understand the concept better. By the end of this lesson, you will be able to apply combinations in various business scenarios.",
+        "keyConcepts": [
+          {
+            "concept": "Definition of Combinations",
+            "definition": "A combination is a selection of items from a larger set, where the order of selection does not matter.",
+            "explanation": "Imagine you have a box of 10 different colored balls, and you want to select 3 balls. The order in which you select the balls does not matter. This is an example of a combination."
+          },
+          {
+            "concept": "Formula for Combinations",
+            "definition": "nCr = n! / (r!(n-r)!)",
+            "explanation": "The formula for combinations is nCr = n! / (r!(n-r)!), where n is the total number of items, and r is the number of items to be selected."
+          },
+          {
+            "concept": "Properties of Combinations",
+            "definition": "Combinations have the following properties: commutative, associative, and distributive.",
+            "explanation": "Combinations are commutative, meaning the order of selection does not matter. They are also associative, meaning the order in which you select the items does not matter. Finally, they are distributive, meaning you can select items from multiple sets and combine them."
+          }
+        ],
+        "detailedContent": "### Step-by-Step Explanation\nLet's break down the concept of combinations step by step.\n\n#### Step 1: Understanding the Formula\nThe formula for combinations is nCr = n! / (r!(n-r)!). This formula calculates the number of ways to select r items from a set of n items.\n\n#### Step 2: Applying the Formula\nLet's apply the formula to a real-world scenario. Suppose you have a box of 10 different colored balls, and you want to select 3 balls. Using the formula, we get 10C3 = 10! / (3!(10-3)!) = 120.\n\n#### Step 3: Understanding the Properties\nCombinations have three properties: commutative, associative, and distributive. These properties help us understand how combinations work.\n\n### Real-World Applications\nCombinations have numerous real-world applications. For instance, in finance, combinations are used to calculate the number of ways to invest in a portfolio. In marketing, combinations are used to calculate the number of ways to select a sample of customers.\n\n### Solved Examples\nLet's solve a few examples to help you understand the concept better.\n\n#### Example 1\nA box contains 12 different colored balls. How many ways can you select 4 balls?\n\nSolution: Using the formula, we get 12C4 = 12! / (4!(12-4)!) = 495.\n\n#### Example 2\nA company has 15 employees, and they want to select 3 employees for a project. How many ways can they select the employees?\n\nSolution: Using the formula, we get 15C3 = 15! / (3!(15-3)!) = 455.\n\n### Common Mistakes to Avoid\nHere are a few common mistakes to avoid when working with combinations:\n\n#### Mistake 1: Not Using the Correct Formula\nMake sure to use the correct formula for combinations: nCr = n! / (r!(n-r)!).\n\n#### Mistake 2: Not Considering the Properties\nRemember to consider the properties of combinations: commutative, associative, and distributive.\n\n### Practice Problems\nHere are a few practice problems to help you reinforce your understanding of combinations:\n\n#### Problem 1\nA box contains 20 different colored balls. How many ways can you select 5 balls?\n\n#### Problem 2\nA company has 18 employees, and they want to select 4 employees for a project. How many ways can they select the employees?\n\n### Quick Revision Points\nHere are a few quick revision points to help you remember the key concepts:\n\n#### Summary\nCombinations are a selection of items from a larger set, where the order of selection does not matter. The formula for combinations is nCr = n! / (r!(n-r)!).\n\n#### Formulas\nnCr = n! / (r!(n-r)!) is the formula for combinations.\n\n#### Mnemonics\nRemember the formula by thinking of the combination of items in a set.",
+        "solvedExamples": [
+          {
+            "question": "A box contains 12 different colored balls. How many ways can you select 4 balls?",
+            "solution": "Using the formula, we get 12C4 = 12! / (4!(12-4)!) = 495.",
+            "keyTakeaway": "Remember to use the correct formula for combinations: nCr = n! / (r!(n-r)!)."
+          },
+          {
+            "question": "A company has 15 employees, and they want to select 3 employees for a project. How many ways can they select the employees?",
+            "solution": "Using the formula, we get 15C3 = 15! / (3!(15-3)!) = 455.",
+            "keyTakeaway": "Remember to consider the properties of combinations: commutative, associative, and distributive."
+          }
+        ],
+        "realWorldApplications": [
+          "Finance: Combinations are used to calculate the number of ways to invest in a portfolio.",
+          "Marketing: Combinations are used to calculate the number of ways to select a sample of customers."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not Using the Correct Formula",
+            "why": "This is a common mistake that can lead to incorrect answers.",
+            "howToAvoid": "Make sure to use the correct formula for combinations: nCr = n! / (r!(n-r)!)."
+          },
+          {
+            "mistake": "Not Considering the Properties",
+            "why": "This is a common mistake that can lead to incorrect answers.",
+            "howToAvoid": "Remember to consider the properties of combinations: commutative, associative, and distributive."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A box contains 20 different colored balls. How many ways can you select 5 balls?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A company has 18 employees, and they want to select 4 employees for a project. How many ways can they select the employees?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Combinations are a selection of items from a larger set, where the order of selection does not matter.",
+            "The formula for combinations is nCr = n! / (r!(n-r)!)."
+          ],
+          "formulas": [
+            "nCr = n! / (r!(n-r)!) is the formula for combinations."
+          ],
+          "mnemonics": [
+            "Remember the formula by thinking of the combination of items in a set."
+          ]
+        },
+        "examTips": [
+          "Make sure to use the correct formula for combinations: nCr = n! / (r!(n-r)!).",
+          "Remember to consider the properties of combinations: commutative, associative, and distributive.",
+          "Practice, practice, practice! The more you practice, the better you will become at solving combination problems."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:41:18.612Z"
+    },
+    {
+      "moduleNumber": 8,
+      "title": "Sequence and Series",
+      "topics": [
+        "AP",
+        "GP",
+        "HP"
+      ],
+      "content": {
+        "topic": "Sequence and Series: AP, GP, HP",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Sequence and Series Matter\n\nIn the world of finance and economics, understanding sequence and series is crucial for making informed decisions. The Chartered Accountant (CA) Foundation exam requires a strong grasp of these concepts to solve problems related to investments, growth rates, and financial planning. In this lesson, we'll explore the key concepts of arithmetic progression (AP), geometric progression (GP), and harmonic progression (HP), and learn how to apply them in real-world scenarios.\n\n### What to Expect\n\nIn this lesson, we'll cover the definitions, formulas, and applications of AP, GP, and HP. We'll also practice solving problems and identify common mistakes to avoid. By the end of this lesson, you'll be able to confidently tackle sequence and series questions in the CA Foundation exam.",
+        "keyConcepts": [
+          {
+            "concept": "Arithmetic Progression (AP)",
+            "definition": "A sequence of numbers in which each term after the first is obtained by adding a fixed constant to the previous term.",
+            "explanation": "Think of a sequence of numbers where each number is 5 more than the previous one: 2, 7, 12, 17, ... This is an example of an AP with a common difference of 5."
+          },
+          {
+            "concept": "Geometric Progression (GP)",
+            "definition": "A sequence of numbers in which each term after the first is obtained by multiplying the previous term by a fixed constant.",
+            "explanation": "Consider a sequence of numbers where each number is 2 times the previous one: 2, 4, 8, 16, ... This is an example of a GP with a common ratio of 2."
+          },
+          {
+            "concept": "Harmonic Progression (HP)",
+            "definition": "A sequence of numbers in which each term after the first is obtained by taking the reciprocal of the previous term.",
+            "explanation": "Imagine a sequence of numbers where each number is the reciprocal of the previous one: 1, 1/2, 1/3, 1/4, ... This is an example of an HP."
+          }
+        ],
+        "detailedContent": "### AP, GP, and HP: What's the Difference?\n\nAP, GP, and HP are all types of sequences, but they have distinct characteristics. To understand the difference, let's consider an example:\n\nSuppose we have a sequence of numbers: 2, 7, 12, 17, ...\n\n* If we add 5 to each term to get the next term, we have an AP with a common difference of 5.\n* If we multiply each term by 2 to get the next term, we have a GP with a common ratio of 2.\n* If we take the reciprocal of each term to get the next term, we have an HP.\n\n### Formulas and Rules\n\n* AP: $a_n = a_1 + (n-1)d$, where $a_n$ is the nth term, $a_1$ is the first term, $n$ is the term number, and $d$ is the common difference.\n* GP: $a_n = a_1 cdot r^{n-1}$, where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number.\n* HP: $a_n = \frac{1}{a_1 cdot r^{n-1}}$, where $a_n$ is the nth term, $a_1$ is the first term, $r$ is the common ratio, and $n$ is the term number.\n\n### Why These Concepts Matter\n\nUnderstanding AP, GP, and HP is crucial for making informed decisions in finance and economics. For example, if you're investing in a stock that has a growth rate of 10% per annum, you can use the formula for GP to calculate the future value of your investment. Similarly, if you're analyzing the performance of a company, you can use the formula for AP to calculate the average growth rate of its revenue over a period of time.",
+        "solvedExamples": [
+          {
+            "question": "Find the 10th term of the AP: 2, 7, 12, 17, ...",
+            "solution": "To find the 10th term, we can use the formula for AP: $a_n = a_1 + (n-1)d$. In this case, $a_1 = 2$, $d = 5$, and $n = 10$. Plugging in these values, we get:\n$a_{10} = 2 + (10-1) cdot 5 = 2 + 45 = 47$",
+            "keyTakeaway": "Remember to use the correct formula for the type of sequence you're dealing with."
+          }
+        ],
+        "realWorldApplications": [
+          "Investments: Use GP to calculate the future value of your investment.",
+          "Financial Planning: Use AP to calculate the average growth rate of your income over a period of time.",
+          "Economic Analysis: Use HP to analyze the performance of a company."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Using the wrong formula for the type of sequence.",
+            "why": "This happens when you're not careful in identifying the type of sequence and using the correct formula.",
+            "howToAvoid": "Make sure to read the problem carefully and identify the type of sequence before using a formula."
+          },
+          {
+            "mistake": "Not checking the units of the answer.",
+            "why": "This happens when you're not careful in checking the units of the answer.",
+            "howToAvoid": "Always check the units of the answer to make sure it matches the units of the problem."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Find the 5th term of the GP: 2, 4, 8, 16, ...",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Find the 10th term of the HP: 1, 1/2, 1/3, 1/4, ...",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "AP: $a_n = a_1 + (n-1)d$",
+            "GP: $a_n = a_1 cdot r^{n-1}$",
+            "HP: $a_n = \frac{1}{a_1 cdot r^{n-1}}$"
+          ],
+          "formulas": [
+            "AP: $a_n = a_1 + (n-1)d$",
+            "GP: $a_n = a_1 cdot r^{n-1}$",
+            "HP: $a_n = \frac{1}{a_1 cdot r^{n-1}}$"
+          ],
+          "mnemonics": [
+            "AP: 'Add a fixed constant'",
+            "GP: 'Multiply by a fixed constant'",
+            "HP: 'Take the reciprocal'"
+          ]
+        },
+        "examTips": [
+          "Make sure to read the problem carefully and identify the type of sequence before using a formula.",
+          "Always check the units of the answer to make sure it matches the units of the problem.",
+          "Use the correct formula for the type of sequence you're dealing with."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:42:30.921Z"
+    },
+    {
+      "moduleNumber": 9,
+      "title": "Limits and Continuity",
+      "topics": [
+        "Limits",
+        "Continuity",
+        "Differentiation Basics"
+      ],
+      "content": {
+        "topic": "Limits and Continuity: Limits, Continuity, Differentiation Basics",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Limits Matter\n\nAs a business mathematics student, you'll encounter many real-world scenarios where limits and continuity play a crucial role. Imagine you're a financial analyst trying to predict stock prices or a manager optimizing production costs. Limits and continuity help you make informed decisions by analyzing how functions behave as inputs change. In this lesson, we'll explore the basics of limits, continuity, and differentiation, and how they apply to CA_FOUNDATION exam questions.\n\n### What to Expect\n\nWe'll cover the key concepts of limits, continuity, and differentiation, along with solved examples, real-world applications, and practice problems. By the end of this lesson, you'll be able to apply these concepts to CA_FOUNDATION exam questions and make informed decisions in business mathematics.",
+        "keyConcepts": [
+          {
+            "concept": "Limits",
+            "definition": "The value that a function approaches as the input gets arbitrarily close to a certain point.",
+            "explanation": "Think of limits like a speedometer in your car. As you approach a red light, your speed decreases, but it never actually reaches zero. Similarly, a limit represents the value that a function approaches as the input gets arbitrarily close to a certain point."
+          },
+          {
+            "concept": "Continuity",
+            "definition": "A function is continuous if it can be drawn without lifting the pencil from the paper.",
+            "explanation": "Imagine drawing a smooth curve on a piece of paper. If you can draw it without lifting your pencil, the function is continuous. If there's a gap or a jump, the function is discontinuous."
+          },
+          {
+            "concept": "Differentiation",
+            "definition": "The process of finding the derivative of a function, which represents the rate of change of the function with respect to the input.",
+            "explanation": "Think of differentiation like measuring the speed of a car. The derivative represents the rate of change of the function, which is essential in business mathematics for optimizing production costs, predicting stock prices, and more."
+          }
+        ],
+        "detailedContent": "### Limits\n\nA limit is the value that a function approaches as the input gets arbitrarily close to a certain point. To find the limit, we can use the following rules:\n\n* If the function is a polynomial, the limit is the value of the polynomial at the point.\n* If the function is a rational expression, the limit is the value of the expression at the point, unless the denominator is zero.\n* If the function is a trigonometric function, the limit is the value of the function at the point, unless the function is undefined at that point.\n\n### Continuity\n\nA function is continuous if it can be drawn without lifting the pencil from the paper. To check for continuity, we can use the following rules:\n\n* If the function is a polynomial, it is continuous everywhere.\n* If the function is a rational expression, it is continuous everywhere except at the points where the denominator is zero.\n* If the function is a trigonometric function, it is continuous everywhere except at the points where the function is undefined.\n\n### Differentiation\n\nThe derivative of a function represents the rate of change of the function with respect to the input. To find the derivative, we can use the following rules:\n\n* If the function is a polynomial, the derivative is the polynomial with each term multiplied by its exponent.\n* If the function is a rational expression, the derivative is the expression with each term multiplied by its exponent, minus the expression with each term multiplied by its exponent minus one.\n* If the function is a trigonometric function, the derivative is the function with each term multiplied by its exponent, minus the function with each term multiplied by its exponent minus one.\n\n### Solved Examples\n\nLet's solve some examples to illustrate the concepts:\n\n### Example 1: Limits\n\nFind the limit of the function f(x) = 2x^2 - 3x + 1 as x approaches 2.\n\nSolution: To find the limit, we can plug in x = 2 into the function and evaluate it.\n\nf(2) = 2(2)^2 - 3(2) + 1\nf(2) = 8 - 6 + 1\nf(2) = 3\n\nTherefore, the limit of the function f(x) = 2x^2 - 3x + 1 as x approaches 2 is 3.\n\n### Example 2: Continuity\n\nCheck if the function f(x) = 1/x is continuous at x = 0.\n\nSolution: To check for continuity, we can evaluate the function at x = 0.\n\nf(0) = 1/0\n\nThis is undefined, so the function is not continuous at x = 0.\n\n### Example 3: Differentiation\n\nFind the derivative of the function f(x) = 2x^2 - 3x + 1.\n\nSolution: To find the derivative, we can use the power rule.\n\nf'(x) = 4x - 3\n\nTherefore, the derivative of the function f(x) = 2x^2 - 3x + 1 is f'(x) = 4x - 3.",
+        "solvedExamples": [
+          {
+            "question": "Find the limit of the function f(x) = 2x^2 - 3x + 1 as x approaches 2.",
+            "solution": "To find the limit, we can plug in x = 2 into the function and evaluate it.\n\nf(2) = 2(2)^2 - 3(2) + 1\nf(2) = 8 - 6 + 1\nf(2) = 3\n\nTherefore, the limit of the function f(x) = 2x^2 - 3x + 1 as x approaches 2 is 3.",
+            "keyTakeaway": "To find the limit, plug in the value of x into the function and evaluate it."
+          },
+          {
+            "question": "Check if the function f(x) = 1/x is continuous at x = 0.",
+            "solution": "To check for continuity, evaluate the function at x = 0.\n\nf(0) = 1/0\n\nThis is undefined, so the function is not continuous at x = 0.",
+            "keyTakeaway": "A function is continuous if it can be drawn without lifting the pencil from the paper."
+          },
+          {
+            "question": "Find the derivative of the function f(x) = 2x^2 - 3x + 1.",
+            "solution": "To find the derivative, use the power rule.\n\nf'(x) = 4x - 3\n\nTherefore, the derivative of the function f(x) = 2x^2 - 3x + 1 is f'(x) = 4x - 3.",
+            "keyTakeaway": "The derivative represents the rate of change of the function with respect to the input."
+          }
+        ],
+        "realWorldApplications": [
+          "Predicting stock prices",
+          "Optimizing production costs",
+          "Analyzing consumer behavior"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not checking for continuity before finding the limit.",
+            "why": "If the function is not continuous at the point, the limit may not exist.",
+            "howToAvoid": "Check for continuity before finding the limit."
+          },
+          {
+            "mistake": "Not using the correct rules for differentiation.",
+            "why": "Using the wrong rules can lead to incorrect derivatives.",
+            "howToAvoid": "Use the correct rules for differentiation, such as the power rule."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Find the limit of the function f(x) = 2x^2 - 3x + 1 as x approaches 1.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Check if the function f(x) = 1/x^2 is continuous at x = 0.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Find the derivative of the function f(x) = 3x^2 + 2x - 1.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Limits represent the value that a function approaches as the input gets arbitrarily close to a certain point.",
+            "Continuity is a function that can be drawn without lifting the pencil from the paper.",
+            "Differentiation represents the rate of change of the function with respect to the input."
+          ],
+          "formulas": [
+            "f(x) = 2x^2 - 3x + 1",
+            "f'(x) = 4x - 3",
+            "f(x) = 1/x^2"
+          ],
+          "mnemonics": [
+            "Limits: L = LIM (Limit)",
+            "Continuity: C = CONT (Continuous)",
+            "Differentiation: D = DER (Derivative)"
+          ]
+        },
+        "examTips": [
+          "Read the question carefully and make sure you understand what is being asked.",
+          "Use the correct rules for limits, continuity, and differentiation.",
+          "Check your work carefully to avoid mistakes."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:42:38.422Z"
+    },
+    {
+      "moduleNumber": 10,
+      "title": "Statistics",
+      "topics": [
+        "Measures of Central Tendency",
+        "Dispersion",
+        "Correlation"
+      ],
+      "content": {
+        "topic": "Statistics: Measures of Central Tendency, Dispersion, Correlation",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Statistics Matters\nStatistics is a crucial tool in business decision-making. By understanding measures of central tendency, dispersion, and correlation, you can make informed decisions about investments, marketing strategies, and resource allocation. In this lesson, we'll explore these concepts and their applications in real-world scenarios.\n\n### What to Expect\nWe'll cover the key concepts of mean, median, mode, range, variance, standard deviation, and correlation coefficient. You'll learn how to calculate these measures and understand their significance in business contexts.\n\n### Real-World Relevance\nCA FOUNDATION exam requires a strong understanding of statistics. This lesson will help you prepare for the exam and apply statistical concepts to real-world problems.",
+        "keyConcepts": [
+          {
+            "concept": "Mean",
+            "definition": "The average value of a dataset",
+            "explanation": "The mean is calculated by summing all values and dividing by the number of values. It's a good measure of central tendency when the data is normally distributed."
+          },
+          {
+            "concept": "Variance",
+            "definition": "A measure of dispersion that calculates the average of the squared differences from the mean",
+            "explanation": "Variance helps us understand how spread out the data is from the mean. It's an important concept in finance, where it's used to calculate risk and volatility."
+          },
+          {
+            "concept": "Correlation Coefficient",
+            "definition": "A measure of the linear relationship between two variables",
+            "explanation": "The correlation coefficient ranges from -1 to 1, where 1 indicates a perfect positive linear relationship and -1 indicates a perfect negative linear relationship."
+          }
+        ],
+        "detailedContent": "### Measures of Central Tendency\n\n#### Mean\nThe mean is the average value of a dataset. It's calculated by summing all values and dividing by the number of values. For example, if we have the following dataset: 10, 20, 30, 40, 50, the mean is (10 + 20 + 30 + 40 + 50) / 5 = 30.\n\n#### Median\nThe median is the middle value of a dataset when it's sorted in ascending order. If the dataset has an even number of values, the median is the average of the two middle values. For example, if we have the following dataset: 10, 20, 30, 40, 50, the median is 30.\n\n#### Mode\nThe mode is the value that appears most frequently in a dataset. For example, if we have the following dataset: 10, 20, 30, 30, 40, the mode is 30.\n\n### Measures of Dispersion\n\n#### Range\nThe range is the difference between the highest and lowest values in a dataset. For example, if we have the following dataset: 10, 20, 30, 40, 50, the range is 50 - 10 = 40.\n\n#### Variance\nThe variance is a measure of dispersion that calculates the average of the squared differences from the mean. For example, if we have the following dataset: 10, 20, 30, 40, 50, the variance is ((10-30)^2 + (20-30)^2 + (30-30)^2 + (40-30)^2 + (50-30)^2) / 5 = 100.\n\n#### Standard Deviation\nThe standard deviation is the square root of the variance. It's a measure of the spread of the data from the mean. For example, if the variance is 100, the standard deviation is √100 = 10.\n\n### Correlation Coefficient\n\nThe correlation coefficient is a measure of the linear relationship between two variables. It ranges from -1 to 1, where 1 indicates a perfect positive linear relationship and -1 indicates a perfect negative linear relationship. For example, if we have two variables X and Y, and the correlation coefficient is 0.8, it means that there's a strong positive linear relationship between X and Y.",
+        "solvedExamples": [
+          {
+            "question": "Calculate the mean, median, and mode of the following dataset: 10, 20, 30, 40, 50.",
+            "solution": "Mean: (10 + 20 + 30 + 40 + 50) / 5 = 30\nMedian: 30\nMode: 30",
+            "keyTakeaway": "The mean, median, and mode are all measures of central tendency."
+          },
+          {
+            "question": "Calculate the range, variance, and standard deviation of the following dataset: 10, 20, 30, 40, 50.",
+            "solution": "Range: 50 - 10 = 40\nVariance: ((10-30)^2 + (20-30)^2 + (30-30)^2 + (40-30)^2 + (50-30)^2) / 5 = 100\nStandard Deviation: √100 = 10",
+            "keyTakeaway": "The range, variance, and standard deviation are all measures of dispersion."
+          }
+        ],
+        "realWorldApplications": [
+          "In finance, variance is used to calculate risk and volatility.",
+          "In marketing, correlation coefficient is used to analyze the relationship between variables such as sales and advertising expenditure.",
+          "In business, mean, median, and mode are used to understand customer behavior and preferences."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Calculating the mean without considering outliers.",
+            "why": "Outliers can significantly affect the mean, leading to incorrect conclusions.",
+            "howToAvoid": "Use the median or mode as a measure of central tendency when the data is skewed or has outliers."
+          },
+          {
+            "mistake": "Ignoring the correlation coefficient when analyzing data.",
+            "why": "The correlation coefficient provides valuable insights into the relationship between variables.",
+            "howToAvoid": "Always calculate and interpret the correlation coefficient when analyzing data."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Calculate the mean, median, and mode of the following dataset: 20, 30, 40, 50, 60.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Calculate the range, variance, and standard deviation of the following dataset: 10, 20, 30, 40, 50.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Calculate the correlation coefficient between the following two variables: X = 10, 20, 30, 40, 50 and Y = 20, 40, 60, 80, 100.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Mean: average value of a dataset",
+            "Median: middle value of a dataset",
+            "Mode: value that appears most frequently in a dataset",
+            "Range: difference between highest and lowest values in a dataset",
+            "Variance: average of squared differences from the mean",
+            "Standard Deviation: square root of variance",
+            "Correlation Coefficient: measure of linear relationship between two variables"
+          ],
+          "formulas": [
+            "Mean = (Σx) / n",
+            "Median = (n + 1) / 2",
+            "Mode = value that appears most frequently",
+            "Range = max(x) - min(x)",
+            "Variance = (Σ(x - μ)^2) / n",
+            "Standard Deviation = √Variance",
+            "Correlation Coefficient = Σ[(xi - μx)(yi - μy)] / (n - 1)"
+          ],
+          "mnemonics": [
+            "Mean: Most Excellent Average Number",
+            "Median: Middle Value",
+            "Mode: Most Often Displayed",
+            "Range: Highest - Lowest",
+            "Variance: Variation Around Mean",
+            "Standard Deviation: Square Root of Variance",
+            "Correlation Coefficient: Connection Between Variables"
+          ]
+        },
+        "examTips": [
+          "Practice, practice, practice! Statistics is a crucial topic in CA FOUNDATION.",
+          "Understand the concepts and formulas, and apply them to real-world problems.",
+          "Manage your time effectively during the exam, and allocate sufficient time for each question."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:42:53.187Z"
+    },
+    {
+      "moduleNumber": 11,
+      "title": "Probability",
+      "topics": [
+        "Basic Concepts",
+        "Theorems",
+        "Conditional Probability"
+      ],
+      "content": {
+        "topic": "Probability: Basic Concepts, Theorems, Conditional Probability",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "### Why Probability Matters\nIn today's uncertain business world, making informed decisions requires a deep understanding of probability. From predicting stock market trends to assessing the risk of new business ventures, probability plays a crucial role in business decision-making. As a CA FOUNDATION aspirant, mastering probability concepts is essential to excel in your exams and future career.\n\n### What to Expect\nIn this lesson, we'll cover the basics of probability, including key concepts, theorems, and conditional probability. We'll also explore real-world applications, common mistakes to avoid, and practice problems to help you reinforce your understanding.\n\n### Real-World Relevance\nProbability is used extensively in various industries, including finance, insurance, and healthcare. For instance, insurance companies use probability to determine the likelihood of an accident or a natural disaster, while financial institutions use it to predict stock market trends and manage risk.",
+        "keyConcepts": [
+          {
+            "concept": "Experiment and Sample Space",
+            "definition": "An experiment is a situation where we have to make a decision or take an action, and a sample space is the set of all possible outcomes of an experiment.",
+            "explanation": "Imagine flipping a coin. The experiment is flipping the coin, and the sample space is the set of all possible outcomes: heads or tails."
+          },
+          {
+            "concept": "Event and Probability",
+            "definition": "An event is a subset of the sample space, and probability is a measure of the likelihood of an event occurring.",
+            "explanation": "Using the coin flip example, the event 'heads' is a subset of the sample space, and the probability of getting heads is 1/2."
+          },
+          {
+            "concept": "Conditional Probability",
+            "definition": "Conditional probability is the probability of an event occurring given that another event has occurred.",
+            "explanation": "For example, the probability of getting heads given that the coin has landed on its edge is 0, since the coin can't land on its edge and still be considered a valid outcome."
+          }
+        ],
+        "detailedContent": "### Detailed Explanation\n#### Experiment and Sample Space\nAn experiment is a situation where we have to make a decision or take an action, and a sample space is the set of all possible outcomes of an experiment. For example, flipping a coin is an experiment, and the sample space is the set of all possible outcomes: heads or tails.\n\n#### Event and Probability\nAn event is a subset of the sample space, and probability is a measure of the likelihood of an event occurring. Using the coin flip example, the event 'heads' is a subset of the sample space, and the probability of getting heads is 1/2.\n\n#### Conditional Probability\nConditional probability is the probability of an event occurring given that another event has occurred. For example, the probability of getting heads given that the coin has landed on its edge is 0, since the coin can't land on its edge and still be considered a valid outcome.\n\n### Theorems and Formulas\n* The probability of an event occurring is between 0 and 1.\n* The probability of the union of two events is the sum of their individual probabilities minus the probability of their intersection.\n* Conditional probability can be calculated using the formula P(A|B) = P(A ∩ B) / P(B).\n\n### Why It Matters\nProbability is used extensively in various industries, including finance, insurance, and healthcare. For instance, insurance companies use probability to determine the likelihood of an accident or a natural disaster, while financial institutions use it to predict stock market trends and manage risk.",
+        "solvedExamples": [
+          {
+            "question": "A coin is flipped 5 times. What is the probability of getting exactly 3 heads?",
+            "solution": "Step 1: Define the sample space and the event.\nThe sample space is the set of all possible outcomes of flipping a coin 5 times: HHHHH, HHHT, HHTH, HHTT, HTHH, HTHT, HTTH, HTTT, THHH, THHT, THTH, THTT, TTHH, TTHT, TTTH, TTTT.\nThe event is getting exactly 3 heads.\n\nStep 2: Calculate the probability of the event.\nThe probability of getting exactly 3 heads is the number of ways to get 3 heads out of 5 flips divided by the total number of possible outcomes.\n\nStep 3: Calculate the number of ways to get 3 heads out of 5 flips.\nUsing the combination formula, we get 5C3 = 10.\n\nStep 4: Calculate the total number of possible outcomes.\nThere are 2^5 = 32 possible outcomes.\n\nStep 5: Calculate the probability of the event.\nThe probability of getting exactly 3 heads is 10/32 = 5/16.\n\nKey Takeaway: The probability of an event occurring is between 0 and 1, and can be calculated using the formula P(A) = n(A) / n(S), where n(A) is the number of ways to get the event and n(S) is the total number of possible outcomes.",
+            "keyTakeaway": "The probability of an event occurring is between 0 and 1, and can be calculated using the formula P(A) = n(A) / n(S), where n(A) is the number of ways to get the event and n(S) is the total number of possible outcomes."
+          }
+        ],
+        "realWorldApplications": [
+          "Insurance companies use probability to determine the likelihood of an accident or a natural disaster.",
+          "Financial institutions use probability to predict stock market trends and manage risk.",
+          "Healthcare professionals use probability to determine the likelihood of a patient recovering from a disease."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not considering all possible outcomes when calculating probability.",
+            "why": "This can lead to incorrect calculations and a lack of understanding of the underlying probability concept.",
+            "howToAvoid": "Always consider all possible outcomes when calculating probability, and use the formula P(A) = n(A) / n(S) to ensure accuracy."
+          },
+          {
+            "mistake": "Not accounting for conditional probability when making decisions.",
+            "why": "This can lead to incorrect decisions and a lack of understanding of the underlying probability concept.",
+            "howToAvoid": "Always account for conditional probability when making decisions, and use the formula P(A|B) = P(A ∩ B) / P(B) to ensure accuracy."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A die is rolled 6 times. What is the probability of getting exactly 3 sixes?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A coin is flipped 10 times. What is the probability of getting exactly 5 heads?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Experiment and sample space",
+            "Event and probability",
+            "Conditional probability"
+          ],
+          "formulas": [
+            "P(A) = n(A) / n(S)",
+            "P(A|B) = P(A ∩ B) / P(B)"
+          ],
+          "mnemonics": [
+            "Experiment: E-x-p-e-r-i-m-e-n-t",
+            "Event: E-v-e-n-t"
+          ]
+        },
+        "examTips": [
+          "Read the question carefully and understand what is being asked.",
+          "Use the formula P(A) = n(A) / n(S) to calculate probability.",
+          "Account for conditional probability when making decisions."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:43:18.531Z"
+    },
+    {
+      "moduleNumber": 12,
+      "title": "Logical Reasoning",
+      "topics": [
+        "Coding-Decoding",
+        "Series",
+        "Puzzles"
+      ],
+      "content": {
+        "topic": "Logical Reasoning: Coding-Decoding, Series, Puzzles",
+        "subject": "Business Mathematics",
+        "duration": 60,
+        "introduction": "Logical Reasoning is a crucial aspect of Business Mathematics, and coding-decoding, series, and puzzles are essential skills to master for the CA FOUNDATION exam. These skills help you analyze complex data, identify patterns, and make informed decisions. In this lesson, we'll explore the key concepts, detailed explanations, and real-world applications of coding-decoding, series, and puzzles.",
+        "keyConcepts": [
+          {
+            "concept": "Coding-Decoding",
+            "definition": "A process of converting a given text into a coded form and then decoding it back to the original text.",
+            "explanation": "Imagine you're sending a secret message to a friend. You replace each letter with a corresponding number, and your friend uses a key to decode it back to the original message. This is a simple example of coding-decoding."
+          },
+          {
+            "concept": "Series",
+            "definition": "A sequence of numbers or terms that follow a specific pattern or rule.",
+            "explanation": "Think of a series like a musical composition. Each note follows a specific pattern, and you can predict the next note based on the previous ones."
+          },
+          {
+            "concept": "Puzzles",
+            "definition": "A problem or a riddle that requires logical reasoning and critical thinking to solve.",
+            "explanation": "Puzzles are like brain teasers that challenge your thinking and problem-solving skills. They help you develop your analytical mind and make you a better decision-maker."
+          }
+        ],
+        "detailedContent": "Coding-decoding involves replacing each letter or symbol with a corresponding code. For example, A=1, B=2, C=3, and so on. To decode a message, you need to use the same key to replace the codes with the original letters. Series involve identifying patterns or rules that govern the sequence of numbers or terms. For example, if the series is 2, 4, 6, 8, 10, you can predict the next term as 12. Puzzles require logical reasoning and critical thinking to solve. They often involve identifying patterns, making connections, and using analogies to arrive at a solution. For example, a puzzle might ask you to find the next number in a sequence based on a pattern. You need to analyze the sequence, identify the pattern, and use it to predict the next number.",
+        "solvedExamples": [
+          {
+            "question": "Decode the message: 14 7 5 18 15",
+            "solution": "Using the key A=1, B=2, C=3, and so on, we get: N O E S T. The decoded message is 'NOEST'.",
+            "keyTakeaway": "Remember to use the same key for decoding as you used for encoding."
+          }
+        ],
+        "realWorldApplications": [
+          "In finance, coding-decoding is used to secure sensitive information, such as passwords and encryption keys.",
+          "In data analysis, series are used to identify trends and patterns in large datasets.",
+          "In problem-solving, puzzles are used to develop critical thinking and analytical skills."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not using the same key for decoding as you used for encoding.",
+            "why": "This can lead to incorrect decoding and misinterpretation of the message.",
+            "howToAvoid": "Double-check your key and ensure you're using the same one for decoding as you used for encoding."
+          },
+          {
+            "mistake": "Not identifying the pattern or rule in a series.",
+            "why": "This can lead to incorrect prediction of the next term and misinterpretation of the data.",
+            "howToAvoid": "Take your time to analyze the series and identify the pattern or rule."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Decode the message: 20 8 5 15 12",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Find the next number in the series: 2, 4, 6, 8, 10",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Solve the puzzle: A snail is at the bottom of a 20-foot well. Each day, it climbs up 3 feet, but at night, it slips back 2 feet. How many days will it take for the snail to reach the top of the well?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Coding-decoding involves replacing each letter or symbol with a corresponding code.",
+            "Series involve identifying patterns or rules that govern the sequence of numbers or terms.",
+            "Puzzles require logical reasoning and critical thinking to solve."
+          ],
+          "formulas": [
+            "None"
+          ],
+          "mnemonics": [
+            "C-O-D-E is like a secret code."
+          ]
+        },
+        "examTips": [
+          "Practice coding-decoding, series, and puzzles regularly to improve your skills.",
+          "Use the same key for decoding as you used for encoding.",
+          "Take your time to analyze the series and identify the pattern or rule."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:43:47.427Z"
+    }
+  ],
+  "updatedAt": "2026-07-19T09:43:47.427Z"
+}

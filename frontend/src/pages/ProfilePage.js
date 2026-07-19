@@ -22,7 +22,7 @@ import { ArrowBack, Edit, Save, Cancel, PhotoCamera } from '@mui/icons-material'
 import axios from 'axios';
 import './ProfilePage.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+const API_URL = process.env.REACT_APP_USER_SERVICE_URL || process.env.REACT_APP_AUTH_SERVICE_URL || 'http://localhost:3002';
 
 function ProfilePage({ user, onLogout }) {
   const navigate = useNavigate();

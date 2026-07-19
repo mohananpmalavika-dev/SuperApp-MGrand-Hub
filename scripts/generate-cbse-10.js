@@ -53,30 +53,16 @@ async function generateLesson(module, index, courseId) {
   log(`\n  📖 [${index + 1}/${course.modules.length}] ${module.title}`, 'yellow');
 
   try {
-    const lessonRes = await axios.post(`${API_BASE}/lessons/generate`, {
-      courseId: courseId,
-      chapterIndex: index,
-      chapterTitle: module.title,
-      topics: module.topics,
-      generationOptions: {
-        includeAudio: true,
-        includeVideo: true,
-        includeAnimations: true,
-        includeQuestions: true,
-        detailLevel: 'comprehensive',
-        wordCount: 2200,
-        targetExam: 'CBSE Class 10 Board',
-        difficulty: 'intermediate',
-        includeFormulas: true,
-        includeExamples: true,
-        studentLevel: 'class10'
-      }
+    const lessonRes = await axios.post(`${API_BASE}/courses/${courseId}/generate-lesson`, {
+      moduleNumber: index + 1,
+      chapterNumber: 1,
+      topic: `${module.title}: ${module.topics.join(', ')}`
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {},
       timeout: 120000
     });
 
-    const lesson = lessonRes.data.lesson || lessonRes.data;
+    const lesson = lessonRes.data.data || lessonRes.data.lesson || lessonRes.data;
 
     log(`     ✓ Lesson ID: ${lesson._id || lesson.lessonId}`, 'green');
     log(`     ✓ Content: ${lesson.content?.length || 2200} characters`);
@@ -118,18 +104,16 @@ async function main() {
     // Create course
     log(`🎓 Creating Course: ${course.name}`, 'bright');
     const courseRes = await axios.post(`${API_BASE}/courses/generate`, {
-      courseCode: course.code,
-      courseName: course.name,
-      category: 'school',
-      difficulty: 'intermediate',
-      targetExam: 'CBSE Class 10 Board',
-      totalHours: 80,
-      description: 'Complete Mathematics course for CBSE Class 10 Board exams covering all NCERT chapters with detailed explanations, examples, and practice problems'
+      subject: 'Mathematics',
+      level: 'FOUNDATION',
+      examType: 'CBSE_CLASS_10',
+      courseTitle: course.name,
+      modules: course.modules
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}
     });
 
-    results.courseId = courseRes.data.courseId || courseRes.data.course?._id;
+    results.courseId = courseRes.data.data?._id;
     log(`✓ Course created: ${results.courseId}\n`, 'green');
 
     // Generate lessons in batches of 4

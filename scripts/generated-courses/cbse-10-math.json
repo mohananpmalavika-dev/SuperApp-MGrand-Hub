@@ -1,0 +1,1381 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-19T09:56:14.846Z",
+  "course": {
+    "code": "CBSE-10-MATH",
+    "name": "CBSE Class 10 - Mathematics Complete",
+    "subject": "Mathematics",
+    "examType": "CBSE_CLASS_10",
+    "level": "FOUNDATION",
+    "lessonCount": 16
+  },
+  "lessons": [
+    {
+      "moduleNumber": 1,
+      "title": "Real Numbers",
+      "topics": [
+        "Euclid Division Algorithm",
+        "Fundamental Theorem of Arithmetic",
+        "HCF and LCM"
+      ],
+      "content": {
+        "topic": "Real Numbers: Euclid Division Algorithm, Fundamental Theorem of Arithmetic, HCF and LCM",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "### Why Real Numbers Matter\n\nImagine you're a shopkeeper who wants to buy rice from a wholesaler. You need to know how many bags of rice you can buy with ₹500. This is where real numbers come in. In this lesson, we'll learn about Euclid's Division Algorithm, Fundamental Theorem of Arithmetic, HCF, and LCM. These concepts will help you solve problems like this and more.\n\n### What We'll Cover\n\n* Euclid's Division Algorithm: a method to find the HCF of two numbers\n* Fundamental Theorem of Arithmetic: a theorem that states every number can be expressed as a product of prime factors\n* HCF (Highest Common Factor) and LCM (Least Common Multiple): concepts that help us find the greatest common factor and least common multiple of two numbers\n\n### Real-World Relevance\n\nThese concepts are crucial in real-life scenarios like shopping, cooking, and even in the stock market. For example, if you're a stockbroker, you need to know how to calculate the HCF and LCM of two numbers to make informed investment decisions.",
+        "keyConcepts": [
+          {
+            "concept": "Euclid's Division Algorithm",
+            "definition": "A method to find the HCF of two numbers by repeatedly dividing the larger number by the smaller number.",
+            "explanation": "Imagine you have two numbers, 48 and 18. You can use Euclid's Division Algorithm to find their HCF by repeatedly dividing 48 by 18 until you get a remainder of 0."
+          },
+          {
+            "concept": "Fundamental Theorem of Arithmetic",
+            "definition": "A theorem that states every number can be expressed as a product of prime factors.",
+            "explanation": "For example, the number 12 can be expressed as 2 × 2 × 3, which are its prime factors."
+          },
+          {
+            "concept": "HCF and LCM",
+            "definition": "HCF (Highest Common Factor): the greatest common factor of two numbers\nLCM (Least Common Multiple): the least common multiple of two numbers",
+            "explanation": "For example, the HCF of 12 and 18 is 6, and their LCM is 36."
+          }
+        ],
+        "detailedContent": "### Euclid's Division Algorithm\n\nEuclid's Division Algorithm is a method to find the HCF of two numbers by repeatedly dividing the larger number by the smaller number. Let's take an example to understand this better. Suppose we want to find the HCF of 48 and 18.\n\n1. Divide 48 by 18: 48 = 2 × 18 + 12\n2. Divide 18 by 12: 18 = 1 × 12 + 6\n3. Divide 12 by 6: 12 = 2 × 6 + 0\n\nThe remainder is 0, so the HCF of 48 and 18 is 6.\n\n### Fundamental Theorem of Arithmetic\n\nThe Fundamental Theorem of Arithmetic states that every number can be expressed as a product of prime factors. For example, the number 12 can be expressed as 2 × 2 × 3, which are its prime factors.\n\n### HCF and LCM\n\nHCF (Highest Common Factor) and LCM (Least Common Multiple) are two important concepts that help us find the greatest common factor and least common multiple of two numbers. For example, the HCF of 12 and 18 is 6, and their LCM is 36.",
+        "solvedExamples": [
+          {
+            "question": "Find the HCF of 48 and 18 using Euclid's Division Algorithm.",
+            "solution": "1. Divide 48 by 18: 48 = 2 × 18 + 12\n2. Divide 18 by 12: 18 = 1 × 12 + 6\n3. Divide 12 by 6: 12 = 2 × 6 + 0\n\nThe remainder is 0, so the HCF of 48 and 18 is 6.",
+            "keyTakeaway": "Use Euclid's Division Algorithm to find the HCF of two numbers."
+          }
+        ],
+        "realWorldApplications": [
+          "Shopping: to find the greatest common factor of two numbers to buy the same quantity of items.",
+          "Cooking: to find the least common multiple of two numbers to cook the same quantity of food.",
+          "Stock Market: to find the HCF and LCM of two numbers to make informed investment decisions."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not using Euclid's Division Algorithm to find the HCF of two numbers.",
+            "why": "This can lead to incorrect results and confusion.",
+            "howToAvoid": "Always use Euclid's Division Algorithm to find the HCF of two numbers."
+          },
+          {
+            "mistake": "Not considering the prime factors of a number.",
+            "why": "This can lead to incorrect results and confusion.",
+            "howToAvoid": "Always consider the prime factors of a number to find its HCF and LCM."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Find the HCF of 24 and 30 using Euclid's Division Algorithm.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Find the LCM of 12 and 18.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Find the prime factors of 36.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Euclid's Division Algorithm: a method to find the HCF of two numbers.",
+            "Fundamental Theorem of Arithmetic: a theorem that states every number can be expressed as a product of prime factors.",
+            "HCF and LCM: concepts that help us find the greatest common factor and least common multiple of two numbers."
+          ],
+          "formulas": [
+            "HCF (a, b) = Euclid's Division Algorithm(a, b)",
+            "LCM (a, b) = (a × b) / HCF (a, b)"
+          ],
+          "mnemonics": [
+            "HCF stands for Highest Common Factor.",
+            "LCM stands for Least Common Multiple."
+          ]
+        },
+        "examTips": [
+          "Use Euclid's Division Algorithm to find the HCF of two numbers.",
+          "Consider the prime factors of a number to find its HCF and LCM.",
+          "Practice, practice, practice to become proficient in finding HCF and LCM."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:56:33.050Z"
+    },
+    {
+      "moduleNumber": 2,
+      "title": "Polynomials",
+      "topics": [
+        "Degree of Polynomial",
+        "Zeros of Polynomial",
+        "Relationship between Zeros and Coefficients"
+      ],
+      "content": {
+        "topic": "Polynomials: Degree, Zeros, and Coefficients",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine designing a roller coaster track or predicting the trajectory of a cricket ball; these real-world scenarios rely on polynomials. In CBSE Class 10, mastering polynomials is crucial as it forms the foundation for higher mathematics and competitive exams. This lesson will guide you through understanding the degree of a polynomial, finding its zeros, and exploring the fascinating relationship between these zeros and the coefficients. By the end, you will be able to solve complex problems with confidence and clarity.",
+        "keyConcepts": [
+          {
+            "concept": "Degree of a Polynomial",
+            "definition": "The highest power of the variable in the polynomial.",
+            "explanation": "For example, in 3x^2 + 2x + 1, the highest power is 2, so the degree is 2. A linear polynomial has degree 1, quadratic has degree 2, and cubic has degree 3."
+          },
+          {
+            "concept": "Zeros of a Polynomial",
+            "definition": "The values of x for which the polynomial equals zero.",
+            "explanation": "If p(x) = 0, then x is a zero. Geometrically, these are the points where the graph of the polynomial intersects the x-axis."
+          },
+          {
+            "concept": "Relationship between Zeros and Coefficients",
+            "definition": "Formulas linking the sum and product of zeros to the coefficients of the polynomial.",
+            "explanation": "For a quadratic ax^2 + bx + c, Sum of zeros = -b/a and Product of zeros = c/a. This relationship helps verify answers and find unknown coefficients."
+          }
+        ],
+        "detailedContent": "Let's dive deeper into polynomials. First, the **degree** determines the shape of the graph. A linear polynomial (degree 1) is a straight line, while a quadratic (degree 2) is a parabola. The **zeros** are critical because they tell us where the function crosses the x-axis. For a quadratic equation ax^2 + bx + c = 0, if α and β are the zeros, then p(x) can be written as a(x - α)(x - β). \n\nNow, let's explore the **relationship between zeros and coefficients**. Why does this matter? It allows us to find the sum and product of roots without actually solving for them. For a quadratic polynomial ax^2 + bx + c:\n1. **Sum of Zeros (α + β)**: This is equal to -b/a. Think of it as the negative of the middle coefficient divided by the leading coefficient.\n2. **Product of Zeros (αβ)**: This is equal to c/a. It's the constant term divided by the leading coefficient.\n\nFor a cubic polynomial ax^3 + bx^2 + cx + d with zeros α, β, γ:\n- Sum of zeros (α + β + γ) = -b/a\n- Sum of product of zeros taken two at a time (αβ + βγ + γα) = c/a\n- Product of zeros (αβγ) = -d/a\n\nUnderstanding these relationships is like having a shortcut. If you know two zeros of a cubic polynomial, you can easily find the third using these formulas. This concept is frequently tested in CBSE exams, often requiring you to find the value of a variable given the sum or product of zeros. Always remember to check the signs carefully, as a small sign error can lead to the wrong answer.",
+        "solvedExamples": [
+          {
+            "question": "Find the sum and product of the zeros of the polynomial 2x^2 - 8x + 6. Verify the relationship between the zeros and coefficients.",
+            "solution": "Step 1: Identify coefficients. a = 2, b = -8, c = 6.\nStep 2: Calculate Sum of Zeros. Sum = -b/a = -(-8)/2 = 8/2 = 4.\nStep 3: Calculate Product of Zeros. Product = c/a = 6/2 = 3.\nStep 4: Find actual zeros by factorization. 2x^2 - 8x + 6 = 0 => 2(x^2 - 4x + 3) = 0 => 2(x-3)(x-1) = 0. Zeros are 3 and 1.\nStep 5: Verify. Sum = 3 + 1 = 4 (Matches). Product = 3 * 1 = 3 (Matches).",
+            "keyTakeaway": "Always verify your calculated sum and product with the actual zeros to ensure accuracy."
+          }
+        ],
+        "realWorldApplications": [
+          "Engineering: Designing curved structures like bridges and arches using quadratic equations.",
+          "Physics: Calculating the maximum height and time of flight of a projectile.",
+          "Economics: Modeling profit and loss functions to find break-even points."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Ignoring the sign of the coefficient 'b' in the sum formula.",
+            "why": "Students often forget that the formula is -b/a, leading to incorrect signs.",
+            "howToAvoid": "Always write down the formula explicitly before substituting values. Remember 'Sum is negative b over a'."
+          },
+          {
+            "mistake": "Confusing the product formula for cubic polynomials.",
+            "why": "The product of zeros for a cubic is -d/a, not d/a. Students often assume it's always positive.",
+            "howToAvoid": "Memorize that for odd-degree polynomials (like cubic), the product of zeros has a negative sign in the formula."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "If the sum of zeros of the polynomial x^2 + px + 12 is 5, find the value of p.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Find the zeros of the polynomial x^2 - 2x - 8 and verify the relationship between the zeros and coefficients.",
+            "difficulty": "Easy"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Degree is the highest power of the variable.",
+            "Zeros are x-values where p(x) = 0.",
+            "Sum of zeros = -b/a, Product = c/a for quadratics."
+          ],
+          "formulas": [
+            "Sum of Zeros (Quadratic) = -b/a",
+            "Product of Zeros (Quadratic) = c/a",
+            "Sum of Zeros (Cubic) = -b/a",
+            "Product of Zeros (Cubic) = -d/a"
+          ],
+          "mnemonics": [
+            "For Quadratics: 'Sum is Negative B over A, Product is C over A'."
+          ]
+        },
+        "examTips": [
+          "Always write the polynomial in standard form ax^2 + bx + c before applying formulas.",
+          "Check your signs carefully, especially for the sum of zeros.",
+          "If asked to verify, show both the formula calculation and the actual zero calculation."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:56:36.403Z"
+    },
+    {
+      "moduleNumber": 3,
+      "title": "Pair of Linear Equations in Two Variables",
+      "topics": [
+        "Graphical Method",
+        "Algebraic Methods",
+        "Cross-Multiplication Method"
+      ],
+      "content": {
+        "topic": "Pair of Linear Equations in Two Variables",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine you are at a local *kirana* store trying to figure out the price of apples and oranges based on two different bills. This is the power of linear equations! In CBSE Class 10, mastering pairs of linear equations is crucial not just for scoring marks, but for developing logical problem-solving skills. This lesson covers the graphical method (visualizing intersections), algebraic methods (substitution and elimination), and the efficient cross-multiplication method, ensuring you can tackle any question from NCERT or the board exam with confidence.",
+        "keyConcepts": [
+          {
+            "concept": "Consistency and Inconsistency",
+            "definition": "Determining if a pair of equations has a unique solution, infinite solutions, or no solution.",
+            "explanation": "If lines intersect at one point, it's consistent (unique solution). If they are coincident, it's consistent (infinite solutions). If parallel, it's inconsistent (no solution). Visualize this as two roads: do they meet, run together, or never touch?"
+          },
+          {
+            "concept": "Algebraic Methods",
+            "definition": "Systematic techniques to find values of x and y without drawing graphs.",
+            "explanation": "Substitution involves finding one variable in terms of another and plugging it in. Elimination involves adding/subtracting equations to cancel out a variable. These are faster and more precise than graphical methods for non-integer solutions."
+          },
+          {
+            "concept": "Cross-Multiplication Method",
+            "definition": "A direct formulaic approach to solve linear equations.",
+            "explanation": "For a1x + b1y + c1 = 0 and a2x + b2y + c2 = 0, the solution is x/(b1c2 - b2c1) = y/(c1a2 - c2a1) = 1/(a1b2 - a2b1). It’s like a shortcut bridge that takes you directly to the answer without intermediate steps."
+          }
+        ],
+        "detailedContent": "Let's dive into the heart of the topic. A linear equation in two variables, ax + by + c = 0, represents a straight line. When we have two such equations, we are looking for the point (x, y) that satisfies both simultaneously.\n\n**Graphical Method:** Plot both lines on a Cartesian plane. The intersection point is the solution. If lines are parallel (a1/a2 = b1/b2 ≠ c1/c2), there is no solution. If coincident (a1/a2 = b1/b2 = c1/c2), there are infinite solutions. This method is intuitive but lacks precision for fractional answers.\n\n**Algebraic Methods:**\n1. **Substitution:** Solve one equation for x (e.g., x = (c - by)/a). Substitute this into the second equation. Solve for y, then back-substitute to find x. Best when one variable has a coefficient of 1 or -1.\n2. **Elimination:** Multiply equations by suitable constants so that coefficients of one variable become equal. Subtract the equations to eliminate that variable. Solve for the remaining variable. This is often faster for integer coefficients.\n\n**Cross-Multiplication:** This is derived from Cramer's rule. It is particularly useful when coefficients are large or when you need to check consistency quickly. The condition for consistency is a1/a2 = b1/b2 = c1/c2. Remember the pattern: x is over (b1c2 - b2c1), y is over (c1a2 - c2a1), and 1 is over (a1b2 - a2b1). The 'c' terms are always in the middle for y, and 'a' terms for the denominator. This method reduces calculation errors significantly in exams.",
+        "solvedExamples": [
+          {
+            "question": "Solve the following pair of linear equations by the cross-multiplication method: 2x + 3y = 11 and 2x - 4y = -24.",
+            "solution": "Step 1: Rewrite in standard form ax + by + c = 0.\nEq 1: 2x + 3y - 11 = 0\nEq 2: 2x - 4y + 24 = 0\n\nStep 2: Identify coefficients.\na1=2, b1=3, c1=-11\na2=2, b2=-4, c2=24\n\nStep 3: Apply formula x/(b1c2 - b2c1) = y/(c1a2 - c2a1) = 1/(a1b2 - a2b1)\nx / (3*24 - (-4)*(-11)) = y / ((-11)*2 - 24*2) = 1 / (2*(-4) - 2*3)\nx / (72 - 44) = y / (-22 - 48) = 1 / (-8 - 6)\nx / 28 = y / -70 = 1 / -14\n\nStep 4: Solve for x and y.\nx = 28 / -14 = -2\ny = -70 / -14 = 5\n\nAnswer: x = -2, y = 5",
+            "keyTakeaway": "Always convert equations to standard form first. Watch out for negative signs in the cross-multiplication formula."
+          }
+        ],
+        "realWorldApplications": [
+          "Calculating electricity bills with fixed charges and variable usage rates.",
+          "Determining speeds of two vehicles moving towards each other.",
+          "Mixing alloys or solutions to achieve specific concentrations in chemistry."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Incorrect sign handling in cross-multiplication.",
+            "why": "Students often forget that c1 and c2 include their signs from the standard form ax+by+c=0.",
+            "howToAvoid": "Always write the equation as ax + by + c = 0 explicitly before identifying a, b, and c. Double-check the sign of c."
+          },
+          {
+            "mistake": "Assuming parallel lines have a solution.",
+            "why": "Confusion between the geometric concept of parallel lines (never meeting) and algebraic consistency.",
+            "howToAvoid": "Remember: Parallel lines mean a1/a2 = b1/b2 ≠ c1/c2, which implies NO SOLUTION (Inconsistent)."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "The sum of the digits of a two-digit number is 9. Also, nine times this number is twice the number obtained by reversing the digits. Find the number.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Solve for x and y: 5x - 7y = 16 and 3x - 5y = 10 using the elimination method.",
+            "difficulty": "Easy"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Graphical method: Intersection = Unique solution.",
+            "Algebraic: Substitution (good for coeff 1), Elimination (good for integers).",
+            "Cross-Multiplication: Fastest for standard form equations."
+          ],
+          "formulas": [
+            "x/(b1c2 - b2c1) = y/(c1a2 - c2a1) = 1/(a1b2 - a2b1)",
+            "Condition for unique solution: a1/a2 ≠ b1/b2"
+          ],
+          "mnemonics": [
+            "For Cross-Multiplication: 'X is over B-C, Y is over C-A, 1 is over A-B'. Remember the middle term shifts."
+          ]
+        },
+        "examTips": [
+          "In CBSE exams, if asked to solve graphically, ensure your scale is clear and axes are labeled.",
+          "For algebraic methods, show all steps. Even if the final answer is wrong, step marks are awarded.",
+          "Always verify your answer by substituting x and y back into the original equations."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:57:01.727Z"
+    },
+    {
+      "moduleNumber": 4,
+      "title": "Quadratic Equations",
+      "topics": [
+        "Standard Form",
+        "Solving by Factorization",
+        "Quadratic Formula"
+      ],
+      "content": {
+        "topic": "Quadratic Equations",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "### Why Quadratic Equations Matter\nQuadratic equations are a fundamental concept in mathematics that help us model real-world situations. In CBSE CLASS 10, you'll learn to solve quadratic equations using various methods, including factorization and the quadratic formula. Understanding these concepts will help you analyze and solve problems in physics, engineering, and economics. Let's dive into the world of quadratic equations and explore their significance in real-life scenarios.",
+        "keyConcepts": [
+          {
+            "concept": "Standard Form of Quadratic Equations",
+            "definition": "A quadratic equation in standard form is written as ax^2 + bx + c = 0, where a, b, and c are constants.",
+            "explanation": "Imagine a parabola opening upwards or downwards, and the standard form represents the equation of this parabola."
+          },
+          {
+            "concept": "Solving by Factorization",
+            "definition": "Factorization is a method of solving quadratic equations by expressing the quadratic expression as a product of two binomial expressions.",
+            "explanation": "Think of factorization as finding the factors of a quadratic expression, just like finding the factors of a number."
+          },
+          {
+            "concept": "Quadratic Formula",
+            "definition": "The quadratic formula is a method of solving quadratic equations by using the formula x = (-b ± √(b^2 - 4ac)) / 2a.",
+            "explanation": "The quadratic formula is like a magic formula that helps you find the solutions to quadratic equations, even if they can't be factored easily."
+          }
+        ],
+        "detailedContent": "### Solving Quadratic Equations\nTo solve a quadratic equation, we need to find the values of x that satisfy the equation. Let's consider the standard form of a quadratic equation: ax^2 + bx + c = 0.\n\nWe can solve this equation by using the quadratic formula: x = (-b ± √(b^2 - 4ac)) / 2a.\n\nBut before we use the quadratic formula, let's try to factorize the quadratic expression. If we can factorize the expression, we can easily find the solutions.\n\nFor example, consider the quadratic equation x^2 + 5x + 6 = 0. We can factorize this expression as (x + 3)(x + 2) = 0.\n\nNow, we can set each factor equal to zero and solve for x: x + 3 = 0 or x + 2 = 0.\n\nSolving these equations, we get x = -3 or x = -2.\n\nThese are the solutions to the quadratic equation x^2 + 5x + 6 = 0.\n\nBut what if we can't factorize the quadratic expression? That's where the quadratic formula comes in.\n\nLet's consider the quadratic equation x^2 + 2x + 1 = 0. We can't factorize this expression, so we'll use the quadratic formula.\n\nPlugging in the values a = 1, b = 2, and c = 1 into the quadratic formula, we get x = (-2 ± √(2^2 - 4(1)(1))) / 2(1).\n\nSimplifying this expression, we get x = (-2 ± √(4 - 4)) / 2.\n\nSimplifying further, we get x = (-2 ± √0) / 2.\n\nThis gives us x = -2 / 2, which is equal to x = -1.\n\nSo, the solution to the quadratic equation x^2 + 2x + 1 = 0 is x = -1.\n\n### Real-World Applications\nQuadratic equations have many real-world applications, including:\n\n* Physics: Quadratic equations are used to model the motion of objects under the influence of gravity.\n* Engineering: Quadratic equations are used to design bridges, buildings, and other structures.\n* Economics: Quadratic equations are used to model the behavior of economic systems.\n\n### Common Mistakes to Avoid\n* Not checking the discriminant (b^2 - 4ac) before using the quadratic formula.\n* Not simplifying the expression under the square root before solving the equation.\n\n### Practice Problems\n* x^2 + 5x + 6 = 0\n* x^2 - 7x + 12 = 0\n\n### Quick Revision Points\n* Standard form of quadratic equations: ax^2 + bx + c = 0\n* Quadratic formula: x = (-b ± √(b^2 - 4ac)) / 2a\n* Factorization: expressing a quadratic expression as a product of two binomial expressions\n\n### Exam Tips\n* Make sure to check the discriminant before using the quadratic formula.\n* Simplify the expression under the square root before solving the equation.\n* Use factorization to solve quadratic equations whenever possible.\n* Use the quadratic formula when factorization is not possible.\n* Make sure to show all your work and explain your reasoning.\n* Use a calculator to check your answers, but make sure to understand the concept behind the solution.",
+        "solvedExamples": [
+          {
+            "question": "Solve the quadratic equation x^2 + 5x + 6 = 0",
+            "solution": "x^2 + 5x + 6 = 0 can be factorized as (x + 3)(x + 2) = 0. Setting each factor equal to zero, we get x + 3 = 0 or x + 2 = 0. Solving these equations, we get x = -3 or x = -2.",
+            "keyTakeaway": "Factorization is a powerful method for solving quadratic equations."
+          }
+        ],
+        "realWorldApplications": [
+          "Physics: Quadratic equations are used to model the motion of objects under the influence of gravity.",
+          "Engineering: Quadratic equations are used to design bridges, buildings, and other structures.",
+          "Economics: Quadratic equations are used to model the behavior of economic systems."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not checking the discriminant (b^2 - 4ac) before using the quadratic formula.",
+            "why": "If the discriminant is negative, the quadratic equation has no real solutions.",
+            "howToAvoid": "Always check the discriminant before using the quadratic formula."
+          },
+          {
+            "mistake": "Not simplifying the expression under the square root before solving the equation.",
+            "why": "Simplifying the expression under the square root can make it easier to solve the equation.",
+            "howToAvoid": "Always simplify the expression under the square root before solving the equation."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Solve the quadratic equation x^2 + 5x + 6 = 0",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Solve the quadratic equation x^2 - 7x + 12 = 0",
+            "difficulty": "Medium"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Standard form of quadratic equations: ax^2 + bx + c = 0",
+            "Quadratic formula: x = (-b ± √(b^2 - 4ac)) / 2a",
+            "Factorization: expressing a quadratic expression as a product of two binomial expressions"
+          ],
+          "formulas": [
+            "Quadratic formula: x = (-b ± √(b^2 - 4ac)) / 2a",
+            "Discriminant: b^2 - 4ac"
+          ],
+          "mnemonics": [
+            "FOIL method for factorization: First, Outer, Inner, Last"
+          ]
+        },
+        "examTips": [
+          "Make sure to check the discriminant before using the quadratic formula.",
+          "Simplify the expression under the square root before solving the equation.",
+          "Use factorization to solve quadratic equations whenever possible.",
+          "Use the quadratic formula when factorization is not possible.",
+          "Make sure to show all your work and explain your reasoning.",
+          "Use a calculator to check your answers, but make sure to understand the concept behind the solution."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:57:28.063Z"
+    },
+    {
+      "moduleNumber": 5,
+      "title": "Arithmetic Progressions",
+      "topics": [
+        "AP Terms",
+        "nth Term",
+        "Sum of n Terms"
+      ],
+      "content": {
+        "topic": "Arithmetic Progressions: AP Terms, nth Term, Sum of n Terms",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine saving ₹10 on Day 1, ₹20 on Day 2, and ₹30 on Day 3. This predictable pattern is an Arithmetic Progression (AP). In CBSE Class 10, APs are not just about numbers; they model real-life scenarios like loan repayments, stacking logs, or even seating arrangements in an auditorium. This lesson will demystify the logic behind these sequences, teaching you how to find any term and calculate the sum of terms efficiently, a crucial skill for both board exams and logical reasoning.",
+        "keyConcepts": [
+          {
+            "concept": "Arithmetic Progression (AP)",
+            "definition": "A sequence of numbers where the difference between any two consecutive terms is constant.",
+            "explanation": "This constant difference is called the 'common difference' (d). If d > 0, the sequence increases; if d < 0, it decreases. For example, 2, 5, 8, 11... has d = 3."
+          },
+          {
+            "concept": "nth Term Formula",
+            "definition": "A formula to find the value of the term at position 'n'.",
+            "explanation": "The formula is $a_n = a + (n-1)d$, where 'a' is the first term. It allows you to jump directly to the 100th term without listing all previous ones."
+          },
+          {
+            "concept": "Sum of n Terms",
+            "definition": "The total of the first 'n' terms in an AP.",
+            "explanation": "The formula is $S_n = \\frac{n}{2}[2a + (n-1)d]$. It is derived by pairing the first and last terms, second and second-last, etc., showing that the sum of each pair is constant."
+          }
+        ],
+        "detailedContent": "To master APs, we must understand the structure of the sequence. An AP is defined by its first term ($a$) and common difference ($d$). The beauty of an AP lies in its linearity. If you plot the terms against their position ($n$), you get a straight line. This linear relationship is why the formula for the $n^{th}$ term, $a_n = a + (n-1)d$, resembles the equation of a line $y = mx + c$. Here, $d$ acts as the slope ($m$), and $(a-d)$ acts as the y-intercept.\n\nWhy do we subtract 1 from $n$ in the formula? Because the first term ($n=1$) is just $a$. It has undergone 0 additions of $d$. The second term ($n=2$) has undergone 1 addition of $d$. Thus, the $n^{th}$ term has undergone $(n-1)$ additions of $d$.\n\nFor the sum of $n$ terms, consider the story of Gauss. He summed numbers from 1 to 100 by pairing them: $(1+100) + (2+99) + ...$. Each pair sums to 101. There are 50 pairs. So, $50 \\times 101 = 5050$. Generalizing this, we have $n$ terms. If we write the sum forward and backward, each column sums to $(a + l)$, where $l$ is the last term. Since there are $n$ columns, $2S_n = n(a+l)$. Substituting $l = a + (n-1)d$, we get $S_n = \\frac{n}{2}[2a + (n-1)d]$. This formula is powerful because it allows calculating large sums instantly without adding each term individually, a technique frequently tested in CBSE exams for word problems involving savings or distances.",
+        "solvedExamples": [
+          {
+            "question": "Find the sum of the first 22 terms of an AP where the 3rd term is 7 and the 8th term is -8.",
+            "solution": "Step 1: Identify given values. $a_3 = 7$ and $a_8 = -8$.\nStep 2: Use the nth term formula $a_n = a + (n-1)d$.\nFor $n=3$: $a + 2d = 7$ (Eq 1)\nFor $n=8$: $a + 7d = -8$ (Eq 2)\nStep 3: Solve the system of equations. Subtract Eq 1 from Eq 2:\n$(a + 7d) - (a + 2d) = -8 - 7$\n$5d = -15 \\Rightarrow d = -3$\nStep 4: Find 'a' using Eq 1:\n$a + 2(-3) = 7 \\Rightarrow a - 6 = 7 \\Rightarrow a = 13$\nStep 5: Calculate $S_{22}$ using $S_n = \\frac{n}{2}[2a + (n-1)d]$.\n$S_{22} = \\frac{22}{2}[2(13) + (22-1)(-3)]$\n$S_{22} = 11[26 + 21(-3)]$\n$S_{22} = 11[26 - 63]$\n$S_{22} = 11[-37] = -407$.",
+            "keyTakeaway": "Always find 'a' and 'd' first if they are not given directly. Use simultaneous equations when two terms are known."
+          }
+        ],
+        "realWorldApplications": [
+          "Calculating total savings in a recurring deposit where interest is fixed.",
+          "Determining the number of bricks needed for a pyramid-shaped structure where each layer has fewer bricks than the one below.",
+          "Analyzing depreciation of assets where value decreases by a fixed amount each year."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Confusing 'n' with the term value.",
+            "why": "Students often substitute the term value into 'n' in the formula.",
+            "howToAvoid": "Remember 'n' is the position (1st, 2nd, 3rd...), not the number itself. Always ask: 'Which position is this term?'."
+          },
+          {
+            "mistake": "Incorrect sign handling in common difference.",
+            "why": "When subtracting a negative number to find 'd', students forget to change the sign.",
+            "howToAvoid": "Write $d = a_2 - a_1$ explicitly. If $a_1 = 5$ and $a_2 = 2$, $d = 2 - 5 = -3$, not 3."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "How many terms of the AP: 24, 21, 18, ... must be taken so that their sum is 78?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "The sum of the first 7 terms of an AP is 49 and the sum of its first 17 terms is 289. Find the sum of its first n terms.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "AP is a sequence with constant difference 'd'.",
+            "nth term: $a_n = a + (n-1)d$.",
+            "Sum of n terms: $S_n = \\frac{n}{2}[2a + (n-1)d]$ or $S_n = \\frac{n}{2}(a+l)$."
+          ],
+          "formulas": [
+            "$d = a_{n} - a_{n-1}$",
+            "$a_n = a + (n-1)d$",
+            "$S_n = \\frac{n}{2}[2a + (n-1)d]$"
+          ],
+          "mnemonics": [
+            "For nth term: 'Add (n minus one) d's to a'."
+          ]
+        },
+        "examTips": [
+          "In CBSE exams, word problems often hide 'a' and 'd'. Read carefully to identify if the sequence starts from 1 or 0.",
+          "If asked for the sum of an AP with an odd number of terms, the middle term is the average. Sum = Middle Term × n.",
+          "Always check if the answer makes sense. If 'd' is negative, the sum should eventually decrease or become negative for large n."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:57:32.199Z"
+    },
+    {
+      "moduleNumber": 6,
+      "title": "Triangles - Part 1",
+      "topics": [
+        "Similar Triangles",
+        "Criteria for Similarity",
+        "AAA Similarity"
+      ],
+      "content": {
+        "topic": "Triangles - Part 1: Similar Triangles, Criteria for Similarity, AAA Similarity",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "### Why Similar Triangles Matter\n\nIn our daily lives, we often come across objects that are similar in shape but not necessarily the same size. For instance, a toy car and a real car have similar shapes but differ in size. In mathematics, we can use the concept of similar triangles to solve problems in architecture, engineering, and even art. In this lesson, we will explore the world of similar triangles and learn how to identify and use them to solve problems.\n\n### What to Expect\n\nIn this lesson, we will cover the following topics:\n\n* Criteria for similarity\n* AAA similarity\n* Real-world applications of similar triangles\n\n### Real-World Relevance\n\nSimilar triangles are used in various fields such as architecture, engineering, and art. For example, in architecture, similar triangles are used to design buildings and bridges. In engineering, similar triangles are used to calculate the stress and strain on structures. In art, similar triangles are used to create perspective drawings.\n\n",
+        "keyConcepts": [
+          {
+            "concept": "Criteria for Similarity",
+            "definition": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are proportional.",
+            "explanation": "Similar triangles have the same shape but not necessarily the same size. This means that their corresponding angles are equal and their corresponding sides are proportional."
+          },
+          {
+            "concept": "AAA Similarity",
+            "definition": "Two triangles are similar if all three angles are equal.",
+            "explanation": "AAA similarity is a special case of similarity where all three angles of the triangles are equal."
+          },
+          {
+            "concept": "Properties of Similar Triangles",
+            "definition": "Similar triangles have the same shape but not necessarily the same size.",
+            "explanation": "Similar triangles have the same shape but not necessarily the same size. This means that their corresponding angles are equal and their corresponding sides are proportional."
+          }
+        ],
+        "detailedContent": "### Criteria for Similarity\n\nTwo triangles are similar if their corresponding angles are equal and their corresponding sides are proportional. This means that if we have two triangles ABC and DEF, they are similar if:\n\n* ∠A = ∠D\n* ∠B = ∠E\n* ∠C = ∠F\n\nand\n\n* AB/DE = BC/EF = AC/DF\n\n### AAA Similarity\n\nTwo triangles are similar if all three angles are equal. This means that if we have two triangles ABC and DEF, they are similar if:\n\n* ∠A = ∠D\n* ∠B = ∠E\n* ∠C = ∠F\n\n### Properties of Similar Triangles\n\nSimilar triangles have the same shape but not necessarily the same size. This means that their corresponding angles are equal and their corresponding sides are proportional. Some of the properties of similar triangles include:\n\n* The corresponding angles of similar triangles are equal.\n* The corresponding sides of similar triangles are proportional.\n* The ratio of the corresponding sides of similar triangles is equal.\n\n### Real-World Applications\n\nSimilar triangles are used in various fields such as architecture, engineering, and art. For example, in architecture, similar triangles are used to design buildings and bridges. In engineering, similar triangles are used to calculate the stress and strain on structures. In art, similar triangles are used to create perspective drawings.\n\n",
+        "solvedExamples": [
+          {
+            "question": "In the figure below, triangle ABC is similar to triangle DEF. If AB = 6 cm and BC = 8 cm, find the length of DE.",
+            "solution": "Since the triangles are similar, we can set up a proportion to find the length of DE.\n\nAB/DE = BC/EF\n\n6/DE = 8/10\n\nDE = 6 × 10/8\n\nDE = 7.5 cm",
+            "keyTakeaway": "When dealing with similar triangles, we can use proportions to find the lengths of sides."
+          }
+        ],
+        "realWorldApplications": [
+          "Architecture",
+          "Engineering",
+          "Art"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Assuming that similar triangles have the same size.",
+            "why": "Similar triangles have the same shape but not necessarily the same size.",
+            "howToAvoid": "Make sure to check if the corresponding angles and sides are equal before assuming that the triangles are similar."
+          },
+          {
+            "mistake": "Not using proportions to find the lengths of sides.",
+            "why": "Similar triangles have proportional sides.",
+            "howToAvoid": "Use proportions to find the lengths of sides when dealing with similar triangles."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "In the figure below, triangle ABC is similar to triangle DEF. If AB = 4 cm and BC = 6 cm, find the length of DE.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "In the figure below, triangle ABC is similar to triangle DEF. If AB = 8 cm and BC = 12 cm, find the length of DE.",
+            "difficulty": "Medium"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Criteria for similarity: corresponding angles are equal and corresponding sides are proportional.",
+            "AAA similarity: all three angles are equal.",
+            "Properties of similar triangles: corresponding angles are equal and corresponding sides are proportional."
+          ],
+          "formulas": [
+            "AB/DE = BC/EF = AC/DF"
+          ],
+          "mnemonics": [
+            "CARE: Corresponding angles are equal, and corresponding sides are proportional, and equal ratios exist."
+          ]
+        },
+        "examTips": [
+          "Make sure to check if the corresponding angles and sides are equal before assuming that the triangles are similar.",
+          "Use proportions to find the lengths of sides when dealing with similar triangles.",
+          "Practice, practice, practice! Similar triangles can be tricky, so make sure to practice solving problems to build your confidence."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:57:50.183Z"
+    },
+    {
+      "moduleNumber": 7,
+      "title": "Triangles - Part 2",
+      "topics": [
+        "Pythagoras Theorem",
+        "Converse of Pythagoras",
+        "Applications"
+      ],
+      "content": {
+        "topic": "Triangles - Part 2: Pythagoras Theorem, Converse, and Applications",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine you are a surveyor in rural India, tasked with measuring the height of a tall banyan tree without climbing it. How would you do it? The answer lies in the ancient wisdom of Pythagoras. In this lesson, we master the Pythagoras Theorem and its converse, essential tools for CBSE Class 10 board exams. We will explore how these geometric principles connect the sides of right-angled triangles, enabling us to solve real-world problems involving distances, heights, and structural stability with precision and confidence.",
+        "keyConcepts": [
+          {
+            "concept": "Pythagoras Theorem",
+            "definition": "In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.",
+            "explanation": "If a triangle has sides a, b, and hypotenuse c, then c² = a² + b². This is the foundation for calculating unknown lengths in right triangles."
+          },
+          {
+            "concept": "Converse of Pythagoras Theorem",
+            "definition": "If in a triangle, the square of one side is equal to the sum of the squares of the other two sides, then the angle opposite to the first side is a right angle.",
+            "explanation": "This allows us to verify if a triangle is right-angled just by knowing its side lengths, without measuring angles."
+          },
+          {
+            "concept": "Applications in Geometry",
+            "definition": "Using the theorem to find heights, distances, and diagonals in real-life scenarios.",
+            "explanation": "Common in problems involving ladders against walls, river widths, and kite flying, frequently appearing in CBSE numerical questions."
+          }
+        ],
+        "detailedContent": "The Pythagoras Theorem is not just a formula; it is a relationship between areas. Visualize squares built on each side of a right-angled triangle. The area of the square on the hypotenuse equals the combined areas of the squares on the other two sides. This geometric proof helps in understanding *why* the formula works. \n\nFor the Converse, think of it as a test. If you have a triangle with sides 3, 4, and 5, check if 3² + 4² = 5². Since 9 + 16 = 25, the triangle is right-angled. This is crucial for construction and engineering to ensure corners are perfect 90-degree angles. \n\nIn CBSE exams, questions often combine these concepts. You might be given a ladder problem where the ladder is the hypotenuse, the wall is one side, and the ground is the other. Always draw a neat diagram. Label the right angle clearly. Identify the hypotenuse (the longest side, opposite the right angle). Then apply a² + b² = c². \n\nRemember, the theorem applies *only* to right-angled triangles. If the triangle is not right-angled, this formula will give incorrect results. Always verify the right angle or use the converse to confirm it first. This distinction is a common trap in board exams. Practice identifying the hypotenuse correctly, as confusing it with a leg is a frequent error. Mastering these basics ensures high scores in the geometry section.",
+        "solvedExamples": [
+          {
+            "question": "A ladder 10 m long reaches a window 8 m above the ground. Find the distance of the foot of the ladder from the base of the wall.",
+            "solution": "1. Identify the right-angled triangle: The wall, ground, and ladder form a right triangle.\n2. Label sides: Hypotenuse (ladder) c = 10 m. One side (height) a = 8 m. Let the other side (distance) be b.\n3. Apply Pythagoras Theorem: a² + b² = c²\n4. Substitute values: 8² + b² = 10²\n5. Calculate squares: 64 + b² = 100\n6. Solve for b²: b² = 100 - 64 = 36\n7. Find b: b = √36 = 6 m.\nAnswer: The distance is 6 meters.",
+            "keyTakeaway": "Always identify the hypotenuse first. It is the side opposite the right angle and is always the longest."
+          }
+        ],
+        "realWorldApplications": [
+          "Construction: Ensuring building corners are square (90 degrees) using the 3-4-5 rule.",
+          "Navigation: Calculating the shortest distance between two points on a map grid.",
+          "Sports: Determining the optimal angle for a basketball shot or cricket throw."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Applying the theorem to non-right triangles.",
+            "why": "Students often forget the prerequisite condition of a right angle.",
+            "howToAvoid": "Always check for the right angle symbol or use the converse to verify before applying a² + b² = c²."
+          },
+          {
+            "mistake": "Incorrectly identifying the hypotenuse.",
+            "why": "Confusing the longest side with any side adjacent to the right angle.",
+            "howToAvoid": "Remember: Hypotenuse is always opposite the right angle and is the longest side."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Check whether the triangle having sides 7 cm, 24 cm, and 25 cm is a right-angled triangle. If so, identify the hypotenuse.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Two poles of heights 6 m and 11 m stand on a plane ground. If the distance between the feet of the poles is 12 m, find the distance between their tops.",
+            "difficulty": "Medium"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Pythagoras Theorem: c² = a² + b² for right triangles.",
+            "Converse: If c² = a² + b², then the triangle is right-angled.",
+            "Hypotenuse is always the longest side."
+          ],
+          "formulas": [
+            "Hypotenuse² = Base² + Perpendicular²",
+            "c = √(a² + b²)"
+          ],
+          "mnemonics": [
+            "HBP: Hypotenuse, Base, Perpendicular. H is always the biggest."
+          ]
+        },
+        "examTips": [
+          "Draw neat diagrams with labeled sides and right-angle markers.",
+          "Show all steps of calculation to secure method marks.",
+          "Verify your answer: The hypotenuse must be longer than the other two sides."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:57:53.607Z"
+    },
+    {
+      "moduleNumber": 8,
+      "title": "Coordinate Geometry",
+      "topics": [
+        "Distance Formula",
+        "Section Formula",
+        "Area of Triangle"
+      ],
+      "content": {
+        "topic": "Coordinate Geometry",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "### Why Coordinate Geometry Matters\nCoordinate geometry is a crucial topic in mathematics that helps us understand the relationship between geometric shapes and their coordinates. In real-world scenarios, coordinate geometry is used in various fields such as architecture, engineering, and computer graphics. As a CBSE_CLASS_10 student, mastering coordinate geometry will help you solve problems in geometry, trigonometry, and even physics. So, let's dive into the world of coordinate geometry and explore its key concepts, real-world applications, and exam tips.",
+        "keyConcepts": [
+          {
+            "concept": "Distance Formula",
+            "definition": "The distance formula is used to find the distance between two points in a coordinate plane.",
+            "explanation": "The distance formula is derived from the Pythagorean theorem and is used to find the distance between two points (x1, y1) and (x2, y2) in a coordinate plane. It is given by: d = √((x2 - x1)^2 + (y2 - y1)^2)"
+          },
+          {
+            "concept": "Section Formula",
+            "definition": "The section formula is used to find the coordinates of a point that divides a line segment into a particular ratio.",
+            "explanation": "The section formula is used to find the coordinates of a point that divides a line segment joining the points (x1, y1) and (x2, y2) in the ratio m:n. It is given by: ((mx2 + nx1)/(m+n), (my2 + ny1)/(m+n))"
+          },
+          {
+            "concept": "Area of Triangle",
+            "definition": "The area of a triangle is given by the formula: Area = 1/2 × base × height.",
+            "explanation": "The area of a triangle can be found using the formula: Area = 1/2 × base × height. The base and height of a triangle are the two sides that form the right angle. The area of a triangle can also be found using the coordinates of its vertices."
+          }
+        ]
+      },
+      "generatedAt": "2026-07-19T09:58:16.625Z"
+    },
+    {
+      "moduleNumber": 9,
+      "title": "Introduction to Trigonometry",
+      "topics": [
+        "Trigonometric Ratios",
+        "Trigonometric Identities",
+        "Complementary Angles"
+      ],
+      "content": {
+        "topic": "Introduction to Trigonometry: Ratios, Identities, and Complementary Angles",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine standing at the base of the Qutub Minar in Delhi and wanting to know its height without climbing it. Trigonometry makes this possible! This foundational lesson introduces you to the relationships between angles and sides in right-angled triangles. We will explore trigonometric ratios (sine, cosine, tangent), fundamental identities that always hold true, and the special relationship between complementary angles. Mastering these concepts is crucial for CBSE Class 10 exams and forms the basis for advanced mathematics in higher classes.",
+        "keyConcepts": [
+          {
+            "concept": "Trigonometric Ratios",
+            "definition": "The ratios of the sides of a right-angled triangle with respect to a specific acute angle.",
+            "explanation": "For an angle θ in a right triangle, sin θ = Opposite/Hypotenuse, cos θ = Adjacent/Hypotenuse, and tan θ = Opposite/Adjacent. These ratios depend only on the angle, not the size of the triangle."
+          },
+          {
+            "concept": "Trigonometric Identities",
+            "definition": "Equations involving trigonometric functions that are true for all values of the variables involved.",
+            "explanation": "The most fundamental identity is sin²θ + cos²θ = 1, derived from the Pythagorean theorem. Other identities include 1 + tan²θ = sec²θ and 1 + cot²θ = cosec²θ."
+          },
+          {
+            "concept": "Trigonometric Ratios of Complementary Angles",
+            "definition": "Relationships between trigonometric functions of angles that add up to 90 degrees.",
+            "explanation": "If A and B are complementary (A + B = 90°), then sin A = cos B, tan A = cot B, and sec A = cosec B. This allows us to find values of one function using its co-function."
+          }
+        ],
+        "detailedContent": "To understand trigonometry, visualize a right-angled triangle ABC, right-angled at B. Let angle A be θ. The side opposite to θ is BC, the side adjacent is AB, and the hypotenuse is AC. The trigonometric ratios are defined as: sin θ = BC/AC, cos θ = AB/AC, and tan θ = BC/AB. Remember that tan θ is also sin θ / cos θ.\n\nTrigonometric identities are powerful tools for simplifying expressions. The primary identity, sin²θ + cos²θ = 1, comes directly from the Pythagorean theorem (a² + b² = c²). By dividing the entire equation by c², we get (a/c)² + (b/c)² = 1, which translates to sin²θ + cos²θ = 1. Similarly, dividing by b² or a² yields the other two identities.\n\nComplementary angles are pairs that sum to 90°. In a right triangle, the two acute angles are always complementary. If angle A is θ, angle C is 90° - θ. Notice that the side opposite to A is adjacent to C. Therefore, sin A = Opposite/Hypotenuse = BC/AC, while cos C = Adjacent/Hypotenuse = BC/AC. Thus, sin θ = cos(90° - θ). This pattern holds for all trigonometric functions: tan θ = cot(90° - θ) and sec θ = cosec(90° - θ). Understanding these relationships helps in solving complex problems by converting unfamiliar angles into familiar ones.",
+        "solvedExamples": [
+          {
+            "question": "If tan θ = 3/4, find the values of sin θ and cos θ. Also, verify the identity sin²θ + cos²θ = 1.",
+            "solution": "Step 1: Given tan θ = Opposite/Adjacent = 3/4. Let Opposite = 3k and Adjacent = 4k.\nStep 2: Use Pythagoras theorem to find Hypotenuse: H² = (3k)² + (4k)² = 9k² + 16k² = 25k². So, H = 5k.\nStep 3: Calculate sin θ = Opposite/Hypotenuse = 3k/5k = 3/5.\nStep 4: Calculate cos θ = Adjacent/Hypotenuse = 4k/5k = 4/5.\nStep 5: Verify identity: sin²θ + cos²θ = (3/5)² + (4/5)² = 9/25 + 16/25 = 25/25 = 1. Verified.",
+            "keyTakeaway": "Always use the Pythagorean theorem to find the missing side when given one ratio. This is a common CBSE exam question type."
+          }
+        ],
+        "realWorldApplications": [
+          "Calculating the height of buildings or trees using angles of elevation.",
+          "Navigation systems use trigonometry to determine positions and distances.",
+          "Architecture and engineering rely on trigonometric ratios for structural stability and design."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Confusing sin θ with cos θ by swapping opposite and adjacent sides.",
+            "why": "Students often misidentify the 'adjacent' side relative to the angle in question.",
+            "howToAvoid": "Always draw a clear diagram and label the angle θ. The adjacent side is the one touching the angle (excluding the hypotenuse)."
+          },
+          {
+            "mistake": "Writing sin 2θ as (sin θ)² instead of sin²θ.",
+            "why": "Confusion between double angle formulas and squared functions.",
+            "howToAvoid": "Remember that sin²θ means (sin θ)², while sin 2θ is a different identity entirely. Use parentheses when in doubt."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Evaluate: sin 30° cos 60° + cos 30° sin 60°.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "If sec θ = 5/3, find the value of (1 - tan²θ) / (1 + tan²θ).",
+            "difficulty": "Medium"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Trigonometric ratios are constant for a given angle in a right triangle.",
+            "sin²θ + cos²θ = 1 is the fundamental identity.",
+            "sin(90° - θ) = cos θ and tan(90° - θ) = cot θ."
+          ],
+          "formulas": [
+            "sin θ = Opp/Hyp",
+            "cos θ = Adj/Hyp",
+            "tan θ = Opp/Adj",
+            "1 + tan²θ = sec²θ"
+          ],
+          "mnemonics": [
+            "SOH CAH TOA: Sine=Opp/Hyp, Cosine=Adj/Hyp, Tangent=Opp/Adj."
+          ]
+        },
+        "examTips": [
+          "Memorize the standard angles (0°, 30°, 45°, 60°, 90°) table; it saves time.",
+          "Always check if the question involves complementary angles to simplify calculations.",
+          "In identity proofs, start with the more complex side and try to convert it to the simpler side."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:58:20.137Z"
+    },
+    {
+      "moduleNumber": 10,
+      "title": "Applications of Trigonometry",
+      "topics": [
+        "Heights and Distances",
+        "Angles of Elevation",
+        "Angles of Depression"
+      ],
+      "content": {
+        "topic": "Applications of Trigonometry: Heights and Distances, Angles of Elevation, Angles of Depression",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "### Why Trigonometry Matters\n\nImagine you're a surveyor tasked with measuring the height of a tall building. You can't just climb up and measure it directly. That's where trigonometry comes in! By using angles and ratios, you can calculate the height of the building with ease. This is just one of the many real-world applications of trigonometry. In this lesson, we'll explore how to use trigonometry to find heights and distances, angles of elevation, and angles of depression.\n\n### What We'll Cover\n\n* Key concepts: heights and distances, angles of elevation, and angles of depression\n* Detailed explanation of how to use trigonometry to solve problems\n* Real-world applications and examples\n\n### Why It Matters\n\nTrigonometry is used in various fields like architecture, engineering, and geography. It helps us understand the relationships between the sides and angles of triangles, which is essential for designing and building structures, predicting weather patterns, and mapping the Earth's surface.",
+        "keyConcepts": [
+          {
+            "concept": "Heights and Distances",
+            "definition": "Heights and distances are calculated using trigonometric ratios, such as sine, cosine, and tangent.",
+            "explanation": "Imagine a right-angled triangle with the height as the opposite side and the distance as the adjacent side. We can use the tangent ratio to calculate the height or distance."
+          },
+          {
+            "concept": "Angles of Elevation",
+            "definition": "Angles of elevation are measured from the ground to an object, such as a building or a mountain.",
+            "explanation": "We can use the sine ratio to calculate the height of the object using the angle of elevation and the distance from the object."
+          },
+          {
+            "concept": "Angles of Depression",
+            "definition": "Angles of depression are measured from an object to the ground, such as the angle of depression of the sun.",
+            "explanation": "We can use the cosine ratio to calculate the distance from the object using the angle of depression and the height of the object."
+          }
+        ],
+        "detailedContent": "### Detailed Explanation\n\n#### Heights and Distances\n\nTo calculate heights and distances, we can use the tangent ratio: tan(θ) = opposite side / adjacent side. For example, if we want to calculate the height of a building, we can use the tangent ratio with the angle of elevation and the distance from the building.\n\n#### Angles of Elevation\n\nTo calculate the height of an object using the angle of elevation, we can use the sine ratio: sin(θ) = opposite side / hypotenuse. For example, if we want to calculate the height of a mountain, we can use the sine ratio with the angle of elevation and the distance from the mountain.\n\n#### Angles of Depression\n\nTo calculate the distance from an object using the angle of depression, we can use the cosine ratio: cos(θ) = adjacent side / hypotenuse. For example, if we want to calculate the distance from a car to a tree, we can use the cosine ratio with the angle of depression and the height of the tree.\n\n### Real-World Applications\n\nTrigonometry is used in various fields like architecture, engineering, and geography. It helps us understand the relationships between the sides and angles of triangles, which is essential for designing and building structures, predicting weather patterns, and mapping the Earth's surface.",
+        "solvedExamples": [
+          {
+            "question": "A surveyor measures an angle of elevation of 30° from the ground to the top of a building. If the distance from the building is 20 meters, what is the height of the building?",
+            "solution": "Step 1: Draw a diagram and identify the given information.\nStep 2: Use the tangent ratio to calculate the height of the building: tan(30°) = opposite side / adjacent side\nStep 3: Rearrange the formula to solve for the opposite side: opposite side = tan(30°) x adjacent side\nStep 4: Plug in the values and calculate the height: height = tan(30°) x 20\nStep 5: Simplify the expression: height = √3 x 20\nStep 6: Calculate the final answer: height = 34.64 meters",
+            "keyTakeaway": "Use the tangent ratio to calculate the height of an object using the angle of elevation and the distance from the object."
+          }
+        ],
+        "realWorldApplications": [
+          "Architecture: Trigonometry is used to design and build structures, such as bridges and skyscrapers.",
+          "Engineering: Trigonometry is used to predict weather patterns and map the Earth's surface.",
+          "Geography: Trigonometry is used to calculate distances and heights of objects on the Earth's surface."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Using the wrong trigonometric ratio for the problem.",
+            "why": "This mistake happens when students don't understand the relationships between the sides and angles of triangles.",
+            "howToAvoid": "Make sure to read the problem carefully and choose the correct trigonometric ratio."
+          },
+          {
+            "mistake": "Not using the correct units for the answer.",
+            "why": "This mistake happens when students don't pay attention to the units of the given information.",
+            "howToAvoid": "Make sure to use the correct units for the answer and check the units of the given information."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A person standing 10 meters away from a tree measures an angle of depression of 40°. What is the height of the tree?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A surveyor measures an angle of elevation of 60° from the ground to the top of a building. If the distance from the building is 15 meters, what is the height of the building?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Heights and distances are calculated using trigonometric ratios.",
+            "Angles of elevation are measured from the ground to an object.",
+            "Angles of depression are measured from an object to the ground."
+          ],
+          "formulas": [
+            "tan(θ) = opposite side / adjacent side",
+            "sin(θ) = opposite side / hypotenuse",
+            "cos(θ) = adjacent side / hypotenuse"
+          ],
+          "mnemonics": [
+            "SOH-CAH-TOA: Sine = Opposite over Hypotenuse, Cosine = Adjacent over Hypotenuse, Tangent = Opposite over Adjacent"
+          ]
+        },
+        "examTips": [
+          "Make sure to read the problem carefully and choose the correct trigonometric ratio.",
+          "Use the correct units for the answer and check the units of the given information.",
+          "Practice, practice, practice! Trigonometry is all about practice and problem-solving."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:58:49.584Z"
+    },
+    {
+      "moduleNumber": 11,
+      "title": "Circles",
+      "topics": [
+        "Tangent to Circle",
+        "Properties of Tangent",
+        "Number of Tangents"
+      ],
+      "content": {
+        "topic": "Circles: Tangents and Their Properties",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine a bicycle wheel rolling smoothly on the road; the point where the tire touches the ground is a perfect example of a tangent. In CBSE Class 10 Mathematics, understanding tangents is crucial not just for scoring marks, but for grasping how curves interact with lines in geometry. This lesson will demystify the concept of tangents, explore their unique properties, and clarify how many tangents can be drawn from different positions relative to a circle. By the end, you will be able to solve complex geometric problems involving right-angled triangles formed by radii and tangents with confidence.",
+        "keyConcepts": [
+          {
+            "concept": "Definition of a Tangent",
+            "definition": "A line that intersects a circle at exactly one point is called a tangent to the circle.",
+            "explanation": "Unlike a secant, which cuts through the circle at two points, a tangent just 'touches' the circle. The point of contact is the single shared point between the line and the circle. Visually, imagine a string wrapped around a circular drum; the part of the string pulling away straight is the tangent."
+          },
+          {
+            "concept": "Perpendicularity Property",
+            "definition": "The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+            "explanation": "This is the most important property for solving problems. If OA is the radius and AB is the tangent at A, then angle OAB is always 90 degrees. This creates a right-angled triangle whenever you connect the center to an external point, allowing the use of the Pythagorean theorem."
+          },
+          {
+            "concept": "Lengths of Tangents from an External Point",
+            "definition": "The lengths of tangents drawn from an external point to a circle are equal.",
+            "explanation": "If you draw two tangents from a point P outside the circle touching at A and B, then PA = PB. This symmetry is vital for proving congruency in geometric figures and simplifying calculations in CBSE exams."
+          }
+        ],
+        "detailedContent": "To master tangents, we must look beyond definitions to the underlying geometry. Consider a circle with center O and radius r. When a line touches the circle at point P, it is a tangent. Why is the radius OP perpendicular to this tangent? Imagine the tangent as a line moving closer to the circle. As it approaches, the two intersection points of a secant line merge into one. At this limit, the distance from the center to the line is minimized, which occurs only when the line is perpendicular to the radius. This geometric truth is the foundation of most tangent problems.\n\nLet's analyze the number of tangents possible. If a point is inside the circle, no tangent can be drawn. If the point is on the circle, exactly one tangent exists. If the point is outside, exactly two tangents can be drawn. This classification is often tested in multiple-choice questions.\n\nWhen two tangents are drawn from an external point P to a circle with center O, touching at A and B, several interesting properties emerge. First, PA = PB. Second, the line OP bisects the angle APB. Third, the angle between the two radii (AOB) and the angle between the two tangents (APB) are supplementary, meaning they add up to 180 degrees. This is because the quadrilateral OAPB has two right angles at A and B. Understanding these relationships allows you to find unknown angles and lengths quickly. For instance, if you know the radius and the distance from the center to the external point, you can use the Pythagorean theorem in triangle OAP to find the length of the tangent. This integration of circle geometry with triangle properties is a hallmark of CBSE Class 10 mathematics problems.",
+        "solvedExamples": [
+          {
+            "question": "From a point Q, 13 cm away from the center of a circle of radius 5 cm, the lengths of the tangents QR and QS are to be found. Calculate the length of the tangent.",
+            "solution": "1. Identify the given values: Radius (OR) = 5 cm, Distance from center to external point (OQ) = 13 cm.\n2. Recall the property: The radius is perpendicular to the tangent at the point of contact. Therefore, angle ORQ = 90 degrees.\n3. Apply the Pythagorean theorem in right-angled triangle ORQ: OQ^2 = OR^2 + QR^2.\n4. Substitute the values: 13^2 = 5^2 + QR^2.\n5. Calculate: 169 = 25 + QR^2.\n6. Solve for QR^2: QR^2 = 169 - 25 = 144.\n7. Find QR: QR = sqrt(144) = 12 cm.\n8. Since lengths of tangents from an external point are equal, QS = QR = 12 cm.",
+            "keyTakeaway": "Always look for the right-angled triangle formed by the radius, the tangent, and the line connecting the center to the external point."
+          }
+        ],
+        "realWorldApplications": [
+          "Designing gears and pulleys in machinery where belts (tangents) transfer motion between wheels (circles).",
+          "Calculating the shortest path for a satellite to touch the Earth's atmosphere at a specific point.",
+          "Architectural design of domes and arches where structural supports meet curved surfaces at precise angles."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Confusing the radius with the tangent length in Pythagorean calculations.",
+            "why": "Students often misidentify the hypotenuse. In the triangle formed by the center, point of contact, and external point, the line from the center to the external point is always the hypotenuse.",
+            "howToAvoid": "Always draw a clear diagram. Label the right angle at the point of contact. Remember: Hypotenuse is opposite the right angle, so it's the line from the center to the external point, not the radius or tangent."
+          },
+          {
+            "mistake": "Assuming tangents from different external points are equal.",
+            "why": "The property 'lengths of tangents are equal' applies only to tangents drawn from the SAME external point.",
+            "howToAvoid": "Check if the two tangents originate from the same point P. If they come from different points, their lengths are generally different unless the points are equidistant from the center."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Two tangents TP and TQ are drawn to a circle with center O from an external point T. Prove that angle PTQ = 2 * angle OPQ.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the center O at a point Q so that OQ = 12 cm. Find the length of PQ.",
+            "difficulty": "Easy"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "A tangent touches the circle at exactly one point.",
+            "Radius is perpendicular to the tangent at the point of contact.",
+            "Tangents from an external point are equal in length.",
+            "Number of tangents: 0 (inside), 1 (on), 2 (outside)."
+          ],
+          "formulas": [
+            "In right triangle OAP: OP^2 = OA^2 + AP^2",
+            "Angle AOB + Angle APB = 180 degrees"
+          ],
+          "mnemonics": "Tangent Touches Once, Radius Runs Perpendicular."
+        },
+        "examTips": [
+          "Always draw a neat diagram with all given measurements labeled. This helps in visualizing the right-angled triangles.",
+          "For proof-based questions, start by stating the properties you are using (e.g., 'Radius is perpendicular to tangent').",
+          "In numerical problems, check if you can form a Pythagorean triplet (like 5-12-13) to speed up calculations.",
+          "Read the question carefully to identify if the point is inside, on, or outside the circle before starting the solution."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:58:53.519Z"
+    },
+    {
+      "moduleNumber": 12,
+      "title": "Areas Related to Circles",
+      "topics": [
+        "Area of Sector",
+        "Area of Segment",
+        "Combination of Figures"
+      ],
+      "content": {
+        "topic": "Areas Related to Circles",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "### Why Areas Related to Circles Matter\n\nAs we explore the world of geometry, understanding areas related to circles is crucial for real-world applications. From designing circular tanks to calculating the area of circular gardens, this concept is essential for architects, engineers, and even farmers! In this lesson, we'll delve into the world of sectors, segments, and combinations of figures to help you ace your CBSE CLASS 10 exams.\n\n### What to Expect\n\nIn this lesson, we'll cover the key concepts of area of sector, area of segment, and combination of figures. You'll learn how to calculate these areas using formulas and real-life examples. By the end of this lesson, you'll be able to apply these concepts to solve problems in various scenarios.",
+        "keyConcepts": [
+          {
+            "concept": "Area of Sector",
+            "definition": "The area of a sector is a portion of the circle enclosed by two radii and an arc.",
+            "explanation": "Imagine a pizza cut into sectors. Each sector represents a portion of the pizza. The area of each sector is a fraction of the total area of the pizza."
+          },
+          {
+            "concept": "Area of Segment",
+            "definition": "The area of a segment is the area of the sector minus the area of the triangle formed by the radii and the chord.",
+            "explanation": "Think of a segment as a slice of pizza with a triangle cut out. To find the area of the segment, you need to subtract the area of the triangle from the area of the sector."
+          },
+          {
+            "concept": "Combination of Figures",
+            "definition": "Combining figures involves finding the area of multiple shapes and adding or subtracting them to find the total area.",
+            "explanation": "Imagine a circular garden with a rectangular path around it. To find the total area of the garden, you need to find the area of the circle and the rectangle, and then add or subtract them accordingly."
+          }
+        ],
+        "detailedContent": "### Area of Sector\n\nThe area of a sector can be calculated using the formula:\n\nA = (θ/360) × πr^2\n\nwhere A is the area of the sector, θ is the central angle in degrees, and r is the radius of the circle.\n\n### Area of Segment\n\nThe area of a segment can be calculated using the formula:\n\nA = (θ/360) × πr^2 - (1/2) × r^2 × sin(θ/2)\n\nwhere A is the area of the segment, θ is the central angle in degrees, and r is the radius of the circle.\n\n### Combination of Figures\n\nWhen combining figures, you need to find the area of each shape and add or subtract them accordingly. For example, if you have a circular garden with a rectangular path around it, you would find the area of the circle and the rectangle, and then add them to find the total area.\n\n### Real-Life Examples\n\n* A circular tank has a capacity of 1000 liters. If the radius of the tank is 20 cm, what is the area of the sector that can hold 200 liters of water?\n* A farmer wants to plant a circular garden with a radius of 10 m. If the garden has a rectangular path around it, what is the total area of the garden?\n\n### Formulas and Rules\n\n* Area of sector: A = (θ/360) × πr^2\n* Area of segment: A = (θ/360) × πr^2 - (1/2) × r^2 × sin(θ/2)\n* Combination of figures: Add or subtract the areas of the individual shapes",
+        "solvedExamples": [
+          {
+            "question": "Find the area of the sector of a circle with a radius of 15 cm and a central angle of 60°.",
+            "solution": "A = (60/360) × π(15)^2\nA = 0.1667 × 3.14159 × 225\nA = 118.2 cm^2",
+            "keyTakeaway": "Remember to use the formula A = (θ/360) × πr^2 to find the area of a sector."
+          }
+        ],
+        "realWorldApplications": [
+          "Designing circular tanks for water storage",
+          "Calculating the area of circular gardens for landscaping",
+          "Finding the area of circular paths for construction"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Forgetting to convert the central angle from degrees to radians",
+            "why": "This can lead to incorrect calculations and answers.",
+            "howToAvoid": "Always convert the central angle to radians before using it in the formula."
+          },
+          {
+            "mistake": "Not considering the radius of the circle when calculating the area of a sector",
+            "why": "This can lead to incorrect answers and calculations.",
+            "howToAvoid": "Always include the radius of the circle in the formula when calculating the area of a sector."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Find the area of the segment of a circle with a radius of 20 cm and a central angle of 90°.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A circular garden has a radius of 10 m and a rectangular path around it. If the path has a width of 2 m, what is the total area of the garden?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Area of sector: A = (θ/360) × πr^2",
+            "Area of segment: A = (θ/360) × πr^2 - (1/2) × r^2 × sin(θ/2)",
+            "Combination of figures: Add or subtract the areas of the individual shapes"
+          ],
+          "formulas": [
+            "A = (θ/360) × πr^2",
+            "A = (θ/360) × πr^2 - (1/2) × r^2 × sin(θ/2)"
+          ],
+          "mnemonics": [
+            "Sector: Slice of pizza",
+            "Segment: Slice of pizza with a triangle cut out"
+          ]
+        },
+        "examTips": [
+          "Practice, practice, practice! The more you practice, the better you'll become at solving problems related to areas of circles.",
+          "Make sure to read the questions carefully and understand what is being asked.",
+          "Use the formulas and rules to solve the problems, and don't forget to check your answers."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:59:13.392Z"
+    },
+    {
+      "moduleNumber": 13,
+      "title": "Surface Areas and Volumes",
+      "topics": [
+        "Combination of Solids",
+        "Conversion of Solids",
+        "Frustum of Cone"
+      ],
+      "content": {
+        "topic": "Surface Areas and Volumes: Combination of Solids, Conversion of Solids, Frustum of Cone",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine designing a water tank for a rural school or calculating the cost of painting a decorative lamp. These real-world tasks rely on understanding how 3D shapes combine, change form, or get truncated. In this lesson, we master the **Combination of Solids** (like a toy made of a cone on a cylinder), **Conversion of Solids** (melting a sphere into wires), and the **Frustum of a Cone** (the shape of a bucket). These concepts are crucial for CBSE Class 10 exams and practical engineering applications.",
+        "keyConcepts": [
+          {
+            "concept": "Combination of Solids",
+            "definition": "A solid formed by joining two or more basic solids like cubes, cylinders, cones, and spheres.",
+            "explanation": "To find the total surface area, sum the exposed curved surface areas (CSA) and exclude the overlapping base areas. For volume, simply add the volumes of individual components."
+          },
+          {
+            "concept": "Conversion of Solids",
+            "definition": "The process of reshaping one solid into another without changing its volume.",
+            "explanation": "Based on the principle of conservation of mass/volume. If a sphere is melted to form a wire, Volume of Sphere = Volume of Wire (Cylinder). This is key for finding dimensions of the new shape."
+          },
+          {
+            "concept": "Frustum of a Cone",
+            "definition": "The portion of a cone remaining after cutting off the top by a plane parallel to the base.",
+            "explanation": "It has two circular bases with different radii (r1 and r2). It is used to calculate the capacity of buckets, chimneys, and lampshades. Formulas involve slant height (l) and vertical height (h)."
+          }
+        ],
+        "detailedContent": "### 1. Combination of Solids\nWhen solids are combined, such as a hemisphere on top of a cylinder, the **Total Surface Area (TSA)** is the sum of the exposed surfaces. The base where they join is internal and not part of the TSA. However, for **Volume**, you always add the volumes of all parts because the material occupies that space.\n\n**Example:** A toy consists of a cone of radius 3.5 cm mounted on a hemisphere of the same radius. The total height is 15.5 cm. \n- Height of cone = Total Height - Radius of hemisphere = 15.5 - 3.5 = 12 cm.\n- Slant height (l) = √(r² + h²) = √(3.5² + 12²) = 12.5 cm.\n- TSA = CSA of Cone + CSA of Hemisphere = πrl + 2πr².\n\n### 2. Conversion of Solids\nThis concept relies on the fact that volume remains constant during reshaping. \n**Principle:** Volume of Original Solid = Volume of New Solid.\nIf a metallic sphere of radius 4.2 cm is melted and recast into a cylinder of radius 6 cm, find the height of the cylinder.\n- Volume of Sphere = (4/3)πr³\n- Volume of Cylinder = πR²h\n- Equate them: (4/3)π(4.2)³ = π(6)²h. Solve for h.\n\n### 3. Frustum of a Cone\nA frustum is created when the apex of a cone is cut off. \n- **Curved Surface Area (CSA):** π(r₁ + r₂)l, where l is slant height.\n- **Total Surface Area (TSA):** π(r₁ + r₂)l + πr₁² + πr₂².\n- **Volume:** (1/3)πh(r₁² + r₂² + r₁r₂).\n\n**Why it matters:** In CBSE exams, questions often involve finding the cost of canvas for a tent (combination) or the capacity of a bucket (frustum). Always check units (cm vs m) and use π = 22/7 or 3.14 as specified.",
+        "solvedExamples": [
+          {
+            "question": "A container is in the form of a frustum of a cone with a height of 16 cm. The radii of its lower and upper circular ends are 8 cm and 20 cm respectively. Find the cost of milk at the rate of ₹20 per litre that can completely fill the container. (Use π = 3.14)",
+            "solution": "**Step 1: Identify Given Values**\nHeight (h) = 16 cm\nLower radius (r₁) = 8 cm\nUpper radius (r₂) = 20 cm\n\n**Step 2: Calculate Volume of Frustum**\nFormula: V = (1/3)πh(r₁² + r₂² + r₁r₂)\nV = (1/3) × 3.14 × 16 × (8² + 20² + 8×20)\nV = (1/3) × 3.14 × 16 × (64 + 400 + 160)\nV = (1/3) × 3.14 × 16 × 624\nV = 3.14 × 16 × 208\nV = 10444.48 cm³\n\n**Step 3: Convert to Litres**\n1 Litre = 1000 cm³\nVolume in Litres = 10444.48 / 1000 = 10.44448 Litres\n\n**Step 4: Calculate Cost**\nCost = Volume × Rate\nCost = 10.44448 × 20 = ₹208.89\n\n**Answer:** The cost of milk is ₹208.89.",
+            "keyTakeaway": "Always convert cubic centimeters to liters by dividing by 1000 before calculating cost. Ensure you use the correct frustum volume formula."
+          }
+        ],
+        "realWorldApplications": [
+          "Designing water tanks and silos (Combination of cylinders and hemispheres).",
+          "Manufacturing buckets, lampshades, and chimneys (Frustum of a cone).",
+          "Recycling metal by melting old parts to create new wires or sheets (Conversion of solids)."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Including the base area in TSA for combined solids.",
+            "why": "Students often add the base of the cone and the base of the cylinder separately, forgetting they are joined.",
+            "howToAvoid": "Visualize the solid. The joining face is internal. Only count exposed surfaces (CSA + outer bases)."
+          },
+          {
+            "mistake": "Confusing Slant Height (l) with Vertical Height (h) in Frustum formulas.",
+            "why": "The formulas for CSA use 'l', while Volume uses 'h'. Students often substitute 'h' into the CSA formula.",
+            "howToAvoid": "Memorize: CSA needs slant height (l = √((r1-r2)² + h²)). Volume needs vertical height (h)."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A solid is in the shape of a cone standing on a hemisphere with both their radii being equal to 1 cm and the height of the cone equal to its radius. Find the volume of the solid in terms of π.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A pen stand made of wood is in the shape of a cuboid with four conical depressions to hold pens. The dimensions of the cuboid are 15 cm × 10 cm × 3.5 cm. The radius of each of the depressions is 0.5 cm. Find the volume of wood in the pen stand. (Use π = 22/7)",
+            "difficulty": "Medium"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "TSA of combined solids = Sum of exposed CSAs + exposed bases.",
+            "Volume is additive for all combinations.",
+            "Conversion of solids: Volume remains constant.",
+            "Frustum is a truncated cone; use specific formulas for CSA, TSA, and Volume."
+          ],
+          "formulas": [
+            "CSA of Frustum: π(r₁ + r₂)l",
+            "Volume of Frustum: (1/3)πh(r₁² + r₂² + r₁r₂)",
+            "Volume of Sphere: (4/3)πr³",
+            "Volume of Cylinder: πr²h"
+          ],
+          "mnemonics": [
+            "For Frustum Volume: 'One-third Pi H, R-squared plus R-squared plus R-R'."
+          ]
+        },
+        "examTips": [
+          "Always draw a neat diagram labeling r, h, and l.",
+          "Check units carefully: convert cm to m or cm³ to Litres if required.",
+          "In combination problems, identify which faces are hidden/internal.",
+          "Use π = 22/7 if radii are multiples of 7, otherwise use 3.14."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:59:17.785Z"
+    },
+    {
+      "moduleNumber": 14,
+      "title": "Statistics",
+      "topics": [
+        "Mean of Grouped Data",
+        "Mode",
+        "Median"
+      ],
+      "content": {
+        "topic": "Statistics: Mean of Grouped Data, Mode, Median",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Statistics is an essential part of our daily lives. It helps us make informed decisions by analyzing data. In this lesson, we will learn about the mean, mode, and median of grouped data. These concepts are crucial for CBSE_CLASS_10 students, as they will help you understand and interpret data in various real-world scenarios.",
+        "keyConcepts": [
+          {
+            "concept": "Mean of Grouped Data",
+            "definition": "The mean of grouped data is the average value of the data set.",
+            "explanation": "Imagine you have a basket of apples, and you want to find the average weight of the apples. To do this, you would add up the weights of all the apples and divide by the total number of apples."
+          },
+          {
+            "concept": "Mode",
+            "definition": "The mode is the value that appears most frequently in the data set.",
+            "explanation": "Think of a mode as the most popular item in a store. If a particular item is sold the most, it is considered the mode."
+          },
+          {
+            "concept": "Median",
+            "definition": "The median is the middle value of the data set when it is arranged in order.",
+            "explanation": "Imagine you have a list of exam scores, and you want to find the median score. To do this, you would arrange the scores in order from lowest to highest and find the middle score."
+          }
+        ],
+        "detailedContent": "To find the mean of grouped data, you can use the following formula:\n\n\\(\\bar{x} = \\frac{\\sum f_ix_i}{\\sum f_i}\\)\n\nwhere \\(\\bar{x}\\) is the mean, \\(f_i\\) is the frequency of each group, and \\(x_i\\) is the value of each group.\n\nFor example, let's say we have the following data:\n\n| Class Interval | Frequency | Value |\n| --- | --- | --- |\n| 10-20 | 5 | 15 |\n| 20-30 | 8 | 25 |\n| 30-40 | 3 | 35 |\n\nTo find the mean, we would first calculate the sum of the product of the frequency and value for each group:\n\n\\(\\sum f_ix_i = (5 \\times 15) + (8 \\times 25) + (3 \\times 35) = 75 + 200 + 105 = 380\\)\n\nNext, we would calculate the sum of the frequency:\n\n\\(\\sum f_i = 5 + 8 + 3 = 16\\)\n\nFinally, we would divide the sum of the product of the frequency and value by the sum of the frequency:\n\n\\(\\bar{x} = \\frac{380}{16} = 23.75\\)\n\nTo find the mode, we would look for the value that appears most frequently in the data set. In this case, the value 25 appears most frequently, so the mode is 25.\n\nTo find the median, we would arrange the data in order from lowest to highest and find the middle value. In this case, the median is 25.\n\nIn real-world scenarios, the mean, mode, and median are used to analyze and interpret data. For example, a company might use the mean to determine the average salary of its employees, while a government might use the mode to determine the most popular type of car sold in a particular region. Similarly, a school might use the median to determine the average score of its students on a particular exam.",
+        "solvedExamples": [
+          {
+            "question": "Find the mean of the following data:\n\n| Class Interval | Frequency | Value |\n| --- | --- | --- |\n| 10-20 | 5 | 15 |\n| 20-30 | 8 | 25 |\n| 30-40 | 3 | 35 |\n\n",
+            "solution": "To find the mean, we would first calculate the sum of the product of the frequency and value for each group:\n\n\\(\\sum f_ix_i = (5 \\times 15) + (8 \\times 25) + (3 \\times 35) = 75 + 200 + 105 = 380\\)\n\nNext, we would calculate the sum of the frequency:\n\n\\(\\sum f_i = 5 + 8 + 3 = 16\\)\n\nFinally, we would divide the sum of the product of the frequency and value by the sum of the frequency:\n\n\\(\\bar{x} = \\frac{380}{16} = 23.75\\)\n\n",
+            "keyTakeaway": "To find the mean of grouped data, use the formula \\(\\bar{x} = \\frac{\\sum f_ix_i}{\\sum f_i}\\)"
+          }
+        ],
+        "realWorldApplications": [
+          "Statistics is used in various real-world scenarios, such as analyzing data in business, economics, and social sciences.",
+          "The mean, mode, and median are used to analyze and interpret data in various fields, such as finance, marketing, and healthcare."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not calculating the sum of the product of the frequency and value correctly.",
+            "why": "This can lead to incorrect results and misunderstandings of the data.",
+            "howToAvoid": "Double-check your calculations and use a calculator to ensure accuracy."
+          },
+          {
+            "mistake": "Not considering the mode or median when analyzing data.",
+            "why": "This can lead to a lack of understanding of the data and its trends.",
+            "howToAvoid": "Always consider multiple measures of central tendency when analyzing data."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Find the mean of the following data:\n\n| Class Interval | Frequency | Value |\n| --- | --- | --- |\n| 10-20 | 5 | 15 |\n| 20-30 | 8 | 25 |\n| 30-40 | 3 | 35 |\n\n",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "Find the mode of the following data:\n\n| Class Interval | Frequency | Value |\n| --- | --- | --- |\n| 10-20 | 5 | 15 |\n| 20-30 | 8 | 25 |\n| 30-40 | 3 | 35 |\n\n",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Find the median of the following data:\n\n| Class Interval | Frequency | Value |\n| --- | --- | --- |\n| 10-20 | 5 | 15 |\n| 20-30 | 8 | 25 |\n| 30-40 | 3 | 35 |\n\n",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Mean of grouped data: \\(\\bar{x} = \\frac{\\sum f_ix_i}{\\sum f_i}\\)",
+            "Mode: The value that appears most frequently in the data set.",
+            "Median: The middle value of the data set when it is arranged in order."
+          ],
+          "formulas": [
+            "\\(\\bar{x} = \\frac{\\sum f_ix_i}{\\sum f_i}\\)"
+          ],
+          "mnemonics": [
+            "Mean: Most Average Number",
+            "Mode: Most Often Data",
+            "Median: Middle Value"
+          ]
+        },
+        "examTips": [
+          "Practice, practice, practice! The more you practice, the more comfortable you will become with the concepts.",
+          "Use a calculator to ensure accuracy when calculating the mean.",
+          "Always consider multiple measures of central tendency when analyzing data."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:59:36.043Z"
+    },
+    {
+      "moduleNumber": 15,
+      "title": "Probability",
+      "topics": [
+        "Theoretical Probability",
+        "Experimental Probability",
+        "Playing Cards"
+      ],
+      "content": {
+        "topic": "Probability: Theoretical vs Experimental with Playing Cards",
+        "subject": "Mathematics",
+        "duration": 45,
+        "introduction": "Imagine predicting the outcome of a cricket match or the weather forecast; these rely on probability. In CBSE Class 10, probability bridges abstract math and real-world uncertainty. This lesson demystifies Theoretical and Experimental probability using the familiar deck of 52 playing cards, a staple in Indian households and exams. We will explore how to calculate the likelihood of events, distinguishing between what *should* happen in theory and what *actually* happens in practice, ensuring you are ready for board exam questions.",
+        "keyConcepts": [
+          {
+            "concept": "Theoretical Probability",
+            "definition": "The ratio of the number of favorable outcomes to the total number of possible outcomes, assuming all outcomes are equally likely.",
+            "explanation": "It is calculated before an experiment occurs. For a standard deck, it relies on knowing there are 52 cards, 4 suits, and 13 ranks. It represents the 'ideal' chance."
+          },
+          {
+            "concept": "Experimental Probability",
+            "definition": "The ratio of the number of times an event occurs to the total number of trials conducted.",
+            "explanation": "It is determined by actually performing the experiment (e.g., drawing cards multiple times). As the number of trials increases, experimental probability converges towards theoretical probability."
+          },
+          {
+            "concept": "Standard Deck of Cards",
+            "definition": "A set of 52 cards divided into 4 suits (Hearts, Diamonds, Clubs, Spades) with 13 ranks each (Ace, 2-10, Jack, Queen, King).",
+            "explanation": "Hearts and Diamonds are red; Clubs and Spades are black. Face cards are Jacks, Queens, and Kings. Understanding this structure is crucial for identifying favorable outcomes."
+          }
+        ],
+        "detailedContent": "Probability is fundamentally about quantifying uncertainty. **Theoretical Probability** is derived from logic. If you have a standard deck of 52 cards, the probability of drawing a King is calculated by counting the Kings (4) and dividing by the total cards (52). Thus, P(King) = 4/52 = 1/13. This assumes the deck is well-shuffled and fair.\n\n**Experimental Probability**, however, is empirical. If you draw a card 100 times, replacing it each time, and get a King 12 times, your experimental probability is 12/100 = 0.12. This may differ from the theoretical 0.077 due to randomness in small samples. The Law of Large Numbers states that as trials increase, experimental results approach theoretical values.\n\nIn CBSE exams, questions often mix these concepts. For instance, you might be given data from 500 draws and asked to compare it with the theoretical expectation. Key principles include:\n1. **Equally Likely Outcomes**: Essential for theoretical probability.\n2. **Replacement vs. Non-Replacement**: If a card is not replaced, the total number of outcomes changes for subsequent draws.\n3. **Mutually Exclusive Events**: Events that cannot happen simultaneously (e.g., drawing a Red card and a Black card at once).\n\nUnderstanding the 'why' helps: Theoretical probability is a model; experimental probability is real-world data. Discrepancies arise due to chance, not error. Always check if the problem specifies 'with replacement' or 'without replacement,' as this drastically alters the denominator in subsequent calculations.",
+        "solvedExamples": [
+          {
+            "question": "A card is drawn from a well-shuffled deck of 52 cards. Find the probability that the card is (i) a black king, (ii) either a black card or a king, (iii) neither an ace nor a king.",
+            "solution": "**Step 1: Identify Total Outcomes**\nTotal cards = 52.\n\n**Step 2: Solve (i) Black King**\nBlack suits are Spades and Clubs. Each has one King.\nFavorable outcomes = 2 (King of Spades, King of Clubs).\nP(Black King) = 2/52 = 1/26.\n\n**Step 3: Solve (ii) Black card OR King**\nUse the formula: P(A ∪ B) = P(A) + P(B) - P(A ∩ B).\nLet A = Black card, B = King.\nNumber of Black cards = 26.\nNumber of Kings = 4.\nNumber of Black Kings (Intersection) = 2.\nFavorable outcomes = 26 + 4 - 2 = 28.\nP(Black or King) = 28/52 = 7/13.\n\n**Step 4: Solve (iii) Neither Ace nor King**\nTotal Aces = 4, Total Kings = 4.\nTotal Aces or Kings = 8 (since no card is both).\nFavorable outcomes = Total - (Aces + Kings) = 52 - 8 = 44.\nP(Neither Ace nor King) = 44/52 = 11/13.",
+            "keyTakeaway": "Always subtract the intersection when using 'OR' to avoid double-counting. For 'Neither', subtract the unwanted outcomes from the total."
+          }
+        ],
+        "realWorldApplications": [
+          "Insurance companies use theoretical probability to calculate premiums based on risk factors.",
+          "Weather forecasts use experimental data from past years to predict future conditions.",
+          "Quality control in manufacturing uses sampling (experimental probability) to estimate defect rates."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Ignoring the intersection in 'OR' problems",
+            "why": "Students often add probabilities of two events without subtracting the overlap, leading to probabilities greater than 1.",
+            "howToAvoid": "Always check if events can happen simultaneously. If yes, use P(A ∪ B) = P(A) + P(B) - P(A ∩ B)."
+          },
+          {
+            "mistake": "Confusing Face Cards with Number Cards",
+            "why": "Students sometimes forget that Jack, Queen, and King are face cards, or include Ace as a face card.",
+            "howToAvoid": "Memorize: Face cards = J, Q, K (12 total). Ace is a number card (or special card), not a face card."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Two dice are thrown simultaneously. Find the probability that the sum of the numbers on the top faces is 9.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A bag contains 5 red balls and some blue balls. If the probability of drawing a blue ball is double that of a red ball, determine the number of blue balls in the bag.",
+            "difficulty": "Medium"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Theoretical Probability = Favorable / Total Possible.",
+            "Experimental Probability = Frequency of Event / Total Trials.",
+            "Standard Deck: 52 cards, 4 suits, 13 ranks, 12 face cards."
+          ],
+          "formulas": [
+            "P(E) = n(E) / n(S)",
+            "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+            "P(not E) = 1 - P(E)"
+          ],
+          "mnemonics": [
+            "For Face Cards: 'JQK' are the 'Jokers' of the suit (no, just JQK). Remember: 3 face cards per suit x 4 suits = 12."
+          ]
+        },
+        "examTips": [
+          "Always simplify fractions to their lowest terms.",
+          "Read carefully: 'With replacement' keeps the denominator constant; 'Without replacement' decreases it.",
+          "For 'OR' questions, draw a Venn diagram to visualize overlaps and avoid double-counting.",
+          "Manage time: Spend max 2-3 minutes per probability question in the board exam."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:59:39.804Z"
+    },
+    {
+      "moduleNumber": 16,
+      "title": "Revision and Problem Solving",
+      "topics": [
+        "Important Formulas",
+        "Previous Year Questions",
+        "Tips and Tricks"
+      ],
+      "content": {
+        "topic": "Revision and Problem Solving: Important Formulas, Previous Year Questions, Tips and Tricks",
+        "subject": "Mathematics",
+        "duration": 60,
+        "introduction": "### Why Revision Matters\n\nRevision is not just about memorizing formulas; it's about understanding the concepts and applying them to real-world problems. In this lesson, we'll explore important formulas, previous year questions, and tips and tricks to help you ace your CBSE Class 10 Mathematics exam.\n\n### Real-World Relevance\n\nMathematics is all around us, from calculating the cost of groceries to determining the trajectory of a rocket. By mastering revision and problem-solving skills, you'll be better equipped to tackle complex problems and make informed decisions in your personal and professional life.",
+        "keyConcepts": [
+          {
+            "concept": "Understanding Formulas",
+            "definition": "A formula is a mathematical statement that expresses a relationship between variables.",
+            "explanation": "Think of formulas as recipes for solving problems. Just as a recipe provides a step-by-step guide to cooking a dish, a formula provides a step-by-step guide to solving a mathematical problem."
+          },
+          {
+            "concept": "Identifying Patterns",
+            "definition": "A pattern is a regular or repeated arrangement of shapes, colors, or other visual elements.",
+            "explanation": "Patterns are all around us, from the stripes on a zebra to the branches of a tree. By identifying patterns, you can make predictions and solve problems more efficiently."
+          },
+          {
+            "concept": "Breaking Down Complex Problems",
+            "definition": "Breaking down complex problems involves identifying smaller, manageable parts and solving each part separately.",
+            "explanation": "Think of breaking down complex problems like solving a puzzle. By focusing on one piece at a time, you can eventually complete the entire puzzle."
+          }
+        ],
+        "detailedContent": "### Understanding Formulas\n\nA formula is a mathematical statement that expresses a relationship between variables. For example, the formula for the area of a rectangle is A = l × w, where A is the area, l is the length, and w is the width.\n\n### Identifying Patterns\n\nPatterns are all around us, from the stripes on a zebra to the branches of a tree. By identifying patterns, you can make predictions and solve problems more efficiently. For example, if you notice that a pattern of numbers is increasing by 2 each time, you can predict the next number in the pattern.\n\n### Breaking Down Complex Problems\n\nBreaking down complex problems involves identifying smaller, manageable parts and solving each part separately. This is like solving a puzzle. By focusing on one piece at a time, you can eventually complete the entire puzzle.\n\n### Real-World Applications\n\nRevision and problem-solving skills are essential in real-world scenarios. For example, a civil engineer needs to calculate the stress on a bridge to ensure it can withstand heavy loads. A data analyst needs to identify patterns in customer behavior to make informed decisions about marketing strategies.",
+        "solvedExamples": [
+          {
+            "question": "Solve for x: 2x + 5 = 11",
+            "solution": "Step 1: Subtract 5 from both sides of the equation: 2x = 11 - 5\nStep 2: Simplify the equation: 2x = 6\nStep 3: Divide both sides of the equation by 2: x = 6/2\nStep 4: Simplify the equation: x = 3",
+            "keyTakeaway": "To solve for x, we need to isolate the variable x by performing inverse operations."
+          }
+        ],
+        "realWorldApplications": [
+          "Civil engineering: calculating stress on bridges and buildings",
+          "Data analysis: identifying patterns in customer behavior",
+          "Science: predicting the trajectory of a rocket"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not reading the question carefully",
+            "why": "This can lead to misinterpreting the problem and providing an incorrect solution.",
+            "howToAvoid": "Take your time to read the question carefully and make sure you understand what is being asked."
+          },
+          {
+            "mistake": "Not checking units",
+            "why": "This can lead to incorrect answers due to unit conversions.",
+            "howToAvoid": "Always check the units of the answer to ensure they match the units given in the question."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Solve for x: 3x - 2 = 14",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A bakery sells 250 loaves of bread per day. If they make a profit of ₹0.50 per loaf, how much profit do they make in a day?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A car travels from city A to city B at an average speed of 60 km/h. If the distance between the two cities is 240 km, how long does the journey take?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Understand formulas and how to apply them",
+            "Identify patterns and use them to make predictions",
+            "Break down complex problems into smaller, manageable parts"
+          ],
+          "formulas": [
+            "A = l × w (area of a rectangle)",
+            "V = l × w × h (volume of a rectangular prism)"
+          ],
+          "mnemonics": [
+            "FANBOYS: For, And, Nor, But, Or, Yet, So (to remember the seven coordinating conjunctions)"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively by allocating 2-3 minutes per question",
+          "Read the question carefully and make sure you understand what is being asked",
+          "Use the process of elimination to narrow down your options and increase your chances of getting the correct answer"
+        ]
+      },
+      "generatedAt": "2026-07-19T09:59:59.784Z"
+    }
+  ],
+  "updatedAt": "2026-07-19T09:59:59.784Z"
+}

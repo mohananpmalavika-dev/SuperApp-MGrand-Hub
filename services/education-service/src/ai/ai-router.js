@@ -46,9 +46,16 @@ class AIRouter {
    * Generate JSON with validation
    */
   async generateJSON(prompt, options = {}) {
+    if (process.env.AI_PROVIDER === 'gemini') {
+      return await geminiClient.generateJSON(prompt, options);
+    }
+
     try {
       // Groq is better for structured output
-      return await groqClient.generateJSON(prompt, options);
+      return await groqClient.generateJSON(prompt, {
+        ...options,
+        maxTokens: Math.min(options.maxTokens || 4096, 2500),
+      });
     } catch (error) {
       logger.warn('Groq JSON generation failed, trying Gemini...');
       return await geminiClient.generateJSON(prompt, options);

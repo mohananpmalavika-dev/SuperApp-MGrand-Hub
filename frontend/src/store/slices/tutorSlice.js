@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3003/api/education';
+const API_URL = process.env.REACT_APP_TUTOR_SERVICE_URL || 'http://localhost:3013';
 
 // Async thunks
 export const sendTutorMessage = createAsyncThunk(

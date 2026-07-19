@@ -42,7 +42,7 @@ const courseSchema = new mongoose.Schema({
       'CA_FOUNDATION', 'CA_INTERMEDIATE', 'CA_FINAL',
       'IAS_PRELIMS', 'IAS_MAINS',
       'JEE_MAIN', 'JEE_ADVANCED', 'NEET',
-      'GATE', 'CAT', 'STATE_ENTRANCE'
+      'GATE', 'CAT', 'STATE_ENTRANCE', 'CBSE_CLASS_10'
     ]
   },
   subject: { type: String, required: true },

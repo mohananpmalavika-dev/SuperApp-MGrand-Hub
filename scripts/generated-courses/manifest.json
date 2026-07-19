@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-07-19T10:06:35.990Z",
+  "storage": "Google Drive JSON export (MongoDB is not used)",
+  "courses": [
+    {
+      "code": "CA-F-ACC",
+      "name": "CA Foundation - Principles and Practice of Accounting",
+      "file": "ca-f-acc.json",
+      "lessons": 10
+    },
+    {
+      "code": "CA-F-LAW",
+      "name": "CA Foundation - Business Laws",
+      "file": "ca-f-law.json",
+      "lessons": 8
+    },
+    {
+      "code": "CA-F-MATHS",
+      "name": "CA Foundation - Business Mathematics",
+      "file": "ca-f-maths.json",
+      "lessons": 12
+    },
+    {
+      "code": "CA-F-ECO",
+      "name": "CA Foundation - Business Economics",
+      "file": "ca-f-eco.json",
+      "lessons": 10
+    },
+    {
+      "code": "JEE-M-PHY",
+      "name": "JEE Main - Physics Complete",
+      "file": "jee-m-phy.json",
+      "lessons": 30
+    },
+    {
+      "code": "CBSE-10-MATH",
+      "name": "CBSE Class 10 - Mathematics Complete",
+      "file": "cbse-10-math.json",
+      "lessons": 16
+    },
+    {
+      "code": "IAS-PRELIMS",
+      "name": "IAS Prelims - Complete Preparation",
+      "file": "ias-prelims.json",
+      "lessons": 36
+    }
+  ]
+}

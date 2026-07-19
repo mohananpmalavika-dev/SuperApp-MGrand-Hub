@@ -1,4 +1,5 @@
 require('dotenv').config();
+const dns = require('dns');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -10,6 +11,14 @@ const cache = require('./utils/cache');
 
 const app = express();
 const PORT = process.env.PORT || 3013;
+
+if (process.env.DNS_SERVERS) {
+  dns.setServers(
+    process.env.DNS_SERVERS.split(',')
+      .map((server) => server.trim())
+      .filter(Boolean)
+  );
+}
 
 // Middleware
 app.use(helmet());
@@ -58,15 +67,19 @@ const connectMongoDB = async (retries = 5, delay = 5000) => {
 
 connectMongoDB();
 
-// Connect to Redis
-cache
-  .connect()
-  .then(() => {
-    logger.info('Redis connected successfully');
-  })
-  .catch((err) => {
-    logger.warn('Redis connection failed (will continue without cache):', err);
-  });
+// Connect to Redis when enabled
+if (process.env.REDIS_DISABLED !== 'true') {
+  cache
+    .connect()
+    .then(() => {
+      logger.info('Redis connected successfully');
+    })
+    .catch((err) => {
+      logger.warn('Redis connection failed (will continue without cache):', err);
+    });
+} else {
+  logger.info('Redis disabled; continuing without cache');
+}
 
 // Routes
 app.use('/api/education', routes);

@@ -17,7 +17,7 @@ import { Visibility, VisibilityOff, ArrowBack } from '@mui/icons-material';
 import axios from 'axios';
 import './AuthPages.css';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+const API_URL = process.env.REACT_APP_AUTH_SERVICE_URL || 'http://localhost:3001';
 
 function RegisterPage() {
   const navigate = useNavigate();

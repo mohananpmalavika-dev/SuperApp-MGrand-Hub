@@ -80,7 +80,13 @@ exports.getCourseById = async (req, res) => {
  */
 exports.generateCourse = async (req, res) => {
   try {
-    const { subject, level, examType } = req.body;
+    const {
+      subject,
+      level,
+      examType,
+      courseTitle,
+      modules: requestedModules,
+    } = req.body;
 
     if (!subject || !level || !examType) {
       return res.status(400).json({
@@ -89,22 +95,68 @@ exports.generateCourse = async (req, res) => {
       });
     }
 
-    logger.info('Generating AI course', { subject, level, examType });
-
-    // Generate curriculum with AI
-    const curriculum = await contentGenerator.generateCurriculum(
-      subject,
-      level,
-      examType
-    );
-
-    // Create course in database
     const slug = `${examType}-${subject}-${level}`
       .toLowerCase()
       .replace(/\s+/g, '-');
 
+    const existingCourse = await Course.findOne({ slug });
+    if (existingCourse) {
+      return res.json({
+        success: true,
+        message: 'Existing course reused',
+        data: existingCourse,
+      });
+    }
+
+    logger.info('Generating course', {
+      subject,
+      level,
+      examType,
+      source: requestedModules?.length ? 'template' : 'ai',
+    });
+
+    const curriculum = requestedModules?.length
+      ? {
+          courseTitle: courseTitle || `${examType} - ${subject}`,
+          description: `Complete ${subject} course for ${examType}`,
+          totalDuration: requestedModules.length * 3,
+          modules: requestedModules.map((module, index) => ({
+            moduleNumber: index + 1,
+            moduleName: module.title,
+            description: module.description || module.title,
+            duration: 3,
+            prerequisites: [],
+            chapters: [
+              {
+                chapterNumber: 1,
+                chapterName: module.title,
+                description: module.description || module.title,
+                duration: 3,
+                difficulty: 'Medium',
+                learningObjectives: module.topics,
+                topics: module.topics,
+              },
+            ],
+          })),
+        }
+      : await contentGenerator.generateCurriculum(subject, level, examType);
+
+    const modules = (curriculum.modules || []).map((module) => ({
+      ...module,
+      chapters: (module.chapters || []).map((chapter) => ({
+        ...chapter,
+        topics: (chapter.topics || []).map((topic) =>
+          typeof topic === 'string' ? { name: topic } : topic
+        ),
+      })),
+    }));
+
     const course = new Course({
       ...curriculum,
+      subject,
+      level,
+      examType,
+      modules,
       slug,
       aiGenerated: true,
       generatedBy: 'groq-llama-3.3-70b',
@@ -143,6 +195,19 @@ exports.generateLesson = async (req, res) => {
       return res.status(404).json({
         success: false,
         message: 'Course not found',
+      });
+    }
+
+    const existingLesson = await Lesson.findOne({
+      courseId,
+      moduleNumber,
+      chapterNumber,
+    });
+    if (existingLesson) {
+      return res.json({
+        success: true,
+        message: 'Existing lesson reused',
+        data: existingLesson,
       });
     }
 

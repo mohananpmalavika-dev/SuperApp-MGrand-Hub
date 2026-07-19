@@ -1,0 +1,851 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-19T09:22:05.835Z",
+  "course": {
+    "code": "CA-F-ACC",
+    "name": "CA Foundation - Principles and Practice of Accounting",
+    "subject": "Principles and Practice of Accounting",
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "lessonCount": 10
+  },
+  "lessons": [
+    {
+      "moduleNumber": 1,
+      "title": "Introduction to Accounting",
+      "topics": [
+        "Accounting Concepts",
+        "Accounting Conventions",
+        "Accounting Standards"
+      ],
+      "content": {
+        "topic": "Introduction to Accounting: Accounting Concepts, Accounting Conventions, Accounting Standards",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 90,
+        "introduction": "Accounting is often referred to as the language of business. It is a systematic process of identifying, recording, measuring, classifying, verifying, summarizing, interpreting, and communicating financial information. This topic is crucial for CA_FOUNDATION as it lays the foundation for understanding financial statements, accounting standards, and conventions. In this lesson, we will cover key accounting concepts, conventions, and standards, and explore their real-world applications.",
+        "keyConcepts": [
+          {
+            "concept": "Accounting Concepts",
+            "definition": "Fundamental principles that guide the accounting process",
+            "explanation": "Examples include going concern, accrual, and matching concepts"
+          },
+          {
+            "concept": "Accounting Conventions",
+            "definition": "Rules that guide the preparation of financial statements",
+            "explanation": "Examples include conservatism, materiality, and consistency"
+          },
+          {
+            "concept": "Accounting Standards",
+            "definition": "Regulations that ensure consistency and comparability in financial reporting",
+            "explanation": "Examples include AS 1: Disclosure of Accounting Policies and AS 2: Valuation of Inventories"
+          },
+          {
+            "concept": "GAAP (Generally Accepted Accounting Principles)",
+            "definition": "A set of rules and guidelines that accountants follow when preparing financial statements",
+            "explanation": "GAAP ensures consistency and comparability in financial reporting"
+          },
+          {
+            "concept": "IFRS (International Financial Reporting Standards)",
+            "definition": "A set of accounting standards developed by the International Accounting Standards Board (IASB)",
+            "explanation": "IFRS is used in over 140 countries and provides a common language for financial reporting"
+          }
+        ],
+        "detailedContent": "Accounting concepts are the foundation of the accounting process. The going concern concept assumes that a business will continue to operate for the foreseeable future. The accrual concept recognizes revenues and expenses when earned or incurred, regardless of when cash is received or paid. The matching concept matches expenses with the revenues they help to generate. Accounting conventions, on the other hand, guide the preparation of financial statements. Conservatism requires accountants to err on the side of caution when making estimates and valuations. Materiality requires accountants to disclose all information that could influence the decisions of stakeholders. Consistency requires accountants to apply the same accounting policies and procedures from one period to another. Accounting standards, such as AS 1 and AS 2, provide guidance on specific accounting issues. GAAP and IFRS provide a framework for financial reporting and ensure consistency and comparability across companies and countries.",
+        "solvedExamples": [
+          {
+            "question": "What is the going concern concept, and how does it affect financial reporting?",
+            "solution": "The going concern concept assumes that a business will continue to operate for the foreseeable future. This concept affects financial reporting by allowing companies to defer the recognition of certain expenses, such as depreciation, until a later period.",
+            "keyTakeaway": "The going concern concept is a fundamental principle of accounting that guides financial reporting"
+          },
+          {
+            "question": "What is the difference between GAAP and IFRS?",
+            "solution": "GAAP is a set of rules and guidelines that accountants follow when preparing financial statements, while IFRS is a set of accounting standards developed by the International Accounting Standards Board (IASB). GAAP is used in the United States, while IFRS is used in over 140 countries.",
+            "keyTakeaway": "GAAP and IFRS are two different frameworks for financial reporting, with GAAP being used in the United States and IFRS being used internationally"
+          },
+          {
+            "question": "What is the purpose of accounting standards, such as AS 1 and AS 2?",
+            "solution": "The purpose of accounting standards, such as AS 1 and AS 2, is to provide guidance on specific accounting issues and ensure consistency and comparability in financial reporting.",
+            "keyTakeaway": "Accounting standards, such as AS 1 and AS 2, provide guidance on specific accounting issues and ensure consistency and comparability in financial reporting"
+          }
+        ],
+        "realWorldApplications": [
+          "Financial reporting by companies, such as Reliance Industries and Tata Motors",
+          "Auditing and assurance services by firms, such as KPMG and Deloitte",
+          "Financial analysis and planning by investors and financial institutions"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Failure to apply accounting concepts and conventions correctly",
+            "why": "Lack of understanding of accounting principles and conventions",
+            "howToAvoid": "Thoroughly review and understand accounting concepts and conventions, and apply them consistently"
+          },
+          {
+            "mistake": "Inconsistent application of accounting policies and procedures",
+            "why": "Lack of attention to detail and failure to follow established policies and procedures",
+            "howToAvoid": "Establish clear accounting policies and procedures, and ensure consistent application"
+          },
+          {
+            "mistake": "Failure to disclose material information in financial statements",
+            "why": "Lack of understanding of materiality and disclosure requirements",
+            "howToAvoid": "Thoroughly review and understand disclosure requirements, and ensure that all material information is disclosed"
+          },
+          {
+            "mistake": "Incorrect application of accounting standards, such as AS 1 and AS 2",
+            "why": "Lack of understanding of accounting standards and their application",
+            "howToAvoid": "Thoroughly review and understand accounting standards, and apply them correctly"
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "What is the purpose of the going concern concept, and how does it affect financial reporting?",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "What is the difference between GAAP and IFRS, and how do they affect financial reporting?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "What is the purpose of accounting standards, such as AS 1 and AS 2, and how do they ensure consistency and comparability in financial reporting?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Accounting concepts are the foundation of the accounting process",
+            "Accounting conventions guide the preparation of financial statements",
+            "Accounting standards ensure consistency and comparability in financial reporting",
+            "GAAP and IFRS provide a framework for financial reporting"
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Revenues - Expenses = Net Income"
+          ],
+          "mnemonics": [
+            "GAAP: Generally Accepted Accounting Principles",
+            "IFRS: International Financial Reporting Standards"
+          ]
+        },
+        "examTips": [
+          "Thoroughly review and understand accounting concepts, conventions, and standards",
+          "Practice applying accounting concepts and conventions to real-world scenarios",
+          "Ensure consistent application of accounting policies and procedures",
+          "Pay attention to detail and ensure that all material information is disclosed"
+        ]
+      },
+      "generatedAt": "2026-07-19T09:22:09.638Z"
+    },
+    {
+      "moduleNumber": 2,
+      "title": "Accounting Process",
+      "topics": [
+        "Double Entry System",
+        "Journal Entries",
+        "Ledger Posting"
+      ],
+      "content": {
+        "topic": "Accounting Process: Double Entry System, Journal Entries, Ledger Posting",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 90,
+        "introduction": "Namaste, future Chartered Accountants! Ever wondered how businesses, big or small, keep track of their financial heartbeat? How do they know if they're making a profit, or how much they owe and are owed? The answer lies in the robust framework of the **Accounting Process**, specifically the **Double Entry System**. This isn't just a theoretical concept; it's the bedrock upon which all financial reporting is built, enabling transparency and informed decision-making for stakeholders like investors, creditors, and even the government.\n\nIn this comprehensive lesson, we'll embark on a journey through the fundamental steps of the accounting cycle. We'll demystify the Double Entry System, understand the art of recording transactions in the **Journal** (the book of original entry), and then learn how to systematically classify and summarise these transactions in the **Ledger** (the book of final entry). For your CA_FOUNDATION exam, mastering these concepts is not just about passing; it's about building a strong foundation for your entire career in accounting and finance. This knowledge will be invaluable whether you're auditing a multinational corporation, managing a startup's finances, or advising clients on tax matters.",
+        "keyConcepts": [
+          {
+            "concept": "Double Entry System",
+            "definition": "A system of accounting where every financial transaction has two aspects, a debit and a credit, and affects at least two accounts in opposite directions but with equal amounts.",
+            "explanation": "Imagine a seesaw. For it to balance, if one side goes down (Debit), the other side must go up (Credit) by an equal measure. This ensures that the accounting equation (Assets = Liabilities + Capital) always remains in balance. It's the most widely accepted and scientific method of accounting, providing accuracy and completeness."
+          },
+          {
+            "concept": "Journal (Book of Original Entry)",
+            "definition": "The primary book where all financial transactions are first recorded in a chronological order, showing the accounts to be debited and credited.",
+            "explanation": "Think of the Journal as a diary for business transactions. Each entry details the date, the accounts involved, the amounts, and a brief explanation (narration). It provides a complete record of each transaction in one place before it's broken down and categorised. A visual representation would be a table with columns for Date, Particulars, Ledger Folio (LF), Debit Amount, and Credit Amount."
+          },
+          {
+            "concept": "Ledger (Book of Final Entry)",
+            "definition": "The principal book of accounts where all transactions recorded in the journal are classified and summarised into individual accounts.",
+            "explanation": "If the Journal is the diary, the Ledger is like a meticulously organised set of folders, one for each account (e.g., Cash Account, Sales Account, Capital Account). All similar transactions are grouped here, allowing us to find the balance of any account at any given time. Visually, a Ledger account is often depicted as a 'T-shape' with a Debit side (left) and a Credit side (right)."
+          },
+          {
+            "concept": "Debit and Credit",
+            "definition": "Fundamental terms used in the double-entry system to record the two aspects of every transaction. Debit (Dr.) typically represents an increase in assets/expenses or a decrease in liabilities/income/capital. Credit (Cr.) typically represents an increase in liabilities/income/capital or a decrease in assets/expenses.",
+            "explanation": "These are not synonyms for 'increase' or 'decrease' but rather directional indicators. Understanding their application is crucial. The 'Golden Rules of Accounting' (Personal, Real, Nominal) provide a systematic way to determine which account to debit and which to credit for any given transaction. It's the core language of accounting."
+          }
+        ],
+        "detailedContent": "### The Foundation: Double Entry System\n\nThe Double Entry System is the backbone of modern accounting. Its core principle is simple yet profound: **every financial transaction has two aspects, and for every debit, there must be an equal and corresponding credit.** This ensures that the fundamental accounting equation, **Assets = Liabilities + Capital**, always remains balanced. This system was popularised by Luca Pacioli in 1494 and has been the standard ever since due to its accuracy and completeness.\n\nTo apply the double-entry system, we classify accounts into three categories, often called the **Golden Rules of Accounting**:\n\n1.  **Personal Accounts**: Relate to individuals, firms, companies, or institutions. These can be natural (e.g., Ram's A/c), artificial (e.g., Reliance Industries Ltd. A/c), or representative (e.g., Outstanding Salary A/c).\n    *   **Rule**: Debit the Receiver, Credit the Giver.\n2.  **Real Accounts**: Relate to assets (tangible or intangible) owned by the business. Examples include Cash A/c, Building A/c, Machinery A/c, Goodwill A/c.\n    *   **Rule**: Debit what Comes In, Credit what Goes Out.\n3.  **Nominal Accounts**: Relate to expenses, losses, incomes, and gains. Examples include Salary A/c, Rent A/c, Commission Received A/c, Interest Paid A/c.\n    *   **Rule**: Debit all Expenses and Losses, Credit all Incomes and Gains.\n\nThese rules are your compass for navigating any transaction.\n\n### Step 1: Journalizing – The Book of Original Entry\n\nThe **Journal** is the first place where transactions are recorded. It's often called the 'Book of Original Entry' or 'Primary Entry' because transactions are entered here as and when they occur, in chronological order. This process is known as **Journalizing**.\n\n**Purpose of Journal:**\n*   Provides a complete record of each transaction in one place.\n*   Maintains chronological order of events.\n*   Reduces the possibility of errors as both debit and credit aspects are recorded together.\n*   Provides a basis for subsequent ledger posting.\n\n**Format of a Journal Entry:**\n\n| Date        | Particulars                               | L.F. | Debit (₹) | Credit (₹) |\n| :---------- | :---------------------------------------- | :--- | :-------- | :--------- |\n| [Year]      |                                           |      |           |            |\n| [Month] [Day] | [Account to be Debited] Dr.               |      | [Amount]  |            |\n|             | To [Account to be Credited]               |      |           | [Amount]   |\n|             | (Being [brief narration of the transaction]) |      |           |            |\n\n**Steps for Journalizing a Transaction:**\n1.  **Identify the Accounts Involved**: For every transaction, pinpoint at least two accounts that are affected.\n    *   *Example*: \"Purchased goods for cash ₹10,000.\" Accounts: Purchases A/c, Cash A/c.\n2.  **Classify the Accounts**: Determine whether each identified account is Personal, Real, or Nominal.\n    *   *Example*: Purchases A/c (Nominal - Expense), Cash A/c (Real - Asset).\n3.  **Apply the Golden Rules**: Based on the classification, decide which account should be Debited and which should be Credited.\n    *   *Example*: Purchases A/c (Expense) -> Debit all Expenses. Cash A/c (Asset) -> Cash is going out -> Credit what Goes Out.\n4.  **Record the Entry**: Write down the date, debit account, credit account, amounts, and a concise narration.\n    *   *Example*: Purchases A/c Dr. ₹10,000 / To Cash A/c ₹10,000 (Being goods purchased for cash).\n\n### Step 2: Ledger Posting – The Book of Final Entry\n\nThe **Ledger** is the book where all transactions recorded in the Journal are transferred and classified into individual accounts. This process is called **Ledger Posting**. It's the 'final entry' because it aggregates all similar transactions, allowing us to ascertain the net effect or balance of each account.\n\n**Purpose of Ledger:**\n*   Provides a complete picture of all transactions related to a specific account.\n*   Facilitates the calculation of account balances.\n*   Forms the basis for preparing the Trial Balance and ultimately, Financial Statements.\n\n**Format of a Ledger Account (T-form):**\n\n```\n          ---------------------------------------------------------------------\n          |               [Account Name] Account                                |\n          ---------------------------------------------------------------------\n          | Debit Side                                | Credit Side             |\n          ---------------------------------------------------------------------\n          | Date | Particulars | J.F. | Amount (₹) | Date | Particulars | J.F. | Amount (₹) |\n          ---------------------------------------------------------------------\n          |      |             |      |            |      |             |      |            |\n          ```\n\n**Steps for Ledger Posting:**\n1.  **Open Accounts**: For every account debited or credited in the Journal, open a separate account in the Ledger.\n2.  **Post Debits**: For every debit entry in the Journal, go to the respective Ledger account's **Debit side**. Record the date, the name of the *corresponding credit account* (prefixed with 'To'), the Journal Folio (J.F.) number, and the amount. The 'To' signifies the account that was credited.\n3.  **Post Credits**: For every credit entry in the Journal, go to the respective Ledger account's **Credit side**. Record the date, the name of the *corresponding debit account* (prefixed with 'By'), the Journal Folio (J.F.) number, and the amount. The 'By' signifies the account that was debited.\n4.  **Cross-referencing (L.F. & J.F.)**: In the Journal, write the Ledger Folio (page number of the ledger account) in the L.F. column after posting. In the Ledger, write the Journal Folio (page number of the journal entry) in the J.F. column. This allows easy tracing of entries.\n\n**Balancing a Ledger Account:**\nAfter posting all transactions, the final step for a period (e.g., month-end) is to balance the ledger accounts. This involves:\n1.  Totaling both the Debit and Credit sides of the account.\n2.  Finding the difference between the two totals.\n3.  If the Debit total > Credit total, it's a **Debit Balance** (written as 'By Balance c/d' on the credit side to make totals equal).\n4.  If the Credit total > Debit total, it's a **Credit Balance** (written as 'To Balance c/d' on the debit side to make totals equal).\n5.  The balance 'c/d' (carried down) is then brought down ('b/d') to the opposite side for the next period, becoming the opening balance. For example, 'By Balance c/d' on the credit side becomes 'To Balance b/d' on the debit side in the new period.\n\nThis systematic flow – from identifying a transaction, journalizing it, to posting and balancing in the ledger – forms the core of the accounting cycle, leading to the preparation of a Trial Balance and ultimately, the financial statements.",
+        "solvedExamples": [
+          {
+            "question": "Journalize the following transactions and post them to the Ledger accounts for the month of April 2023:\n1.  April 1: Started business with Cash ₹5,00,000.\n2.  April 5: Purchased goods from Rohan on credit ₹50,000.\n3.  April 10: Sold goods for Cash ₹30,000.\n4.  April 15: Paid Rent ₹5,000.",
+            "solution": "### Journal Entries\n\n| Date        | Particulars                               | L.F. | Debit (₹) | Credit (₹) |\n| :---------- | :---------------------------------------- | :--- | :-------- | :--------- |\n| 2023        |                                           |      |           |            |\n| April 1     | Cash A/c Dr.                              | 1    | 5,00,000  |            |\n|             | To Capital A/c                            | 2    |           | 5,00,000   |\n|             | (Being business started with cash)        |      |           |            |\n| April 5     | Purchases A/c Dr.                         | 3    | 50,000    |            |\\\n|             | To Rohan's A/c                            | 4    |           | 50,000     |\\\n|             | (Being goods purchased from Rohan on credit)|      |           |            |\\\n| April 10    | Cash A/c Dr.                              | 1    | 30,000    |            |\\\n|             | To Sales A/c                              | 5    |           | 30,000     |\\\n|             | (Being goods sold for cash)               |      |           |            |\\\n| April 15    | Rent A/c Dr.                              | 6    | 5,000     |            |\\\n|             | To Cash A/c                               | 1    |           | 5,000      |\\\n|             | (Being rent paid)                         |      |           |            |\n\n### Ledger Accounts\n\n**1. Cash Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars | J.F. | Amount (₹) |\n| :------- | :---------- | :--- | :--------- | :------- | :---------- | :--- | :--------- |\\\n| Apr 1    | To Capital  | 1    | 5,00,000   | Apr 15   | By Rent     | 1    | 5,000      |\\\n| Apr 10   | To Sales    | 1    | 30,000     | Apr 30   | By Balance c/d |    | 5,25,000   |\\\n|          |             |      |            |          |             |      |            |\\\n| **Total**|             |      | **5,30,000** | **Total**|             |      | **5,30,000** |\\\n| May 1    | To Balance b/d |    | 5,25,000   |          |             |      |            |\n\n**2. Capital Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :---------- | :--- | :--------- |\\\n| Apr 30   | To Balance c/d |    | 5,00,000   | Apr 1    | By Cash     | 1    | 5,00,000   |\\\n| **Total**|             |      | **5,00,000** | **Total**|             |      | **5,00,000** |\\\n|          |             |      |            | May 1    | By Balance b/d |    | 5,00,000   |\n\n**3. Purchases Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :---------- | :--- | :--------- |\\\n| Apr 5    | To Rohan's  | 1    | 50,000     | Apr 30   | By Balance c/d |    | 50,000     |\\\n| **Total**|             |      | **50,000** | **Total**|             |      | **50,000** |\\\n| May 1    | To Balance b/d |    | 50,000     |          |             |      |            |\n\n**4. Rohan's Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :---------- | :--- | :--------- |\\\n| Apr 30   | To Balance c/d |    | 50,000     | Apr 5    | By Purchases | 1    | 50,000     |\\\n| **Total**|             |      | **50,000** | **Total**|             |      | **50,000** |\\\n|          |             |      |            | May 1    | By Balance b/d |    | 50,000     |\n\n**5. Sales Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :---------- | :--- | :--------- |\\\n| Apr 30   | To Balance c/d |    | 30,000     | Apr 10   | By Cash     | 1    | 30,000     |\\\n| **Total**|             |      | **30,000** | **Total**|             |      | **30,000** |\\\n|          |             |      |            | May 1    | By Balance b/d |    | 30,000     |\n\n**6. Rent Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :---------- | :--- | :--------- |\\\n| Apr 15   | To Cash     | 1    | 5,000      | Apr 30   | By Balance c/d |    | 5,000      |\\\n| **Total**|             |      | **5,000**  | **Total**|             |      | **5,000**  |\\\n| May 1    | To Balance b/d |    | 5,000      |          |             |      |            |\n",
+            "keyTakeaway": "This example demonstrates the complete flow from identifying accounts, applying Golden Rules, journalizing, and then posting to individual ledger accounts. Notice how 'To' and 'By' are used in ledger accounts to refer to the contra account, and how balances are carried down."
+          },
+          {
+            "question": "Pass Journal Entries for the following transactions for May 2023:\n1.  May 1: Paid salary to employees ₹25,000.\n2.  May 8: Received commission from M/s. Gupta & Sons ₹12,000.\n3.  May 12: Purchased furniture for office use from M/s. Modern Furniture on credit ₹40,000.\n4.  May 20: Paid M/s. Modern Furniture ₹38,000 in full settlement.\n5.  May 25: Goods worth ₹2,000 taken by proprietor for personal use.",
+            "solution": "### Journal Entries\n\n| Date        | Particulars                               | L.F. | Debit (₹) | Credit (₹) |\n| :---------- | :---------------------------------------- | :--- | :-------- | :--------- |\\\n| 2023        |                                           |      |           |            |\\\n| May 1       | Salary A/c Dr.                            |      | 25,000    |            |\\\n|             | To Cash A/c                               |      |           | 25,000     |\\\n|             | (Being salary paid)                       |      |           |            |\\\n| May 8       | Cash A/c Dr.                              |      | 12,000    |            |\\\n|             | To Commission Received A/c                |      |           | 12,000     |\\\n|             | (Being commission received)               |      |           |            |\\\n| May 12      | Furniture A/c Dr.                         |      | 40,000    |            |\\\n|             | To M/s. Modern Furniture A/c              |      |           | 40,000     |\\\n|             | (Being furniture purchased on credit)     |      |           |            |\\\n| May 20      | M/s. Modern Furniture A/c Dr.             |      | 40,000    |            |\\\n|             | To Cash A/c                               |      |           | 38,000     |\\\n|             | To Discount Received A/c                  |      |           | 2,000      |\\\n|             | (Being amount paid to M/s. Modern Furniture in full settlement and discount received) |      |           |            |\\\n| May 25      | Drawings A/c Dr.                          |      | 2,000     |            |\\\n|             | To Purchases A/c                          |      |           | 2,000      |\\\n|             | (Being goods taken by proprietor for personal use) |      |           |            |\n",
+            "keyTakeaway": "This example introduces more complex scenarios like discount received and drawings. Remember that 'Drawings' is a personal account of the proprietor, and goods taken for personal use reduce the 'Purchases' account (as they are no longer available for sale)."
+          },
+          {
+            "question": "On June 1, 2023, Mr. Sharma started a business with a capital of ₹8,00,000. Further transactions for the month are:\n1.  June 2: Opened a bank account with ICICI Bank, depositing ₹3,00,000.\n2.  June 5: Purchased machinery for ₹2,50,000, paying 40% immediately by cheque and the balance to be paid later.\n3.  June 10: Sold goods to Mr. Gupta on credit for ₹75,000.\n4.  June 18: Received a cheque from Mr. Gupta for ₹73,000 in full settlement.\n5.  June 25: Paid electricity bill ₹2,500 by cheque.\n\nPass Journal Entries and post them to the Bank Account and Mr. Gupta's Account only.",
+            "solution": "### Journal Entries\n\n| Date        | Particulars                               | L.F. | Debit (₹) | Credit (₹) |\n| :---------- | :---------------------------------------- | :--- | :-------- | :--------- |\\\n| 2023        |                                           |      |           |            |\\\n| June 1      | Cash A/c Dr.                              |      | 8,00,000  |            |\\\n|             | To Capital A/c                            |      |           | 8,00,000   |\\\n|             | (Being business started with cash)        |      |           |            |\\\n| June 2      | Bank A/c Dr.                              | 1    | 3,00,000  |            |\\\n|             | To Cash A/c                               |      |           | 3,00,000   |\\\n|             | (Being cash deposited into bank)          |      |           |            |\\\n| June 5      | Machinery A/c Dr.                         |      | 2,50,000  |            |\\\n|             | To Bank A/c                               | 1    |           | 1,00,000   |\\\n|             | To Machinery Supplier A/c                 |      |           | 1,50,000   |\\\n|             | (Being machinery purchased, 40% paid by cheque) |      |           |            |\\\n| June 10     | Mr. Gupta's A/c Dr.                       | 2    | 75,000    |            |\\\n|             | To Sales A/c                              |      |           | 75,000     |\\\n|             | (Being goods sold to Mr. Gupta on credit) |      |           |            |\\\n| June 18     | Bank A/c Dr.                              | 1    | 73,000    |            |\\\n|             | Discount Allowed A/c Dr.                  |      | 2,000     |            |\\\n|             | To Mr. Gupta's A/c                        | 2    |           | 75,000     |\\\n|             | (Being cheque received from Mr. Gupta in full settlement and discount allowed) |      |           |            |\\\n| June 25     | Electricity Expenses A/c Dr.              |      | 2,500     |            |\\\n|             | To Bank A/c                               | 1    |           | 2,500      |\\\n|             | (Being electricity bill paid by cheque)   |      |           |            |\\\n\n### Ledger Accounts (Partial Posting)\n\n**1. Bank Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars        | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :----------------- | :--- | :--------- |\\\n| June 2   | To Cash     | 1    | 3,00,000   | June 5   | By Machinery       | 1    | 1,00,000   |\\\n| June 18  | To Mr. Gupta | 1    | 73,000     | June 25  | By Electricity Exp. | 1    | 2,500      |\\\n|          |             |      |            | June 30  | By Balance c/d     |      | 2,70,500   |\\\n| **Total**|             |      | **3,73,000** | **Total**|                    |      | **3,73,000** |\\\n| July 1   | To Balance b/d |    | 2,70,500   |          |                    |      |            |\\\n\n\n**2. Mr. Gupta's Account**\n\n| Date     | Particulars | J.F. | Amount (₹) | Date     | Particulars        | J.F. | Amount (₹) |\\\n| :------- | :---------- | :--- | :--------- | :------- | :----------------- | :--- | :--------- |\\\n| June 10  | To Sales    | 1    | 75,000     | June 18  | By Bank            | 1    | 73,000     |\\\n|          |             |      |            | June 18  | By Discount Allowed | 1    | 2,000      |\\\n| **Total**|             |      | **75,000** | **Total**|                    |      | **75,000** |\\\n",
+            "keyTakeaway": "This problem involves transactions with bank, credit purchases, sales, and settlement with discount allowed. Notice how 'Discount Allowed' is an expense (Nominal Account) and is debited. The full settlement implies that the difference between the amount due and amount received is the discount."
+          }
+        ],
+        "realWorldApplications": [
+          "**Financial Statement Preparation**: The entire process of journalizing and ledger posting is the foundation for preparing the Trial Balance, which then leads to the Profit & Loss Account and Balance Sheet. These statements are vital for reporting a company's financial health and performance to stakeholders.",
+          "**Auditing and Compliance**: Auditors (like future CAs!) trace transactions from financial statements back to source documents, via the ledger and journal, to verify their accuracy and compliance with accounting standards (e.g., Ind AS, IFRS) and legal frameworks (e.g., Companies Act, 2013).",
+          "**Business Decision Making**: Business owners and managers rely on accurate ledger balances (e.g., cash balance, outstanding receivables/payables) to make informed decisions about investments, credit policies, and operational efficiency.",
+          "**Taxation**: Proper accounting records, maintained through the double-entry system, are essential for calculating income tax, GST, and other statutory dues accurately, ensuring compliance with Indian tax laws.",
+          "**Fraud Detection**: The double-entry system's self-balancing nature makes it harder to manipulate accounts without leaving a trace, aiding in internal controls and fraud detection."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Incorrectly applying Debit/Credit rules.",
+            "why": "Students often confuse 'Debit' with 'increase' and 'Credit' with 'decrease' universally, instead of understanding that their effect depends on the account type (Asset, Liability, Capital, Revenue, Expense).",
+            "howToAvoid": "Thoroughly internalize the Golden Rules of Accounting. For every transaction, consciously identify the two affected accounts, classify them (Personal, Real, Nominal), and then apply the specific rule for that account type. Practice, practice, practice!"
+          },
+          {
+            "mistake": "Missing or incorrect narration in Journal Entries.",
+            "why": "Students sometimes overlook the narration, considering it less important, or write vague descriptions. This happens due to rushing or not understanding its significance.",
+            "howToAvoid": "Always include a brief, clear, and concise narration for every journal entry. It's a mandatory part of the entry and helps understand the transaction quickly without referring to source documents. Start with 'Being...' and describe the transaction."
+          },
+          {
+            "mistake": "Errors in Ledger Posting (e.g., posting to the wrong side or wrong amount).",
+            "why": "Carelessness, rushing, or not understanding the 'To' and 'By' convention in ledger accounts can lead to posting errors.",
+            "howToAvoid": "Double-check each posting. If an account is debited in the Journal, it must be posted to the debit side of that Ledger account, and vice-versa for credit. Always use the contra account's name (e.g., 'To Cash' when Capital is credited). Use the L.F. and J.F. columns diligently for cross-verification."
+          },
+          {
+            "mistake": "Incorrectly balancing Ledger Accounts.",
+            "why": "Arithmetic errors, or confusing which side gets 'Balance c/d' and 'Balance b/d', are common, especially when rushing.",
+            "howToAvoid": "Always total both sides of the T-account first. The 'Balance c/d' always goes on the *shorter* side to make the totals equal. The 'Balance b/d' then appears on the *opposite* side in the next period. For example, a debit balance means the debit side is larger, so 'Balance c/d' goes on the credit side, and 'Balance b/d' appears on the debit side in the next period."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "Pass Journal Entries for the following transactions for July 2023:\n1.  July 1: Mr. Anand started business with cash ₹10,00,000 and furniture ₹2,00,000.\n2.  July 3: Purchased goods from M/s. Bharat Traders for ₹1,50,000 on credit.\n3.  July 7: Paid cash to M/s. Bharat Traders ₹1,45,000 in full settlement.\n4.  July 12: Sold goods to Mr. Suresh for ₹80,000 on credit.\n5.  July 18: Mr. Suresh returned goods worth ₹5,000.\n6.  July 22: Received cash from Mr. Suresh ₹73,000 in full settlement.\n7.  July 28: Paid salaries ₹30,000 and rent ₹10,000.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "Journalize the following transactions and post them to the Cash Account and Bank Account for August 2023:\n1.  Aug 1: Cash in hand ₹1,20,000, Cash at Bank ₹2,50,000.\n2.  Aug 5: Purchased goods for cash ₹40,000.\n3.  Aug 8: Sold goods and received cheque ₹60,000, deposited into bank on the same day.\n4.  Aug 12: Paid office expenses by cheque ₹7,000.\n5.  Aug 15: Withdrew cash from bank for office use ₹15,000.\n6.  Aug 20: Received a cheque from a customer ₹25,000, not deposited into bank yet.\n7.  Aug 22: Deposited the cheque received on Aug 20 into bank.\n8.  Aug 28: Paid electricity bill ₹3,000 in cash.",
+            "difficulty": "Hard"
+          },
+          {
+            "question": "Identify the accounts involved, classify them (Personal, Real, Nominal), and state which account will be debited and which will be credited for the following transactions:\n1.  Paid insurance premium ₹10,000.\n2.  Received interest from Bank ₹5,000.\n3.  Purchased a laptop for office use from Dell India Ltd. on credit for ₹60,000.\n4.  Goods destroyed by fire ₹10,000.\n5.  Outstanding wages for the month ₹8,000.",
+            "difficulty": "Easy"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "**Double Entry System**: Every transaction has two equal and opposite effects (Debit & Credit).",
+            "**Journal**: Book of Original Entry, records transactions chronologically. Provides 'Narration'.",
+            "**Ledger**: Book of Final Entry, classifies and summarises transactions into individual accounts. Provides 'Balances'.",
+            "**Flow**: Transaction -> Journal Entry -> Ledger Posting -> Balancing.",
+            "**L.F. (Ledger Folio)** in Journal and **J.F. (Journal Folio)** in Ledger are for cross-referencing."
+          ],
+          "formulas": [
+            "**Golden Rules of Accounting:**",
+            "1.  **Personal A/c**: Debit the Receiver, Credit the Giver.",
+            "2.  **Real A/c**: Debit what Comes In, Credit what Goes Out.",
+            "3.  **Nominal A/c**: Debit all Expenses & Losses, Credit all Incomes & Gains."
+          ],
+          "mnemonics": [
+            "**DEAD CLIC**: **D**ebit **E**xpenses, **A**ssets, **D**rawings. **C**redit **L**iabilities, **I**ncome, **C**apital. (A modern approach to Debit/Credit rules)",
+            "**P-R-N**: **P**ersonal, **R**eal, **N**ominal (Order of Golden Rules)"
+          ]
+        },
+        "examTips": [
+          "**Understand, Don't Memorize**: While rules are important, truly grasp *why* an account is debited or credited. This conceptual clarity will help you tackle complex problems.",
+          "**Practice Regularly**: Accounting is a practical subject. Solve as many problems as possible, especially full-fledged questions involving both journalizing and ledger posting. Consistency is key for CA_FOUNDATION.",
+          "**Time Management**: In the exam, allocate time wisely. Journalizing usually takes less time than posting and balancing. Practice completing full problems within a set time limit.",
+          "**Accuracy and Presentation**: Ensure your journal and ledger formats are correct. Pay attention to debit/credit alignment, clear narrations, and accurate calculations. Neatness and clear working are appreciated by examiners.",
+          "**Cross-Verification**: After posting, quickly check if the total debits equal total credits in the journal. When balancing ledger accounts, ensure the 'Balance c/d' is correctly placed and carried forward as 'Balance b/d'."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:22:52.332Z"
+    },
+    {
+      "moduleNumber": 3,
+      "title": "Books of Prime Entry",
+      "topics": [
+        "Cash Book",
+        "Purchase Book",
+        "Sales Book"
+      ],
+      "content": {
+        "topic": "Books of Prime Entry: Cash Book, Purchase Book, Sales Book",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 60,
+        "introduction": "### Why Books of Prime Entry Matter\nBooks of Prime Entry are the foundation of accounting. They record all financial transactions of a business. Accurate recording of transactions is crucial for financial statement preparation and decision-making. In this lesson, we will explore the three main books of prime entry: Cash Book, Purchase Book, and Sales Book.\n\n### Real-World Relevance\nCA FOUNDATION exam requires a strong understanding of these books. You will encounter questions on these topics in the exam. By mastering this concept, you will be able to solve problems with ease and score well in the exam.\n\n### Overview\nIn this lesson, we will cover the following topics:\n- Key Concepts\n- Detailed Explanation\n- Solved Examples\n- Real-World Applications\n- Common Mistakes to Avoid\n- Practice Problems\n- Quick Revision Points\n- Exam Tips",
+        "keyConcepts": [
+          {
+            "concept": "Cash Book",
+            "definition": "A book of prime entry that records all cash transactions of a business.",
+            "explanation": "The Cash Book is a single-entry book that records both receipts and payments. It is divided into two columns: one for cash received and the other for cash paid."
+          },
+          {
+            "concept": "Purchase Book",
+            "definition": "A book of prime entry that records all purchases of a business.",
+            "explanation": "The Purchase Book is a single-entry book that records all purchases of a business. It is divided into two columns: one for purchases and the other for returns."
+          },
+          {
+            "concept": "Sales Book",
+            "definition": "A book of prime entry that records all sales of a business.",
+            "explanation": "The Sales Book is a single-entry book that records all sales of a business. It is divided into two columns: one for sales and the other for returns."
+          },
+          {
+            "concept": "Journal",
+            "definition": "A book of prime entry that records all transactions of a business.",
+            "explanation": "The Journal is a double-entry book that records all transactions of a business. It is divided into two columns: one for debits and the other for credits."
+          }
+        ],
+        "detailedContent": "### Detailed Explanation\n#### Cash Book\nThe Cash Book is a single-entry book that records all cash transactions of a business. It is divided into two columns: one for cash received and the other for cash paid.\n\n*   **Cash Received**: This column records all cash received by the business, including cash sales, cash receipts, and bank deposits.\n*   **Cash Paid**: This column records all cash paid by the business, including cash purchases, cash payments, and bank withdrawals.\n\n#### Purchase Book\nThe Purchase Book is a single-entry book that records all purchases of a business. It is divided into two columns: one for purchases and the other for returns.\n\n*   **Purchases**: This column records all purchases made by the business, including purchases on credit and cash.\n*   **Returns**: This column records all returns made by the business, including returns on credit and cash.\n\n#### Sales Book\nThe Sales Book is a single-entry book that records all sales of a business. It is divided into two columns: one for sales and the other for returns.\n\n*   **Sales**: This column records all sales made by the business, including sales on credit and cash.\n*   **Returns**: This column records all returns made by the business, including returns on credit and cash.\n\n#### Journal\nThe Journal is a double-entry book that records all transactions of a business. It is divided into two columns: one for debits and the other for credits.\n\n*   **Debits**: This column records all debits made by the business, including purchases, expenses, and drawings.\n*   **Credits**: This column records all credits made by the business, including sales, income, and capital.\n\n### Why It Matters\nAccurate recording of transactions is crucial for financial statement preparation and decision-making. The books of prime entry provide a clear picture of a business's financial position and performance.\n\n### Real-World Relevance\nCA FOUNDATION exam requires a strong understanding of these books. You will encounter questions on these topics in the exam. By mastering this concept, you will be able to solve problems with ease and score well in the exam.",
+        "solvedExamples": [
+          {
+            "question": "A business purchases goods worth ₹10,000 on credit. Record the transaction in the Purchase Book.",
+            "solution": "Debit: Purchases ₹10,000\nCredit: Accounts Payable ₹10,000",
+            "keyTakeaway": "The Purchase Book records all purchases of a business, including purchases on credit."
+          },
+          {
+            "question": "A business sells goods worth ₹15,000 on credit. Record the transaction in the Sales Book.",
+            "solution": "Debit: Accounts Receivable ₹15,000\nCredit: Sales ₹15,000",
+            "keyTakeaway": "The Sales Book records all sales of a business, including sales on credit."
+          }
+        ],
+        "realWorldApplications": [
+          "In a real-world scenario, a business uses the Cash Book to record all cash transactions, including cash sales, cash receipts, and bank deposits. This helps the business to maintain accurate financial records and make informed decisions.",
+          "A business uses the Purchase Book to record all purchases, including purchases on credit and cash. This helps the business to track its expenses and make timely payments to suppliers.",
+          "A business uses the Sales Book to record all sales, including sales on credit and cash. This helps the business to track its revenue and make timely payments to customers."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not recording all transactions in the books of prime entry.",
+            "why": "This can lead to inaccurate financial records and poor decision-making.",
+            "howToAvoid": "Always record all transactions in the books of prime entry, including cash transactions, purchases, and sales."
+          },
+          {
+            "mistake": "Not maintaining accurate records in the books of prime entry.",
+            "why": "This can lead to errors in financial statements and poor decision-making.",
+            "howToAvoid": "Always maintain accurate records in the books of prime entry, including cash transactions, purchases, and sales."
+          },
+          {
+            "mistake": "Not using the correct columns in the books of prime entry.",
+            "why": "This can lead to errors in financial statements and poor decision-making.",
+            "howToAvoid": "Always use the correct columns in the books of prime entry, including cash received, cash paid, purchases, returns, sales, and returns."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A business purchases goods worth ₹20,000 on credit. Record the transaction in the Purchase Book.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A business sells goods worth ₹25,000 on credit. Record the transaction in the Sales Book.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A business receives cash of ₹30,000. Record the transaction in the Cash Book.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "The Cash Book records all cash transactions of a business.",
+            "The Purchase Book records all purchases of a business.",
+            "The Sales Book records all sales of a business.",
+            "The Journal records all transactions of a business."
+          ],
+          "formulas": [
+            "Cash Received = Cash Sales + Cash Receipts + Bank Deposits",
+            "Cash Paid = Cash Purchases + Cash Payments + Bank Withdrawals",
+            "Purchases = Purchases + Returns",
+            "Sales = Sales + Returns"
+          ],
+          "mnemonics": [
+            "Cash Book: Cash In, Cash Out",
+            "Purchase Book: Purchases In, Returns Out",
+            "Sales Book: Sales In, Returns Out",
+            "Journal: Debits In, Credits Out"
+          ]
+        },
+        "examTips": [
+          "Always read the question carefully and understand what is being asked.",
+          "Use the correct columns in the books of prime entry.",
+          "Always record all transactions in the books of prime entry."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:31:48.829Z"
+    },
+    {
+      "moduleNumber": 4,
+      "title": "Financial Statements",
+      "topics": [
+        "Trading Account",
+        "Profit & Loss Account",
+        "Balance Sheet"
+      ],
+      "content": {
+        "topic": "Financial Statements: Trading Account, Profit & Loss Account, Balance Sheet",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 60,
+        "introduction": "Financial statements are the universal language of business, transforming raw transaction data into actionable insights that drive economic decisions. In this lesson, you will master the three pillars of final accounts: the **Trading Account**, **Profit & Loss Account**, and **Balance Sheet**. For CA Foundation aspirants, these statements form the core of Paper 1 and are heavily tested in both objective and practical sections. Beyond exam preparation, understanding these statements is essential for interpreting how Indian businesses—from family-run enterprises to listed companies under the Companies Act, 2013—measure profitability, assess solvency, and comply with regulatory reporting standards.",
+        "keyConcepts": [
+          {
+            "concept": "Trading Account",
+            "definition": "A nominal account prepared to ascertain the Gross Profit or Gross Loss arising from core trading/manufacturing activities during an accounting period.",
+            "explanation": "It only includes direct revenues (Sales, Sales Returns) and direct expenses (Purchases, Direct Wages, Freight Inwards, Carriage Inwards). Indirect expenses are excluded. Think of it as calculating the profit from the 'factory floor' before administrative costs."
+          },
+          {
+            "concept": "Profit & Loss Account",
+            "definition": "A nominal account that determines the Net Profit or Net Loss by deducting all indirect expenses and adding other incomes to the Gross Profit.",
+            "explanation": "It captures operating expenses (rent, salaries, depreciation), non-operating items (interest, dividends), and extraordinary items. It shows how efficiently management controls overheads and generates sustainable earnings."
+          },
+          {
+            "concept": "Balance Sheet",
+            "definition": "A financial statement representing the financial position of a business at a specific point in time, showing Assets, Liabilities, and Capital.",
+            "explanation": "It is not an account but a statement. It follows the fundamental accounting equation: Assets = Liabilities + Capital. It classifies items into Current and Non-Current categories as per Schedule III of the Companies Act, 2013."
+          },
+          {
+            "concept": "Final Accounts Flow & Accounting Equation",
+            "definition": "The sequential linkage where Gross Profit flows to P&L, Net Profit flows to Capital, and the updated Capital balances the Balance Sheet.",
+            "explanation": "The flow ensures consistency: Trading Account → Gross Profit → P&L Account → Net Profit → Capital Account → Balance Sheet. This chain maintains the double-entry system's integrity and ensures the Balance Sheet always balances."
+          }
+        ]
+      },
+      "generatedAt": "2026-07-19T09:31:55.824Z"
+    },
+    {
+      "moduleNumber": 5,
+      "title": "Trial Balance and Rectification",
+      "topics": [
+        "Trial Balance Preparation",
+        "Error Types",
+        "Rectification"
+      ],
+      "content": {
+        "topic": "Trial Balance and Rectification",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 45,
+        "introduction": "### Why Trial Balance Matters\nTrial balance is a crucial step in the accounting process that helps ensure the accuracy of financial statements. It's like a quality check for your accounts, helping you identify and rectify errors before they affect your financial reports. In this lesson, we'll cover the preparation of a trial balance, common errors, and how to rectify them. By the end of this lesson, you'll be able to prepare a trial balance like a pro and avoid common mistakes that can cost you marks in the CA FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "What is a Trial Balance?",
+            "definition": "A trial balance is a list of all ledger accounts with their debit and credit balances.",
+            "explanation": "Imagine a balance sheet with all the accounts listed on one side. That's essentially what a trial balance is."
+          },
+          {
+            "concept": "Types of Errors in Trial Balance",
+            "definition": "Errors can be of two types: errors of principle and errors of commission.",
+            "explanation": "Errors of principle occur when there's a mistake in the accounting principle, while errors of commission occur when there's a mistake in the calculation."
+          },
+          {
+            "concept": "Rectification of Errors",
+            "definition": "Rectification involves identifying and correcting errors in the trial balance.",
+            "explanation": "Think of rectification as a repair job. You identify the error, fix it, and then re-check the trial balance to ensure it's accurate."
+          },
+          {
+            "concept": "Trial Balance Preparation",
+            "definition": "Preparation involves listing all ledger accounts with their debit and credit balances.",
+            "explanation": "It's like preparing a report card for your accounts. You list all the accounts, their balances, and ensure they're accurate."
+          }
+        ],
+        "detailedContent": "### Preparing a Trial Balance\nTo prepare a trial balance, follow these steps:\n\n1. List all ledger accounts.\n2. Calculate the debit and credit balances for each account.\n3. Ensure the total debit balance equals the total credit balance.\n4. If the balances don't match, identify the error and rectify it.\n\n### Types of Errors in Trial Balance\nErrors can be of two types:\n\n* Errors of principle: These occur when there's a mistake in the accounting principle.\n* Errors of commission: These occur when there's a mistake in the calculation.\n\n### Rectification of Errors\nRectification involves identifying and correcting errors in the trial balance. To rectify an error:\n\n1. Identify the error.\n2. Correct the error.\n3. Re-check the trial balance to ensure it's accurate.\n\n### Real-World Applications\nTrial balance is essential in real-world scenarios, such as:\n\n* Auditing: Auditors use trial balance to ensure the accuracy of financial statements.\n* Financial reporting: Companies use trial balance to prepare accurate financial reports.\n* Budgeting: Trial balance helps in preparing accurate budgets.\n\n### Solved Examples\n#### Example 1\nQuestion: Prepare a trial balance for the following accounts:\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 10,000 |  |\n| Accounts Payable |  | 5,000 |\n| Sales Revenue |  | 20,000 |\n\nSolution:\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 10,000 |  |\n| Accounts Payable |  | 5,000 |\n| Sales Revenue |  | 20,000 |\n| Total Debit | 10,000 |  |\n| Total Credit |  | 25,000 |\n\nKey Takeaway: Ensure the total debit balance equals the total credit balance.\n\n#### Example 2\nQuestion: Identify and rectify the error in the following trial balance:\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 15,000 |  |\n| Accounts Payable |  | 4,000 |\n| Sales Revenue |  | 18,000 |\n| Total Debit | 15,000 |  |\n| Total Credit |  | 22,000 |\n\nSolution:\nError: The total debit balance does not equal the total credit balance.\n\nRectification: Increase the debit balance of Cash by 7,000.\n\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 22,000 |  |\n| Accounts Payable |  | 4,000 |\n| Sales Revenue |  | 18,000 |\n| Total Debit | 22,000 |  |\n| Total Credit |  | 22,000 |\n\nKey Takeaway: Ensure the total debit balance equals the total credit balance.\n\n### Real-World Applications\nTrial balance is essential in real-world scenarios, such as:\n\n* Auditing: Auditors use trial balance to ensure the accuracy of financial statements.\n* Financial reporting: Companies use trial balance to prepare accurate financial reports.\n* Budgeting: Trial balance helps in preparing accurate budgets.\n\n### Common Mistakes to Avoid\n#### Mistake 1: Not ensuring the total debit balance equals the total credit balance.\nWhy: This can lead to errors in financial statements and reports.\nHow to Avoid: Always ensure the total debit balance equals the total credit balance.\n\n#### Mistake 2: Not identifying and rectifying errors.\nWhy: This can lead to inaccurate financial statements and reports.\nHow to Avoid: Always identify and rectify errors in the trial balance.\n\n#### Mistake 3: Not preparing a trial balance.\nWhy: This can lead to errors in financial statements and reports.\nHow to Avoid: Always prepare a trial balance before preparing financial statements and reports.\n\n### Practice Problems\n#### Problem 1\nPrepare a trial balance for the following accounts:\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 12,000 |  |\n| Accounts Payable |  | 6,000 |\n| Sales Revenue |  | 24,000 |\n\n#### Problem 2\nIdentify and rectify the error in the following trial balance:\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 18,000 |  |\n| Accounts Payable |  | 3,000 |\n| Sales Revenue |  | 16,000 |\n| Total Debit | 18,000 |  |\n| Total Credit |  | 19,000 |\n\n#### Problem 3\nPrepare a trial balance for the following accounts:\n| Account | Debit Balance | Credit Balance |\n| --- | --- | --- |\n| Cash | 15,000 |  |\n| Accounts Payable |  | 5,000 |\n| Sales Revenue |  | 20,000 |\n| Total Debit | 15,000 |  |\n| Total Credit |  | 25,000 |\n\n### Quick Revision Points\n* Ensure the total debit balance equals the total credit balance.\n* Identify and rectify errors in the trial balance.\n* Prepare a trial balance before preparing financial statements and reports.\n\n### Exam Tips\n* Time management: Allocate 45 minutes for this question.\n* Question-solving strategy: Follow the steps to prepare a trial balance and rectify errors.\n* Scoring tips: Ensure the total debit balance equals the total credit balance and identify and rectify errors in the trial balance."
+      },
+      "generatedAt": "2026-07-19T09:33:40.726Z"
+    },
+    {
+      "moduleNumber": 6,
+      "title": "Bank Reconciliation Statement",
+      "topics": [
+        "BRS Concept",
+        "BRS Preparation",
+        "Practical Problems"
+      ],
+      "content": {
+        "topic": "Bank Reconciliation Statement: BRS Concept, BRS Preparation, Practical Problems",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 45,
+        "introduction": "Imagine running a business where your records show ₹50,000 in the bank, but the bank statement says ₹42,000. Who is right? This discrepancy is exactly why the Bank Reconciliation Statement (BRS) exists. In this lesson, we will decode the BRS concept, master its preparation methods, and solve practical problems tailored for the CA Foundation exam. Understanding BRS is not just about passing Paper 1; it’s a foundational skill for every accountant, ensuring financial accuracy, detecting errors or fraud, and maintaining robust internal controls in real-world Indian business environments.",
+        "keyConcepts": [
+          {
+            "concept": "Bank Reconciliation Statement (BRS)",
+            "definition": "A statement prepared to explain the difference between the balance shown in the Cash Book (Bank Column) and the balance shown in the Bank Pass Book.",
+            "explanation": "BRS is not a ledger account but a reconciliation tool. It bridges the gap caused by timing differences, unilateral entries, and errors. Visual aid suggestion: A two-column comparison table showing Cash Book vs Pass Book entries side-by-side, with arrows pointing to mismatched dates and amounts."
+          },
+          {
+            "concept": "Cash Book vs Pass Book",
+            "definition": "Cash Book is the business's record of bank transactions; Pass Book is the bank's record of the customer's account.",
+            "explanation": "The Cash Book is maintained by the business and reflects transactions when initiated. The Pass Book is maintained by the bank and reflects transactions when processed. Visual aid suggestion: A flowchart showing 'Business Initiates Transaction → Cash Book Updated → Bank Processes → Pass Book Updated' with a time-delay gap highlighted."
+          },
+          {
+            "concept": "Reasons for Differences",
+            "definition": "Factors causing mismatch between Cash Book and Pass Book balances, categorized into timing differences, unilateral entries, and errors.",
+            "explanation": "Timing differences include cheques issued but not presented, or deposited but not cleared. Unilateral entries include bank charges, direct deposits, or interest credited by the bank. Errors include wrong entries in either book. Visual aid suggestion: A Venn diagram showing overlapping entries vs exclusive entries in each book."
+          },
+          {
+            "concept": "BRS Preparation Methods",
+            "definition": "Two approaches to prepare BRS: starting from Cash Book balance or starting from Pass Book balance.",
+            "explanation": "Both methods yield the same final balance but use opposite adjustment rules. Starting from Cash Book balance adjusts to find Pass Book balance. Starting from Pass Book balance adjusts to find Cash Book balance. Visual aid suggestion: A decision tree flowchart: 'Start with Cash Book? → Add Bank Credits/Ignore Debits → Subtract Bank Debits/Ignore Credits → Arrive at Pass Book Balance.'"
+          }
+        ]
+      },
+      "generatedAt": "2026-07-19T09:34:25.991Z"
+    },
+    {
+      "moduleNumber": 7,
+      "title": "Depreciation Accounting",
+      "topics": [
+        "Depreciation Methods",
+        "Straight Line",
+        "Written Down Value"
+      ],
+      "content": {
+        "topic": "Depreciation Accounting",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 60,
+        "introduction": "### Why Depreciation Matters\nDepreciation is a crucial concept in accounting that helps businesses allocate the cost of assets over their useful lives. As a CA FOUNDATION student, understanding depreciation is essential to pass the exam and become a competent accountant. In this lesson, we'll explore the different depreciation methods, including Straight Line and Written Down Value, and learn how to apply them in real-world scenarios.\n\n### What to Expect\nIn this lesson, we'll cover the following topics:\n* Key concepts of depreciation\n* Straight Line method\n* Written Down Value method\n* Real-world applications\n* Common mistakes to avoid\n* Practice problems and quick revision points\n\n### Real-World Relevance\nDepreciation is a vital concept in accounting that affects businesses and individuals alike. By understanding depreciation, you'll be able to make informed decisions about asset management, tax planning, and financial reporting.",
+        "keyConcepts": [
+          {
+            "concept": "Depreciation",
+            "definition": "The decrease in value of an asset over its useful life.",
+            "explanation": "Depreciation is a non-cash expense that represents the decrease in value of an asset due to wear and tear, obsolescence, or other factors. It's an essential concept in accounting that helps businesses allocate the cost of assets over their useful lives."
+          },
+          {
+            "concept": "Useful Life",
+            "definition": "The period of time an asset is expected to be used or useful.",
+            "explanation": "The useful life of an asset is the period of time it's expected to be used or useful. It's an essential factor in calculating depreciation, as it determines the asset's useful life and the amount of depreciation to be recorded each year."
+          },
+          {
+            "concept": "Depreciation Methods",
+            "definition": "The methods used to calculate depreciation.",
+            "explanation": "There are two main depreciation methods: Straight Line and Written Down Value. Each method has its own formula and application, and businesses choose the method that best suits their needs."
+          },
+          {
+            "concept": "Asset",
+            "definition": "A tangible or intangible item of value.",
+            "explanation": "An asset is a tangible or intangible item of value that a business owns or uses. It can be a physical asset, such as a building or equipment, or an intangible asset, such as a patent or trademark."
+          }
+        ],
+        "detailedContent": "### Straight Line Method\nThe Straight Line method is the most common depreciation method used by businesses. It calculates depreciation as a straight line percentage of the asset's cost over its useful life. The formula for the Straight Line method is:\n\nDepreciation = (Cost - Residual Value) / Useful Life\n\nFor example, let's say a business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. The depreciation per year would be:\n\nDepreciation = (10,000 - 2,000) / 5\n\nDepreciation = ₹1,600 per year\n\n### Written Down Value Method\nThe Written Down Value method is another depreciation method used by businesses. It calculates depreciation as a percentage of the asset's written down value (WDV) each year. The formula for the Written Down Value method is:\n\nWDV = Cost - Accumulated Depreciation\n\nDepreciation = WDV x Depreciation Rate\n\nFor example, let's say a business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. The depreciation per year would be:\n\nWDV = 10,000 - 1,600 (first year's depreciation)\n\nWDV = ₹8,400\n\nDepreciation = 8,400 x 20% (depreciation rate)\n\nDepreciation = ₹1,680 per year\n\n### Real-World Applications\nDepreciation is a crucial concept in accounting that affects businesses and individuals alike. By understanding depreciation, you'll be able to make informed decisions about asset management, tax planning, and financial reporting. For example, a business may use depreciation to:\n\n* Calculate the cost of assets over their useful lives\n* Determine the tax implications of asset ownership\n* Make informed decisions about asset replacement or disposal\n\n### Common Mistakes to Avoid\nHere are three common mistakes to avoid when calculating depreciation:\n\n* Failing to consider the asset's residual value\n* Using an incorrect depreciation rate\n* Failing to update the asset's WDV each year\n\n### Practice Problems\n1. A business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. Calculate the depreciation per year using the Straight Line method.\n2. A business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. Calculate the depreciation per year using the Written Down Value method.\n3. A business purchases a building for ₹50,000 with a residual value of ₹10,000 and a useful life of 10 years. Calculate the depreciation per year using the Straight Line method.",
+        "solvedExamples": [
+          {
+            "question": "A business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. Calculate the depreciation per year using the Straight Line method.",
+            "solution": "Depreciation = (10,000 - 2,000) / 5\nDepreciation = ₹1,600 per year",
+            "keyTakeaway": "The Straight Line method calculates depreciation as a straight line percentage of the asset's cost over its useful life."
+          },
+          {
+            "question": "A business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. Calculate the depreciation per year using the Written Down Value method.",
+            "solution": "WDV = 10,000 - 1,600 (first year's depreciation)\nWDV = ₹8,400\nDepreciation = 8,400 x 20% (depreciation rate)\nDepreciation = ₹1,680 per year",
+            "keyTakeaway": "The Written Down Value method calculates depreciation as a percentage of the asset's written down value each year."
+          }
+        ],
+        "realWorldApplications": [
+          "Asset management",
+          "Tax planning",
+          "Financial reporting"
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Failing to consider the asset's residual value",
+            "why": "Residual value is an essential factor in calculating depreciation, as it affects the asset's useful life and the amount of depreciation to be recorded each year.",
+            "howToAvoid": "Always consider the asset's residual value when calculating depreciation."
+          },
+          {
+            "mistake": "Using an incorrect depreciation rate",
+            "why": "Using an incorrect depreciation rate can result in inaccurate depreciation calculations and affect the business's financial statements.",
+            "howToAvoid": "Always use the correct depreciation rate for the asset's class."
+          },
+          {
+            "mistake": "Failing to update the asset's WDV each year",
+            "why": "Failing to update the asset's WDV each year can result in inaccurate depreciation calculations and affect the business's financial statements.",
+            "howToAvoid": "Always update the asset's WDV each year to reflect the correct depreciation amount."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. Calculate the depreciation per year using the Straight Line method.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A business purchases a machine for ₹10,000 with a residual value of ₹2,000 and a useful life of 5 years. Calculate the depreciation per year using the Written Down Value method.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A business purchases a building for ₹50,000 with a residual value of ₹10,000 and a useful life of 10 years. Calculate the depreciation per year using the Straight Line method.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Depreciation is the decrease in value of an asset over its useful life.",
+            "The Straight Line method calculates depreciation as a straight line percentage of the asset's cost over its useful life.",
+            "The Written Down Value method calculates depreciation as a percentage of the asset's written down value each year."
+          ],
+          "formulas": [
+            "Depreciation = (Cost - Residual Value) / Useful Life",
+            "WDV = Cost - Accumulated Depreciation",
+            "Depreciation = WDV x Depreciation Rate"
+          ],
+          "mnemonics": [
+            "SLM: Straight Line Method",
+            "WDV: Written Down Value"
+          ]
+        },
+        "examTips": [
+          "Always read the question carefully and understand what's being asked.",
+          "Use the correct depreciation method for the asset's class.",
+          "Always update the asset's WDV each year to reflect the correct depreciation amount."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:34:28.516Z"
+    },
+    {
+      "moduleNumber": 8,
+      "title": "Bills of Exchange",
+      "topics": [
+        "Promissory Note",
+        "Bills of Exchange",
+        "Endorsement"
+      ],
+      "content": {
+        "topic": "Bills of Exchange: Promissory Note, Bills of Exchange, Endorsement",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 45,
+        "introduction": "### Why Bills of Exchange Matter\n\nBills of exchange are an essential tool in the world of finance, enabling businesses to manage cash flow, reduce risk, and increase efficiency. As a CA FOUNDATION student, understanding bills of exchange is crucial for your exam and future career. In this lesson, we'll explore the key concepts, real-world applications, and exam tips to help you master this topic.\n\n### What You'll Learn\n\n* Promissory notes and their importance\n* Bills of exchange: types, creation, and features\n* Endorsement: rules, procedures, and pitfalls\n* Real-world examples and industry relevance\n* Exam tips and strategies for CA FOUNDATION",
+        "keyConcepts": [
+          {
+            "concept": "Promissory Note",
+            "definition": "A promissory note is a written promise to pay a specific amount of money to another party at a specified date or on demand.",
+            "explanation": "Imagine a loan agreement between two friends. The borrower promises to repay the loan with interest on a specific date. This agreement is a promissory note."
+          },
+          {
+            "concept": "Bill of Exchange",
+            "definition": "A bill of exchange is a written order by one party to another to pay a specific amount of money to a third party.",
+            "explanation": "Think of a bill of exchange as a letter of instruction to a bank to pay a certain amount to a supplier. The bank acts as a middleman, facilitating the transaction."
+          },
+          {
+            "concept": "Endorsement",
+            "definition": "Endorsement is the process of transferring ownership of a bill of exchange from one party to another.",
+            "explanation": "When a bill of exchange is endorsed, the original owner transfers their rights and obligations to the new owner. This can happen multiple times until the bill is finally paid."
+          },
+          {
+            "concept": "Types of Bills of Exchange",
+            "definition": "There are three types of bills of exchange: sight bill, usance bill, and bill of exchange with a specific date.",
+            "explanation": "A sight bill is payable on demand, while an usance bill is payable after a specified period. A bill with a specific date is payable on a particular date."
+          }
+        ],
+        "detailedContent": "### Detailed Explanation\n\n#### Promissory Notes\n\nA promissory note is a written promise to pay a specific amount of money to another party at a specified date or on demand. It's a legally binding agreement between two parties, where one party promises to pay the other a certain amount of money.\n\n#### Bills of Exchange\n\nA bill of exchange is a written order by one party to another to pay a specific amount of money to a third party. It's a financial instrument that enables businesses to manage cash flow, reduce risk, and increase efficiency.\n\n#### Endorsement\n\nEndorsement is the process of transferring ownership of a bill of exchange from one party to another. It's a critical aspect of bills of exchange, as it allows the original owner to transfer their rights and obligations to the new owner.\n\n#### Types of Bills of Exchange\n\nThere are three types of bills of exchange: sight bill, usance bill, and bill of exchange with a specific date. A sight bill is payable on demand, while an usance bill is payable after a specified period. A bill with a specific date is payable on a particular date.\n\n### Real-World Applications\n\nBills of exchange are widely used in various industries, including trade finance, international trade, and commerce. They help businesses manage cash flow, reduce risk, and increase efficiency.\n\n### Exam Tips\n\n* Understand the key concepts of promissory notes, bills of exchange, and endorsement.\n* Be familiar with the different types of bills of exchange and their characteristics.\n* Practice solving problems and case studies to apply your knowledge.\n* Focus on the exam format and time management to answer questions efficiently.",
+        "solvedExamples": [
+          {
+            "question": "A company issues a bill of exchange to its supplier for ₹50,000. The bill is payable after 30 days. What is the value of the bill?",
+            "solution": "The value of the bill is ₹50,000. Since the bill is payable after 30 days, it's an usance bill.",
+            "keyTakeaway": "Understand the characteristics of different types of bills of exchange."
+          },
+          {
+            "question": "A person endorses a bill of exchange to another party. What are the implications of endorsement?",
+            "solution": "Endorsement transfers the ownership of the bill of exchange from the original owner to the new owner. The new owner assumes the rights and obligations of the original owner.",
+            "keyTakeaway": "Understand the process of endorsement and its implications."
+          }
+        ],
+        "realWorldApplications": [
+          "Bills of exchange are widely used in trade finance, international trade, and commerce to manage cash flow, reduce risk, and increase efficiency.",
+          "They are used by businesses to pay suppliers, receive payments from customers, and manage working capital.",
+          "Bills of exchange are also used in international trade to facilitate cross-border transactions and reduce the risk of non-payment."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Confusing promissory notes with bills of exchange",
+            "why": "Both are financial instruments, but they serve different purposes.",
+            "howToAvoid": "Understand the characteristics and uses of each instrument to avoid confusion."
+          },
+          {
+            "mistake": "Not understanding the types of bills of exchange",
+            "why": "Different types of bills of exchange have different characteristics and uses.",
+            "howToAvoid": "Familiarize yourself with the different types of bills of exchange and their characteristics."
+          },
+          {
+            "mistake": "Not practicing problems and case studies",
+            "why": "Practice helps you apply your knowledge and understand the practical implications of bills of exchange.",
+            "howToAvoid": "Practice solving problems and case studies to apply your knowledge."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A company issues a bill of exchange to its supplier for ₹20,000. The bill is payable after 60 days. What is the value of the bill?",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A person endorses a bill of exchange to another party. What are the implications of endorsement?",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A company issues a bill of exchange to its supplier for ₹50,000. The bill is payable on demand. What is the value of the bill?",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Promissory notes are written promises to pay a specific amount of money to another party at a specified date or on demand.",
+            "Bills of exchange are written orders by one party to another to pay a specific amount of money to a third party.",
+            "Endorsement is the process of transferring ownership of a bill of exchange from one party to another."
+          ],
+          "formulas": [
+            "Value of bill = Amount of bill",
+            "Types of bills of exchange: sight bill, usance bill, and bill of exchange with a specific date"
+          ],
+          "mnemonics": [
+            "PROMISSORY NOTE: Promise, Repayment, Ownership, Money, Interest, Security, Signature, Time, Exchange",
+            "BILL OF EXCHANGE: Buy, Invoice, Letter, Ledger, Exchange, Acceptance, Negotiation, Transfer"
+          ]
+        },
+        "examTips": [
+          "Understand the key concepts of promissory notes, bills of exchange, and endorsement.",
+          "Be familiar with the different types of bills of exchange and their characteristics.",
+          "Practice solving problems and case studies to apply your knowledge.",
+          "Focus on the exam format and time management to answer questions efficiently."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:35:11.024Z"
+    },
+    {
+      "moduleNumber": 9,
+      "title": "Capital and Revenue",
+      "topics": [
+        "Capital Expenditure",
+        "Revenue Expenditure",
+        "Deferred Revenue"
+      ],
+      "content": {
+        "topic": "Capital and Revenue: Capital Expenditure, Revenue Expenditure, Deferred Revenue",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 45,
+        "introduction": "Distinguishing between capital and revenue items is the bedrock of accurate financial reporting, directly impacting a company’s reported profit, asset valuation, and tax liability. In this lesson, we will master the classification of capital expenditure, revenue expenditure, and deferred revenue items, learning how to apply fundamental accounting tests to real-world transactions. For CA Foundation aspirants, this topic is critical as it forms the basis for preparing Trading & Profit & Loss Accounts and Balance Sheets, frequently appearing in both objective and subjective sections of the ICAI exam with high weightage in practical problem-solving.",
+        "keyConcepts": [
+          {
+            "concept": "Capital Expenditure",
+            "definition": "Expenditure incurred for acquiring, installing, or substantially improving fixed assets, providing economic benefits over multiple accounting periods.",
+            "explanation": "It is capitalized in the Balance Sheet as an asset. Examples include purchase of machinery, building construction, and legal fees for acquiring patents. It enhances long-term earning capacity."
+          },
+          {
+            "concept": "Revenue Expenditure",
+            "definition": "Expenditure incurred for day-to-day operations and maintenance, yielding benefits only within the current accounting period.",
+            "explanation": "It is charged to the Profit & Loss Account. Examples include rent, salaries, electricity bills, and routine repairs. It sustains existing earning capacity without creating new assets."
+          },
+          {
+            "concept": "Deferred Revenue Expenditure",
+            "definition": "Expenditure incurred in one accounting period but whose benefits extend to future periods, treated as a non-current asset initially.",
+            "explanation": "It bridges capital and revenue expenditure. Examples include preliminary expenses, heavy advertising campaigns, and research & development costs. It is amortized over the benefit period."
+          },
+          {
+            "concept": "Deferred Revenue Receipt",
+            "definition": "Income received in advance for goods or services to be delivered in future periods, treated as a liability until earned.",
+            "explanation": "It follows the accrual concept. Examples include advance rent received, subscription fees collected upfront, and security deposits. It is transferred to the P&L Account proportionally as the service is rendered."
+          }
+        ]
+      },
+      "generatedAt": "2026-07-19T09:35:17.893Z"
+    },
+    {
+      "moduleNumber": 10,
+      "title": "Accounts from Incomplete Records",
+      "topics": [
+        "Single Entry System",
+        "Statement of Affairs",
+        "Conversion"
+      ],
+      "content": {
+        "topic": "Accounts from Incomplete Records: Single Entry System, Statement of Affairs, Conversion",
+        "subject": "Principles and Practice of Accounting",
+        "duration": 60,
+        "introduction": "### Why Accounts from Incomplete Records Matter\n\nIn the real world, businesses often face situations where they need to prepare accounts from incomplete records. This could be due to various reasons such as loss of documents, destruction of records, or incomplete records. As a CA FOUNDATION student, it's essential to understand how to prepare accounts from incomplete records using the single entry system and statement of affairs. This topic is crucial for CA FOUNDATION as it tests your ability to apply accounting concepts in real-world scenarios.\n\n### What You Will Learn\n\nIn this lesson, you will learn about the single entry system, statement of affairs, and conversion of incomplete records. You will understand how to prepare accounts from incomplete records, identify the key concepts, and apply them in real-world scenarios. By the end of this lesson, you will be able to prepare accounts from incomplete records with ease and confidence.",
+        "keyConcepts": [
+          {
+            "concept": "Single Entry System",
+            "definition": "A method of accounting where only one entry is recorded in the journal for each transaction.",
+            "explanation": "The single entry system is used when there are incomplete records. It involves recording only one entry in the journal for each transaction, which helps to maintain the accuracy of the accounts."
+          },
+          {
+            "concept": "Statement of Affairs",
+            "definition": "A statement that shows the financial position of a business at a particular date.",
+            "explanation": "The statement of affairs is a document that shows the financial position of a business at a particular date. It includes the assets, liabilities, and capital of the business."
+          },
+          {
+            "concept": "Conversion of Incomplete Records",
+            "definition": "The process of converting incomplete records into complete records.",
+            "explanation": "The conversion of incomplete records involves converting the incomplete records into complete records. This is done by using the single entry system and statement of affairs."
+          },
+          {
+            "concept": "Journal Entries",
+            "definition": "Entries made in the journal to record transactions.",
+            "explanation": "Journal entries are made in the journal to record transactions. They help to maintain the accuracy of the accounts and ensure that all transactions are recorded correctly."
+          }
+        ],
+        "detailedContent": "### Single Entry System\n\nThe single entry system is a method of accounting where only one entry is recorded in the journal for each transaction. This system is used when there are incomplete records. The single entry system involves recording only one entry in the journal for each transaction, which helps to maintain the accuracy of the accounts.\n\n### Statement of Affairs\n\nThe statement of affairs is a statement that shows the financial position of a business at a particular date. It includes the assets, liabilities, and capital of the business. The statement of affairs is prepared by using the single entry system and journal entries.\n\n### Conversion of Incomplete Records\n\nThe conversion of incomplete records involves converting the incomplete records into complete records. This is done by using the single entry system and statement of affairs. The conversion of incomplete records helps to maintain the accuracy of the accounts and ensures that all transactions are recorded correctly.\n\n### Journal Entries\n\nJournal entries are made in the journal to record transactions. They help to maintain the accuracy of the accounts and ensure that all transactions are recorded correctly. Journal entries are an essential part of the single entry system and statement of affairs.",
+        "solvedExamples": [
+          {
+            "question": "A business has the following incomplete records:\n\nAssets: ₹ 10,000\nLiabilities: ₹ 5,000\nCapital: ₹ 3,000\n\nUsing the single entry system, prepare the journal entries for the above records.",
+            "solution": "Journal Entry 1:\n\nDebit: Assets ₹ 10,000\n\nCredit: Capital ₹ 10,000\n\nJournal Entry 2:\n\nDebit: Liabilities ₹ 5,000\n\nCredit: Capital ₹ 5,000\n\nKey Takeaway: The single entry system involves recording only one entry in the journal for each transaction.",
+            "keyTakeaway": "The single entry system involves recording only one entry in the journal for each transaction."
+          },
+          {
+            "question": "A business has the following incomplete records:\n\nAssets: ₹ 20,000\nLiabilities: ₹ 10,000\nCapital: ₹ 5,000\n\nUsing the statement of affairs, prepare the statement of affairs for the above records.",
+            "solution": "Statement of Affairs:\n\nAssets: ₹ 20,000\nLiabilities: ₹ 10,000\nCapital: ₹ 5,000\n\nKey Takeaway: The statement of affairs shows the financial position of a business at a particular date.",
+            "keyTakeaway": "The statement of affairs shows the financial position of a business at a particular date."
+          }
+        ],
+        "realWorldApplications": [
+          "In the real world, businesses often face situations where they need to prepare accounts from incomplete records. This could be due to various reasons such as loss of documents, destruction of records, or incomplete records.",
+          "The single entry system and statement of affairs are essential tools for businesses to maintain accurate accounts and ensure that all transactions are recorded correctly.",
+          "The conversion of incomplete records helps businesses to maintain accurate accounts and ensures that all transactions are recorded correctly."
+        ],
+        "commonMistakes": [
+          {
+            "mistake": "Not using the single entry system when preparing accounts from incomplete records.",
+            "why": "This mistake can lead to inaccurate accounts and incorrect recording of transactions.",
+            "howToAvoid": "Always use the single entry system when preparing accounts from incomplete records."
+          },
+          {
+            "mistake": "Not preparing the statement of affairs when preparing accounts from incomplete records.",
+            "why": "This mistake can lead to inaccurate accounts and incorrect recording of transactions.",
+            "howToAvoid": "Always prepare the statement of affairs when preparing accounts from incomplete records."
+          },
+          {
+            "mistake": "Not converting incomplete records into complete records.",
+            "why": "This mistake can lead to inaccurate accounts and incorrect recording of transactions.",
+            "howToAvoid": "Always convert incomplete records into complete records."
+          }
+        ],
+        "practiceProblems": [
+          {
+            "question": "A business has the following incomplete records:\n\nAssets: ₹ 15,000\nLiabilities: ₹ 8,000\nCapital: ₹ 4,000\n\nUsing the single entry system, prepare the journal entries for the above records.",
+            "difficulty": "Easy"
+          },
+          {
+            "question": "A business has the following incomplete records:\n\nAssets: ₹ 25,000\nLiabilities: ₹ 12,000\nCapital: ₹ 6,000\n\nUsing the statement of affairs, prepare the statement of affairs for the above records.",
+            "difficulty": "Medium"
+          },
+          {
+            "question": "A business has the following incomplete records:\n\nAssets: ₹ 30,000\nLiabilities: ₹ 15,000\nCapital: ₹ 8,000\n\nUsing the single entry system and statement of affairs, prepare the journal entries and statement of affairs for the above records.",
+            "difficulty": "Hard"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Single entry system: A method of accounting where only one entry is recorded in the journal for each transaction.",
+            "Statement of affairs: A statement that shows the financial position of a business at a particular date.",
+            "Conversion of incomplete records: The process of converting incomplete records into complete records."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Capital"
+          ],
+          "mnemonics": [
+            "Single entry system: S.E.S. (Single Entry System)",
+            "Statement of affairs: S.O.A. (Statement of Affairs)"
+          ]
+        },
+        "examTips": [
+          "Time management is essential for CA FOUNDATION exams. Allocate sufficient time for each question and ensure that you have enough time to answer all questions.",
+          "Read the question carefully and understand what is being asked. If you are unsure, move on to the next question.",
+          "Use the single entry system and statement of affairs to prepare accounts from incomplete records. This will help you to maintain accurate accounts and ensure that all transactions are recorded correctly."
+        ]
+      },
+      "generatedAt": "2026-07-19T09:35:40.283Z"
+    }
+  ],
+  "updatedAt": "2026-07-19T09:35:40.283Z"
+}

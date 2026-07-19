@@ -95,18 +95,16 @@ async function generateCourse(course) {
   try {
     // Generate course structure
     const courseRes = await axios.post(`${API_BASE}/courses/generate`, {
-      courseCode: course.code,
-      courseName: course.name,
-      category: 'professional',
-      difficulty: 'intermediate',
-      targetExam: 'CA Foundation',
-      totalHours: 120,
-      description: `Complete course for CA Foundation covering all ICAI syllabus topics for ${course.name.split(' - ')[1]}`
+      subject: course.name.split(' - ')[1] || course.name,
+      level: 'FOUNDATION',
+      examType: 'CA_FOUNDATION',
+      courseTitle: course.name,
+      modules: course.modules
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}
     });
 
-    const courseId = courseRes.data.courseId || courseRes.data.course?._id;
+    const courseId = courseRes.data.data?._id;
     log(`✓ Course created: ${courseId}`, 'green');
 
     // Generate lessons
@@ -116,25 +114,15 @@ async function generateCourse(course) {
       log(`\n  📖 [${i + 1}/${course.modules.length}] ${module.title}`, 'yellow');
 
       try {
-        const lessonRes = await axios.post(`${API_BASE}/lessons/generate`, {
-          courseId: courseId,
-          chapterIndex: i,
-          chapterTitle: module.title,
-          topics: module.topics,
-          generationOptions: {
-            includeAudio: true,
-            includeVideo: true,
-            includeAnimations: true,
-            includeQuestions: true,
-            detailLevel: 'comprehensive',
-            wordCount: 2500,
-            targetExam: 'CA Foundation'
-          }
+        const lessonRes = await axios.post(`${API_BASE}/courses/${courseId}/generate-lesson`, {
+          moduleNumber: i + 1,
+          chapterNumber: 1,
+          topic: `${module.title}: ${module.topics.join(', ')}`
         }, {
           headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}
         });
 
-        const lesson = lessonRes.data.lesson || lessonRes.data;
+        const lesson = lessonRes.data.data || lessonRes.data.lesson || lessonRes.data;
         lessons.push(lesson);
 
         log(`     ✓ Lesson ID: ${lesson._id || lesson.lessonId}`, 'green');

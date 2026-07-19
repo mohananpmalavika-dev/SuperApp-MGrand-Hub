@@ -76,29 +76,16 @@ async function generateLesson(module, index, courseId) {
   log(`\n  📖 [${index + 1}/${course.modules.length}] ${module.title}`, 'yellow');
 
   try {
-    const lessonRes = await axios.post(`${API_BASE}/lessons/generate`, {
-      courseId: courseId,
-      chapterIndex: index,
-      chapterTitle: module.title,
-      topics: module.topics,
-      generationOptions: {
-        includeAudio: true,
-        includeVideo: true,
-        includeAnimations: false, // Less relevant for theory subjects
-        includeQuestions: true,
-        detailLevel: 'comprehensive',
-        wordCount: 3000, // More detailed for competitive exams
-        targetExam: 'IAS Prelims',
-        difficulty: 'advanced',
-        includeCurrentAffairs: true,
-        includeYearlyUpdates: true
-      }
+    const lessonRes = await axios.post(`${API_BASE}/courses/${courseId}/generate-lesson`, {
+      moduleNumber: index + 1,
+      chapterNumber: 1,
+      topic: `${module.title}: ${module.topics.join(', ')}`
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {},
       timeout: 150000 // 2.5 minutes timeout
     });
 
-    const lesson = lessonRes.data.lesson || lessonRes.data;
+    const lesson = lessonRes.data.data || lessonRes.data.lesson || lessonRes.data;
 
     log(`     ✓ Lesson ID: ${lesson._id || lesson.lessonId}`, 'green');
     log(`     ✓ Content: ${lesson.content?.length || 3000} characters`);
@@ -139,18 +126,16 @@ async function main() {
     // Create course
     log(`🎓 Creating Course: ${course.name}`, 'bright');
     const courseRes = await axios.post(`${API_BASE}/courses/generate`, {
-      courseCode: course.code,
-      courseName: course.name,
-      category: 'competitive',
-      difficulty: 'advanced',
-      targetExam: 'UPSC Civil Services Prelims',
-      totalHours: 300,
-      description: 'Comprehensive IAS Prelims preparation covering Ancient History, Medieval History, Modern History, Indian Geography, Indian Polity, and Indian Economy with UPSC pattern questions'
+      subject: 'General Studies',
+      level: 'ADVANCED',
+      examType: 'IAS_PRELIMS',
+      courseTitle: course.name,
+      modules: course.modules
     }, {
       headers: TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}
     });
 
-    results.courseId = courseRes.data.courseId || courseRes.data.course?._id;
+    results.courseId = courseRes.data.data?._id;
     log(`✓ Course created: ${results.courseId}\n`, 'green');
 
     // Generate lessons in batches of 6
