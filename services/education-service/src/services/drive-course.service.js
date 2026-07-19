@@ -4,6 +4,8 @@
  */
 
 const axios = require('axios');
+const fs = require('fs/promises');
+const path = require('path');
 const caCoursesConfig = require('../config/ca-drive-courses');
 
 class DriveCourseService {
@@ -62,26 +64,31 @@ class DriveCourseService {
         success: true,
         data: {
           ...course,
-          lessons: cached.lessons
+          lessons: cached.lessons,
+          source: cached.source,
+          modules: this.organizeLessonsIntoModules(cached.lessons)
         }
       };
     }
 
-    // Fetch lessons from Google Drive
-    const lessons = await this.fetchLessonsFromDrive(course.driveFileId);
+    // Prefer Google Drive when configured. The repository copy is a deliberate
+    // fallback so a temporary Drive/network failure never removes the course.
+    const { lessons, source } = await this.fetchCourseLessons(course);
     
     // Cache the lessons
     this.cache.set(cacheKey, {
       lessons,
+      source,
       timestamp: Date.now()
     });
 
     return {
       success: true,
       data: {
-        ...course,
-        lessons,
-        modules: this.organizeLessonsIntoModules(lessons)
+          ...course,
+          lessons,
+          source,
+          modules: this.organizeLessonsIntoModules(lessons)
       }
     };
   }
@@ -93,13 +100,22 @@ class DriveCourseService {
     const courseData = await this.getCourseById(courseId);
     const lessons = courseData.data.lessons;
     
-    if (!lessons || lessonIndex >= lessons.length) {
+    if (!lessons || lessonIndex < 0 || lessonIndex >= lessons.length) {
       throw new Error('Lesson not found');
     }
 
     return {
       success: true,
-      data: lessons[lessonIndex]
+      data: {
+        ...lessons[lessonIndex],
+        navigation: {
+          courseId,
+          lessonIndex,
+          totalLessons: lessons.length,
+          hasPrevious: lessonIndex > 0,
+          hasNext: lessonIndex < lessons.length - 1
+        }
+      }
     };
   }
 
@@ -135,6 +151,43 @@ class DriveCourseService {
     }
   }
 
+  async fetchCourseLessons(course) {
+    if (course.driveFileId) {
+      try {
+        return {
+          lessons: await this.fetchLessonsFromDrive(course.driveFileId),
+          source: 'google-drive'
+        };
+      } catch (error) {
+        console.warn(`Drive unavailable for ${course.id}; using bundled course content: ${error.message}`);
+      }
+    }
+
+    return {
+      lessons: await this.fetchLessonsFromLocalFile(course.localFile),
+      source: 'bundled'
+    };
+  }
+
+  async fetchLessonsFromLocalFile(fileName) {
+    if (!fileName) {
+      throw new Error('Bundled course file not configured');
+    }
+
+    const filePath = path.resolve(
+      __dirname,
+      '../../../../scripts/google-drive-content',
+      fileName
+    );
+    const content = JSON.parse(await fs.readFile(filePath, 'utf8'));
+
+    if (!Array.isArray(content)) {
+      throw new Error(`Invalid bundled course format: ${fileName}`);
+    }
+
+    return content;
+  }
+
   /**
    * Organize lessons into modules
    */
@@ -153,6 +206,7 @@ class DriveCourseService {
       
       moduleMap[moduleNum].lessons.push({
         lessonIndex: index,
+        id: `${lesson.subject || 'ca'}-${index}`,
         topic: lesson.topic,
         duration: lesson.duration,
         chapterNumber: lesson.chapterNumber

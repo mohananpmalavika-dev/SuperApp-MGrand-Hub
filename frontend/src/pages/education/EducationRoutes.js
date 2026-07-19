@@ -15,6 +15,9 @@ import Notifications from './Notifications';
 import StudyPlan from './StudyPlan';
 import SubscriptionPlans from './SubscriptionPlans';
 import SubscriptionManagement from './SubscriptionManagement';
+import CAFoundationCourses from './CAFoundationCourses';
+import CAFoundationCourse from './CAFoundationCourse';
+import CAFoundationLesson from './CAFoundationLesson';
 
 const EducationRoutes = () => {
   return (
@@ -23,6 +26,9 @@ const EducationRoutes = () => {
         <Route path="/" element={<Navigate to="/education/dashboard" replace />} />
         <Route path="/dashboard" element={<EducationDashboard />} />
         <Route path="/courses" element={<CourseBrowser />} />
+        <Route path="/ca-foundation" element={<CAFoundationCourses />} />
+        <Route path="/ca-foundation/:courseId" element={<CAFoundationCourse />} />
+        <Route path="/ca-foundation/:courseId/lesson/:lessonIndex" element={<CAFoundationLesson />} />
         <Route path="/course/:courseId" element={<CourseDetail />} />
         <Route path="/lesson/:lessonId" element={<LessonViewer />} />
         <Route path="/practice" element={<PracticeQuestions />} />

@@ -253,3 +253,33 @@ services:
       - key: ALLOWED_ORIGINS
         value: https://www.malabarbazaar.shop,https://malabarbazaar.shop,http://localhost:3000
     autoDeploy: true
+
+  # =====================================================
+  # EDUCATION SERVICE - CA Foundation course delivery
+  # =====================================================
+  - type: web
+    name: education-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd services/education-service && npm install
+    startCommand: cd services/education-service && npm start
+    healthCheckPath: /api/education/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3013
+      - key: REDIS_DISABLED
+        value: true
+      - key: MONGO_URI
+        sync: false
+      - key: CA_ACCOUNTING_DRIVE_FILE_ID
+        sync: false
+      - key: CA_ECONOMICS_DRIVE_FILE_ID
+        sync: false
+      - key: CA_LAWS_DRIVE_FILE_ID
+        sync: false
+      - key: CA_MATHEMATICS_DRIVE_FILE_ID
+        sync: false
+    autoDeploy: true

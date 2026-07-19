@@ -6,10 +6,10 @@
 module.exports = {
   // Google Drive File IDs (Update these after uploading)
   driveFileIds: {
-    'ca-foundation-accounting': '', // Paste File ID here
-    'ca-foundation-economics': '', // Paste File ID here
-    'ca-foundation-laws': '', // Paste File ID here
-    'ca-foundation-mathematics': '' // Paste File ID here
+    'ca-foundation-accounting': process.env.CA_ACCOUNTING_DRIVE_FILE_ID || '',
+    'ca-foundation-economics': process.env.CA_ECONOMICS_DRIVE_FILE_ID || '',
+    'ca-foundation-laws': process.env.CA_LAWS_DRIVE_FILE_ID || '',
+    'ca-foundation-mathematics': process.env.CA_MATHEMATICS_DRIVE_FILE_ID || ''
   },
 
   // Course Metadata
@@ -30,6 +30,7 @@ module.exports = {
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/2196F3/ffffff?text=CA+Foundation+Accounting',
       tags: ['CA', 'Accounting', 'Foundation', 'Professional', 'Indian Exam'],
+      localFile: 'ca-f-accounting.json',
       driveFileId: '', // Will be set from driveFileIds
       language: 'English',
       rating: 4.5,
@@ -52,6 +53,7 @@ module.exports = {
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/4CAF50/ffffff?text=CA+Foundation+Economics',
       tags: ['CA', 'Economics', 'Foundation', 'Professional', 'Indian Exam'],
+      localFile: 'ca-f-business-economics.json',
       driveFileId: '',
       language: 'English',
       rating: 4.6,
@@ -74,6 +76,7 @@ module.exports = {
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/FF9800/ffffff?text=CA+Foundation+Laws',
       tags: ['CA', 'Business Laws', 'Foundation', 'Professional', 'Indian Exam'],
+      localFile: 'ca-f-business-laws.json',
       driveFileId: '',
       language: 'English',
       rating: 4.4,
@@ -96,6 +99,7 @@ module.exports = {
       currency: 'INR',
       thumbnail: 'https://via.placeholder.com/400x225/9C27B0/ffffff?text=CA+Foundation+Maths',
       tags: ['CA', 'Mathematics', 'Foundation', 'Professional', 'Indian Exam'],
+      localFile: 'ca-f-business-mathematics.json',
       driveFileId: '',
       language: 'English',
       rating: 4.7,

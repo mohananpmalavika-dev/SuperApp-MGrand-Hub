@@ -45,6 +45,7 @@ const drawerWidth = 240;
 const menuItems = [
   { text: 'Dashboard', icon: <Dashboard />, path: '/education/dashboard' },
   { text: 'Courses', icon: <School />, path: '/education/courses' },
+  { text: 'CA Foundation', icon: <MenuBook />, path: '/education/ca-foundation' },
   { text: 'My Learning', icon: <MenuBook />, path: '/education/dashboard' },
   { text: 'Practice', icon: <Quiz />, path: '/education/practice' },
   { text: 'Tests', icon: <Assessment />, path: '/education/tests' },

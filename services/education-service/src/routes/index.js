@@ -9,6 +9,7 @@ const progressRoutes = require('./progress');
 const videoRoutes = require('./videos');
 const driveContentRoutes = require('./driveContent');
 const notesDownloadRoutes = require('./notesDownload');
+const caCourseRoutes = require('./ca-courses.routes');
 
 // Mount routes
 router.use('/courses', courseRoutes);
@@ -18,6 +19,7 @@ router.use('/progress', progressRoutes);
 router.use('/videos', videoRoutes);
 router.use('/drive', driveContentRoutes);  // Google Drive content routes
 router.use('/notes', notesDownloadRoutes);  // Notes download routes
+router.use('/ca', caCourseRoutes);  // CA Foundation courses (Drive with local fallback)
 
 // Health check
 router.get('/health', (req, res) => {

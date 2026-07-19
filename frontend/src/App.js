@@ -17,6 +17,10 @@ import LessonView from './pages/LessonView';
 import ResumeDashboard from './pages/resume/ResumeDashboard';
 import MessagingDashboard from './pages/messaging/MessagingDashboard';
 import EducationRoutes from './pages/education/EducationRoutes';
+import EducationLayout from './components/education/EducationLayout';
+import CAFoundationCourses from './pages/education/CAFoundationCourses';
+import CAFoundationCourse from './pages/education/CAFoundationCourse';
+import CAFoundationLesson from './pages/education/CAFoundationLesson';
 import AdminRoutes from './pages/admin/AdminRoutes';
 import './App.css';
 
@@ -128,6 +132,18 @@ function App() {
               />
               
               {/* Education Routes */}
+              <Route
+                path="/education/ca-foundation"
+                element={<EducationLayout><CAFoundationCourses /></EducationLayout>}
+              />
+              <Route
+                path="/education/ca-foundation/:courseId"
+                element={<EducationLayout><CAFoundationCourse /></EducationLayout>}
+              />
+              <Route
+                path="/education/ca-foundation/:courseId/lesson/:lessonIndex"
+                element={<EducationLayout><CAFoundationLesson /></EducationLayout>}
+              />
               <Route 
                 path="/education/*" 
                 element={user ? <EducationRoutes /> : <Navigate to="/login" />} 

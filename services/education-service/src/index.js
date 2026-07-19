@@ -40,11 +40,14 @@ app.use('/api/education/animations', express.static('uploads/animations'));
 
 // Connect to MongoDB with retry logic
 const connectMongoDB = async (retries = 5, delay = 5000) => {
+  if (!process.env.MONGO_URI) {
+    logger.warn('MONGO_URI is not configured; CA Foundation bundled content remains available.');
+    return;
+  }
+
   for (let i = 0; i < retries; i++) {
     try {
       await mongoose.connect(process.env.MONGO_URI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
         serverSelectionTimeoutMS: 10000,
       });
       logger.info('MongoDB connected successfully');

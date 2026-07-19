@@ -30,6 +30,15 @@ import './LaunchPage.css';
 
 const modules = [
   {
+    id: 'ca-foundation',
+    name: 'CA Foundation',
+    description: 'Complete Accounting, Economics, Laws, and Mathematics courses',
+    icon: <School sx={{ fontSize: 48 }} />,
+    color: '#1976D2',
+    status: 'Active',
+    path: '/education/ca-foundation',
+  },
+  {
     id: 'tutor',
     name: 'Personal Tutor',
     description: 'AI-powered adaptive learning with quizzes',
@@ -108,7 +117,7 @@ function LaunchPage({ user }) {
 
   const handleModuleClick = (module) => {
     if (module.status === 'Active') {
-      if (user) {
+      if (user || module.id === 'ca-foundation') {
         navigate(module.path);
       } else {
         navigate('/login', { state: { returnTo: module.path } });
