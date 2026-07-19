@@ -299,11 +299,11 @@ function TutorDashboard({ user }) {
                             <Box>
                               <LinearProgress
                                 variant="determinate"
-                                value={session.progress || 0}
+                                value={session.progress?.percentComplete || 0}
                                 sx={{ my: 1 }}
                               />
                               <Typography variant="caption">
-                                {session.progress}% complete
+                                {session.progress?.percentComplete || 0}% complete
                               </Typography>
                             </Box>
                           }
