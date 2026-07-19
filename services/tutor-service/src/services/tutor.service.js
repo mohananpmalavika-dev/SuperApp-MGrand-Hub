@@ -593,24 +593,44 @@ class TutorService {
   }
 
   async calculateUserStats(userId) {
-    const totalSessions = await TutorSession.countDocuments({ userId });
-    const completedSessions = await TutorSession.countDocuments({ userId, status: 'completed' });
-    const totalQuizzes = await Quiz.countDocuments({ userId, status: 'completed' });
-    const totalPoints = await TutorSession.getUserTotalPoints(userId);
+    try {
+      const totalSessions = await TutorSession.countDocuments({ userId });
+      const completedSessions = await TutorSession.countDocuments({ userId, status: 'completed' });
+      const totalQuizzes = await Quiz.countDocuments({ userId, status: 'completed' });
+      
+      let totalPoints = 0;
+      try {
+        totalPoints = await TutorSession.getUserTotalPoints(userId);
+      } catch (pointsError) {
+        logger.error('Error getting total points:', pointsError);
+        // Continue with 0 points
+      }
 
-    const quizzes = await Quiz.find({ userId, status: 'completed' });
-    const avgQuizScore = quizzes.length > 0
-      ? quizzes.reduce((sum, q) => sum + q.results.score, 0) / quizzes.length
-      : 0;
+      const quizzes = await Quiz.find({ userId, status: 'completed' });
+      const avgQuizScore = quizzes.length > 0
+        ? quizzes.reduce((sum, q) => sum + q.results.score, 0) / quizzes.length
+        : 0;
 
-    return {
-      totalSessions,
-      completedSessions,
-      totalQuizzes,
-      totalPoints,
-      avgQuizScore: Math.round(avgQuizScore),
-      learningStreak: 0, // Calculate based on daily activity
-    };
+      return {
+        totalSessions: totalSessions || 0,
+        completedSessions: completedSessions || 0,
+        totalQuizzes: totalQuizzes || 0,
+        totalPoints: totalPoints || 0,
+        avgQuizScore: Math.round(avgQuizScore) || 0,
+        learningStreak: 0, // Calculate based on daily activity
+      };
+    } catch (error) {
+      logger.error('Error calculating user stats:', error);
+      // Return default stats instead of throwing
+      return {
+        totalSessions: 0,
+        completedSessions: 0,
+        totalQuizzes: 0,
+        totalPoints: 0,
+        avgQuizScore: 0,
+        learningStreak: 0,
+      };
+    }
   }
 
   async generateRecommendations(userId, activeSessions, recentQuizzes) {

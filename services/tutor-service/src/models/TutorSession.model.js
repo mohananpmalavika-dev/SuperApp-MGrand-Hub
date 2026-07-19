@@ -131,11 +131,16 @@ tutorSessionSchema.methods.addPoints = function (points) {
 
 // Static method to get user's total points
 tutorSessionSchema.statics.getUserTotalPoints = async function (userId) {
-  const result = await this.aggregate([
-    { $match: { userId: mongoose.Types.ObjectId(userId) } },
-    { $group: { _id: null, totalPoints: { $sum: '$gamification.pointsEarned' } } },
-  ]);
-  return result[0]?.totalPoints || 0;
+  try {
+    const result = await this.aggregate([
+      { $match: { userId: new mongoose.Types.ObjectId(userId) } },
+      { $group: { _id: null, totalPoints: { $sum: '$gamification.pointsEarned' } } },
+    ]);
+    return result[0]?.totalPoints || 0;
+  } catch (error) {
+    console.error('Error calculating total points:', error);
+    return 0; // Return 0 if there's an error
+  }
 };
 
 module.exports = mongoose.model('TutorSession', tutorSessionSchema);
