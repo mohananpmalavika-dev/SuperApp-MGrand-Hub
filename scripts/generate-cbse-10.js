@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const API_BASE = process.env.API_URL || 'http://localhost:3003/api/education';
+const API_BASE = process.env.API_URL || 'http://localhost:3013/api/education';
 const TOKEN = process.env.JWT_TOKEN || '';
 
 // CBSE Class 10 Mathematics course structure (16 lessons)

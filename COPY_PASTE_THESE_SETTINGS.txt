@@ -1,0 +1,88 @@
+╔════════════════════════════════════════════════════════════════╗
+║     RENDER TUTOR SERVICE - COPY & PASTE THESE SETTINGS         ║
+╚════════════════════════════════════════════════════════════════╝
+
+┌────────────────────────────────────────────────────────────────┐
+│  ROOT DIRECTORY:                                               │
+└────────────────────────────────────────────────────────────────┘
+
+(leave completely empty - delete any existing text)
+
+
+┌────────────────────────────────────────────────────────────────┐
+│  BUILD COMMAND:                                                │
+└────────────────────────────────────────────────────────────────┘
+
+cd packages/shared && npm install && cd ../services/tutor-service && npm install
+
+
+┌────────────────────────────────────────────────────────────────┐
+│  START COMMAND:                                                │
+└────────────────────────────────────────────────────────────────┘
+
+cd services/tutor-service && npm start
+
+
+┌────────────────────────────────────────────────────────────────┐
+│  HEALTH CHECK PATH:                                            │
+└────────────────────────────────────────────────────────────────┘
+
+/api/tutor/health
+
+
+┌────────────────────────────────────────────────────────────────┐
+│  ENVIRONMENT VARIABLES:                                        │
+└────────────────────────────────────────────────────────────────┘
+
+NODE_ENV=production
+PORT=10000
+MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster.mongodb.net/mgrand-hub
+JWT_SECRET=YOUR_RANDOM_32_CHARACTER_STRING
+ALLOWED_ORIGINS=https://yourdomain.com,http://localhost:3000
+ENABLE_AI_TUTOR=true
+ENABLE_GAMIFICATION=true
+
+
+╔════════════════════════════════════════════════════════════════╗
+║  ALTERNATIVE BUILD COMMAND (if first one doesn't work):        ║
+╚════════════════════════════════════════════════════════════════╝
+
+npm install --prefix packages/shared && npm install --prefix services/tutor-service
+
+
+╔════════════════════════════════════════════════════════════════╗
+║  HOW TO APPLY:                                                 ║
+╚════════════════════════════════════════════════════════════════╝
+
+1. Go to https://dashboard.render.com
+2. Click your service (tutor-service)
+3. Click "Settings" tab
+4. Scroll to "Build & Deploy"
+5. Update the fields with values above
+6. Click "Save Changes"
+7. Click "Manual Deploy" → "Clear build cache & deploy"
+
+
+╔════════════════════════════════════════════════════════════════╗
+║  VERIFY SUCCESS:                                               ║
+╚════════════════════════════════════════════════════════════════╝
+
+Test URL (replace xxx with your actual URL):
+https://tutor-service-xxx.onrender.com/api/tutor/health
+
+Expected response:
+{"success":true,"service":"tutor-service","status":"healthy"}
+
+
+╔════════════════════════════════════════════════════════════════╗
+║  MORE HELP:                                                    ║
+╚════════════════════════════════════════════════════════════════╝
+
+📖 DO_THIS_RIGHT_NOW.md - Visual step-by-step guide
+📖 RENDER_FINAL_FIX.md - Complete explanation
+📖 TUTOR_API_DEPLOYMENT_COMPLETE_GUIDE.md - Everything
+
+
+═══════════════════════════════════════════════════════════════
+        PRINT THIS PAGE AND KEEP IT NEXT TO YOU! 📄
+═══════════════════════════════════════════════════════════════

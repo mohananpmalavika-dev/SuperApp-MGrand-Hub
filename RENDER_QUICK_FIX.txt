@@ -1,0 +1,74 @@
+╔════════════════════════════════════════════════════════════════╗
+║           RENDER DEPLOYMENT - QUICK FIX CARD                   ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  ERROR YOU'RE SEEING:                                          ║
+║  ✗ Error: Cannot find module '../../../packages/shared...'    ║
+║                                                                ║
+║  THE FIX:                                                      ║
+║  Update your Build Command in Render Settings                 ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  COPY THIS BUILD COMMAND:                                      ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  cd ../.. && cd packages/shared && npm install && \           ║
+║  cd ../../services/tutor-service && npm install               ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  WHERE TO UPDATE:                                              ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  1. Go to https://dashboard.render.com                         ║
+║  2. Click your service (tutor-service)                         ║
+║  3. Click "Settings" tab                                       ║
+║  4. Scroll to "Build & Deploy"                                 ║
+║  5. Find "Build Command" field                                 ║
+║  6. Paste the command above                                    ║
+║  7. Click "Save Changes"                                       ║
+║  8. Go to "Manual Deploy"                                      ║
+║  9. Click "Clear build cache & deploy"                         ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  COMPLETE SETTINGS:                                            ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  Root Directory:      services/tutor-service                   ║
+║  Build Command:       (see above - the long one)               ║
+║  Start Command:       npm start                                ║
+║  Health Check Path:   /api/tutor/health                        ║
+║  Port:                10000                                    ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  ENVIRONMENT VARIABLES NEEDED:                                 ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  NODE_ENV=production                                           ║
+║  PORT=10000                                                    ║
+║  MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/db     ║
+║  JWT_SECRET=[random-32-character-string]                       ║
+║  ALLOWED_ORIGINS=https://yourdomain.com                        ║
+║  ENABLE_AI_TUTOR=true                                          ║
+║  ENABLE_GAMIFICATION=true                                      ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  TEST AFTER DEPLOYMENT:                                        ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  curl https://tutor-service-xxx.onrender.com/api/tutor/health ║
+║                                                                ║
+║  Should return:                                                ║
+║  {"success":true,"service":"tutor-service","status":"healthy"} ║
+║                                                                ║
+╠════════════════════════════════════════════════════════════════╣
+║  MORE HELP:                                                    ║
+╠════════════════════════════════════════════════════════════════╣
+║                                                                ║
+║  📖 FIX_NOW_SHARED_PACKAGE.md - Immediate fix guide            ║
+║  📖 DEPLOY_TUTOR_NOW.md - Step-by-step deployment              ║
+║  📖 RENDER_SHARED_PACKAGE_FIX.md - Detailed troubleshooting    ║
+║  📖 TUTOR_API_DEPLOYMENT_COMPLETE_GUIDE.md - Everything        ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+PRINT THIS OR KEEP IT OPEN WHILE YOU FIX RENDER! 🚀
