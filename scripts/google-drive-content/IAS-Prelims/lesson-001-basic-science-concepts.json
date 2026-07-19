@@ -1,0 +1,104 @@
+{
+  "courseId": "6a5cabbbf5ce74ecaa5133f1",
+  "moduleNumber": 1,
+  "chapterNumber": 1,
+  "topic": "Basic Science Concepts",
+  "subject": "Science & Technology",
+  "duration": 60,
+  "introduction": "### Why Basic Science Concepts Matter\n\nUnderstanding basic science concepts is crucial for making informed decisions in various aspects of life, including policy-making and governance. The IAS Prelims exam requires a strong foundation in science and technology to evaluate the country's progress and challenges. In this lesson, we will explore three key concepts that are essential for a comprehensive understanding of science and technology.\n\n### What to Expect\n\nIn this lesson, we will cover the following topics:\n\n* Key concepts: Energy, Photosynthesis, and the Water Cycle\n* Detailed explanation of each concept\n* Real-world applications and examples\n* Solved examples and practice problems\n* Common mistakes to avoid and exam tips",
+  "keyConcepts": [
+    {
+      "concept": "Energy",
+      "definition": "The ability to do work or cause change",
+      "explanation": "Energy can be in various forms, such as kinetic, potential, thermal, and electromagnetic. It is essential for various processes, including photosynthesis and the water cycle.",
+      "_id": "6a5cabd3f5ce74ecaa5133fc"
+    },
+    {
+      "concept": "Photosynthesis",
+      "definition": "The process by which plants convert sunlight into energy",
+      "explanation": "Photosynthesis occurs in the chloroplasts of plant cells and involves the conversion of carbon dioxide and water into glucose and oxygen. It is a critical process for life on Earth and is essential for the food chain.",
+      "_id": "6a5cabd3f5ce74ecaa5133fd"
+    },
+    {
+      "concept": "Water Cycle",
+      "definition": "The continuous process of water evaporation, condensation, and precipitation",
+      "explanation": "The water cycle involves the movement of water between the Earth's oceans, atmosphere, and land. It is essential for regulating the Earth's climate and weather patterns.",
+      "_id": "6a5cabd3f5ce74ecaa5133fe"
+    }
+  ],
+  "detailedContent": "### Energy\n\nEnergy is the ability to do work or cause change. It can be in various forms, such as kinetic, potential, thermal, and electromagnetic. Kinetic energy is the energy of motion, while potential energy is stored energy. Thermal energy is the energy of heat, and electromagnetic energy is the energy of light and radiation.\n\n### Photosynthesis\n\nPhotosynthesis is the process by which plants convert sunlight into energy. It occurs in the chloroplasts of plant cells and involves the conversion of carbon dioxide and water into glucose and oxygen. The equation for photosynthesis is:\n\n6 CO2 + 6 H2O + light energy → C6H12O6 (glucose) + 6 O2\n\n### Water Cycle\n\nThe water cycle is the continuous process of water evaporation, condensation, and precipitation. It involves the movement of water between the Earth's oceans, atmosphere, and land. The water cycle is essential for regulating the Earth's climate and weather patterns.\n\n### Real-World Applications\n\nEnergy is essential for various processes, including photosynthesis and the water cycle. Photosynthesis is critical for life on Earth and is essential for the food chain. The water cycle regulates the Earth's climate and weather patterns, making it essential for agriculture and human settlements.",
+  "solvedExamples": [
+    {
+      "question": "What is the equation for photosynthesis?",
+      "solution": "6 CO2 + 6 H2O + light energy → C6H12O6 (glucose) + 6 O2",
+      "keyTakeaway": "Photosynthesis involves the conversion of carbon dioxide and water into glucose and oxygen.",
+      "_id": "6a5cabd3f5ce74ecaa5133ff"
+    }
+  ],
+  "realWorldApplications": [
+    "Energy is essential for various processes, including photosynthesis and the water cycle.",
+    "Photosynthesis is critical for life on Earth and is essential for the food chain.",
+    "The water cycle regulates the Earth's climate and weather patterns, making it essential for agriculture and human settlements."
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Confusing kinetic energy with potential energy",
+      "why": "Kinetic energy is the energy of motion, while potential energy is stored energy.",
+      "howToAvoid": "Remember that kinetic energy is related to motion, while potential energy is related to stored energy.",
+      "_id": "6a5cabd3f5ce74ecaa513400"
+    },
+    {
+      "mistake": "Not understanding the importance of photosynthesis",
+      "why": "Photosynthesis is critical for life on Earth and is essential for the food chain.",
+      "howToAvoid": "Remember that photosynthesis is the process by which plants convert sunlight into energy.",
+      "_id": "6a5cabd3f5ce74ecaa513401"
+    }
+  ],
+  "practiceProblems": [
+    {
+      "question": "What is the definition of energy?",
+      "difficulty": "Easy",
+      "_id": "6a5cabd3f5ce74ecaa513402"
+    },
+    {
+      "question": "What is the equation for photosynthesis?",
+      "difficulty": "Medium",
+      "_id": "6a5cabd3f5ce74ecaa513403"
+    },
+    {
+      "question": "What is the importance of the water cycle?",
+      "difficulty": "Hard",
+      "_id": "6a5cabd3f5ce74ecaa513404"
+    }
+  ],
+  "quickRevision": {
+    "summary": [
+      "Energy is the ability to do work or cause change.",
+      "Photosynthesis is the process by which plants convert sunlight into energy.",
+      "The water cycle is the continuous process of water evaporation, condensation, and precipitation."
+    ],
+    "formulas": [
+      "6 CO2 + 6 H2O + light energy → C6H12O6 (glucose) + 6 O2"
+    ],
+    "mnemonics": [
+      "Kinetic energy is motion, while potential energy is stored."
+    ]
+  },
+  "examTips": [
+    "Time management is essential for the IAS Prelims exam.",
+    "Focus on understanding the concepts rather than just memorizing formulas.",
+    "Practice problems are essential for improving your understanding of the concepts."
+  ],
+  "aiGenerated": true,
+  "generatedBy": "groq-llama-3.3-70b",
+  "viewCount": 0,
+  "completionCount": 0,
+  "averageRating": 0,
+  "status": "published",
+  "_id": "6a5cabd3f5ce74ecaa5133fb",
+  "audioSegments": [],
+  "generatedAt": "2026-07-19T10:49:55.351Z",
+  "createdAt": "2026-07-19T10:49:55.354Z",
+  "updatedAt": "2026-07-19T10:49:55.354Z",
+  "__v": 0
+}

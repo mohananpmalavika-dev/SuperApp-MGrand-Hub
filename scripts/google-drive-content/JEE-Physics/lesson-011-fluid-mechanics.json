@@ -1,0 +1,102 @@
+{
+  "quickRevision": {
+    "summary": [
+      "Displacement is the shortest distance between the initial and final positions of an object.",
+      "Velocity is the rate of change of displacement with respect to time.",
+      "Acceleration is the rate of change of velocity with respect to time."
+    ],
+    "formulas": [
+      "v = Δx / Δt",
+      "a = Δv / Δt"
+    ],
+    "mnemonics": [
+      "Displacement is like a straight line.",
+      "Velocity is like speed in a specific direction.",
+      "Acceleration is like change in speed over time."
+    ]
+  },
+  "_id": "6a5cab21f5ce74ecaa512e66",
+  "courseId": "6a5cab10f5ce74ecaa512e5c",
+  "moduleNumber": 1,
+  "chapterNumber": 1,
+  "topic": "Kinematics - Motion in One Dimension",
+  "subject": "Physics",
+  "duration": 60,
+  "introduction": "### Why Kinematics Matters\nKinematics is the study of motion without considering the forces that cause it. Understanding kinematics is crucial in various fields like engineering, physics, and computer science. For JEE_MAIN, kinematics is a fundamental topic that requires a deep understanding of concepts like displacement, velocity, and acceleration.\n\n### What to Expect\nIn this lesson, we will cover the key concepts of kinematics, including displacement, velocity, and acceleration. We will also discuss how to solve problems related to motion in one dimension. By the end of this lesson, you will be able to apply kinematics to real-world problems and score well in JEE_MAIN.",
+  "keyConcepts": [
+    {
+      "concept": "Displacement",
+      "definition": "Displacement is the shortest distance between the initial and final positions of an object.",
+      "explanation": "Imagine you are moving from one end of a room to the other. The displacement is the straight line distance between the two ends.",
+      "_id": "6a5cab21f5ce74ecaa512e67"
+    },
+    {
+      "concept": "Velocity",
+      "definition": "Velocity is the rate of change of displacement with respect to time.",
+      "explanation": "Think of velocity as the speed of an object in a specific direction. For example, if you are traveling at 60 km/h north, your velocity is 60 km/h north.",
+      "_id": "6a5cab21f5ce74ecaa512e68"
+    },
+    {
+      "concept": "Acceleration",
+      "definition": "Acceleration is the rate of change of velocity with respect to time.",
+      "explanation": "Acceleration is the change in velocity over time. For example, if you are speeding up from 0 to 60 km/h in 10 seconds, your acceleration is 6 m/s^2.",
+      "_id": "6a5cab21f5ce74ecaa512e69"
+    }
+  ],
+  "detailedContent": "### Displacement\nDisplacement is a vector quantity, which means it has both magnitude and direction. The displacement of an object can be calculated using the formula:\n\nΔx = x_f - x_i\n\nwhere Δx is the displacement, x_f is the final position, and x_i is the initial position.\n\n### Velocity\nVelocity is a scalar quantity, which means it has only magnitude. The velocity of an object can be calculated using the formula:\n\nv = Δx / Δt\n\nwhere v is the velocity, Δx is the displacement, and Δt is the time.\n\n### Acceleration\nAcceleration is a vector quantity, which means it has both magnitude and direction. The acceleration of an object can be calculated using the formula:\n\na = Δv / Δt\n\nwhere a is the acceleration, Δv is the change in velocity, and Δt is the time.\n\n### Real-World Applications\nKinematics is used in various fields like engineering, physics, and computer science. For example, in robotics, kinematics is used to calculate the motion of robots. In video games, kinematics is used to simulate the motion of characters and objects.\n\n### Common Mistakes to Avoid\n1. Confusing displacement and distance. Displacement is the shortest distance between the initial and final positions, while distance is the total length of the path traveled.\n2. Not considering the direction of velocity and acceleration. Velocity and acceleration are vector quantities, which means they have both magnitude and direction.",
+  "solvedExamples": [
+    {
+      "question": "A car travels from point A to point B with a constant velocity of 60 km/h. If the distance between point A and point B is 240 km, how long does it take to travel from point A to point B?",
+      "solution": "Given:\n\nv = 60 km/h\n\nΔx = 240 km\n\nΔt = ?\n\nUsing the formula v = Δx / Δt, we can solve for Δt:\n\nΔt = Δx / v\n\nΔt = 240 km / 60 km/h\n\nΔt = 4 hours\n\nTherefore, it takes 4 hours to travel from point A to point B.",
+      "keyTakeaway": "To solve problems related to motion in one dimension, use the formulas v = Δx / Δt and a = Δv / Δt.",
+      "_id": "6a5cab21f5ce74ecaa512e6a"
+    }
+  ],
+  "realWorldApplications": [
+    "Robotics",
+    "Video Games",
+    "Engineering"
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Confusing displacement and distance",
+      "why": "Displacement is the shortest distance between the initial and final positions, while distance is the total length of the path traveled.",
+      "howToAvoid": "Always consider the direction of the displacement and distance when solving problems.",
+      "_id": "6a5cab21f5ce74ecaa512e6b"
+    },
+    {
+      "mistake": "Not considering the direction of velocity and acceleration",
+      "why": "Velocity and acceleration are vector quantities, which means they have both magnitude and direction.",
+      "howToAvoid": "Always consider the direction of velocity and acceleration when solving problems.",
+      "_id": "6a5cab21f5ce74ecaa512e6c"
+    }
+  ],
+  "practiceProblems": [
+    {
+      "question": "A particle moves from point A to point B with a constant acceleration of 2 m/s^2. If the initial velocity is 4 m/s and the final velocity is 8 m/s, how long does it take to travel from point A to point B?",
+      "difficulty": "Medium",
+      "_id": "6a5cab21f5ce74ecaa512e6d"
+    },
+    {
+      "question": "A car travels from point A to point B with a constant velocity of 80 km/h. If the distance between point A and point B is 320 km, how long does it take to travel from point A to point B?",
+      "difficulty": "Easy",
+      "_id": "6a5cab21f5ce74ecaa512e6e"
+    }
+  ],
+  "examTips": [
+    "Practice solving problems related to motion in one dimension.",
+    "Use the formulas v = Δx / Δt and a = Δv / Δt to solve problems.",
+    "Consider the direction of velocity and acceleration when solving problems."
+  ],
+  "aiGenerated": true,
+  "generatedBy": "groq-llama-3.3-70b",
+  "viewCount": 0,
+  "completionCount": 0,
+  "averageRating": 0,
+  "status": "published",
+  "audioSegments": [],
+  "generatedAt": "2026-07-19T10:46:57.857Z",
+  "createdAt": "2026-07-19T10:46:57.860Z",
+  "updatedAt": "2026-07-19T10:46:57.860Z",
+  "__v": 0
+}

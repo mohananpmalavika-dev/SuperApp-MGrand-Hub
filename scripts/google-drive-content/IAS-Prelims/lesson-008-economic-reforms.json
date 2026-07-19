@@ -1,0 +1,106 @@
+{
+  "quickRevision": {
+    "summary": [
+      "GDP = C + I + G + (X - M)",
+      "Inflation = (Current Price - Previous Price) / Previous Price",
+      "Fiscal policy refers to the use of government spending and taxation to influence the overall level of economic activity."
+    ],
+    "formulas": [
+      "GDP = C + I + G + (X - M)",
+      "Inflation = (Current Price - Previous Price) / Previous Price"
+    ],
+    "mnemonics": [
+      "GDP: Goods, Investment, Government, Exports, Imports",
+      "Inflation: Increase, Prices, Rise, Over, Time"
+    ]
+  },
+  "_id": "6a5cabb6f5ce74ecaa513354",
+  "courseId": "6a5cab9ff5ce74ecaa51334a",
+  "moduleNumber": 1,
+  "chapterNumber": 1,
+  "topic": "Indian Economy Overview",
+  "subject": "Economics",
+  "duration": 60,
+  "introduction": "### Why Indian Economy Matters\n\nThe Indian economy is the third-largest in the world by nominal GDP and is expected to become the third-largest economy in the world by 2030. Understanding the Indian economy is crucial for IAS PRELIMS as it accounts for a significant portion of the exam. In this lesson, we will cover the key concepts, detailed explanations, and real-world applications of the Indian economy.\n\n### What to Expect\n\nIn this lesson, we will cover the following topics:\n\n* Key concepts: GDP, inflation, and fiscal policy\n* Detailed explanation of each concept with real-life examples\n* Solved examples and practice problems\n* Real-world applications and common mistakes to avoid\n\n### Real-World Relevance\n\nThe Indian economy is a complex system that affects every aspect of our lives. Understanding how it works is essential for making informed decisions as a citizen and a policymaker. In this lesson, we will explore how the Indian economy applies in real scenarios, industry relevance, and current affairs connections.",
+  "keyConcepts": [
+    {
+      "concept": "GDP",
+      "definition": "Gross Domestic Product is the total value of goods and services produced within a country's borders.",
+      "explanation": "Imagine a country as a factory that produces goods and services. GDP is the total value of all the goods and services produced by that factory.",
+      "_id": "6a5cabb6f5ce74ecaa513355"
+    },
+    {
+      "concept": "Inflation",
+      "definition": "Inflation is a sustained increase in the general price level of goods and services in an economy over a period of time.",
+      "explanation": "Think of inflation as a slow-moving train that increases the prices of goods and services over time. It's like a silent thief that reduces the purchasing power of your money.",
+      "_id": "6a5cabb6f5ce74ecaa513356"
+    },
+    {
+      "concept": "Fiscal Policy",
+      "definition": "Fiscal policy refers to the use of government spending and taxation to influence the overall level of economic activity.",
+      "explanation": "Imagine the government as a conductor who controls the speed of the economy. Fiscal policy is like adjusting the brakes and accelerator to keep the economy on track.",
+      "_id": "6a5cabb6f5ce74ecaa513357"
+    }
+  ],
+  "detailedContent": "### GDP\n\nGDP is the total value of goods and services produced within a country's borders. It's like a big pie that represents the total value of all the goods and services produced by a country. The formula for GDP is:\n\nGDP = C + I + G + (X - M)\n\nWhere:\n\n* C is consumer spending\n* I is investment\n* G is government spending\n* X is exports\n* M is imports\n\n### Inflation\n\nInflation is a sustained increase in the general price level of goods and services in an economy over a period of time. It's like a slow-moving train that increases the prices of goods and services over time. The formula for inflation is:\n\nInflation = (Current Price - Previous Price) / Previous Price\n\n### Fiscal Policy\n\nFiscal policy refers to the use of government spending and taxation to influence the overall level of economic activity. It's like adjusting the brakes and accelerator to keep the economy on track. The government can use fiscal policy to stimulate the economy during times of recession or to slow it down during times of inflation.",
+  "solvedExamples": [
+    {
+      "question": "What is the formula for GDP?",
+      "solution": "GDP = C + I + G + (X - M)\n\nWhere:\n\n* C is consumer spending\n* I is investment\n* G is government spending\n* X is exports\n* M is imports",
+      "keyTakeaway": "Remember the formula for GDP and how it's calculated.",
+      "_id": "6a5cabb6f5ce74ecaa513358"
+    }
+  ],
+  "realWorldApplications": [
+    "The Indian economy is a complex system that affects every aspect of our lives. Understanding how it works is essential for making informed decisions as a citizen and a policymaker.",
+    "The government uses fiscal policy to stimulate the economy during times of recession or to slow it down during times of inflation.",
+    "Inflation is a sustained increase in the general price level of goods and services in an economy over a period of time."
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Confusing GDP with GNP",
+      "why": "GDP measures the total value of goods and services produced within a country's borders, while GNP measures the total value of goods and services produced by a country's citizens, regardless of where they are produced.",
+      "howToAvoid": "Make sure to understand the difference between GDP and GNP and use the correct formula for each.",
+      "_id": "6a5cabb6f5ce74ecaa513359"
+    },
+    {
+      "mistake": "Not considering the impact of inflation on the economy",
+      "why": "Inflation can have a significant impact on the economy, reducing the purchasing power of money and affecting the overall level of economic activity.",
+      "howToAvoid": "Make sure to consider the impact of inflation on the economy and use the correct formula to calculate it.",
+      "_id": "6a5cabb6f5ce74ecaa51335a"
+    }
+  ],
+  "practiceProblems": [
+    {
+      "question": "What is the formula for inflation?",
+      "difficulty": "Easy",
+      "_id": "6a5cabb6f5ce74ecaa51335b"
+    },
+    {
+      "question": "What is the difference between GDP and GNP?",
+      "difficulty": "Medium",
+      "_id": "6a5cabb6f5ce74ecaa51335c"
+    },
+    {
+      "question": "How does the government use fiscal policy to influence the economy?",
+      "difficulty": "Hard",
+      "_id": "6a5cabb6f5ce74ecaa51335d"
+    }
+  ],
+  "examTips": [
+    "Make sure to understand the difference between GDP and GNP and use the correct formula for each.",
+    "Consider the impact of inflation on the economy and use the correct formula to calculate it.",
+    "Use the correct formula for fiscal policy and understand how the government uses it to influence the economy."
+  ],
+  "aiGenerated": true,
+  "generatedBy": "groq-llama-3.3-70b",
+  "viewCount": 0,
+  "completionCount": 0,
+  "averageRating": 0,
+  "status": "published",
+  "audioSegments": [],
+  "generatedAt": "2026-07-19T10:49:26.414Z",
+  "createdAt": "2026-07-19T10:49:26.417Z",
+  "updatedAt": "2026-07-19T10:49:26.417Z",
+  "__v": 0
+}

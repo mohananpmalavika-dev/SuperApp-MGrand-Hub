@@ -1,0 +1,118 @@
+{
+  "courseId": "6a5cab32f5ce74ecaa51305f",
+  "moduleNumber": 1,
+  "chapterNumber": 1,
+  "topic": "Polynomials",
+  "subject": "Mathematics",
+  "duration": 45,
+  "introduction": "Polynomials are a fundamental concept in mathematics that has numerous real-world applications. Imagine you're planning a party and need to order cake for 25 guests. You can represent the number of cakes needed as a polynomial expression: 2x^2 + 5x + 3, where x is the number of guests. In this lesson, we'll explore the world of polynomials and learn how to simplify, factorize, and solve polynomial equations.",
+  "keyConcepts": [
+    {
+      "concept": "Definition of Polynomials",
+      "definition": "A polynomial is an expression consisting of variables and coefficients combined using only addition, subtraction, and multiplication.",
+      "explanation": "Think of a polynomial as a combination of terms, where each term has a variable (like x) raised to a power (like 2), multiplied by a coefficient (like 2).",
+      "_id": "6a5cab58f5ce74ecaa513077"
+    },
+    {
+      "concept": "Types of Polynomials",
+      "definition": "Polynomials can be classified into different types based on the degree of the polynomial.",
+      "explanation": "A polynomial with a degree of 0 is a constant, while a polynomial with a degree of 1 is a linear polynomial. A polynomial with a degree greater than 1 is a quadratic or higher-degree polynomial.",
+      "_id": "6a5cab58f5ce74ecaa513078"
+    },
+    {
+      "concept": "Polynomial Operations",
+      "definition": "Polynomials can be added, subtracted, and multiplied using specific rules.",
+      "explanation": "When adding or subtracting polynomials, we combine like terms. When multiplying polynomials, we use the distributive property to multiply each term in one polynomial by each term in the other polynomial.",
+      "_id": "6a5cab58f5ce74ecaa513079"
+    }
+  ],
+  "detailedContent": "### Simplifying Polynomials\n\nSimplifying polynomials involves combining like terms to reduce the expression to its simplest form. For example, consider the polynomial expression: 2x^2 + 5x + 3 + 2x^2 - 3x\n\nTo simplify this expression, we combine like terms: 2x^2 + 2x^2 = 4x^2, 5x - 3x = 2x, and 3 - 3 = 0.\n\nThe simplified expression is: 4x^2 + 2x\n\n### Factoring Polynomials\n\nFactoring polynomials involves expressing the polynomial as a product of simpler polynomials. For example, consider the polynomial expression: x^2 + 5x + 6\n\nWe can factor this expression by finding two numbers whose product is 6 and whose sum is 5. These numbers are 2 and 3.\n\nSo, we can factor the expression as: (x + 2)(x + 3)\n\n### Solving Polynomial Equations\n\nSolving polynomial equations involves finding the values of the variable that satisfy the equation. For example, consider the polynomial equation: x^2 + 4x + 4 = 0\n\nWe can solve this equation by factoring the left-hand side: (x + 2)(x + 2) = 0\n\nThis tells us that x + 2 = 0, so x = -2.\n\n### Real-World Applications\n\nPolynomials have numerous real-world applications, including:\n\n* Modeling population growth and decline\n* Analyzing financial data\n* Designing electrical circuits\n* Predicting weather patterns\n\n### Common Mistakes to Avoid\n\n* Not combining like terms when simplifying polynomials\n* Not factoring polynomials correctly\n* Not checking for extraneous solutions when solving polynomial equations\n\n### Practice Problems\n\n1. Simplify the polynomial expression: 3x^2 + 2x - 4 + 2x^2 - 3x\n2. Factor the polynomial expression: x^2 + 7x + 12\n3. Solve the polynomial equation: x^2 + 2x - 6 = 0\n\n### Quick Revision Points\n\n* Definition of polynomials\n* Types of polynomials\n* Polynomial operations (addition, subtraction, multiplication)\n* Simplifying polynomials\n* Factoring polynomials\n* Solving polynomial equations\n\n### Exam Tips\n\n* Make sure to combine like terms when simplifying polynomials\n* Check for extraneous solutions when solving polynomial equations\n* Use the distributive property when multiplying polynomials\n* Factor polynomials correctly to avoid mistakes\n* Practice, practice, practice to build your skills and confidence!",
+  "solvedExamples": [
+    {
+      "question": "Simplify the polynomial expression: 2x^2 + 5x + 3 + 2x^2 - 3x",
+      "solution": "Combine like terms: 2x^2 + 2x^2 = 4x^2, 5x - 3x = 2x, and 3 - 3 = 0. The simplified expression is: 4x^2 + 2x",
+      "keyTakeaway": "Remember to combine like terms when simplifying polynomials.",
+      "_id": "6a5cab58f5ce74ecaa51307a"
+    },
+    {
+      "question": "Factor the polynomial expression: x^2 + 5x + 6",
+      "solution": "Find two numbers whose product is 6 and whose sum is 5. These numbers are 2 and 3. So, we can factor the expression as: (x + 2)(x + 3)",
+      "keyTakeaway": "Use the distributive property to factor polynomials correctly.",
+      "_id": "6a5cab58f5ce74ecaa51307b"
+    }
+  ],
+  "realWorldApplications": [
+    "Modeling population growth and decline",
+    "Analyzing financial data",
+    "Designing electrical circuits",
+    "Predicting weather patterns"
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Not combining like terms when simplifying polynomials",
+      "why": "This can lead to incorrect simplifications and mistakes in further calculations.",
+      "howToAvoid": "Make sure to combine like terms carefully and check your work.",
+      "_id": "6a5cab58f5ce74ecaa51307c"
+    },
+    {
+      "mistake": "Not factoring polynomials correctly",
+      "why": "This can lead to incorrect factorizations and mistakes in further calculations.",
+      "howToAvoid": "Use the distributive property to factor polynomials correctly and check your work.",
+      "_id": "6a5cab58f5ce74ecaa51307d"
+    }
+  ],
+  "practiceProblems": [
+    {
+      "question": "Simplify the polynomial expression: 3x^2 + 2x - 4 + 2x^2 - 3x",
+      "difficulty": "Medium",
+      "_id": "6a5cab58f5ce74ecaa51307e"
+    },
+    {
+      "question": "Factor the polynomial expression: x^2 + 7x + 12",
+      "difficulty": "Hard",
+      "_id": "6a5cab58f5ce74ecaa51307f"
+    },
+    {
+      "question": "Solve the polynomial equation: x^2 + 2x - 6 = 0",
+      "difficulty": "Easy",
+      "_id": "6a5cab58f5ce74ecaa513080"
+    }
+  ],
+  "quickRevision": {
+    "summary": [
+      "Definition of polynomials",
+      "Types of polynomials",
+      "Polynomial operations (addition, subtraction, multiplication)",
+      "Simplifying polynomials",
+      "Factoring polynomials",
+      "Solving polynomial equations"
+    ],
+    "formulas": [
+      "a^2 + 2ab + b^2 = (a + b)^2",
+      "a^3 + b^3 = (a + b)(a^2 - ab + b^2)"
+    ],
+    "mnemonics": [
+      "FOIL method for multiplying binomials: First, Outer, Inner, Last",
+      "PEMDAS method for evaluating expressions: Parentheses, Exponents, Multiplication and Division, Addition and Subtraction"
+    ]
+  },
+  "examTips": [
+    "Make sure to combine like terms when simplifying polynomials",
+    "Check for extraneous solutions when solving polynomial equations",
+    "Use the distributive property when multiplying polynomials",
+    "Factor polynomials correctly to avoid mistakes",
+    "Practice, practice, practice to build your skills and confidence!"
+  ],
+  "aiGenerated": true,
+  "generatedBy": "groq-llama-3.3-70b",
+  "viewCount": 0,
+  "completionCount": 0,
+  "averageRating": 0,
+  "status": "published",
+  "_id": "6a5cab58f5ce74ecaa513076",
+  "audioSegments": [],
+  "generatedAt": "2026-07-19T10:47:52.492Z",
+  "createdAt": "2026-07-19T10:47:52.497Z",
+  "updatedAt": "2026-07-19T10:47:52.497Z",
+  "__v": 0
+}

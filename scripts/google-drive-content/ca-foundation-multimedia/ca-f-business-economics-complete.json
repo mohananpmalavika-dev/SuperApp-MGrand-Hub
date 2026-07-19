@@ -1,0 +1,2352 @@
+[
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 45,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:55.486Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 1,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Introduction%20to%20Microeconomics%20-%20Basic%20Concepts&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-1",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Introduction to Microeconomics - Basic Concepts",
+      "subject": "Business Economics",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Introduction to Microeconomics - Basic Concepts - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:55.486Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 50,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:56.503Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 2,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Theory%20of%20Demand%20-%20Law%20and%20Elasticity&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-2",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Theory of Demand - Law and Elasticity",
+      "subject": "Business Economics",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Theory of Demand - Law and Elasticity - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:56.503Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 45,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:57.530Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 3,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Theory%20of%20Supply%20-%20Law%20and%20Elasticity&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-3",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Theory of Supply - Law and Elasticity",
+      "subject": "Business Economics",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Theory of Supply - Law and Elasticity - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:57.530Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 45,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:58.560Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 4,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Market%20Equilibrium%20-%20Price%20Determination&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-4",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Market Equilibrium - Price Determination",
+      "subject": "Business Economics",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Market Equilibrium - Price Determination - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:58.560Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 55,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:59.584Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 5,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Theory%20of%20Production%20and%20Cost&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "55 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-5",
+    "videoFormat": "MP4",
+    "videoDuration": "55 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Theory of Production and Cost",
+      "subject": "Business Economics",
+      "duration": 55,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Theory of Production and Cost - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 55,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:59.584Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 45,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:35:00.614Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 6,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Perfect%20Competition%20-%20Characteristics&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-6",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Perfect Competition - Characteristics",
+      "subject": "Business Economics",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Perfect Competition - Characteristics - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:35:00.614Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 50,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:35:01.651Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 7,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Monopoly%20and%20Monopolistic%20Competition&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-7",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Monopoly and Monopolistic Competition",
+      "subject": "Business Economics",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Monopoly and Monopolistic Competition - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:35:01.651Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 50,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:35:02.668Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 8,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Oligopoly%20and%20Price%20Discrimination&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-8",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Oligopoly and Price Discrimination",
+      "subject": "Business Economics",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Oligopoly and Price Discrimination - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:35:02.668Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 55,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:35:03.687Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 9,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Indian%20Economy%20-%20Overview%20and%20Sectors&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "55 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-9",
+    "videoFormat": "MP4",
+    "videoDuration": "55 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Indian Economy - Overview and Sectors",
+      "subject": "Business Economics",
+      "duration": 55,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Indian Economy - Overview and Sectors - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 55,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:35:03.687Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "Supply and demand curves intersect at the equilibrium price and quantity.",
+        "Consumer surplus is the difference between willingness to pay and actual price paid."
+      ],
+      "formulas": [
+        "Opportunity cost = Next best alternative",
+        "Supply and demand curves intersect at the equilibrium price and quantity",
+        "Consumer surplus = Willingness to pay - Actual price paid"
+      ],
+      "mnemonics": [
+        "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+        "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+        "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+      ]
+    },
+    "_id": "6a5cab0bf5ce74ecaa512dad",
+    "courseId": "6a5caaf4f5ce74ecaa512da3",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Microeconomics",
+    "subject": "Business Economics",
+    "duration": 50,
+    "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+    "keyConcepts": [
+      {
+        "concept": "Opportunity Cost",
+        "definition": "The value of the next best alternative that is given up when a choice is made.",
+        "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+        "_id": "6a5cab0bf5ce74ecaa512dae"
+      },
+      {
+        "concept": "Supply and Demand",
+        "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+        "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+        "_id": "6a5cab0bf5ce74ecaa512daf"
+      },
+      {
+        "concept": "Consumer Surplus",
+        "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+        "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db0"
+      }
+    ],
+    "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+    "solvedExamples": [
+      {
+        "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+        "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+        "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+        "_id": "6a5cab0bf5ce74ecaa512db1"
+      }
+    ],
+    "realWorldApplications": [
+      "Understanding opportunity cost helps businesses make informed decisions about resource allocation.",
+      "Analyzing supply and demand curves helps policymakers understand market behavior and make informed decisions.",
+      "Measuring consumer surplus helps businesses understand the benefits of offering discounts or promotions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing opportunity cost with sunk cost.",
+        "why": "Sunk cost is the cost that has already been incurred and cannot be changed. Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+        "howToAvoid": "Remember that opportunity cost is about the next best alternative, not the past cost.",
+        "_id": "6a5cab0bf5ce74ecaa512db2"
+      },
+      {
+        "mistake": "Ignoring the law of diminishing marginal utility.",
+        "why": "The law of diminishing marginal utility states that as the quantity of a good increases, the marginal utility (or satisfaction) derived from each additional unit decreases.",
+        "howToAvoid": "Remember that the law of diminishing marginal utility applies to all goods and services, and it's essential to consider it when analyzing consumer behavior.",
+        "_id": "6a5cab0bf5ce74ecaa512db3"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+        "difficulty": "Easy",
+        "_id": "6a5cab0bf5ce74ecaa512db4"
+      },
+      {
+        "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+        "difficulty": "Medium",
+        "_id": "6a5cab0bf5ce74ecaa512db5"
+      },
+      {
+        "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+        "difficulty": "Hard",
+        "_id": "6a5cab0bf5ce74ecaa512db6"
+      }
+    ],
+    "examTips": [
+      "Manage your time effectively and allocate 30 minutes for each section.",
+      "Read the questions carefully and identify the key concepts required.",
+      "Use the formulas and concepts learned in this lesson to solve the questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:35:04.711Z",
+    "createdAt": "2026-07-19T10:46:35.375Z",
+    "updatedAt": "2026-07-19T10:46:35.375Z",
+    "__v": 0,
+    "lessonNumber": 10,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Government%20Budget%20and%20Fiscal%20Policy&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caaf4f5ce74ecaa512da3-10",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Government Budget and Fiscal Policy",
+      "subject": "Business Economics",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Microeconomics Matters\nMicroeconomics helps us understand how individual economic units (like households and firms) make decisions about how to allocate resources. This knowledge is crucial for businesses and policymakers to make informed decisions. In the context of CA_FOUNDATION, understanding microeconomics is essential for analyzing market structures, consumer behavior, and firm decision-making.\n\n### What to Expect\nIn this lesson, we'll cover the basics of microeconomics, including key concepts, real-world applications, and exam tips. By the end of this lesson, you'll be able to apply microeconomic principles to real-world scenarios and ace your CA_FOUNDATION exam.",
+        "keyConcepts": [
+          {
+            "concept": "Opportunity Cost",
+            "definition": "The value of the next best alternative that is given up when a choice is made.",
+            "explanation": "Imagine you have to choose between two jobs that offer different salaries. The opportunity cost of choosing one job over the other is the salary you could have earned from the other job.",
+            "_id": "6a5cab0bf5ce74ecaa512dae"
+          },
+          {
+            "concept": "Supply and Demand",
+            "definition": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand).",
+            "explanation": "Think of a market for a popular smartphone. The supply curve shows how many smartphones manufacturers are willing to produce and sell at different prices. The demand curve shows how many smartphones consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect.",
+            "_id": "6a5cab0bf5ce74ecaa512daf"
+          },
+          {
+            "concept": "Consumer Surplus",
+            "definition": "The difference between what consumers are willing to pay for a good and what they actually pay.",
+            "explanation": "Consider a consumer who is willing to pay ₹100 for a book but only pays ₹80. The consumer surplus is ₹20, which is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db0"
+          }
+        ],
+        "detailedContent": "### Opportunity Cost\nOpportunity cost is a fundamental concept in microeconomics that helps us understand the trade-offs involved in decision-making. It's the value of the next best alternative that is given up when a choice is made. For example, if you choose to spend ₹100 on a movie ticket, the opportunity cost is the value of the next best alternative use of that ₹100, such as buying a book or eating at a restaurant.\n\n### Supply and Demand\nThe supply and demand curves are fundamental to understanding market behavior. The supply curve shows how many units of a good producers are willing to sell at different prices. The demand curve shows how many units of a good consumers are willing to buy at different prices. The equilibrium price and quantity occur where the supply and demand curves intersect. This is the price and quantity at which the quantity supplied equals the quantity demanded.\n\n### Consumer Surplus\nConsumer surplus is the difference between what consumers are willing to pay for a good and what they actually pay. It's a measure of the benefit that consumers derive from buying a good at a price lower than their willingness to pay. For example, if a consumer is willing to pay ₹100 for a book but only pays ₹80, the consumer surplus is ₹20.",
+        "examples": [
+          {
+            "question": "A consumer is willing to pay ₹100 for a smartphone but only pays ₹80. What is the consumer surplus?",
+            "solution": "Consumer surplus = Willingness to pay - Actual price paid\n= ₹100 - ₹80\n= ₹20",
+            "keyTakeaway": "The consumer surplus is the difference between the willingness to pay and the actual price paid.",
+            "_id": "6a5cab0bf5ce74ecaa512db1"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A firm produces 100 units of a good at a cost of ₹10 per unit. If the market price is ₹15 per unit, what is the profit?",
+            "difficulty": "Easy",
+            "_id": "6a5cab0bf5ce74ecaa512db4"
+          },
+          {
+            "question": "A consumer is willing to pay ₹100 for a good but only pays ₹80. What is the consumer surplus?",
+            "difficulty": "Medium",
+            "_id": "6a5cab0bf5ce74ecaa512db5"
+          },
+          {
+            "question": "A firm has a production function Q = 2L + 3K, where L is labor and K is capital. If the price of labor is ₹10 per unit and the price of capital is ₹20 per unit, what is the marginal product of labor?",
+            "difficulty": "Hard",
+            "_id": "6a5cab0bf5ce74ecaa512db6"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Opportunity cost is the value of the next best alternative that is given up when a choice is made.",
+            "Supply and demand curves intersect at the equilibrium price and quantity.",
+            "Consumer surplus is the difference between willingness to pay and actual price paid."
+          ],
+          "formulas": [
+            "Opportunity cost = Next best alternative",
+            "Supply and demand curves intersect at the equilibrium price and quantity",
+            "Consumer surplus = Willingness to pay - Actual price paid"
+          ],
+          "mnemonics": [
+            "OPPORTUNITY COST = Other People's Resources Used To Produce Other Things Yielding Nice Outcomes",
+            "SUPPLY AND DEMAND = See You At The Equilibrium Price And Quantity",
+            "CONSUMER SURPLUS = Cash Outlay Not Equal To Willingness To Pay"
+          ]
+        },
+        "examTips": [
+          "Manage your time effectively and allocate 30 minutes for each section.",
+          "Read the questions carefully and identify the key concepts required.",
+          "Use the formulas and concepts learned in this lesson to solve the questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Government Budget and Fiscal Policy - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Opportunity Cost",
+        "back": "The value of the next best alternative that is given up when a choice is made."
+      },
+      {
+        "front": "Supply and Demand",
+        "back": "The interaction between the quantity of a good that producers are willing to sell (supply) and the quantity that consumers are willing to buy (demand)."
+      },
+      {
+        "front": "Consumer Surplus",
+        "back": "The difference between what consumers are willing to pay for a good and what they actually pay."
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:35:04.711Z"
+  }
+]

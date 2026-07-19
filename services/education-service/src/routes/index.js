@@ -7,6 +7,8 @@ const tutorRoutes = require('./tutor');
 const testRoutes = require('./tests');
 const progressRoutes = require('./progress');
 const videoRoutes = require('./videos');
+const driveContentRoutes = require('./driveContent');
+const notesDownloadRoutes = require('./notesDownload');
 
 // Mount routes
 router.use('/courses', courseRoutes);
@@ -14,6 +16,8 @@ router.use('/tutor', tutorRoutes);
 router.use('/tests', testRoutes);
 router.use('/progress', progressRoutes);
 router.use('/videos', videoRoutes);
+router.use('/drive', driveContentRoutes);  // Google Drive content routes
+router.use('/notes', notesDownloadRoutes);  // Notes download routes
 
 // Health check
 router.get('/health', (req, res) => {

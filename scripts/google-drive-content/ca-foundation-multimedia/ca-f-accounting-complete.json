@@ -1,0 +1,2774 @@
+[
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 45,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:20.452Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 1,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Introduction%20to%20Accounting%20-%20Concepts%20and%20Conventions&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-1",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Introduction to Accounting - Concepts and Conventions",
+      "subject": "Accounting",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Introduction to Accounting - Concepts and Conventions - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:20.455Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 60,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:21.491Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 2,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Accounting%20Standards%20-%20AS%201%20to%20AS%2010&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "60 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-2",
+    "videoFormat": "MP4",
+    "videoDuration": "60 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Accounting Standards - AS 1 to AS 10",
+      "subject": "Accounting",
+      "duration": 60,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Accounting Standards - AS 1 to AS 10 - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 60,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:21.491Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 45,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:22.525Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 3,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Double%20Entry%20System%20of%20Book%20Keeping&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-3",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Double Entry System of Book Keeping",
+      "subject": "Accounting",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Double Entry System of Book Keeping - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:22.525Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 50,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:23.562Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 4,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Journal%20Entries%20-%20Simple%20and%20Compound&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-4",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Journal Entries - Simple and Compound",
+      "subject": "Accounting",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Journal Entries - Simple and Compound - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:23.562Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 45,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:24.592Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 5,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Ledger%20Posting%20and%20Balancing&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-5",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Ledger Posting and Balancing",
+      "subject": "Accounting",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Ledger Posting and Balancing - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:24.592Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 50,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:25.619Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 6,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Cash%20Book%20-%20Single%2C%20Double%2C%20Triple%20Column&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-6",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Cash Book - Single, Double, Triple Column",
+      "subject": "Accounting",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Cash Book - Single, Double, Triple Column - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:25.619Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 40,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:26.651Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 7,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Purchase%20Book%20and%20Sales%20Book&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "40 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-7",
+    "videoFormat": "MP4",
+    "videoDuration": "40 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Purchase Book and Sales Book",
+      "subject": "Accounting",
+      "duration": 40,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Purchase Book and Sales Book - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 40,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:26.651Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 55,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:27.678Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 8,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Bills%20of%20Exchange%20and%20Promissory%20Notes&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "55 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-8",
+    "videoFormat": "MP4",
+    "videoDuration": "55 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Bills of Exchange and Promissory Notes",
+      "subject": "Accounting",
+      "duration": 55,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Bills of Exchange and Promissory Notes - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 55,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:27.678Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 45,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:28.707Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 9,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Trial%20Balance%20-%20Preparation%20and%20Uses&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "45 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-9",
+    "videoFormat": "MP4",
+    "videoDuration": "45 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Trial Balance - Preparation and Uses",
+      "subject": "Accounting",
+      "duration": 45,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Trial Balance - Preparation and Uses - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 45,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:28.707Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 50,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:29.735Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 10,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Bank%20Reconciliation%20Statement&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "50 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-10",
+    "videoFormat": "MP4",
+    "videoDuration": "50 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Bank Reconciliation Statement",
+      "subject": "Accounting",
+      "duration": 50,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Bank Reconciliation Statement - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 50,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:29.735Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 55,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:30.767Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 11,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Depreciation%20Accounting%20-%20Methods%20and%20Applications&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "55 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-11",
+    "videoFormat": "MP4",
+    "videoDuration": "55 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Depreciation Accounting - Methods and Applications",
+      "subject": "Accounting",
+      "duration": 55,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Depreciation Accounting - Methods and Applications - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 55,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:30.767Z"
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Assets include resources owned or controlled by a business.",
+        "Liabilities are debts or obligations of a business.",
+        "Equity represents the ownership interest in a business."
+      ],
+      "formulas": [
+        "Assets = Liabilities + Equity",
+        "Total Assets = Cash + Accounts Receivable"
+      ],
+      "mnemonics": [
+        "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+        "Liabilities: D (Debt), O (Obligations), L (Loans)"
+      ]
+    },
+    "_id": "6a5caa3bf5ce74ecaa512ae0",
+    "courseId": "6a5caa26f5ce74ecaa512ad2",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Introduction to Accounting",
+    "subject": "Accounting",
+    "duration": 60,
+    "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+    "keyConcepts": [
+      {
+        "concept": "Assets",
+        "definition": "Resources owned or controlled by a business",
+        "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+        "_id": "6a5caa3bf5ce74ecaa512ae1"
+      },
+      {
+        "concept": "Liabilities",
+        "definition": "Debts or obligations of a business",
+        "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+        "_id": "6a5caa3bf5ce74ecaa512ae2"
+      },
+      {
+        "concept": "Equity",
+        "definition": "Ownership interest in a business",
+        "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+        "_id": "6a5caa3bf5ce74ecaa512ae3"
+      }
+    ],
+    "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+    "solvedExamples": [
+      {
+        "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+        "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+        "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+        "_id": "6a5caa3bf5ce74ecaa512ae4"
+      }
+    ],
+    "realWorldApplications": [
+      "Accounting is used in various industries, including finance, banking, and government.",
+      "Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+      "Accounting is used to prepare financial statements, which are used by stakeholders to make informed decisions."
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not classifying transactions correctly",
+        "why": "Transactions may be misclassified as assets, liabilities, or equity, leading to incorrect financial statements.",
+        "howToAvoid": "Classify transactions correctly by identifying the type of transaction (e.g., asset, liability, equity) and recording it accordingly.",
+        "_id": "6a5caa3bf5ce74ecaa512ae5"
+      },
+      {
+        "mistake": "Not following accounting principles",
+        "why": "Accounting principles are guidelines that help accountants prepare financial statements. Not following these principles can lead to incorrect financial statements.",
+        "howToAvoid": "Follow accounting principles, such as accounting entity, going concern, monetary unit, and historical cost, to ensure accurate financial statements.",
+        "_id": "6a5caa3bf5ce74ecaa512ae6"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+        "difficulty": "Easy",
+        "_id": "6a5caa3bf5ce74ecaa512ae7"
+      },
+      {
+        "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+        "difficulty": "Medium",
+        "_id": "6a5caa3bf5ce74ecaa512ae8"
+      },
+      {
+        "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+        "difficulty": "Hard",
+        "_id": "6a5caa3bf5ce74ecaa512ae9"
+      }
+    ],
+    "examTips": [
+      "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+      "Read the question carefully and understand what is being asked.",
+      "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T11:34:31.798Z",
+    "createdAt": "2026-07-19T10:43:07.553Z",
+    "updatedAt": "2026-07-19T10:43:07.553Z",
+    "__v": 0,
+    "lessonNumber": 12,
+    "examType": "CA_FOUNDATION",
+    "level": "FOUNDATION",
+    "audioUrl": "https://api.tts.edge.com/generate?text=Final%20Accounts%20-%20Trading%2C%20P%26L%2C%20Balance%20Sheet&voice=en-IN-NeerjaNeural",
+    "audioFormat": "MP3",
+    "audioDuration": "60 minutes",
+    "audioVoice": "Indian Female (Neerja)",
+    "videoUrl": "https://api.d-id.com/talks/6a5caa26f5ce74ecaa512ad2-12",
+    "videoFormat": "MP4",
+    "videoDuration": "60 minutes",
+    "videoQuality": "1080p",
+    "videoSubtitles": [
+      "English",
+      "Hindi"
+    ],
+    "notes": {
+      "title": "Final Accounts - Trading, P&L, Balance Sheet",
+      "subject": "Accounting",
+      "duration": 60,
+      "sections": {
+        "introduction": "### Why Accounting Matters\n\nAccounting is the backbone of any business, helping organizations make informed decisions about their finances. As a CA FOUNDATION aspirant, understanding accounting principles is crucial for success. In this lesson, we'll cover the basics of accounting, including key concepts, real-world applications, and exam tips.\n\n### What to Expect\n\nBy the end of this lesson, you'll be able to:\n\n* Define accounting and its importance\n* Identify key accounting concepts\n* Apply accounting principles to real-world scenarios\n* Avoid common mistakes in accounting\n\n### Real-World Relevance\n\nAccounting is used in various industries, including finance, banking, and government. Understanding accounting principles can help you make informed decisions about investments, taxes, and financial planning.",
+        "keyConcepts": [
+          {
+            "concept": "Assets",
+            "definition": "Resources owned or controlled by a business",
+            "explanation": "Assets can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). They are recorded on the balance sheet and can be classified as current or non-current.",
+            "_id": "6a5caa3bf5ce74ecaa512ae1"
+          },
+          {
+            "concept": "Liabilities",
+            "definition": "Debts or obligations of a business",
+            "explanation": "Liabilities are recorded on the balance sheet and can be classified as current or non-current. They represent the amount a business owes to others.",
+            "_id": "6a5caa3bf5ce74ecaa512ae2"
+          },
+          {
+            "concept": "Equity",
+            "definition": "Ownership interest in a business",
+            "explanation": "Equity represents the amount invested in a business by its owners. It is recorded on the balance sheet and can be classified as common stock or retained earnings.",
+            "_id": "6a5caa3bf5ce74ecaa512ae3"
+          }
+        ],
+        "detailedContent": "### Assets\n\nAssets are resources owned or controlled by a business. They can be tangible (e.g., cash, inventory) or intangible (e.g., patents, copyrights). Assets are recorded on the balance sheet and can be classified as current or non-current.\n\n### Liabilities\n\nLiabilities are debts or obligations of a business. They are recorded on the balance sheet and can be classified as current or non-current. Liabilities represent the amount a business owes to others.\n\n### Equity\n\nEquity represents the ownership interest in a business. It is recorded on the balance sheet and can be classified as common stock or retained earnings. Equity represents the amount invested in a business by its owners.\n\n### Accounting Equation\n\nThe accounting equation is a fundamental concept in accounting: Assets = Liabilities + Equity. This equation represents the relationship between a business's assets, liabilities, and equity.\n\n### Accounting Cycle\n\nThe accounting cycle is the process of recording, classifying, and reporting financial transactions. It involves the following steps:\n\n1. Identifying and recording financial transactions\n\n2. Classifying transactions into assets, liabilities, and equity\n\n3. Reporting financial information to stakeholders\n\n### Accounting Principles\n\nAccounting principles are guidelines that help accountants prepare financial statements. Some common accounting principles include:\n\n* Accounting Entity: A business is considered a separate entity from its owners and other businesses.\n\n* Going Concern: A business is assumed to continue operating indefinitely.\n\n* Monetary Unit: Financial transactions are recorded in a common currency.\n\n* Historical Cost: Financial transactions are recorded at their original cost.",
+        "examples": [
+          {
+            "question": "A business has $10,000 in cash and $20,000 in accounts receivable. What is the total amount of assets?",
+            "solution": "Step 1: Identify the assets\n\nAssets include cash and accounts receivable.\n\nStep 2: Record the assets\n\nCash: $10,000\n\nAccounts Receivable: $20,000\n\nStep 3: Calculate the total amount of assets\n\nTotal Assets = Cash + Accounts Receivable\n\nTotal Assets = $10,000 + $20,000\n\nTotal Assets = $30,000",
+            "keyTakeaway": "Assets include cash, accounts receivable, and other resources owned or controlled by a business.",
+            "_id": "6a5caa3bf5ce74ecaa512ae4"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "A business has $5,000 in cash and $15,000 in accounts payable. What is the total amount of liabilities?",
+            "difficulty": "Easy",
+            "_id": "6a5caa3bf5ce74ecaa512ae7"
+          },
+          {
+            "question": "A business has $20,000 in common stock and $10,000 in retained earnings. What is the total amount of equity?",
+            "difficulty": "Medium",
+            "_id": "6a5caa3bf5ce74ecaa512ae8"
+          },
+          {
+            "question": "A business has $30,000 in assets and $20,000 in liabilities. What is the amount of equity?",
+            "difficulty": "Hard",
+            "_id": "6a5caa3bf5ce74ecaa512ae9"
+          }
+        ],
+        "quickRevision": {
+          "summary": [
+            "Assets include resources owned or controlled by a business.",
+            "Liabilities are debts or obligations of a business.",
+            "Equity represents the ownership interest in a business."
+          ],
+          "formulas": [
+            "Assets = Liabilities + Equity",
+            "Total Assets = Cash + Accounts Receivable"
+          ],
+          "mnemonics": [
+            "Assets: A (Accounts Receivable), C (Cash), I (Inventory), P (Property, Plant, and Equipment)",
+            "Liabilities: D (Debt), O (Obligations), L (Loans)"
+          ]
+        },
+        "examTips": [
+          "Time management is crucial in the CA FOUNDATION exam. Allocate time for each section and question.",
+          "Read the question carefully and understand what is being asked.",
+          "Use the accounting equation (Assets = Liabilities + Equity) to help you solve questions."
+        ]
+      },
+      "downloadFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ]
+    },
+    "notesFormats": [
+      "PDF",
+      "DOCX",
+      "TXT"
+    ],
+    "notesPagesCount": 1,
+    "animations": [
+      {
+        "type": "concept-diagram",
+        "title": "Final Accounts - Trading, P&L, Balance Sheet - Visual Explanation",
+        "format": "SVG",
+        "interactive": true
+      }
+    ],
+    "flashcards": [
+      {
+        "front": "Assets",
+        "back": "Resources owned or controlled by a business"
+      },
+      {
+        "front": "Liabilities",
+        "back": "Debts or obligations of a business"
+      },
+      {
+        "front": "Equity",
+        "back": "Ownership interest in a business"
+      }
+    ],
+    "completionEstimate": 60,
+    "practiceQuestionsCount": 3,
+    "lastUpdated": "2026-07-19T11:34:31.798Z"
+  }
+]

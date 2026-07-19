@@ -14,6 +14,8 @@ import NotificationsPage from './pages/NotificationsPage';
 import TutorDashboard from './pages/TutorDashboard';
 import NewSessionPage from './pages/NewSessionPage';
 import LessonView from './pages/LessonView';
+import ResumeDashboard from './pages/resume/ResumeDashboard';
+import MessagingDashboard from './pages/messaging/MessagingDashboard';
 import EducationRoutes from './pages/education/EducationRoutes';
 import AdminRoutes from './pages/admin/AdminRoutes';
 import './App.css';
@@ -111,6 +113,18 @@ function App() {
               <Route 
                 path="/tutor/session/:sessionId" 
                 element={user ? <LessonView user={user} /> : <Navigate to="/login" />} 
+              />
+              
+              {/* Resume Builder Routes */}
+              <Route 
+                path="/resume" 
+                element={user ? <ResumeDashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+              />
+              
+              {/* Messaging Routes */}
+              <Route 
+                path="/messaging" 
+                element={user ? <MessagingDashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
               />
               
               {/* Education Routes */}

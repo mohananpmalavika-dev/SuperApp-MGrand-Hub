@@ -328,6 +328,49 @@ services:
       timeout: 10s
       retries: 3
 
+  messaging-service:
+    build:
+      context: ./services/messaging-service
+      dockerfile: Dockerfile
+    container_name: mgrand-messaging-service
+    restart: unless-stopped
+    ports:
+      - "3007:3007"
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: 3007
+      MONGODB_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password}@mongodb:27017/superapp-messaging?authSource=admin
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: ${JWT_SECRET}
+      CORS_ORIGIN: ${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:8080}
+      AUTH_SERVICE_URL: http://auth-service:3001
+      STORAGE_TYPE: ${STORAGE_TYPE:-local}
+      BASE_URL: http://localhost:8080
+      AWS_REGION: ${AWS_REGION}
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      S3_BUCKET: ${S3_BUCKET}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY}
+      AI_API_URL: ${AI_API_URL}
+      AI_API_KEY: ${AI_API_KEY}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - mgrand-network
+    volumes:
+      - ./uploads/messaging/images:/usr/src/app/uploads/images
+      - ./uploads/messaging/videos:/usr/src/app/uploads/videos
+      - ./uploads/messaging/audio:/usr/src/app/uploads/audio
+      - ./uploads/messaging/files:/usr/src/app/uploads/files
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3007/api/messaging/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
   # ===== API Gateway =====
   
   nginx:
@@ -349,6 +392,7 @@ services:
       - classifieds-service
       - tutor-service
       - resume-service
+      - messaging-service
     networks:
       - mgrand-network
     healthcheck:

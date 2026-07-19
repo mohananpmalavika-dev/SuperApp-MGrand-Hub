@@ -1,0 +1,548 @@
+{
+  "version": "2.0",
+  "course": "CA Foundation - Complete Multimedia",
+  "description": "Full CA Foundation course with audio, video, and downloadable notes",
+  "generatedAt": "2026-07-19T11:35:05.721Z",
+  "totalLessons": 44,
+  "failed": 0,
+  "features": [
+    "AI-generated text content",
+    "Audio narration (MP3)",
+    "Video lessons (MP4, 1080p)",
+    "Downloadable notes (PDF/DOCX/TXT)",
+    "Practice questions",
+    "Visual animations",
+    "Flashcards",
+    "Exam tips"
+  ],
+  "subjects": {
+    "Accounting": {
+      "lessonsCount": 12,
+      "totalDuration": 600,
+      "audioFormat": "MP3",
+      "videoFormat": "MP4",
+      "videoQuality": "1080p",
+      "notesFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ],
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "title": "Introduction to Accounting",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 2,
+          "title": "Introduction to Accounting",
+          "duration": 60,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 3,
+          "title": "Introduction to Accounting",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 4,
+          "title": "Introduction to Accounting",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 5,
+          "title": "Introduction to Accounting",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 6,
+          "title": "Introduction to Accounting",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 7,
+          "title": "Introduction to Accounting",
+          "duration": 40,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 8,
+          "title": "Introduction to Accounting",
+          "duration": 55,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 9,
+          "title": "Introduction to Accounting",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 10,
+          "title": "Introduction to Accounting",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 11,
+          "title": "Introduction to Accounting",
+          "duration": 55,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 12,
+          "title": "Introduction to Accounting",
+          "duration": 60,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        }
+      ]
+    },
+    "Business Laws": {
+      "lessonsCount": 10,
+      "totalDuration": 470,
+      "audioFormat": "MP3",
+      "videoFormat": "MP4",
+      "videoQuality": "1080p",
+      "notesFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ],
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "title": "Indian Contract Act Basics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 2,
+          "title": "Indian Contract Act Basics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 3,
+          "title": "Indian Contract Act Basics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 4,
+          "title": "Indian Contract Act Basics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 5,
+          "title": "Indian Contract Act Basics",
+          "duration": 40,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 6,
+          "title": "Indian Contract Act Basics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 7,
+          "title": "Indian Contract Act Basics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 8,
+          "title": "Indian Contract Act Basics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 9,
+          "title": "Indian Contract Act Basics",
+          "duration": 55,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 10,
+          "title": "Indian Contract Act Basics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        }
+      ]
+    },
+    "Business Mathematics": {
+      "lessonsCount": 12,
+      "totalDuration": 570,
+      "audioFormat": "MP3",
+      "videoFormat": "MP4",
+      "videoQuality": "1080p",
+      "notesFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ],
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 2,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 3,
+          "title": "Ratio and Proportion",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 4,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 5,
+          "title": "Ratio and Proportion",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 6,
+          "title": "Ratio and Proportion",
+          "duration": 55,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 7,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 8,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 9,
+          "title": "Ratio and Proportion",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 10,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 11,
+          "title": "Ratio and Proportion",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 12,
+          "title": "Ratio and Proportion",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        }
+      ]
+    },
+    "Business Economics": {
+      "lessonsCount": 10,
+      "totalDuration": 490,
+      "audioFormat": "MP3",
+      "videoFormat": "MP4",
+      "videoQuality": "1080p",
+      "notesFormats": [
+        "PDF",
+        "DOCX",
+        "TXT"
+      ],
+      "lessons": [
+        {
+          "lessonNumber": 1,
+          "title": "Introduction to Microeconomics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 2,
+          "title": "Introduction to Microeconomics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 3,
+          "title": "Introduction to Microeconomics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 4,
+          "title": "Introduction to Microeconomics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 5,
+          "title": "Introduction to Microeconomics",
+          "duration": 55,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 6,
+          "title": "Introduction to Microeconomics",
+          "duration": 45,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 7,
+          "title": "Introduction to Microeconomics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 8,
+          "title": "Introduction to Microeconomics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 9,
+          "title": "Introduction to Microeconomics",
+          "duration": 55,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        },
+        {
+          "lessonNumber": 10,
+          "title": "Introduction to Microeconomics",
+          "duration": 50,
+          "hasAudio": true,
+          "hasVideo": true,
+          "hasNotes": true,
+          "questionsCount": 3,
+          "pagesCount": 1
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "subject": "Accounting",
+      "fileName": "ca-f-accounting-complete.json",
+      "fileSize": "157.80",
+      "lessonsCount": 12
+    },
+    {
+      "subject": "Business Laws",
+      "fileName": "ca-f-business-laws-complete.json",
+      "fileSize": "119.53",
+      "lessonsCount": 10
+    },
+    {
+      "subject": "Business Mathematics",
+      "fileName": "ca-f-business-mathematics-complete.json",
+      "fileSize": "195.01",
+      "lessonsCount": 12
+    },
+    {
+      "subject": "Business Economics",
+      "fileName": "ca-f-business-economics-complete.json",
+      "fileSize": "133.30",
+      "lessonsCount": 10
+    }
+  ],
+  "usage": {
+    "textContent": "605.64 KB",
+    "audioFiles": "44 MP3 files",
+    "videoFiles": "44 MP4 files",
+    "notesFiles": "132 files (PDF/DOCX/TXT)"
+  }
+}

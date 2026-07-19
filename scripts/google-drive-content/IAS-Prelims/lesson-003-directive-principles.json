@@ -1,0 +1,102 @@
+{
+  "quickRevision": {
+    "summary": [
+      "The Indian Constitution is a comprehensive document that outlines the framework of the country's government and the relationship between the government and its citizens.",
+      "The Constitution's framework is based on the principles of federalism, democracy, and secularism.",
+      "The Preamble is a brief statement that outlines the purpose and objectives of the Indian Constitution."
+    ],
+    "formulas": [
+      "The Constitution's framework is divided into 22 parts and 395 articles."
+    ],
+    "mnemonics": [
+      "The Preamble is often referred to as the 'Introduction to the Constitution'."
+    ]
+  },
+  "_id": "6a5cab74f5ce74ecaa513198",
+  "courseId": "6a5cab60f5ce74ecaa51318e",
+  "moduleNumber": 1,
+  "chapterNumber": 1,
+  "topic": "Indian Constitution Basics",
+  "subject": "Polity",
+  "duration": 60,
+  "introduction": "### Why Indian Constitution Matters\n\nThe Indian Constitution is the foundation of India's governance system. It outlines the framework of the country's government, the relationship between the government and its citizens, and the rights and duties of citizens. Understanding the Indian Constitution is crucial for IAS PRELIMS as it forms a significant part of the exam. In this lesson, we will delve into the basics of the Indian Constitution, exploring its key concepts, detailed explanations, and real-world applications.\n\n### What to Expect\n\nIn this lesson, we will cover the following topics:\n\n* Key concepts of the Indian Constitution\n* Detailed explanation of the Constitution's framework\n* Real-world applications of the Constitution\n* Solved examples and practice problems\n* Common mistakes to avoid and exam tips",
+  "keyConcepts": [
+    {
+      "concept": "Preamble",
+      "definition": "The introductory paragraph of the Indian Constitution that sets out the country's objectives and principles.",
+      "explanation": "The Preamble is a brief statement that outlines the purpose and objectives of the Indian Constitution. It is a guiding force for the country's governance system and is often used as a reference point in interpreting the Constitution.",
+      "_id": "6a5cab74f5ce74ecaa513199"
+    },
+    {
+      "concept": "Fundamental Rights",
+      "definition": "The basic rights and freedoms guaranteed to all citizens of India.",
+      "explanation": "The Fundamental Rights are enshrined in Part III of the Indian Constitution and include rights such as equality, freedom of speech and expression, and the right to life and liberty.",
+      "_id": "6a5cab74f5ce74ecaa51319a"
+    },
+    {
+      "concept": "Directive Principles of State Policy",
+      "definition": "The guidelines that the government must follow while making laws and policies.",
+      "explanation": "The Directive Principles of State Policy are enshrined in Part IV of the Indian Constitution and provide a framework for the government to follow while making laws and policies.",
+      "_id": "6a5cab74f5ce74ecaa51319b"
+    }
+  ],
+  "detailedContent": "### Detailed Explanation of the Indian Constitution\n\nThe Indian Constitution is a comprehensive document that outlines the framework of the country's government and the relationship between the government and its citizens. It is divided into 22 parts and 395 articles.\n\n#### The Constitution's Framework\n\nThe Constitution's framework is based on the principles of federalism, democracy, and secularism. It divides power between the central government and the state governments, ensuring that both levels of government have their own powers and responsibilities.\n\n#### The Preamble\n\nThe Preamble is a brief statement that outlines the purpose and objectives of the Indian Constitution. It sets out the country's objectives and principles, including justice, liberty, equality, and fraternity.\n\n#### Fundamental Rights\n\nThe Fundamental Rights are enshrined in Part III of the Indian Constitution and include rights such as equality, freedom of speech and expression, and the right to life and liberty. These rights are guaranteed to all citizens of India and are fundamental to the country's governance system.\n\n#### Directive Principles of State Policy\n\nThe Directive Principles of State Policy are enshrined in Part IV of the Indian Constitution and provide a framework for the government to follow while making laws and policies. These principles include the promotion of social welfare, the protection of the environment, and the promotion of international peace and security.",
+  "solvedExamples": [
+    {
+      "question": "What are the Fundamental Rights enshrined in the Indian Constitution?",
+      "solution": "The Fundamental Rights enshrined in the Indian Constitution include the right to equality, the right to freedom of speech and expression, the right to life and liberty, and the right to freedom of religion. These rights are guaranteed to all citizens of India and are fundamental to the country's governance system.",
+      "keyTakeaway": "The Fundamental Rights are enshrined in Part III of the Indian Constitution and are guaranteed to all citizens of India.",
+      "_id": "6a5cab74f5ce74ecaa51319c"
+    }
+  ],
+  "realWorldApplications": [
+    "The Indian Constitution has been used as a model for other countries' constitutions, including Sri Lanka and Bangladesh.",
+    "The Constitution's framework has been used to guide the country's governance system and ensure that power is divided between the central government and the state governments."
+  ],
+  "commonMistakes": [
+    {
+      "mistake": "Confusing the Preamble with the Constitution's framework",
+      "why": "The Preamble is a brief statement that outlines the purpose and objectives of the Indian Constitution, while the Constitution's framework is a comprehensive document that outlines the country's governance system.",
+      "howToAvoid": "To avoid this mistake, it is essential to understand the difference between the Preamble and the Constitution's framework.",
+      "_id": "6a5cab74f5ce74ecaa51319d"
+    },
+    {
+      "mistake": "Ignoring the Directive Principles of State Policy",
+      "why": "The Directive Principles of State Policy provide a framework for the government to follow while making laws and policies, and are essential to the country's governance system.",
+      "howToAvoid": "To avoid this mistake, it is essential to understand the importance of the Directive Principles of State Policy and how they are used in the country's governance system.",
+      "_id": "6a5cab74f5ce74ecaa51319e"
+    }
+  ],
+  "practiceProblems": [
+    {
+      "question": "What are the Fundamental Rights enshrined in the Indian Constitution?",
+      "difficulty": "Easy",
+      "_id": "6a5cab74f5ce74ecaa51319f"
+    },
+    {
+      "question": "What is the purpose of the Directive Principles of State Policy?",
+      "difficulty": "Medium",
+      "_id": "6a5cab74f5ce74ecaa5131a0"
+    },
+    {
+      "question": "What is the difference between the Preamble and the Constitution's framework?",
+      "difficulty": "Hard",
+      "_id": "6a5cab74f5ce74ecaa5131a1"
+    }
+  ],
+  "examTips": [
+    "To answer questions on the Indian Constitution, it is essential to understand the Constitution's framework, the Preamble, and the Fundamental Rights.",
+    "Practice solving questions on the Indian Constitution to improve your knowledge and understanding of the subject."
+  ],
+  "aiGenerated": true,
+  "generatedBy": "groq-llama-3.3-70b",
+  "viewCount": 0,
+  "completionCount": 0,
+  "averageRating": 0,
+  "status": "published",
+  "audioSegments": [],
+  "generatedAt": "2026-07-19T10:48:20.764Z",
+  "createdAt": "2026-07-19T10:48:20.769Z",
+  "updatedAt": "2026-07-19T10:48:20.769Z",
+  "__v": 0
+}

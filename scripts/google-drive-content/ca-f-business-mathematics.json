@@ -1,0 +1,1418 @@
+[
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  },
+  {
+    "quickRevision": {
+      "summary": [
+        "Ratios and proportions are used to compare and analyze data.",
+        "Ratios can be written as fractions or as a ratio of numbers.",
+        "Proportions are statements that two ratios are equal."
+      ],
+      "formulas": [
+        "Debt-to-equity ratio = debt / equity",
+        "ROI = (profit / investment) x 100%"
+      ],
+      "mnemonics": [
+        "RATIOS: Ratio Analysis To Identify Opportunities and Strategies",
+        "PROPORTIONS: Proportion Analysis Reveals Opportunities and Trends"
+      ]
+    },
+    "_id": "6a5caaeef5ce74ecaa512cb8",
+    "courseId": "6a5caaeaf5ce74ecaa512cae",
+    "moduleNumber": 1,
+    "chapterNumber": 1,
+    "topic": "Ratio and Proportion",
+    "subject": "Business Mathematics",
+    "duration": 60,
+    "introduction": "### Why Ratio and Proportion Matter\n\nIn the world of business, making informed decisions requires a deep understanding of numbers. Ratio and proportion are fundamental concepts that help you analyze data, make comparisons, and identify trends. As a CA FOUNDATION aspirant, mastering these concepts will enable you to tackle complex problems with ease and make data-driven decisions. In this lesson, we'll delve into the world of ratios and proportions, exploring their real-world applications and exam-pattern questions.\n\n### What to Expect\n\nIn this lesson, we'll cover the following topics:\n\n* Key concepts: definition, explanation, and visual descriptions\n* Detailed explanation with step-by-step breakdowns\n* Solved examples with complete solutions and key takeaways\n* Real-world applications and industry relevance\n* Common mistakes to avoid and practice problems\n\n### Real-World Relevance\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior. As a CA FOUNDATION aspirant, understanding these concepts will enable you to analyze financial statements, identify trends, and make data-driven decisions.",
+    "keyConcepts": [
+      {
+        "concept": "Definition of Ratio",
+        "definition": "A ratio is a comparison of two or more numbers.",
+        "explanation": "A ratio can be written as a fraction (e.g., 3:4) or a ratio of numbers (e.g., 3 to 4).",
+        "_id": "6a5caaeef5ce74ecaa512cb9"
+      },
+      {
+        "concept": "Definition of Proportion",
+        "definition": "A proportion is a statement that two ratios are equal.",
+        "explanation": "A proportion can be written as a:b = c:d, where a, b, c, and d are numbers.",
+        "_id": "6a5caaeef5ce74ecaa512cba"
+      },
+      {
+        "concept": "Visual Description of Ratios and Proportions",
+        "definition": "Ratios and proportions can be represented graphically using bar charts, pie charts, and other visual aids.",
+        "explanation": "Visual representations help to identify patterns, trends, and relationships between variables.",
+        "_id": "6a5caaeef5ce74ecaa512cbb"
+      }
+    ],
+    "detailedContent": "### Detailed Explanation\n\n#### Step 1: Understanding Ratios\n\nA ratio is a comparison of two or more numbers. For example, 3:4 is a ratio of 3 to 4. Ratios can be written as fractions (e.g., 3/4) or as a ratio of numbers (e.g., 3 to 4).\n\n#### Step 2: Understanding Proportions\n\nA proportion is a statement that two ratios are equal. For example, 3:4 = 6:8 is a proportion. Proportions can be written as a:b = c:d, where a, b, c, and d are numbers.\n\n#### Step 3: Visualizing Ratios and Proportions\n\nRatios and proportions can be represented graphically using bar charts, pie charts, and other visual aids. Visual representations help to identify patterns, trends, and relationships between variables.\n\n### Real-World Applications\n\nRatio and proportion are used extensively in various industries, including finance, marketing, and operations. For instance, in finance, ratios like debt-to-equity and return on investment (ROI) help investors make informed decisions. In marketing, proportions are used to analyze customer demographics and behavior.\n\n### Exam-Pattern Questions\n\nCA FOUNDATION exam questions often require students to calculate ratios and proportions, identify patterns, and make comparisons. For example:\n\n* Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n* Identify the proportion of customers who prefer online shopping over offline shopping.\n* Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\n### Solved Examples\n\n#### Example 1\n\nCalculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.\n\nSolution: Debt-to-equity ratio = 100,000 / 500,000 = 1:5\n\nKey Takeaway: The debt-to-equity ratio is an important metric for investors to assess a company's financial health.\n\n#### Example 2\n\nIdentify the proportion of customers who prefer online shopping over offline shopping.\n\nSolution: Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.\n\nKey Takeaway: Understanding customer preferences is crucial for businesses to make informed marketing decisions.\n\n#### Example 3\n\nCalculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.\n\nSolution: ROI = (200,000 / 500,000) x 100% = 40%\n\nKey Takeaway: ROI is an important metric for investors to assess the profitability of a company.",
+    "solvedExamples": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹100,000 and equity of ₹500,000.",
+        "solution": "Debt-to-equity ratio = 100,000 / 500,000 = 1:5",
+        "keyTakeaway": "The debt-to-equity ratio is an important metric for investors to assess a company's financial health.",
+        "_id": "6a5caaeef5ce74ecaa512cbc"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping.",
+        "solution": "Assume 60% of customers prefer online shopping and 40% prefer offline shopping. The proportion is 60:40.",
+        "keyTakeaway": "Understanding customer preferences is crucial for businesses to make informed marketing decisions.",
+        "_id": "6a5caaeef5ce74ecaa512cbd"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹200,000 and an investment of ₹500,000.",
+        "solution": "ROI = (200,000 / 500,000) x 100% = 40%",
+        "keyTakeaway": "ROI is an important metric for investors to assess the profitability of a company.",
+        "_id": "6a5caaeef5ce74ecaa512cbe"
+      }
+    ],
+    "realWorldApplications": [
+      "Finance: debt-to-equity ratio, return on investment (ROI)",
+      "Marketing: customer demographics and behavior",
+      "Operations: supply chain management, inventory control"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing ratio and proportion",
+        "why": "Ratios and proportions are often used interchangeably, but they have distinct meanings.",
+        "howToAvoid": "Make sure to understand the definition and explanation of each concept before applying them.",
+        "_id": "6a5caaeef5ce74ecaa512cbf"
+      },
+      {
+        "mistake": "Not considering units",
+        "why": "Ratios and proportions often involve different units, which can lead to incorrect calculations.",
+        "howToAvoid": "Always consider the units when calculating ratios and proportions.",
+        "_id": "6a5caaeef5ce74ecaa512cc0"
+      }
+    ],
+    "practiceProblems": [
+      {
+        "question": "Calculate the ratio of debt to equity for a company with a debt of ₹150,000 and equity of ₹750,000.",
+        "difficulty": "Easy",
+        "_id": "6a5caaeef5ce74ecaa512cc1"
+      },
+      {
+        "question": "Identify the proportion of customers who prefer online shopping over offline shopping, given that 70% of customers prefer online shopping and 30% prefer offline shopping.",
+        "difficulty": "Medium",
+        "_id": "6a5caaeef5ce74ecaa512cc2"
+      },
+      {
+        "question": "Calculate the return on investment (ROI) for a company with a profit of ₹300,000 and an investment of ₹1,000,000.",
+        "difficulty": "Hard",
+        "_id": "6a5caaeef5ce74ecaa512cc3"
+      }
+    ],
+    "examTips": [
+      "Practice, practice, practice: Ratios and proportions require practice to master.",
+      "Understand the units: Always consider the units when calculating ratios and proportions.",
+      "Use visual aids: Visual representations can help identify patterns and trends."
+    ],
+    "aiGenerated": true,
+    "generatedBy": "groq-llama-3.3-70b",
+    "viewCount": 0,
+    "completionCount": 0,
+    "averageRating": 0,
+    "status": "published",
+    "audioSegments": [],
+    "generatedAt": "2026-07-19T10:46:06.537Z",
+    "createdAt": "2026-07-19T10:46:06.540Z",
+    "updatedAt": "2026-07-19T10:46:06.540Z",
+    "__v": 0
+  }
+]

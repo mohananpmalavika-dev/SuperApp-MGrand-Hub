@@ -1,0 +1,83 @@
+═══════════════════════════════════════════════════════════
+    CA FOUNDATION PLATFORM - QUICK COMMAND REFERENCE
+═══════════════════════════════════════════════════════════
+
+📋 VALIDATION
+─────────────
+node scripts/validate-setup.js
+→ Check if everything is ready to launch
+
+
+🚀 SETUP (After getting file IDs)
+─────────────────────────────────
+node scripts/setup-ca-foundation-courses.js
+→ Creates courses in MongoDB with Drive file IDs
+
+
+🔌 START BACKEND
+────────────────
+cd services/education-service
+npm start
+→ Backend runs on http://localhost:3013
+
+
+💻 START FRONTEND
+─────────────────
+cd frontend
+npm start
+→ Frontend runs on http://localhost:3000
+
+
+🌐 OPEN IN BROWSER
+──────────────────
+http://localhost:3000/education/courses
+→ Course browser
+
+http://localhost:3000/education/course/:courseId
+→ Course details
+
+http://localhost:3000/education/lesson/:lessonId
+→ Lesson viewer
+
+
+📂 FILES TO UPDATE WITH FILE IDs
+─────────────────────────────────
+1. scripts/setup-ca-foundation-courses.js (line 23-28)
+2. services/education-service/src/config/ca-foundation-mapping.js (line 8-13)
+
+
+📁 CONTENT FILES LOCATION
+─────────────────────────
+C:\Users\Dhanya\SuperApp-MGrand-Hub\scripts\google-drive-content\ca-foundation-multimedia\
+→ Upload these 4 files to Google Drive
+
+
+🔗 YOUR GOOGLE DRIVE FOLDER
+───────────────────────────
+https://drive.google.com/drive/folders/1rxwnM1vY4C_pCxbiY6FzdNNaT93Jj2Mw
+
+
+📚 DOCUMENTATION
+────────────────
+START_HERE.md                 → Main guide (read this first!)
+READY_TO_LAUNCH.md            → Launch checklist
+UPDATE_FILE_IDS_HERE.md       → How to update file IDs
+HOW_TO_UPLOAD_TO_DRIVE.md     → Upload instructions
+USER_JOURNEY.md               → Complete user experience
+YOUR_FRONTEND_UI.md           → UI features walkthrough
+
+
+═══════════════════════════════════════════════════════════
+                    LAUNCH SEQUENCE
+═══════════════════════════════════════════════════════════
+
+1. Upload 4 files to Google Drive
+2. Make files public (Right-click → Share → Anyone with link)
+3. Get file IDs from URLs (between /d/ and /view)
+4. Update 2 config files with IDs
+5. Run: node scripts/setup-ca-foundation-courses.js
+6. Open: http://localhost:3000/education/courses
+7. Launch! 🚀
+
+
+═══════════════════════════════════════════════════════════
