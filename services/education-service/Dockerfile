@@ -1,10 +1,22 @@
 FROM node:18-alpine
 
-# Install Python and TTS/STT dependencies
-RUN apk add --no-cache python3 py3-pip ffmpeg
+# Install Python, FFmpeg, and build tools for video generation
+RUN apk add --no-cache \
+    python3 \
+    py3-pip \
+    ffmpeg \
+    cairo-dev \
+    jpeg-dev \
+    pango-dev \
+    giflib-dev \
+    pixman-dev \
+    pangomm-dev \
+    libjpeg-turbo-dev \
+    freetype-dev \
+    build-base
 
-# Install edge-tts and whisper
-RUN pip3 install --no-cache-dir edge-tts openai-whisper
+# Install Python packages for TTS/STT and video generation
+RUN pip3 install --no-cache-dir edge-tts openai-whisper manim
 
 WORKDIR /app
 
@@ -17,8 +29,8 @@ RUN npm ci --only=production
 # Copy source code
 COPY . .
 
-# Create uploads directory
-RUN mkdir -p uploads/audio uploads/images
+# Create upload directories
+RUN mkdir -p uploads/audio uploads/images uploads/videos uploads/slides uploads/animations
 
 # Expose port
 EXPOSE 3013

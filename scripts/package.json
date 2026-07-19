@@ -1,0 +1,21 @@
+{
+  "name": "mgrand-content-generation-scripts",
+  "version": "1.0.0",
+  "description": "Content generation scripts for Personal AI Tutor Platform",
+  "scripts": {
+    "generate:all": "node generate-all-content.js",
+    "generate:ca": "node generate-ca-foundation.js",
+    "generate:jee": "node generate-jee-physics.js",
+    "generate:cbse": "node generate-cbse-10.js",
+    "generate:ias": "node generate-ias-prelims.js",
+    "validate": "node validate-content.js",
+    "upload": "node open-summaries-for-upload.js",
+    "validate:after": "npm run generate:all && npm run validate"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "googleapis": "^128.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

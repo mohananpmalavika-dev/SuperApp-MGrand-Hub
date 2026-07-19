@@ -1,0 +1,32 @@
+/* Resume Dashboard Styles */
+
+.resume-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.resume-dashboard .MuiCard-root {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-dashboard .MuiCard-root:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.resume-empty-state {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.resume-card-actions {
+  padding: 12px 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .resume-dashboard .MuiGrid-item {
+    padding: 8px;
+  }
+}

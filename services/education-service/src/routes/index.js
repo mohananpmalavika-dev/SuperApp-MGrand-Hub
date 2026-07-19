@@ -6,12 +6,14 @@ const courseRoutes = require('./courses');
 const tutorRoutes = require('./tutor');
 const testRoutes = require('./tests');
 const progressRoutes = require('./progress');
+const videoRoutes = require('./videos');
 
 // Mount routes
 router.use('/courses', courseRoutes);
 router.use('/tutor', tutorRoutes);
 router.use('/tests', testRoutes);
 router.use('/progress', progressRoutes);
+router.use('/videos', videoRoutes);
 
 // Health check
 router.get('/health', (req, res) => {

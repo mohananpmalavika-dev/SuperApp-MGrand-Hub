@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import store from './store';
 import LaunchPage from './pages/LaunchPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -10,7 +14,28 @@ import NotificationsPage from './pages/NotificationsPage';
 import TutorDashboard from './pages/TutorDashboard';
 import NewSessionPage from './pages/NewSessionPage';
 import LessonView from './pages/LessonView';
+import EducationRoutes from './pages/education/EducationRoutes';
+import AdminRoutes from './pages/admin/AdminRoutes';
 import './App.css';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#1976d2',
+      light: '#42a5f5',
+      dark: '#1565c0',
+    },
+    secondary: {
+      main: '#9c27b0',
+    },
+    background: {
+      default: '#f5f5f5',
+    },
+  },
+  typography: {
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+  },
+});
 
 function App() {
   const [user, setUser] = useState(null);
@@ -44,49 +69,66 @@ function App() {
   }
 
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<LaunchPage user={user} />} />
-          <Route 
-            path="/login" 
-            element={user ? <Navigate to="/dashboard" /> : <LoginPage onLogin={login} />} 
-          />
-          <Route 
-            path="/register" 
-            element={user ? <Navigate to="/dashboard" /> : <RegisterPage onRegister={login} />} 
-          />
-          <Route 
-            path="/dashboard" 
-            element={user ? <Dashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
-          />
-          <Route 
-            path="/profile" 
-            element={user ? <ProfilePage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
-          />
-          <Route 
-            path="/payments" 
-            element={user ? <PaymentPage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
-          />
-          <Route 
-            path="/notifications" 
-            element={user ? <NotificationsPage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
-          />
-          <Route 
-            path="/tutor/dashboard" 
-            element={user ? <TutorDashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
-          />
-          <Route 
-            path="/tutor/session/new" 
-            element={user ? <NewSessionPage user={user} /> : <Navigate to="/login" />} 
-          />
-          <Route 
-            path="/tutor/session/:sessionId" 
-            element={user ? <LessonView user={user} /> : <Navigate to="/login" />} 
-          />
-        </Routes>
-      </div>
-    </Router>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Router>
+          <div className="App">
+            <Routes>
+              <Route path="/" element={<LaunchPage user={user} />} />
+              <Route 
+                path="/login" 
+                element={user ? <Navigate to="/dashboard" /> : <LoginPage onLogin={login} />} 
+              />
+              <Route 
+                path="/register" 
+                element={user ? <Navigate to="/dashboard" /> : <RegisterPage onRegister={login} />} 
+              />
+              <Route 
+                path="/dashboard" 
+                element={user ? <Dashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+              />
+              <Route 
+                path="/profile" 
+                element={user ? <ProfilePage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+              />
+              <Route 
+                path="/payments" 
+                element={user ? <PaymentPage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+              />
+              <Route 
+                path="/notifications" 
+                element={user ? <NotificationsPage user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+              />
+              <Route 
+                path="/tutor/dashboard" 
+                element={user ? <TutorDashboard user={user} onLogout={logout} /> : <Navigate to="/login" />} 
+              />
+              <Route 
+                path="/tutor/session/new" 
+                element={user ? <NewSessionPage user={user} /> : <Navigate to="/login" />} 
+              />
+              <Route 
+                path="/tutor/session/:sessionId" 
+                element={user ? <LessonView user={user} /> : <Navigate to="/login" />} 
+              />
+              
+              {/* Education Routes */}
+              <Route 
+                path="/education/*" 
+                element={user ? <EducationRoutes /> : <Navigate to="/login" />} 
+              />
+              
+              {/* Admin Routes */}
+              <Route 
+                path="/admin/*" 
+                element={user ? <AdminRoutes /> : <Navigate to="/login" />} 
+              />
+            </Routes>
+          </div>
+        </Router>
+      </ThemeProvider>
+    </Provider>
   );
 }
 

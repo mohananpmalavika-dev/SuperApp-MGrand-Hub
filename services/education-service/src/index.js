@@ -22,9 +22,12 @@ app.use(morgan('combined', {
   },
 }));
 
-// Serve static files (audio, images)
+// Serve static files (audio, images, videos, slides, animations)
 app.use('/api/education/audio', express.static('uploads/audio'));
 app.use('/api/education/images', express.static('uploads/images'));
+app.use('/api/education/videos', express.static('uploads/videos'));
+app.use('/api/education/slides', express.static('uploads/slides'));
+app.use('/api/education/animations', express.static('uploads/animations'));
 
 // Connect to MongoDB
 mongoose

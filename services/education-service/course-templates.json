@@ -1,0 +1,566 @@
+{
+  "courseTemplates": {
+    "ca_foundation": {
+      "name": "CA Foundation",
+      "category": "professional",
+      "difficulty": "intermediate",
+      "subjects": [
+        {
+          "code": "CA-F-ACC",
+          "name": "Principles and Practice of Accounting",
+          "modules": [
+            "Introduction to Accounting",
+            "Accounting Process",
+            "Books of Prime Entry",
+            "Financial Statements",
+            "Trial Balance and Rectification",
+            "Bank Reconciliation Statement",
+            "Depreciation Accounting",
+            "Bills of Exchange",
+            "Capital and Revenue",
+            "Accounts from Incomplete Records"
+          ]
+        },
+        {
+          "code": "CA-F-LAW",
+          "name": "Business Laws and Business Correspondence",
+          "modules": [
+            "Indian Contract Act",
+            "Sale of Goods Act",
+            "Indian Partnership Act",
+            "Limited Liability Partnership Act",
+            "Companies Act (Basics)",
+            "Business Correspondence"
+          ]
+        },
+        {
+          "code": "CA-F-MATHS",
+          "name": "Business Mathematics and Logical Reasoning",
+          "modules": [
+            "Ratio and Proportion",
+            "Indices and Logarithms",
+            "Linear Equations",
+            "Quadratic Equations",
+            "Sets and Relations",
+            "Permutations and Combinations",
+            "Sequence and Series",
+            "Statistics",
+            "Probability",
+            "Logical Reasoning"
+          ]
+        },
+        {
+          "code": "CA-F-ECO",
+          "name": "Business Economics and Business Studies",
+          "modules": [
+            "Introduction to Microeconomics",
+            "Theory of Demand and Supply",
+            "Theory of Production and Cost",
+            "Market Structures",
+            "Business Environment",
+            "Business Organization",
+            "Private and Public Sector",
+            "Government Policies for Business"
+          ]
+        }
+      ],
+      "examPattern": {
+        "type": "descriptive",
+        "duration": 180,
+        "totalMarks": 100,
+        "passingMarks": 40,
+        "sections": [
+          {"type": "mcq", "marks": 30, "questions": 30},
+          {"type": "short", "marks": 30, "questions": 6},
+          {"type": "long", "marks": 40, "questions": 4}
+        ]
+      }
+    },
+    "ca_intermediate": {
+      "name": "CA Intermediate",
+      "category": "professional",
+      "difficulty": "advanced",
+      "groups": [
+        {
+          "name": "Group 1",
+          "subjects": [
+            {
+              "code": "CA-I-ACC",
+              "name": "Accounting",
+              "modules": [
+                "Accounting Standards",
+                "Partnership Accounts",
+                "Company Accounts",
+                "Amalgamation and Reconstruction",
+                "Valuation of Goodwill and Shares",
+                "Accounting for Special Transactions"
+              ]
+            },
+            {
+              "code": "CA-I-LAW",
+              "name": "Corporate and Other Laws",
+              "modules": [
+                "Company Law - Part I",
+                "Company Law - Part II",
+                "Securities Laws",
+                "Other Corporate Laws"
+              ]
+            },
+            {
+              "code": "CA-I-COST",
+              "name": "Cost and Management Accounting",
+              "modules": [
+                "Introduction to Cost Accounting",
+                "Material Costing",
+                "Labour Costing",
+                "Overhead Costing",
+                "Process Costing",
+                "Standard Costing",
+                "Budgetary Control",
+                "Marginal Costing"
+              ]
+            },
+            {
+              "code": "CA-I-TAX",
+              "name": "Taxation",
+              "modules": [
+                "Income Tax - Basics",
+                "Income from Salary",
+                "Income from House Property",
+                "Income from Business",
+                "Capital Gains",
+                "GST - Basics",
+                "GST - Advanced"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Group 2",
+          "subjects": [
+            {
+              "code": "CA-I-ADV-ACC",
+              "name": "Advanced Accounting",
+              "modules": [
+                "Accounting Standards - Advanced",
+                "Company Final Accounts",
+                "Consolidated Financial Statements",
+                "LLP Accounts",
+                "Insolvency and Bankruptcy"
+              ]
+            },
+            {
+              "code": "CA-I-AUDIT",
+              "name": "Auditing and Assurance",
+              "modules": [
+                "Nature and Objective of Audit",
+                "Audit Planning",
+                "Internal Control",
+                "Audit Evidence",
+                "Company Audit",
+                "Audit Report"
+              ]
+            },
+            {
+              "code": "CA-I-EIS",
+              "name": "Enterprise Information Systems",
+              "modules": [
+                "Business Process",
+                "Information Systems",
+                "E-Commerce",
+                "IT Security"
+              ]
+            },
+            {
+              "code": "CA-I-FM",
+              "name": "Financial Management and Economics",
+              "modules": [
+                "Financial Management",
+                "Time Value of Money",
+                "Capital Budgeting",
+                "Working Capital Management",
+                "Macroeconomics"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ias_prelims": {
+      "name": "IAS Prelims",
+      "category": "civil_services",
+      "difficulty": "advanced",
+      "subjects": [
+        {
+          "code": "IAS-GS1",
+          "name": "General Studies Paper I",
+          "modules": [
+            "Current Events - National",
+            "Current Events - International",
+            "History of India - Ancient",
+            "History of India - Medieval",
+            "History of India - Modern",
+            "Indian National Movement",
+            "Indian Geography - Physical",
+            "Indian Geography - Economic",
+            "World Geography",
+            "Indian Polity - Constitution",
+            "Indian Polity - Political System",
+            "Indian Polity - Governance",
+            "Indian Economy - Economic Development",
+            "Indian Economy - Budget and Planning",
+            "General Science - Physics",
+            "General Science - Chemistry",
+            "General Science - Biology",
+            "Environment and Ecology",
+            "Sustainable Development",
+            "Disaster Management"
+          ]
+        },
+        {
+          "code": "IAS-CSAT",
+          "name": "General Studies Paper II (CSAT)",
+          "modules": [
+            "Comprehension",
+            "Interpersonal Skills",
+            "Logical Reasoning",
+            "Analytical Ability",
+            "Decision Making",
+            "Problem Solving",
+            "General Mental Ability",
+            "Basic Numeracy",
+            "Data Interpretation"
+          ]
+        }
+      ],
+      "examPattern": {
+        "type": "mcq",
+        "papers": [
+          {
+            "name": "GS Paper I",
+            "duration": 120,
+            "totalMarks": 200,
+            "questions": 100,
+            "negativeMarking": 0.33
+          },
+          {
+            "name": "GS Paper II (CSAT)",
+            "duration": 120,
+            "totalMarks": 200,
+            "questions": 80,
+            "negativeMarking": 0.33,
+            "qualifying": true,
+            "qualifyingMarks": 66
+          }
+        ]
+      }
+    },
+    "ias_mains": {
+      "name": "IAS Mains",
+      "category": "civil_services",
+      "difficulty": "expert",
+      "subjects": [
+        {
+          "code": "IAS-ESSAY",
+          "name": "Essay",
+          "modules": [
+            "Essay Writing Techniques",
+            "Current Affairs Essays",
+            "Philosophical Essays",
+            "Social Issues Essays"
+          ]
+        },
+        {
+          "code": "IAS-GS1-MAINS",
+          "name": "General Studies I",
+          "modules": [
+            "Indian Heritage and Culture",
+            "History of World (18th to 20th Century)",
+            "Society",
+            "Geography of India and World"
+          ]
+        },
+        {
+          "code": "IAS-GS2-MAINS",
+          "name": "General Studies II",
+          "modules": [
+            "Governance, Constitution, Polity",
+            "Social Justice",
+            "International Relations"
+          ]
+        },
+        {
+          "code": "IAS-GS3-MAINS",
+          "name": "General Studies III",
+          "modules": [
+            "Technology, Economic Development",
+            "Bio-diversity, Environment, Security",
+            "Disaster Management"
+          ]
+        },
+        {
+          "code": "IAS-GS4-MAINS",
+          "name": "General Studies IV (Ethics)",
+          "modules": [
+            "Ethics and Human Interface",
+            "Attitude",
+            "Aptitude",
+            "Emotional Intelligence",
+            "Case Studies"
+          ]
+        }
+      ]
+    },
+    "jee_main": {
+      "name": "JEE Main",
+      "category": "engineering_entrance",
+      "difficulty": "advanced",
+      "subjects": [
+        {
+          "code": "JEE-PHY",
+          "name": "Physics",
+          "modules": [
+            "Mechanics - Kinematics",
+            "Mechanics - Laws of Motion",
+            "Mechanics - Work Energy Power",
+            "Mechanics - Rotation",
+            "Mechanics - Gravitation",
+            "Thermodynamics",
+            "Kinetic Theory of Gases",
+            "Oscillations and Waves",
+            "Electrostatics",
+            "Current Electricity",
+            "Magnetic Effects of Current",
+            "Electromagnetic Induction",
+            "Alternating Current",
+            "Electromagnetic Waves",
+            "Optics - Ray Optics",
+            "Optics - Wave Optics",
+            "Modern Physics - Dual Nature",
+            "Modern Physics - Atoms and Nuclei",
+            "Modern Physics - Semiconductor Devices"
+          ]
+        },
+        {
+          "code": "JEE-CHEM",
+          "name": "Chemistry",
+          "modules": [
+            "Physical Chemistry - Atomic Structure",
+            "Physical Chemistry - Thermodynamics",
+            "Physical Chemistry - Chemical Kinetics",
+            "Physical Chemistry - Equilibrium",
+            "Physical Chemistry - Electrochemistry",
+            "Physical Chemistry - Solutions",
+            "Inorganic Chemistry - Periodic Table",
+            "Inorganic Chemistry - Chemical Bonding",
+            "Inorganic Chemistry - s-Block Elements",
+            "Inorganic Chemistry - p-Block Elements",
+            "Inorganic Chemistry - d-Block Elements",
+            "Inorganic Chemistry - Coordination Compounds",
+            "Organic Chemistry - Basic Principles",
+            "Organic Chemistry - Hydrocarbons",
+            "Organic Chemistry - Haloalkanes",
+            "Organic Chemistry - Alcohols and Ethers",
+            "Organic Chemistry - Aldehydes and Ketones",
+            "Organic Chemistry - Carboxylic Acids",
+            "Organic Chemistry - Biomolecules"
+          ]
+        },
+        {
+          "code": "JEE-MATH",
+          "name": "Mathematics",
+          "modules": [
+            "Algebra - Complex Numbers",
+            "Algebra - Quadratic Equations",
+            "Algebra - Sequences and Series",
+            "Algebra - Permutations and Combinations",
+            "Algebra - Binomial Theorem",
+            "Algebra - Matrices and Determinants",
+            "Trigonometry - Ratios and Identities",
+            "Trigonometry - Equations",
+            "Coordinate Geometry - Straight Lines",
+            "Coordinate Geometry - Circles",
+            "Coordinate Geometry - Conic Sections",
+            "Coordinate Geometry - 3D Geometry",
+            "Calculus - Limits and Continuity",
+            "Calculus - Differentiation",
+            "Calculus - Applications of Derivatives",
+            "Calculus - Integration",
+            "Calculus - Definite Integrals",
+            "Calculus - Differential Equations",
+            "Vectors",
+            "Probability",
+            "Statistics"
+          ]
+        }
+      ],
+      "examPattern": {
+        "type": "mcq",
+        "duration": 180,
+        "totalMarks": 300,
+        "sections": [
+          {
+            "subject": "Physics",
+            "marks": 100,
+            "questions": 30,
+            "negativeMarking": 0.25
+          },
+          {
+            "subject": "Chemistry",
+            "marks": 100,
+            "questions": 30,
+            "negativeMarking": 0.25
+          },
+          {
+            "subject": "Mathematics",
+            "marks": 100,
+            "questions": 30,
+            "negativeMarking": 0.25
+          }
+        ]
+      }
+    },
+    "school_cbse_10": {
+      "name": "CBSE Class 10",
+      "category": "school",
+      "difficulty": "intermediate",
+      "subjects": [
+        {
+          "code": "CBSE10-MATH",
+          "name": "Mathematics",
+          "modules": [
+            "Real Numbers",
+            "Polynomials",
+            "Linear Equations",
+            "Quadratic Equations",
+            "Arithmetic Progressions",
+            "Triangles",
+            "Coordinate Geometry",
+            "Trigonometry - Introduction",
+            "Trigonometry - Applications",
+            "Circles",
+            "Areas Related to Circles",
+            "Surface Areas and Volumes",
+            "Statistics",
+            "Probability"
+          ]
+        },
+        {
+          "code": "CBSE10-SCI",
+          "name": "Science",
+          "modules": [
+            "Chemical Reactions",
+            "Acids, Bases and Salts",
+            "Metals and Non-metals",
+            "Carbon Compounds",
+            "Periodic Classification",
+            "Life Processes",
+            "Control and Coordination",
+            "Reproduction",
+            "Heredity and Evolution",
+            "Light - Reflection and Refraction",
+            "Human Eye",
+            "Electricity",
+            "Magnetic Effects of Current",
+            "Energy Sources",
+            "Environment"
+          ]
+        },
+        {
+          "code": "CBSE10-SST",
+          "name": "Social Science",
+          "modules": [
+            "Nationalism in Europe",
+            "Nationalism in India",
+            "Making of Global World",
+            "Age of Industrialisation",
+            "Print Culture",
+            "Resources and Development",
+            "Forest and Wildlife",
+            "Water Resources",
+            "Agriculture",
+            "Minerals and Energy",
+            "Manufacturing Industries",
+            "Power Sharing",
+            "Federalism",
+            "Democracy and Diversity",
+            "Gender and Religion",
+            "Development",
+            "Sectors of Economy",
+            "Money and Credit",
+            "Globalisation"
+          ]
+        }
+      ]
+    }
+  },
+  "contentGeneration": {
+    "lessonLength": {
+      "foundation": "1500-2000 words",
+      "intermediate": "2000-2500 words",
+      "advanced": "2500-3000 words",
+      "expert": "3000-4000 words"
+    },
+    "videoLength": {
+      "foundation": "10-15 minutes",
+      "intermediate": "15-20 minutes",
+      "advanced": "20-25 minutes",
+      "expert": "25-30 minutes"
+    },
+    "questionsPerLesson": {
+      "foundation": 10,
+      "intermediate": 15,
+      "advanced": 20,
+      "expert": 25
+    },
+    "animatedExamples": {
+      "accounting": 5,
+      "mathematics": 5,
+      "physics": 4,
+      "chemistry": 3,
+      "other": 2
+    }
+  },
+  "voiceSettings": {
+    "language": "en-IN",
+    "gender": "Female",
+    "speed": 1.0,
+    "pitch": 1.0,
+    "voices": {
+      "primary": "en-IN-NeerjaNeural",
+      "alternative": "en-IN-PrabhatNeural"
+    }
+  },
+  "examSchedules": {
+    "ca_foundation": {
+      "attempts": 2,
+      "months": ["May", "November"],
+      "preparationTime": "6-8 months"
+    },
+    "ca_intermediate": {
+      "attempts": 2,
+      "months": ["May", "November"],
+      "preparationTime": "8-12 months"
+    },
+    "ias_prelims": {
+      "attempts": 1,
+      "month": "June",
+      "preparationTime": "12-18 months"
+    },
+    "ias_mains": {
+      "attempts": 1,
+      "month": "September",
+      "preparationTime": "3-4 months after Prelims"
+    },
+    "jee_main": {
+      "attempts": 2,
+      "months": ["January", "April"],
+      "preparationTime": "24 months (Class 11-12)"
+    },
+    "cbse_10": {
+      "attempts": 1,
+      "month": "February-March",
+      "preparationTime": "10 months"
+    }
+  }
+}

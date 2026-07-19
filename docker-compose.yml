@@ -268,32 +268,62 @@ services:
       timeout: 10s
       retries: 3
 
-  food-delivery-service:
+  tutor-service:
     build:
-      context: ./services/food-delivery-service
+      context: ./services/tutor-service
       dockerfile: Dockerfile
-    container_name: mgrand-food-delivery-service
+    container_name: mgrand-tutor-service
+    restart: unless-stopped
+    ports:
+      - "3005:3005"
+    environment:
+      NODE_ENV: ${NODE_ENV:-development}
+      PORT: 3005
+      MONGODB_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password}@mongodb:27017/superapp-tutor?authSource=admin
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXPIRY: ${JWT_EXPIRE:-7d}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:8080}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - mgrand-network
+    volumes:
+      - ./uploads/avatars:/usr/src/app/uploads/avatars
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3005/api/tutor/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  resume-service:
+    build:
+      context: ./services/resume-service
+      dockerfile: Dockerfile
+    container_name: mgrand-resume-service
     restart: unless-stopped
     ports:
       - "3006:3006"
     environment:
       NODE_ENV: ${NODE_ENV:-development}
       PORT: 3006
-      MONGO_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password}@mongodb:27017/mgrand-hub?authSource=admin
-      REDIS_HOST: redis
-      REDIS_PORT: 6379
+      MONGODB_URI: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password}@mongodb:27017/superapp-resume?authSource=admin
       JWT_SECRET: ${JWT_SECRET}
-      PAYMENT_SERVICE_URL: http://payment-service:3004
-      NOTIFICATION_SERVICE_URL: http://notification-service:3012
+      JWT_EXPIRY: ${JWT_EXPIRE:-7d}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000,http://localhost:8080}
+      UPLOAD_DIR: ./uploads/resumes
+      MAX_FILE_SIZE: 10485760
+      PDF_QUALITY: high
+      PDF_DPI: 300
     depends_on:
       mongodb:
         condition: service_healthy
-      redis:
-        condition: service_healthy
     networks:
       - mgrand-network
+    volumes:
+      - ./uploads/resumes:/usr/src/app/uploads/resumes
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3006/health"]
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3006/api/resume/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -317,7 +347,8 @@ services:
       - notification-service
       - education-service
       - classifieds-service
-      - food-delivery-service
+      - tutor-service
+      - resume-service
     networks:
       - mgrand-network
     healthcheck:

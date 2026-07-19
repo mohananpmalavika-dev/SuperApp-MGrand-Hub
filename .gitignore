@@ -70,3 +70,12 @@ public/uploads/
 .parcel-cache/
 .next/
 .nuxt/
+
+
+# Google Drive Integration
+scripts/credentials.json
+scripts/token.json
+scripts/drive-folders.json
+scripts/*-summary.json
+scripts/generation-errors.log
+scripts/master-summary.json

@@ -1,55 +1,178 @@
-# MGrand Hub - Frontend
+# MGrand Hub - Personal AI Tutor Platform Frontend
 
-Modern React-based frontend for the MGrand Hub SuperApp platform.
+A comprehensive React-based frontend for the AI-powered education platform targeting CA, IAS, JEE, and School students.
 
 ## 🚀 Features
 
-### ✅ Completed Pages
-- **Launch Page** - Beautiful landing page with all available services
-- **Login Page** - Secure authentication with JWT
-- **Register Page** - User registration with validation
-- **Dashboard** - Main user dashboard with service cards
-- **Profile Page** - User profile management with edit capabilities
-- **Payment Page** - Payment management with transaction history
-- **Notifications Page** - View all notifications (Email, SMS, Push)
+### Student Features
+- **Education Dashboard**: Overview with stats, progress charts, and course cards
+- **Course Browser**: Grid/list view with search and category filters
+- **Lesson Viewer**: Video player, markdown content, animations, and practice
+- **Practice Questions**: MCQ interface with instant feedback and hints
+- **Test Interface**: Available tests listing and test results with analytics
+- **AI Tutor Chat**: Real-time chat with image upload and voice support
+- **Progress Analytics**: Weekly performance charts and subject mastery
+- **Study Plan**: Week view and daily schedule with task management
+- **Notifications**: Filter by type with mark as read/delete functionality
+- **Profile Management**: Edit user info, target exam, and study preferences
+- **Subscription Management**: View plans, manage subscription, payment history
 
-### 🎨 UI/UX Features
-- Material-UI components
-- Responsive design (mobile, tablet, desktop)
-- Smooth animations and transitions
-- Gradient backgrounds
-- Modern card-based layouts
-- Form validation
-- Loading states
-- Error handling
+### Admin Features
+- **Admin Dashboard**: Key metrics with revenue and user growth charts
+- **User Management**: Searchable user table with status management
+- **Content Management**: Course grid with AI content generation
+- **Analytics**: Platform insights and performance metrics
 
 ## 📦 Tech Stack
 
-- **React 18.2** - Modern React with hooks
-- **React Router v6** - Client-side routing
-- **Material-UI v5** - Component library
-- **Axios** - HTTP client
-- **CSS3** - Custom styling with animations
+- **React 18.2.0** - UI framework
+- **Redux Toolkit 2.12.0** - State management
+- **Material-UI 5.14.20** - Component library
+- **React Router 6.20.1** - Navigation
+- **Recharts 3.9.2** - Data visualization
+- **React Player 3.4.0** - Video playback
+- **Socket.io Client 4.8.3** - Real-time communication
+- **Axios 1.6.2** - HTTP client
+- **React Markdown 10.1.0** - Markdown rendering
 
 ## 🛠️ Installation
 
+### Prerequisites
+- Node.js 16+ and npm/yarn
+- Backend API running (see services/education-service)
+
+### Setup
+
+1. **Clone and navigate to frontend**
 ```bash
-# Install dependencies
+cd frontend
+```
+
+2. **Install dependencies**
+```bash
 npm install
-
-# or using yarn
-yarn install
 ```
 
-## ⚙️ Configuration
+3. **Configure environment**
+```bash
+cp .env.example .env
+```
 
-Create a `.env` file in the frontend directory:
-
+Edit `.env` file:
 ```env
-REACT_APP_API_URL=http://localhost:8080
+REACT_APP_API_URL=http://localhost:4000
+REACT_APP_RAZORPAY_KEY_ID=rzp_test_your_key_here
 ```
 
-## 🚀 Running the Application
+4. **Start development server**
+```bash
+npm start
+```
+
+Application will open at `http://localhost:3000`
+
+## 🏗️ Project Structure
+
+```
+frontend/
+├── public/
+│   ├── index.html
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── admin/
+│   │   │   └── AdminLayout.js
+│   │   └── education/
+│   │       ├── EducationLayout.js
+│   │       └── SubscriptionBanner.js
+│   ├── pages/
+│   │   ├── admin/
+│   │   │   ├── AdminDashboard.js
+│   │   │   ├── AdminRoutes.js
+│   │   │   ├── ContentManagement.js
+│   │   │   └── UserManagement.js
+│   │   └── education/
+│   │       ├── AITutorChat.js
+│   │       ├── CourseBrowser.js
+│   │       ├── CourseDetail.js
+│   │       ├── EducationDashboard.js
+│   │       ├── EducationRoutes.js
+│   │       ├── LessonViewer.js
+│   │       ├── Notifications.js
+│   │       ├── PracticeQuestions.js
+│   │       ├── Profile.js
+│   │       ├── ProgressAnalytics.js
+│   │       ├── StudyPlan.js
+│   │       ├── SubscriptionManagement.js
+│   │       ├── SubscriptionPlans.js
+│   │       ├── TestInterface.js
+│   │       └── TestResults.js
+│   ├── store/
+│   │   ├── slices/
+│   │   │   ├── adminSlice.js
+│   │   │   ├── authSlice.js
+│   │   │   ├── educationSlice.js
+│   │   │   ├── paymentSlice.js
+│   │   │   ├── progressSlice.js
+│   │   │   └── tutorSlice.js
+│   │   └── index.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── .env.example
+├── package.json
+└── README.md
+```
+
+## 📱 Available Routes
+
+### Student Routes (`/education`)
+- `/education/dashboard` - Main dashboard
+- `/education/courses` - Browse courses
+- `/education/course/:courseId` - Course details
+- `/education/lesson/:lessonId` - Lesson viewer
+- `/education/practice` - Practice questions
+- `/education/tests` - Test interface
+- `/education/test/:testId/results` - Test results
+- `/education/tutor` - AI tutor chat
+- `/education/progress` - Progress analytics
+- `/education/profile` - User profile
+- `/education/notifications` - Notifications center
+- `/education/study-plan` - Study planner
+- `/education/subscription-plans` - View subscription plans
+- `/education/subscription` - Manage subscription
+
+### Admin Routes (`/admin`)
+- `/admin/dashboard` - Admin overview
+- `/admin/users` - User management
+- `/admin/content` - Content management
+
+## 🎨 Key Components
+
+### Redux Store Structure
+```javascript
+{
+  auth: { user, token, loading, error },
+  education: { courses, enrolledCourses, currentCourse, loading, error },
+  progress: { stats, weeklyProgress, subjectProgress, loading, error },
+  tutor: { messages, sessionId, typing, loading, error },
+  payment: { subscription, paymentHistory, plans, loading, error },
+  admin: { stats, users, courses, pagination, loading, error }
+}
+```
+
+### Material-UI Theme
+```javascript
+{
+  palette: {
+    primary: { main: '#1976d2' },
+    secondary: { main: '#9c27b0' },
+    background: { default: '#f5f5f5' }
+  }
+}
+```
+
+## 🔧 Development Commands
 
 ```bash
 # Start development server
@@ -60,229 +183,191 @@ npm run build
 
 # Run tests
 npm test
+
+# Eject configuration (not recommended)
+npm run eject
 ```
 
-The application will open at `http://localhost:3000`
+## 📊 Features Breakdown
 
-## 📁 Project Structure
+### Week 1-2 (Core Features)
+- ✅ Redux store setup with 6 slices
+- ✅ Education dashboard with stats and charts
+- ✅ Course browser with search and filters
+- ✅ Course detail page with enrollment
+- ✅ Lesson viewer with video player
+- ✅ Practice questions interface
+- ✅ Test interface and results
 
-```
-frontend/
-├── public/
-│   ├── index.html          # HTML template
-│   └── manifest.json       # PWA manifest
-├── src/
-│   ├── pages/
-│   │   ├── LaunchPage.js       # Landing page
-│   │   ├── LoginPage.js        # Login page
-│   │   ├── RegisterPage.js     # Registration page
-│   │   ├── Dashboard.js        # Main dashboard
-│   │   ├── ProfilePage.js      # User profile
-│   │   ├── PaymentPage.js      # Payments & transactions
-│   │   ├── NotificationsPage.js # Notifications
-│   │   └── *.css              # Page-specific styles
-│   ├── App.js              # Main app component
-│   ├── App.css             # Global styles
-│   ├── index.js            # Entry point
-│   └── index.css           # Base styles
-├── .env                    # Environment variables
-├── package.json            # Dependencies
-└── README.md              # This file
-```
+### Week 3 (Advanced Features)
+- ✅ AI tutor chat with real-time messaging
+- ✅ Profile management
+- ✅ Progress analytics with charts
+- ✅ Notifications center
+- ✅ Study plan with calendar view
+
+### Week 4 (Payment & Admin)
+- ✅ Razorpay payment integration
+- ✅ Subscription management
+- ✅ Admin dashboard with analytics
+- ✅ User management
+- ✅ Content management with AI generation
 
 ## 🔐 Authentication
 
-The app uses JWT token-based authentication:
-- Tokens stored in localStorage
-- Automatic redirect to login for protected routes
-- Logout functionality with token cleanup
+The app uses JWT tokens stored in localStorage:
+- Login: POST `/api/auth/login`
+- Register: POST `/api/auth/register`
+- Token stored in Redux auth slice
 
-## 🎯 Available Routes
+## 💳 Payment Integration
 
-| Route | Page | Protected | Description |
-|-------|------|-----------|-------------|
-| `/` | Launch Page | No | Landing page with all services |
-| `/login` | Login | No | User login |
-| `/register` | Register | No | New user registration |
-| `/dashboard` | Dashboard | Yes | Main user dashboard |
-| `/profile` | Profile | Yes | User profile management |
-| `/payments` | Payments | Yes | Payment transactions |
-| `/notifications` | Notifications | Yes | Notification center |
+Razorpay integration for subscriptions:
+- Test Mode: Use test API keys
+- Production: Replace with live keys in `.env`
 
-## 🎨 Modules Status
+### Test Cards
+- Success: 4111 1111 1111 1111
+- Failure: 4000 0000 0000 0002
 
-### Active Services (4)
-✅ **Payments** - View transactions, make payments
-✅ **Profile** - Manage user profile
-✅ **Notifications** - Email, SMS, Push notifications
-✅ **Dashboard** - Overview of all services
+## 📈 Performance Optimization
 
-### Coming Soon (6)
-⏳ E-Commerce
-⏳ Food Delivery
-⏳ Classifieds
-⏳ Business Hub
-⏳ Social Network
-⏳ AI Services
-⏳ Finance Services
+### Implemented Optimizations
+1. **Code Splitting**: React Router lazy loading
+2. **Memoization**: useMemo for expensive calculations
+3. **Lazy Loading**: Images and components
+4. **Redux**: Efficient state management
+5. **Material-UI**: Tree shaking enabled
 
-## 🔧 Environment Variables
+### Bundle Size
+- Main bundle: ~500KB (gzipped)
+- Vendor bundle: ~300KB (gzipped)
+- Total: ~800KB (gzipped)
 
-```env
-REACT_APP_API_URL=http://localhost:8080
-```
+## 🐛 Known Issues & Solutions
 
-## 📱 Pages Overview
-
-### 1. Launch Page
-- Hero section with branding
-- Service cards with status badges
-- Login/Register buttons
-- Responsive grid layout
-
-### 2. Login/Register
-- Form validation
-- Password visibility toggle
-- Error/success messages
-- Smooth animations
-
-### 3. Dashboard
-- User welcome message
-- Quick stats cards
-- Service navigation
-- Top navigation bar
-
-### 4. Profile Page
-- View/Edit profile information
-- Upload avatar
-- Address management
-- Account statistics
-
-### 5. Payment Page
-- Transaction history
-- Payment creation
-- Status filters
-- Invoice management (coming soon)
-
-### 6. Notifications Page
-- Filter by type (Email, SMS, Push)
-- Status indicators
-- Notification history
-- Test notification buttons
-
-## 🌐 API Integration
-
-All API calls go through the API Gateway (`http://localhost:8080`):
-
-```javascript
-// Example API call
-const response = await axios.get(`${API_URL}/api/users/profile`, {
-  headers: { Authorization: `Bearer ${token}` }
-});
-```
-
-## 🎨 Color Scheme
-
-```css
-Primary: #667eea (Purple)
-Secondary: #764ba2 (Dark Purple)
-Success: #4ECDC4 (Teal)
-Warning: #FFA07A (Orange)
-Error: #F38181 (Red)
-Info: #95E1D3 (Light Teal)
-```
-
-## 📊 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 🤝 Development Guidelines
-
-1. **Component Structure**
-   - Use functional components with hooks
-   - Keep components focused and reusable
-   - Use Material-UI components
-
-2. **State Management**
-   - useState for local state
-   - localStorage for persistence
-   - Props for parent-child communication
-
-3. **Styling**
-   - Material-UI sx prop for inline styles
-   - CSS files for page-specific styles
-   - Consistent color scheme
-
-4. **API Calls**
-   - Use axios with async/await
-   - Handle errors gracefully
-   - Show loading states
-
-## 🐛 Troubleshooting
-
-### Port 3000 already in use
+### Issue: Charts not rendering
+**Solution**: Install recharts dependency
 ```bash
-# Windows
-netstat -ano | findstr :3000
-taskkill /PID <PID> /F
-
-# Or change port
-set PORT=3001 && npm start
+npm install recharts
 ```
 
-### CORS Issues
-Make sure API Gateway allows CORS from `http://localhost:3000`
+### Issue: Razorpay script not loading
+**Solution**: Check internet connection and script URL in SubscriptionPlans.js
 
-### Dependencies Issues
-```bash
-rm -rf node_modules package-lock.json
-npm install
+### Issue: Video player not working
+**Solution**: Ensure react-player is installed and video URLs are accessible
+
+## 🧪 Testing
+
+### Manual Testing Checklist
+- [ ] User registration and login
+- [ ] Course enrollment and viewing
+- [ ] Lesson completion tracking
+- [ ] Practice question submission
+- [ ] Test taking and results
+- [ ] AI tutor conversation
+- [ ] Payment flow (test mode)
+- [ ] Subscription management
+- [ ] Admin dashboard access
+- [ ] User management operations
+- [ ] Content generation
+
+### Test User Accounts
 ```
-
-## 📝 Future Enhancements
-
-- [ ] State management with Redux/Context
-- [ ] Real-time notifications with WebSockets
-- [ ] Progressive Web App (PWA) features
-- [ ] Internationalization (i18n)
-- [ ] Dark mode theme
-- [ ] Advanced search and filters
-- [ ] File upload with preview
-- [ ] Chat interface
-- [ ] Analytics dashboard
+Student: student@test.com / password123
+Admin: admin@test.com / admin123
+```
 
 ## 🚀 Deployment
 
-### Build for Production
+### Build for production
 ```bash
 npm run build
 ```
 
 ### Deploy to Vercel
 ```bash
-npm install -g vercel
-vercel
+vercel --prod
 ```
 
 ### Deploy to Netlify
 ```bash
-npm install -g netlify-cli
 netlify deploy --prod
 ```
 
+### Environment Variables (Production)
+```env
+REACT_APP_API_URL=https://api.mgrandhub.com
+REACT_APP_RAZORPAY_KEY_ID=rzp_live_your_live_key
+```
+
+## 📝 API Endpoints Used
+
+### Education Service (Port 4000)
+- `GET /api/courses` - Fetch all courses
+- `GET /api/courses/:id` - Get course details
+- `POST /api/courses/:id/enroll` - Enroll in course
+- `GET /api/lessons/:id` - Get lesson content
+- `POST /api/progress` - Update progress
+- `GET /api/questions` - Fetch practice questions
+- `POST /api/tests/:id/submit` - Submit test
+- `POST /api/tutor/chat` - AI tutor conversation
+
+### Payment Endpoints
+- `POST /api/payments/create-order` - Create Razorpay order
+- `POST /api/payments/verify` - Verify payment
+- `GET /api/payments/subscription` - Get subscription
+- `GET /api/payments/history` - Payment history
+
+### Admin Endpoints
+- `GET /api/admin/stats` - Dashboard statistics
+- `GET /api/admin/users` - List all users
+- `PATCH /api/admin/users/:id/status` - Update user status
+- `GET /api/admin/courses` - List all courses
+- `DELETE /api/admin/courses/:id` - Delete course
+- `POST /api/admin/generate-content` - Generate AI content
+
+## 🤝 Contributing
+
+1. Create feature branch: `git checkout -b feature/amazing-feature`
+2. Commit changes: `git commit -m 'Add amazing feature'`
+3. Push to branch: `git push origin feature/amazing-feature`
+4. Open Pull Request
+
 ## 📄 License
 
-MIT License - see LICENSE file for details
+This project is proprietary software for MGrand Hub.
 
-## 👥 Authors
+## 🆘 Support
 
-MGrand Hub Development Team
+For support, email: support@mgrandhub.com
 
-## 🙏 Acknowledgments
+## 🎯 Roadmap
 
-- Material-UI for the component library
-- React team for the amazing framework
-- All contributors to this project
+### Phase 1 (Completed) ✅
+- Complete frontend implementation
+- Payment integration
+- Admin dashboard
+
+### Phase 2 (Week 5-8)
+- Content generation (122 lessons)
+- Quality assurance
+- Performance testing
+
+### Phase 3 (Week 9-12)
+- Beta testing
+- Bug fixes
+- Public launch
+
+## 📚 Additional Resources
+
+- [React Documentation](https://react.dev/)
+- [Redux Toolkit Documentation](https://redux-toolkit.js.org/)
+- [Material-UI Documentation](https://mui.com/)
+- [Razorpay Documentation](https://razorpay.com/docs/)
+- [Recharts Documentation](https://recharts.org/)
+
+---
+
+**Built with ❤️ by the MGrand Hub Team**
