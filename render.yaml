@@ -218,3 +218,38 @@ services:
       - key: TWILIO_PHONE_NUMBER
         sync: false  # Set in dashboard
     autoDeploy: true
+
+  # =====================================================
+  # TUTOR SERVICE - AI Personal Tutor & Learning
+  # =====================================================
+  - type: web
+    name: tutor-service
+    env: node
+    region: oregon
+    plan: standard
+    buildCommand: cd packages/shared && npm install && cd ../../services/tutor-service && npm install && npm install ../../packages/shared
+    startCommand: cd services/tutor-service && npm start
+    healthCheckPath: /api/tutor/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3013
+      - key: MONGO_URI
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: JWT_SECRET
+        fromService:
+          type: web
+          name: auth-service
+          envVarKey: JWT_SECRET
+      - key: OPENAI_API_KEY
+        sync: false  # Set in dashboard
+      - key: USER_SERVICE_URL
+        value: https://user-service.onrender.com
+      - key: NOTIFICATION_SERVICE_URL
+        value: https://notification-service.onrender.com
+      - key: ALLOWED_ORIGINS
+        value: https://www.malabarbazaar.shop,https://malabarbazaar.shop,http://localhost:3000
+    autoDeploy: true

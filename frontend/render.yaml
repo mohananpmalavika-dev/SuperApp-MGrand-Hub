@@ -18,9 +18,12 @@ services:
       - path: /*
         name: Cross-Origin-Resource-Policy
         value: cross-origin
-      - path: /*
-        name: Cross-Origin-Embedder-Policy
-        value: unsafe-none
+      - path: /manifest.json
+        name: Content-Type
+        value: application/manifest+json
+      - path: /manifest.json
+        name: Access-Control-Allow-Origin
+        value: "*"
     routes:
       - type: rewrite
         source: /*
