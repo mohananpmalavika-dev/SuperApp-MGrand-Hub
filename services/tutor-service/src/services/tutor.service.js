@@ -1,7 +1,7 @@
 const TutorSession = require('../models/TutorSession.model');
 const LearningPath = require('../models/LearningPath.model');
 const Quiz = require('../models/Quiz.model');
-const logger = require('../../../packages/shared/src/logger');
+const logger = require('../utils/logger');
 
 /**
  * Tutor Service - Enhanced with AI-powered adaptive learning

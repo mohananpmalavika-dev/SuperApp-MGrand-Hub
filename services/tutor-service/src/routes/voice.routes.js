@@ -1,6 +1,6 @@
 const express = require('express');
 const { voiceController, uploadAvatar } = require('../controllers/voice.controller');
-const auth = require('../../../packages/shared/src/middleware/auth');
+const auth = require('../middleware/auth');
 
 const router = express.Router();
 

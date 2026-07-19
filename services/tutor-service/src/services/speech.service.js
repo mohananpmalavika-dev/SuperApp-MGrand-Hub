@@ -1,4 +1,4 @@
-const logger = require('../../../packages/shared/src/logger');
+const logger = require('../utils/logger');
 
 /**
  * Speech Service

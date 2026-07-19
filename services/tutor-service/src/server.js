@@ -1,8 +1,8 @@
 require('dotenv').config();
 const app = require('./app');
-const { connectDB } = require('../../packages/shared/src/database');
-const { connectRedis } = require('../../packages/shared/src/redis');
-const logger = require('../../packages/shared/src/logger');
+const { connectDB } = require('./utils/database');
+const { connectRedis } = require('./utils/redis');
+const logger = require('./utils/logger');
 
 const PORT = process.env.PORT || 3005;
 const SERVICE_NAME = process.env.SERVICE_NAME || 'tutor-service';

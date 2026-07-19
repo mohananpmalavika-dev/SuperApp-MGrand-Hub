@@ -3,8 +3,8 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const routes = require('./routes');
-const { errorHandler } = require('../../packages/shared/src/middleware/errorHandler');
-const logger = require('../../packages/shared/src/logger');
+const { errorHandler } = require('./middleware/errorHandler');
+const logger = require('./utils/logger');
 
 const app = express();
 

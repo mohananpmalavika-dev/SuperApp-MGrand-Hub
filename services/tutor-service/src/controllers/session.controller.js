@@ -1,6 +1,6 @@
 const tutorService = require('../services/tutor.service');
-const { asyncHandler } = require('../../../../packages/shared/src/utils/asyncHandler');
-const { apiResponse } = require('../../../../packages/shared/src/utils/apiResponse');
+const { asyncHandler } = require('../utils/asyncHandler');
+const { apiResponse } = require('../utils/apiResponse');
 
 /**
  * Start a new tutoring session
