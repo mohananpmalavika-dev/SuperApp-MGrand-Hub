@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const auth = require('../../../packages/shared/src/middleware/auth');
+const auth = require('../middleware/auth');
 
 // Controllers
 const sessionController = require('../controllers/session.controller');
@@ -32,7 +32,7 @@ router.post('/quiz/:quizId/retry', auth, quizController.retryQuiz);
 // ========== ANALYTICS ROUTES ==========
 router.get('/analytics/dashboard', auth, async (req, res) => {
   const tutorService = require('../services/tutor.service');
-  const { apiResponse } = require('../../../packages/shared/src/utils/apiResponse');
+  const { apiResponse } = require('../utils/apiResponse');
   
   try {
     const dashboard = await tutorService.getUserDashboard(req.user.id);
@@ -45,7 +45,7 @@ router.get('/analytics/dashboard', auth, async (req, res) => {
 // ========== LEARNING PATH ROUTES ==========
 router.post('/learning-paths', auth, async (req, res) => {
   const tutorService = require('../services/tutor.service');
-  const { apiResponse } = require('../../../packages/shared/src/utils/apiResponse');
+  const { apiResponse } = require('../utils/apiResponse');
   
   try {
     const path = await tutorService.createLearningPath(req.user.id, req.body);
@@ -57,7 +57,7 @@ router.post('/learning-paths', auth, async (req, res) => {
 
 router.get('/learning-paths/user/:userId', auth, async (req, res) => {
   const LearningPath = require('../models/LearningPath.model');
-  const { apiResponse } = require('../../../packages/shared/src/utils/apiResponse');
+  const { apiResponse } = require('../utils/apiResponse');
   
   try {
     const paths = await LearningPath.find({ userId: req.params.userId })
