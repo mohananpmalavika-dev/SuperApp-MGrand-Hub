@@ -32,7 +32,7 @@ import axios from 'axios';
 import VoiceAvatar from '../components/VoiceAvatar';
 import './LessonView.css';
 
-const API_URL = process.env.REACT_APP_EDUCATION_SERVICE_URL || 'http://localhost:3013';
+const API_URL = process.env.REACT_APP_TUTOR_SERVICE_URL || 'http://localhost:3013';
 
 function LessonView() {
   const navigate = useNavigate();
