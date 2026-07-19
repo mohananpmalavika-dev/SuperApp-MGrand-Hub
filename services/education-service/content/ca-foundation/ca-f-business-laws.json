@@ -1,1052 +1,1530 @@
 [
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-01",
+    "lessonIndex": 0,
+    "lessonNumber": 1,
     "moduleNumber": 1,
+    "moduleTitle": "Business Laws",
     "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "topic": "Indian Regulatory Framework",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 75,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply sources of Indian law and the legislative process",
+      "Understand and apply court hierarchy, precedent and basic dispute-resolution institutions",
+      "Understand and apply how to read a provision, identify an issue and structure a legal answer"
+    ],
+    "introduction": "## Why this chapter matters\n\nIndian Regulatory Framework is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply sources of Indian law and the legislative process\n- Understand and apply court hierarchy, precedent and basic dispute-resolution institutions\n- Understand and apply how to read a provision, identify an issue and structure a legal answer",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Sources Of Indian Law And The Legislative Process",
+        "definition": "The chapter block dealing with sources of Indian law and the legislative process.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach sources of Indian law and the legislative process in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Court Hierarchy, Precedent And Basic Dispute-Resolution Institutions",
+        "definition": "The chapter block dealing with court hierarchy, precedent and basic dispute-resolution institutions.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach court hierarchy, precedent and basic dispute-resolution institutions in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "How To Read A Provision, Identify An Issue And Structure A Legal Answer",
+        "definition": "The chapter block dealing with how to read a provision, identify an issue and structure a legal answer.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach how to read a provision, identify an issue and structure a legal answer in two minutes without looking at the notes?",
+        "order": 3
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**Indian Regulatory Framework** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Sources Of Indian Law And The Legislative Process\n\nStart with the meaning and purpose of **sources of Indian law and the legislative process**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Court Hierarchy, Precedent And Basic Dispute-Resolution Institutions\n\nStart with the meaning and purpose of **court hierarchy, precedent and basic dispute-resolution institutions**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. How To Read A Provision, Identify An Issue And Structure A Legal Answer\n\nStart with the meaning and purpose of **how to read a provision, identify an issue and structure a legal answer**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of sources of Indian law and the legislative process but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make sources of Indian law and the legislative process applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with court hierarchy, precedent and basic dispute-resolution institutions; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting sources of Indian law and the legislative process with court hierarchy, precedent and basic dispute-resolution institutions. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-1-1",
+        "question": "Explain sources of Indian law and the legislative process to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-1-2",
+        "question": "Distinguish court hierarchy, precedent and basic dispute-resolution institutions from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-1-3",
+        "question": "Distinguish how to read a provision, identify an issue and structure a legal answer from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
+    "quickRevision": {
+      "summary": [
+        "Master the meaning, conditions and application of sources of Indian law and the legislative process.",
+        "Master the meaning, conditions and application of court hierarchy, precedent and basic dispute-resolution institutions.",
+        "Master the meaning, conditions and application of how to read a provision, identify an issue and structure a legal answer."
+      ],
+      "formulas": [],
+      "mnemonics": [
+        "MAP: Meaning → Application → Pitfall"
+      ]
+    },
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to Indian Regulatory Framework, in CA Foundation Paper 2, Business Laws. In this lesson we will master sources of Indian law and the legislative process; court hierarchy, precedent and basic dispute-resolution institutions; how to read a provision, identify an issue and structure a legal answer. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to Indian Regulatory Framework, in CA Foundation Paper 2, Business Laws. In this lesson we will master sources of Indian law and the legislative process; court hierarchy, precedent and basic dispute-resolution institutions; how to read a provision, identify an issue and structure a legal answer. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Sources Of Indian Law And The Legislative Process",
+          "text": "Now study sources of Indian law and the legislative process. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Court Hierarchy, Precedent And Basic Dispute-Resolution Institutions",
+          "text": "Now study court hierarchy, precedent and basic dispute-resolution institutions. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "How To Read A Provision, Identify An Issue And Structure A Legal Answer",
+          "text": "Now study how to read a provision, identify an issue and structure a legal answer. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
+      ]
+    },
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 15,
+      "slides": [
+        {
+          "title": "Indian Regulatory Framework",
+          "body": "Paper 2 · Business Laws\n3 mastery blocks · 75 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Sources Of Indian Law And The Legislative Process",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach sources of Indian law and the legislative process with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Court Hierarchy, Precedent And Basic Dispute-Resolution Institutions",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach court hierarchy, precedent and basic dispute-resolution institutions with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. How To Read A Provision, Identify An Issue And Structure A Legal Answer",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach how to read a provision, identify an issue and structure a legal answer with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
+      ]
+    },
+    "tutorContext": {
+      "scope": [
+        "Indian Regulatory Framework",
+        "sources of Indian law and the legislative process",
+        "court hierarchy, precedent and basic dispute-resolution institutions",
+        "how to read a provision, identify an issue and structure a legal answer"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.569Z"
   },
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-02",
+    "lessonIndex": 1,
+    "lessonNumber": 2,
     "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "moduleTitle": "Business Laws",
+    "chapterNumber": 2,
+    "topic": "The Indian Contract Act, 1872",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 240,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply nature, classification and formation of contracts",
+      "Understand and apply offer, acceptance, consideration, capacity and free consent",
+      "Understand and apply legality, void agreements and contingent and quasi contracts",
+      "Understand and apply performance, discharge, breach and remedies",
+      "Understand and apply indemnity, guarantee, bailment, pledge and agency"
+    ],
+    "introduction": "## Why this chapter matters\n\nThe Indian Contract Act, 1872 is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply nature, classification and formation of contracts\n- Understand and apply offer, acceptance, consideration, capacity and free consent\n- Understand and apply legality, void agreements and contingent and quasi contracts\n- Understand and apply performance, discharge, breach and remedies\n- Understand and apply indemnity, guarantee, bailment, pledge and agency",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Nature, Classification And Formation Of Contracts",
+        "definition": "The chapter block dealing with nature, classification and formation of contracts.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach nature, classification and formation of contracts in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Offer, Acceptance, Consideration, Capacity And Free Consent",
+        "definition": "The chapter block dealing with offer, acceptance, consideration, capacity and free consent.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach offer, acceptance, consideration, capacity and free consent in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "Legality, Void Agreements And Contingent And Quasi Contracts",
+        "definition": "The chapter block dealing with legality, void agreements and contingent and quasi contracts.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach legality, void agreements and contingent and quasi contracts in two minutes without looking at the notes?",
+        "order": 3
+      },
+      {
+        "concept": "Performance, Discharge, Breach And Remedies",
+        "definition": "The chapter block dealing with performance, discharge, breach and remedies.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach performance, discharge, breach and remedies in two minutes without looking at the notes?",
+        "order": 4
+      },
+      {
+        "concept": "Indemnity, Guarantee, Bailment, Pledge And Agency",
+        "definition": "The chapter block dealing with indemnity, guarantee, bailment, pledge and agency.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach indemnity, guarantee, bailment, pledge and agency in two minutes without looking at the notes?",
+        "order": 5
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**The Indian Contract Act, 1872** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Nature, Classification And Formation Of Contracts\n\nStart with the meaning and purpose of **nature, classification and formation of contracts**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Offer, Acceptance, Consideration, Capacity And Free Consent\n\nStart with the meaning and purpose of **offer, acceptance, consideration, capacity and free consent**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. Legality, Void Agreements And Contingent And Quasi Contracts\n\nStart with the meaning and purpose of **legality, void agreements and contingent and quasi contracts**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 4. Performance, Discharge, Breach And Remedies\n\nStart with the meaning and purpose of **performance, discharge, breach and remedies**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 5. Indemnity, Guarantee, Bailment, Pledge And Agency\n\nStart with the meaning and purpose of **indemnity, guarantee, bailment, pledge and agency**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of nature, classification and formation of contracts but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make nature, classification and formation of contracts applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with offer, acceptance, consideration, capacity and free consent; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting nature, classification and formation of contracts with offer, acceptance, consideration, capacity and free consent. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-2-1",
+        "question": "Explain nature, classification and formation of contracts to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-2-2",
+        "question": "Distinguish offer, acceptance, consideration, capacity and free consent from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-2-3",
+        "question": "Distinguish legality, void agreements and contingent and quasi contracts from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
+      },
+      {
+        "id": "CA-F-LAW-2-4",
+        "question": "Distinguish performance, discharge, breach and remedies from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
+      },
+      {
+        "id": "CA-F-LAW-2-5",
+        "question": "Distinguish indemnity, guarantee, bailment, pledge and agency from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
+    "quickRevision": {
+      "summary": [
+        "Master the meaning, conditions and application of nature, classification and formation of contracts.",
+        "Master the meaning, conditions and application of offer, acceptance, consideration, capacity and free consent.",
+        "Master the meaning, conditions and application of legality, void agreements and contingent and quasi contracts.",
+        "Master the meaning, conditions and application of performance, discharge, breach and remedies.",
+        "Master the meaning, conditions and application of indemnity, guarantee, bailment, pledge and agency."
+      ],
+      "formulas": [],
+      "mnemonics": [
+        "MAP: Meaning → Application → Pitfall"
+      ]
+    },
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to The Indian Contract Act, 1872, in CA Foundation Paper 2, Business Laws. In this lesson we will master nature, classification and formation of contracts; offer, acceptance, consideration, capacity and free consent; legality, void agreements and contingent and quasi contracts; performance, discharge, breach and remedies; indemnity, guarantee, bailment, pledge and agency. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to The Indian Contract Act, 1872, in CA Foundation Paper 2, Business Laws. In this lesson we will master nature, classification and formation of contracts; offer, acceptance, consideration, capacity and free consent; legality, void agreements and contingent and quasi contracts; performance, discharge, breach and remedies; indemnity, guarantee, bailment, pledge and agency. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Nature, Classification And Formation Of Contracts",
+          "text": "Now study nature, classification and formation of contracts. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Offer, Acceptance, Consideration, Capacity And Free Consent",
+          "text": "Now study offer, acceptance, consideration, capacity and free consent. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Legality, Void Agreements And Contingent And Quasi Contracts",
+          "text": "Now study legality, void agreements and contingent and quasi contracts. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Performance, Discharge, Breach And Remedies",
+          "text": "Now study performance, discharge, breach and remedies. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Indemnity, Guarantee, Bailment, Pledge And Agency",
+          "text": "Now study indemnity, guarantee, bailment, pledge and agency. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
+      ]
+    },
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 21,
+      "slides": [
+        {
+          "title": "The Indian Contract Act, 1872",
+          "body": "Paper 2 · Business Laws\n5 mastery blocks · 240 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Nature, Classification And Formation Of Contracts",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach nature, classification and formation of contracts with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Offer, Acceptance, Consideration, Capacity And Free Consent",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach offer, acceptance, consideration, capacity and free consent with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. Legality, Void Agreements And Contingent And Quasi Contracts",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach legality, void agreements and contingent and quasi contracts with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "4. Performance, Discharge, Breach And Remedies",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach performance, discharge, breach and remedies with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "5. Indemnity, Guarantee, Bailment, Pledge And Agency",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach indemnity, guarantee, bailment, pledge and agency with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
+      ]
+    },
+    "tutorContext": {
+      "scope": [
+        "The Indian Contract Act, 1872",
+        "nature, classification and formation of contracts",
+        "offer, acceptance, consideration, capacity and free consent",
+        "legality, void agreements and contingent and quasi contracts",
+        "performance, discharge, breach and remedies",
+        "indemnity, guarantee, bailment, pledge and agency"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.569Z"
   },
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-03",
+    "lessonIndex": 2,
+    "lessonNumber": 3,
     "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "moduleTitle": "Business Laws",
+    "chapterNumber": 3,
+    "topic": "The Sale of Goods Act, 1930",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 130,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply formation of a contract of sale and distinction from an agreement to sell",
+      "Understand and apply conditions, warranties and the caveat emptor exceptions",
+      "Understand and apply transfer of property, title, risk and delivery",
+      "Understand and apply rights of an unpaid seller against goods and buyer"
+    ],
+    "introduction": "## Why this chapter matters\n\nThe Sale of Goods Act, 1930 is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply formation of a contract of sale and distinction from an agreement to sell\n- Understand and apply conditions, warranties and the caveat emptor exceptions\n- Understand and apply transfer of property, title, risk and delivery\n- Understand and apply rights of an unpaid seller against goods and buyer",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Formation Of A Contract Of Sale And Distinction From An Agreement To Sell",
+        "definition": "The chapter block dealing with formation of a contract of sale and distinction from an agreement to sell.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach formation of a contract of sale and distinction from an agreement to sell in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Conditions, Warranties And The Caveat Emptor Exceptions",
+        "definition": "The chapter block dealing with conditions, warranties and the caveat emptor exceptions.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach conditions, warranties and the caveat emptor exceptions in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "Transfer Of Property, Title, Risk And Delivery",
+        "definition": "The chapter block dealing with transfer of property, title, risk and delivery.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach transfer of property, title, risk and delivery in two minutes without looking at the notes?",
+        "order": 3
+      },
+      {
+        "concept": "Rights Of An Unpaid Seller Against Goods And Buyer",
+        "definition": "The chapter block dealing with rights of an unpaid seller against goods and buyer.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach rights of an unpaid seller against goods and buyer in two minutes without looking at the notes?",
+        "order": 4
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**The Sale of Goods Act, 1930** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Formation Of A Contract Of Sale And Distinction From An Agreement To Sell\n\nStart with the meaning and purpose of **formation of a contract of sale and distinction from an agreement to sell**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Conditions, Warranties And The Caveat Emptor Exceptions\n\nStart with the meaning and purpose of **conditions, warranties and the caveat emptor exceptions**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. Transfer Of Property, Title, Risk And Delivery\n\nStart with the meaning and purpose of **transfer of property, title, risk and delivery**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 4. Rights Of An Unpaid Seller Against Goods And Buyer\n\nStart with the meaning and purpose of **rights of an unpaid seller against goods and buyer**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of formation of a contract of sale and distinction from an agreement to sell but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make formation of a contract of sale and distinction from an agreement to sell applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with conditions, warranties and the caveat emptor exceptions; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting formation of a contract of sale and distinction from an agreement to sell with conditions, warranties and the caveat emptor exceptions. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-3-1",
+        "question": "Explain formation of a contract of sale and distinction from an agreement to sell to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-3-2",
+        "question": "Distinguish conditions, warranties and the caveat emptor exceptions from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-3-3",
+        "question": "Distinguish transfer of property, title, risk and delivery from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
+      },
+      {
+        "id": "CA-F-LAW-3-4",
+        "question": "Distinguish rights of an unpaid seller against goods and buyer from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
+    "quickRevision": {
+      "summary": [
+        "Master the meaning, conditions and application of formation of a contract of sale and distinction from an agreement to sell.",
+        "Master the meaning, conditions and application of conditions, warranties and the caveat emptor exceptions.",
+        "Master the meaning, conditions and application of transfer of property, title, risk and delivery.",
+        "Master the meaning, conditions and application of rights of an unpaid seller against goods and buyer."
+      ],
+      "formulas": [],
+      "mnemonics": [
+        "MAP: Meaning → Application → Pitfall"
+      ]
+    },
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to The Sale of Goods Act, 1930, in CA Foundation Paper 2, Business Laws. In this lesson we will master formation of a contract of sale and distinction from an agreement to sell; conditions, warranties and the caveat emptor exceptions; transfer of property, title, risk and delivery; rights of an unpaid seller against goods and buyer. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to The Sale of Goods Act, 1930, in CA Foundation Paper 2, Business Laws. In this lesson we will master formation of a contract of sale and distinction from an agreement to sell; conditions, warranties and the caveat emptor exceptions; transfer of property, title, risk and delivery; rights of an unpaid seller against goods and buyer. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Formation Of A Contract Of Sale And Distinction From An Agreement To Sell",
+          "text": "Now study formation of a contract of sale and distinction from an agreement to sell. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Conditions, Warranties And The Caveat Emptor Exceptions",
+          "text": "Now study conditions, warranties and the caveat emptor exceptions. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Transfer Of Property, Title, Risk And Delivery",
+          "text": "Now study transfer of property, title, risk and delivery. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Rights Of An Unpaid Seller Against Goods And Buyer",
+          "text": "Now study rights of an unpaid seller against goods and buyer. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
+      ]
+    },
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 18,
+      "slides": [
+        {
+          "title": "The Sale of Goods Act, 1930",
+          "body": "Paper 2 · Business Laws\n4 mastery blocks · 130 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Formation Of A Contract Of Sale And Distinction From An Agreement To Sell",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach formation of a contract of sale and distinction from an agreement to sell with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Conditions, Warranties And The Caveat Emptor Exceptions",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach conditions, warranties and the caveat emptor exceptions with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. Transfer Of Property, Title, Risk And Delivery",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach transfer of property, title, risk and delivery with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "4. Rights Of An Unpaid Seller Against Goods And Buyer",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach rights of an unpaid seller against goods and buyer with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
+      ]
+    },
+    "tutorContext": {
+      "scope": [
+        "The Sale of Goods Act, 1930",
+        "formation of a contract of sale and distinction from an agreement to sell",
+        "conditions, warranties and the caveat emptor exceptions",
+        "transfer of property, title, risk and delivery",
+        "rights of an unpaid seller against goods and buyer"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.569Z"
   },
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-04",
+    "lessonIndex": 3,
+    "lessonNumber": 4,
     "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "moduleTitle": "Business Laws",
+    "chapterNumber": 4,
+    "topic": "The Indian Partnership Act, 1932",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 130,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply essential elements and tests of partnership",
+      "Understand and apply authority, mutual rights and duties of partners",
+      "Understand and apply incoming and outgoing partners and liability to third parties",
+      "Understand and apply registration and modes and consequences of dissolution"
+    ],
+    "introduction": "## Why this chapter matters\n\nThe Indian Partnership Act, 1932 is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply essential elements and tests of partnership\n- Understand and apply authority, mutual rights and duties of partners\n- Understand and apply incoming and outgoing partners and liability to third parties\n- Understand and apply registration and modes and consequences of dissolution",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Essential Elements And Tests Of Partnership",
+        "definition": "The chapter block dealing with essential elements and tests of partnership.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach essential elements and tests of partnership in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Authority, Mutual Rights And Duties Of Partners",
+        "definition": "The chapter block dealing with authority, mutual rights and duties of partners.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach authority, mutual rights and duties of partners in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "Incoming And Outgoing Partners And Liability To Third Parties",
+        "definition": "The chapter block dealing with incoming and outgoing partners and liability to third parties.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach incoming and outgoing partners and liability to third parties in two minutes without looking at the notes?",
+        "order": 3
+      },
+      {
+        "concept": "Registration And Modes And Consequences Of Dissolution",
+        "definition": "The chapter block dealing with registration and modes and consequences of dissolution.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach registration and modes and consequences of dissolution in two minutes without looking at the notes?",
+        "order": 4
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**The Indian Partnership Act, 1932** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Essential Elements And Tests Of Partnership\n\nStart with the meaning and purpose of **essential elements and tests of partnership**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Authority, Mutual Rights And Duties Of Partners\n\nStart with the meaning and purpose of **authority, mutual rights and duties of partners**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. Incoming And Outgoing Partners And Liability To Third Parties\n\nStart with the meaning and purpose of **incoming and outgoing partners and liability to third parties**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 4. Registration And Modes And Consequences Of Dissolution\n\nStart with the meaning and purpose of **registration and modes and consequences of dissolution**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of essential elements and tests of partnership but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make essential elements and tests of partnership applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with authority, mutual rights and duties of partners; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting essential elements and tests of partnership with authority, mutual rights and duties of partners. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-4-1",
+        "question": "Explain essential elements and tests of partnership to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-4-2",
+        "question": "Distinguish authority, mutual rights and duties of partners from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-4-3",
+        "question": "Distinguish incoming and outgoing partners and liability to third parties from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
+      },
+      {
+        "id": "CA-F-LAW-4-4",
+        "question": "Distinguish registration and modes and consequences of dissolution from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
+    "quickRevision": {
+      "summary": [
+        "Master the meaning, conditions and application of essential elements and tests of partnership.",
+        "Master the meaning, conditions and application of authority, mutual rights and duties of partners.",
+        "Master the meaning, conditions and application of incoming and outgoing partners and liability to third parties.",
+        "Master the meaning, conditions and application of registration and modes and consequences of dissolution."
+      ],
+      "formulas": [],
+      "mnemonics": [
+        "MAP: Meaning → Application → Pitfall"
+      ]
+    },
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to The Indian Partnership Act, 1932, in CA Foundation Paper 2, Business Laws. In this lesson we will master essential elements and tests of partnership; authority, mutual rights and duties of partners; incoming and outgoing partners and liability to third parties; registration and modes and consequences of dissolution. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to The Indian Partnership Act, 1932, in CA Foundation Paper 2, Business Laws. In this lesson we will master essential elements and tests of partnership; authority, mutual rights and duties of partners; incoming and outgoing partners and liability to third parties; registration and modes and consequences of dissolution. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Essential Elements And Tests Of Partnership",
+          "text": "Now study essential elements and tests of partnership. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Authority, Mutual Rights And Duties Of Partners",
+          "text": "Now study authority, mutual rights and duties of partners. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Incoming And Outgoing Partners And Liability To Third Parties",
+          "text": "Now study incoming and outgoing partners and liability to third parties. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Registration And Modes And Consequences Of Dissolution",
+          "text": "Now study registration and modes and consequences of dissolution. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
+      ]
+    },
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 18,
+      "slides": [
+        {
+          "title": "The Indian Partnership Act, 1932",
+          "body": "Paper 2 · Business Laws\n4 mastery blocks · 130 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Essential Elements And Tests Of Partnership",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach essential elements and tests of partnership with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Authority, Mutual Rights And Duties Of Partners",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach authority, mutual rights and duties of partners with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. Incoming And Outgoing Partners And Liability To Third Parties",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach incoming and outgoing partners and liability to third parties with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "4. Registration And Modes And Consequences Of Dissolution",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach registration and modes and consequences of dissolution with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
+      ]
+    },
+    "tutorContext": {
+      "scope": [
+        "The Indian Partnership Act, 1932",
+        "essential elements and tests of partnership",
+        "authority, mutual rights and duties of partners",
+        "incoming and outgoing partners and liability to third parties",
+        "registration and modes and consequences of dissolution"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.569Z"
   },
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-05",
+    "lessonIndex": 4,
+    "lessonNumber": 5,
     "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "moduleTitle": "Business Laws",
+    "chapterNumber": 5,
+    "topic": "The Limited Liability Partnership Act, 2008",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 75,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply nature, separate legal entity and perpetual succession of an LLP",
+      "Understand and apply partners, designated partners and incorporation",
+      "Understand and apply mutual rights, liability, financial disclosures and conversion"
+    ],
+    "introduction": "## Why this chapter matters\n\nThe Limited Liability Partnership Act, 2008 is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply nature, separate legal entity and perpetual succession of an LLP\n- Understand and apply partners, designated partners and incorporation\n- Understand and apply mutual rights, liability, financial disclosures and conversion",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Nature, Separate Legal Entity And Perpetual Succession Of An LLP",
+        "definition": "The chapter block dealing with nature, separate legal entity and perpetual succession of an LLP.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach nature, separate legal entity and perpetual succession of an LLP in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Partners, Designated Partners And Incorporation",
+        "definition": "The chapter block dealing with partners, designated partners and incorporation.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach partners, designated partners and incorporation in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "Mutual Rights, Liability, Financial Disclosures And Conversion",
+        "definition": "The chapter block dealing with mutual rights, liability, financial disclosures and conversion.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach mutual rights, liability, financial disclosures and conversion in two minutes without looking at the notes?",
+        "order": 3
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**The Limited Liability Partnership Act, 2008** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Nature, Separate Legal Entity And Perpetual Succession Of An LLP\n\nStart with the meaning and purpose of **nature, separate legal entity and perpetual succession of an LLP**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Partners, Designated Partners And Incorporation\n\nStart with the meaning and purpose of **partners, designated partners and incorporation**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. Mutual Rights, Liability, Financial Disclosures And Conversion\n\nStart with the meaning and purpose of **mutual rights, liability, financial disclosures and conversion**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of nature, separate legal entity and perpetual succession of an LLP but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make nature, separate legal entity and perpetual succession of an LLP applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with partners, designated partners and incorporation; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting nature, separate legal entity and perpetual succession of an LLP with partners, designated partners and incorporation. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-5-1",
+        "question": "Explain nature, separate legal entity and perpetual succession of an LLP to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-5-2",
+        "question": "Distinguish partners, designated partners and incorporation from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-5-3",
+        "question": "Distinguish mutual rights, liability, financial disclosures and conversion from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
+    "quickRevision": {
+      "summary": [
+        "Master the meaning, conditions and application of nature, separate legal entity and perpetual succession of an LLP.",
+        "Master the meaning, conditions and application of partners, designated partners and incorporation.",
+        "Master the meaning, conditions and application of mutual rights, liability, financial disclosures and conversion."
+      ],
+      "formulas": [],
+      "mnemonics": [
+        "MAP: Meaning → Application → Pitfall"
+      ]
+    },
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to The Limited Liability Partnership Act, 2008, in CA Foundation Paper 2, Business Laws. In this lesson we will master nature, separate legal entity and perpetual succession of an LLP; partners, designated partners and incorporation; mutual rights, liability, financial disclosures and conversion. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to The Limited Liability Partnership Act, 2008, in CA Foundation Paper 2, Business Laws. In this lesson we will master nature, separate legal entity and perpetual succession of an LLP; partners, designated partners and incorporation; mutual rights, liability, financial disclosures and conversion. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Nature, Separate Legal Entity And Perpetual Succession Of An LLP",
+          "text": "Now study nature, separate legal entity and perpetual succession of an LLP. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Partners, Designated Partners And Incorporation",
+          "text": "Now study partners, designated partners and incorporation. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Mutual Rights, Liability, Financial Disclosures And Conversion",
+          "text": "Now study mutual rights, liability, financial disclosures and conversion. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
+      ]
+    },
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 15,
+      "slides": [
+        {
+          "title": "The Limited Liability Partnership Act, 2008",
+          "body": "Paper 2 · Business Laws\n3 mastery blocks · 75 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Nature, Separate Legal Entity And Perpetual Succession Of An LLP",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach nature, separate legal entity and perpetual succession of an LLP with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Partners, Designated Partners And Incorporation",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach partners, designated partners and incorporation with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. Mutual Rights, Liability, Financial Disclosures And Conversion",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach mutual rights, liability, financial disclosures and conversion with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
+      ]
+    },
+    "tutorContext": {
+      "scope": [
+        "The Limited Liability Partnership Act, 2008",
+        "nature, separate legal entity and perpetual succession of an LLP",
+        "partners, designated partners and incorporation",
+        "mutual rights, liability, financial disclosures and conversion"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.569Z"
   },
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-06",
+    "lessonIndex": 5,
+    "lessonNumber": 6,
     "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "moduleTitle": "Business Laws",
+    "chapterNumber": 6,
+    "topic": "The Companies Act, 2013",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 110,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply company characteristics, corporate veil and classifications",
+      "Understand and apply promotion, incorporation, memorandum and articles",
+      "Understand and apply capital, membership and basic management concepts within Foundation scope"
+    ],
+    "introduction": "## Why this chapter matters\n\nThe Companies Act, 2013 is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply company characteristics, corporate veil and classifications\n- Understand and apply promotion, incorporation, memorandum and articles\n- Understand and apply capital, membership and basic management concepts within Foundation scope",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Company Characteristics, Corporate Veil And Classifications",
+        "definition": "The chapter block dealing with company characteristics, corporate veil and classifications.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach company characteristics, corporate veil and classifications in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Promotion, Incorporation, Memorandum And Articles",
+        "definition": "The chapter block dealing with promotion, incorporation, memorandum and articles.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach promotion, incorporation, memorandum and articles in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "Capital, Membership And Basic Management Concepts Within Foundation Scope",
+        "definition": "The chapter block dealing with capital, membership and basic management concepts within Foundation scope.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach capital, membership and basic management concepts within Foundation scope in two minutes without looking at the notes?",
+        "order": 3
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**The Companies Act, 2013** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Company Characteristics, Corporate Veil And Classifications\n\nStart with the meaning and purpose of **company characteristics, corporate veil and classifications**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Promotion, Incorporation, Memorandum And Articles\n\nStart with the meaning and purpose of **promotion, incorporation, memorandum and articles**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. Capital, Membership And Basic Management Concepts Within Foundation Scope\n\nStart with the meaning and purpose of **capital, membership and basic management concepts within Foundation scope**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of company characteristics, corporate veil and classifications but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make company characteristics, corporate veil and classifications applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with promotion, incorporation, memorandum and articles; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting company characteristics, corporate veil and classifications with promotion, incorporation, memorandum and articles. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-6-1",
+        "question": "Explain company characteristics, corporate veil and classifications to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-6-2",
+        "question": "Distinguish promotion, incorporation, memorandum and articles from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-6-3",
+        "question": "Distinguish capital, membership and basic management concepts within Foundation scope from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
+    "quickRevision": {
+      "summary": [
+        "Master the meaning, conditions and application of company characteristics, corporate veil and classifications.",
+        "Master the meaning, conditions and application of promotion, incorporation, memorandum and articles.",
+        "Master the meaning, conditions and application of capital, membership and basic management concepts within Foundation scope."
+      ],
+      "formulas": [],
+      "mnemonics": [
+        "MAP: Meaning → Application → Pitfall"
+      ]
+    },
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to The Companies Act, 2013, in CA Foundation Paper 2, Business Laws. In this lesson we will master company characteristics, corporate veil and classifications; promotion, incorporation, memorandum and articles; capital, membership and basic management concepts within Foundation scope. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to The Companies Act, 2013, in CA Foundation Paper 2, Business Laws. In this lesson we will master company characteristics, corporate veil and classifications; promotion, incorporation, memorandum and articles; capital, membership and basic management concepts within Foundation scope. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Company Characteristics, Corporate Veil And Classifications",
+          "text": "Now study company characteristics, corporate veil and classifications. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Promotion, Incorporation, Memorandum And Articles",
+          "text": "Now study promotion, incorporation, memorandum and articles. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Capital, Membership And Basic Management Concepts Within Foundation Scope",
+          "text": "Now study capital, membership and basic management concepts within Foundation scope. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
+      ]
+    },
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 15,
+      "slides": [
+        {
+          "title": "The Companies Act, 2013",
+          "body": "Paper 2 · Business Laws\n3 mastery blocks · 110 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Company Characteristics, Corporate Veil And Classifications",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach company characteristics, corporate veil and classifications with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Promotion, Incorporation, Memorandum And Articles",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach promotion, incorporation, memorandum and articles with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. Capital, Membership And Basic Management Concepts Within Foundation Scope",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach capital, membership and basic management concepts within Foundation scope with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
+      ]
+    },
+    "tutorContext": {
+      "scope": [
+        "The Companies Act, 2013",
+        "company characteristics, corporate veil and classifications",
+        "promotion, incorporation, memorandum and articles",
+        "capital, membership and basic management concepts within Foundation scope"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.569Z"
   },
   {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
-      ]
-    },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
+    "schemaVersion": 2,
+    "id": "ca-f-law-chapter-07",
+    "lessonIndex": 6,
+    "lessonNumber": 7,
     "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
+    "moduleTitle": "Business Laws",
+    "chapterNumber": 7,
+    "topic": "The Negotiable Instruments Act, 1881",
     "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
+    "paper": 2,
+    "examType": "CA_FOUNDATION",
+    "examMode": "Subjective",
+    "duration": 100,
+    "source": {
+      "authority": "The Institute of Chartered Accountants of India (ICAI)",
+      "scheme": "New Scheme of Education and Training",
+      "applicableFrom": "May 2026 examination onward",
+      "verifiedOn": "2026-07-19",
+      "syllabusUrl": "https://www.icai.org/post/foundation-nset",
+      "studyMaterialUrl": "https://www.icai.org/post/study-material-nset",
+      "disclaimer": "Original MGrand teaching material aligned to the ICAI syllabus. It is not an ICAI publication or substitute for official announcements and corrigenda."
+    },
+    "learningObjectives": [
+      "Understand and apply promissory note, bill of exchange and cheque",
+      "Understand and apply holder, holder in due course, negotiation and endorsement",
+      "Understand and apply presentment, dishonour, discharge and material alteration"
+    ],
+    "introduction": "## Why this chapter matters\n\nThe Negotiable Instruments Act, 1881 is part of **CA Foundation Paper 2: Business Laws** under the New Scheme of Education and Training. This lesson converts the official syllabus heading into an original teaching path for concept mastery, application and exam revision.\n\n### Learning outcomes\n\n- Understand and apply promissory note, bill of exchange and cheque\n- Understand and apply holder, holder in due course, negotiation and endorsement\n- Understand and apply presentment, dishonour, discharge and material alteration",
     "keyConcepts": [
       {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
+        "concept": "Promissory Note, Bill Of Exchange And Cheque",
+        "definition": "The chapter block dealing with promissory note, bill of exchange and cheque.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach promissory note, bill of exchange and cheque in two minutes without looking at the notes?",
+        "order": 1
       },
       {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
+        "concept": "Holder, Holder In Due Course, Negotiation And Endorsement",
+        "definition": "The chapter block dealing with holder, holder in due course, negotiation and endorsement.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach holder, holder in due course, negotiation and endorsement in two minutes without looking at the notes?",
+        "order": 2
       },
       {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
+        "concept": "Presentment, Dishonour, Discharge And Material Alteration",
+        "definition": "The chapter block dealing with presentment, dishonour, discharge and material alteration.",
+        "explanation": "Master this by being able to define it in your own words, recognise it in a new fact pattern, apply its rule or method, and explain why a tempting alternative is wrong. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.",
+        "checkpoint": "Can you teach presentment, dishonour, discharge and material alteration in two minutes without looking at the notes?",
+        "order": 3
       }
     ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
+    "detailedContent": "## The chapter in one view\n\n**The Negotiable Instruments Act, 1881** is studied as a connected decision system, not as isolated definitions. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion.\n\n## Deep-learning sequence\n\n1. Build vocabulary and the basic rule.\n2. Work through a clean single-concept illustration.\n3. Add an exception, adjustment or competing rule.\n4. Attempt an exam-style mixed question under time pressure.\n5. Explain the answer aloud and record the error, if any, in an error log.\n\n### 1. Promissory Note, Bill Of Exchange And Cheque\n\nStart with the meaning and purpose of **promissory note, bill of exchange and cheque**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 2. Holder, Holder In Due Course, Negotiation And Endorsement\n\nStart with the meaning and purpose of **holder, holder in due course, negotiation and endorsement**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n### 3. Presentment, Dishonour, Discharge And Material Alteration\n\nStart with the meaning and purpose of **presentment, dishonour, discharge and material alteration**. Then separate its essential elements, conditions and exceptions. Connect it to the earlier block before attempting mixed questions. Your mastery test is not recall alone: you should be able to recognise the concept when the question changes its wording, demonstrate the method, and justify the result.\n\n**Study drill:** write a one-line definition, a worked or real-life illustration, one common mistake, and one exam question that combines this block with another part of the chapter.\n\n## How to present the answer\n\nUse legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.\n\n## Final self-check\n\nBefore moving ahead, close the notes and reconstruct the chapter map. If one link is missing, ask the lesson tutor to reteach that exact link with a fresh illustration.",
     "solvedExamples": [
       {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
+        "question": "A student can repeat the definition of promissory note, bill of exchange and cheque but cannot identify it when the facts are rearranged. How should the student analyse the question?",
+        "solution": "**Step 1 — Extract facts:** remove decorative wording and list only the quantities, events, legal facts or economic changes.\n\n**Step 2 — State the test:** write the conditions that make promissory note, bill of exchange and cheque applicable.\n\n**Step 3 — Match:** connect each condition to a fact. Mark missing conditions explicitly.\n\n**Step 4 — Check the nearest alternative:** compare the result with holder, holder in due course, negotiation and endorsement; this prevents a familiar-word trap.\n\n**Step 5 — Conclude:** give the result and one sentence of justification.",
+        "keyTakeaway": "Recognition plus justified application is the real exam skill."
+      },
+      {
+        "question": "Create a mixed revision answer connecting promissory note, bill of exchange and cheque with holder, holder in due course, negotiation and endorsement. What must a complete answer contain?",
+        "solution": "A complete response contains: (1) a correct definition of both blocks, (2) the link or distinction between them, (3) the method, rule or causal chain, (4) a short illustration, and (5) a check of the most likely error. Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+        "keyTakeaway": "Mixed questions reward connections, not separate memorised paragraphs."
       }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
     ],
     "commonMistakes": [
       {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
+        "mistake": "Passive rereading",
+        "why": "Familiarity with a page can feel like mastery even when the idea cannot be recalled or applied.",
+        "howToAvoid": "Use closed-book retrieval, then solve or explain a fresh application."
       },
       {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
+        "mistake": "Skipping the nearest competing concept",
+        "why": "ICAI-style questions often test a distinction, condition, exception or adjustment.",
+        "howToAvoid": "Compare every rule or method with its closest alternative. A fact that sounds fair is not automatically the legal result; test every essential condition and exception."
       }
     ],
     "practiceProblems": [
       {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
+        "id": "CA-F-LAW-7-1",
+        "question": "Explain promissory note, bill of exchange and cheque to a beginner, then give one exam-relevant application.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
+        "id": "CA-F-LAW-7-2",
+        "question": "Distinguish holder, holder in due course, negotiation and endorsement from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Foundation",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       },
       {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
+        "id": "CA-F-LAW-7-3",
+        "question": "Distinguish presentment, dishonour, discharge and material alteration from the closest concept in this chapter and explain the consequence of confusing them.",
+        "type": "written-practice",
+        "difficulty": "Exam",
+        "answerGuide": [
+          "State the meaning or rule precisely.",
+          "List the conditions, components or steps.",
+          "Apply it to a short original illustration.",
+          "Mention one exception or common trap."
+        ],
+        "marks": 4
       }
     ],
-    "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
-    ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
-    "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
-  },
-  {
     "quickRevision": {
       "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
+        "Master the meaning, conditions and application of promissory note, bill of exchange and cheque.",
+        "Master the meaning, conditions and application of holder, holder in due course, negotiation and endorsement.",
+        "Master the meaning, conditions and application of presentment, dishonour, discharge and material alteration."
       ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
+      "formulas": [],
       "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+        "MAP: Meaning → Application → Pitfall"
       ]
     },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
-    "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
-    "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
-    "keyConcepts": [
-      {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
-      },
-      {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
-      },
-      {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
-      }
-    ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
-    "solvedExamples": [
-      {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
-      }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
-      },
-      {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
-      }
-    ],
-    "practiceProblems": [
-      {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
-      },
-      {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
-      },
-      {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
-      }
-    ],
     "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
+      "Use legal keywords carefully, keep rule and application in separate paragraphs, and never invent a section number.",
+      "A fact that sounds fair is not automatically the legal result; test every essential condition and exception.",
+      "Reserve the final minutes for totals, legal conclusions, workings and unanswered sub-parts."
     ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
-    "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
-  },
-  {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+    "audio": {
+      "format": "browser-tts",
+      "language": "en-IN",
+      "narrationScript": "Welcome to The Negotiable Instruments Act, 1881, in CA Foundation Paper 2, Business Laws. In this lesson we will master promissory note, bill of exchange and cheque; holder, holder in due course, negotiation and endorsement; presentment, dishonour, discharge and material alteration. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory.",
+      "sections": [
+        {
+          "title": "Chapter orientation",
+          "text": "Welcome to The Negotiable Instruments Act, 1881, in CA Foundation Paper 2, Business Laws. In this lesson we will master promissory note, bill of exchange and cheque; holder, holder in due course, negotiation and endorsement; presentment, dishonour, discharge and material alteration. Use IRAC: identify the Issue, state the applicable Rule, Apply the rule to each material fact, and write a precise Conclusion. A fact that sounds fair is not automatically the legal result; test every essential condition and exception. At the end, pause the audio and reconstruct the complete chapter map from memory."
+        },
+        {
+          "title": "Promissory Note, Bill Of Exchange And Cheque",
+          "text": "Now study promissory note, bill of exchange and cheque. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Holder, Holder In Due Course, Negotiation And Endorsement",
+          "text": "Now study holder, holder in due course, negotiation and endorsement. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        },
+        {
+          "title": "Presentment, Dishonour, Discharge And Material Alteration",
+          "text": "Now study presentment, dishonour, discharge and material alteration. Define it, identify its conditions, apply it to an original example, and name the most likely mistake. Pause before continuing and explain the concept aloud."
+        }
       ]
     },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
-    "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
-    "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
-    "keyConcepts": [
-      {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
-      },
-      {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
-      },
-      {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
-      }
-    ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
-    "solvedExamples": [
-      {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
-      }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
-      },
-      {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
-      }
-    ],
-    "practiceProblems": [
-      {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
-      },
-      {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
-      },
-      {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
-      }
-    ],
-    "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
-    ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
-    "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
-  },
-  {
-    "quickRevision": {
-      "summary": [
-        "Key concepts: offer, acceptance, consideration, free consent",
-        "Part I: General Principles (Section 1-25)",
-        "Part II: Specific Contracts (Section 54-75)",
-        "Part III: General Effects of Contracts (Section 76-145)"
-      ],
-      "formulas": [
-        "Offer + Acceptance + Consideration = Valid Contract"
-      ],
-      "mnemonics": [
-        "FREE CONSENT: F - Fair, R - Reasonable, E - Equal, E - Enforceable, C - Clear, O - Open, N - Negotiable, S - Specific, E - Enforceable, N - Negotiable, T - Transparent"
+    "video": {
+      "format": "guided-slides",
+      "estimatedMinutes": 15,
+      "slides": [
+        {
+          "title": "The Negotiable Instruments Act, 1881",
+          "body": "Paper 2 · Business Laws\n3 mastery blocks · 100 minutes",
+          "cue": "Preview the complete chapter map before entering the details."
+        },
+        {
+          "title": "1. Promissory Note, Bill Of Exchange And Cheque",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach promissory note, bill of exchange and cheque with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "2. Holder, Holder In Due Course, Negotiation And Endorsement",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach holder, holder in due course, negotiation and endorsement with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "3. Presentment, Dishonour, Discharge And Material Alteration",
+          "body": "Meaning → conditions → method → illustration → trap\n\nPause and explain this block in your own words before continuing.",
+          "cue": "Teach presentment, dishonour, discharge and material alteration with one original example and contrast it with the nearest alternative."
+        },
+        {
+          "title": "Retrieval checkpoint",
+          "body": "Close the notes. Rebuild the chapter map, attempt one mixed question, and log the first point where your reasoning becomes uncertain.",
+          "cue": "Use the tutor for the uncertain point, then attempt a new question without help."
+        }
       ]
     },
-    "_id": "6a5caae5f5ce74ecaa512bff",
-    "courseId": "6a5caae3f5ce74ecaa512bf5",
-    "moduleNumber": 1,
-    "chapterNumber": 1,
-    "topic": "Indian Contract Act Basics",
-    "subject": "Business Laws",
-    "duration": 45,
-    "introduction": "### Why Indian Contract Act Matters\n\nThe Indian Contract Act, 1872, is a fundamental law that governs contracts in India. It is essential for businesses, individuals, and professionals to understand the basics of this Act to avoid disputes and ensure smooth transactions. As a CA FOUNDATION student, mastering this topic will help you navigate the complexities of contract law and enhance your career prospects.\n\n### What We Will Cover\n\nIn this lesson, we will cover the key concepts, detailed explanations, solved examples, real-world applications, common mistakes to avoid, practice problems, quick revision points, and exam tips related to the Indian Contract Act Basics.",
-    "keyConcepts": [
-      {
-        "concept": "Offer and Acceptance",
-        "definition": "An offer is a proposal made by one party to another to enter into a contract, while acceptance is the agreement to the terms of the offer.",
-        "explanation": "Imagine you're at a restaurant and you order food. The menu is like an offer, and when you choose a dish, it's like accepting the offer. However, if you change your mind after ordering, it's not a valid acceptance.",
-        "_id": "6a5caae5f5ce74ecaa512c00"
-      },
-      {
-        "concept": "Consideration",
-        "definition": "Consideration is the benefit or value exchanged between parties in a contract.",
-        "explanation": "Think of consideration like a trade. You give something of value (e.g., money) in exchange for something else (e.g., a product or service).",
-        "_id": "6a5caae5f5ce74ecaa512c01"
-      },
-      {
-        "concept": "Free Consent",
-        "definition": "Free consent is the agreement to enter into a contract without any coercion, undue influence, or misrepresentation.",
-        "explanation": "Imagine you're buying a car, and the seller is pressuring you to sign the contract. That's not free consent! You should feel comfortable and confident in your decision.",
-        "_id": "6a5caae5f5ce74ecaa512c02"
-      }
-    ],
-    "detailedContent": "### Detailed Explanation\n\nThe Indian Contract Act, 1872, is a comprehensive law that governs contracts in India. It consists of 266 sections, divided into three parts: general principles, specific contracts, and general effects of contracts.\n\n**Part I: General Principles**\n\n*   **Section 1-25**: Defines key terms like contract, offer, acceptance, and consideration.\n*   **Section 26-53**: Explains the formation of contracts, including offer, acceptance, and consideration.\n\n**Part II: Specific Contracts**\n\n*   **Section 54-75**: Covers specific types of contracts, such as sale of goods, hire-purchase, and agency.\n\n**Part III: General Effects of Contracts**\n\n*   **Section 76-145**: Discusses the consequences of contracts, including breach of contract, discharge of contract, and remedies for breach.\n\n### Why It Matters\n\nUnderstanding the Indian Contract Act Basics is crucial for businesses, individuals, and professionals. It helps you navigate the complexities of contract law, avoid disputes, and ensure smooth transactions. By mastering this topic, you'll be better equipped to handle real-world scenarios and make informed decisions.",
-    "solvedExamples": [
-      {
-        "question": "A offers to sell a car to B for ₹50,000. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "solution": "The contract is not valid because B's signature was forged, and there was no free consent.",
-        "keyTakeaway": "Free consent is essential for a valid contract.",
-        "_id": "6a5caae5f5ce74ecaa512c03"
-      }
-    ],
-    "realWorldApplications": [
-      "Businesses use contracts to secure deals and protect their interests.",
-      "Individuals use contracts to buy and sell goods and services.",
-      "Professionals use contracts to establish partnerships and collaborations."
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Ignoring free consent",
-        "why": "Lack of free consent can lead to invalid contracts and disputes.",
-        "howToAvoid": "Ensure that all parties have given their informed consent before signing a contract.",
-        "_id": "6a5caae5f5ce74ecaa512c04"
-      },
-      {
-        "mistake": "Failing to specify terms and conditions",
-        "why": "Unclear terms and conditions can lead to misunderstandings and disputes.",
-        "howToAvoid": "Clearly specify all terms and conditions in the contract to avoid confusion.",
-        "_id": "6a5caae5f5ce74ecaa512c05"
-      }
-    ],
-    "practiceProblems": [
-      {
-        "question": "A offers to sell a house to B for ₹20 lakhs. B accepts the offer by signing a contract. However, A later claims that B's signature was forged. Is the contract valid?",
-        "difficulty": "Easy",
-        "_id": "6a5caae5f5ce74ecaa512c06"
-      },
-      {
-        "question": "X and Y enter into a partnership agreement. However, Y later claims that X coerced them into signing the contract. Is the contract valid?",
-        "difficulty": "Medium",
-        "_id": "6a5caae5f5ce74ecaa512c07"
-      },
-      {
-        "question": "A and B enter into a contract for the sale of goods. However, the goods are damaged during transportation. Who is liable for the damages?",
-        "difficulty": "Hard",
-        "_id": "6a5caae5f5ce74ecaa512c08"
-      }
-    ],
-    "examTips": [
-      "Read the question carefully and understand what is being asked.",
-      "Manage your time effectively and allocate sufficient time for each question.",
-      "Use the quick revision points to recall key concepts and formulas."
-    ],
-    "aiGenerated": true,
-    "generatedBy": "groq-llama-3.3-70b",
-    "viewCount": 0,
-    "completionCount": 0,
-    "averageRating": 0,
+    "tutorContext": {
+      "scope": [
+        "The Negotiable Instruments Act, 1881",
+        "promissory note, bill of exchange and cheque",
+        "holder, holder in due course, negotiation and endorsement",
+        "presentment, dishonour, discharge and material alteration"
+      ],
+      "teachingContract": "Teach from first principles, diagnose the student misconception, use Indian and ICAI-relevant examples, show every step, check understanding, and never claim the lesson is an official ICAI publication."
+    },
     "status": "published",
-    "audioSegments": [],
-    "generatedAt": "2026-07-19T10:45:57.598Z",
-    "createdAt": "2026-07-19T10:45:57.602Z",
-    "updatedAt": "2026-07-19T10:45:57.602Z",
-    "__v": 0
+    "generatedAt": "2026-07-19T15:45:06.571Z"
   }
 ]

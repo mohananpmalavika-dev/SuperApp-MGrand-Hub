@@ -21,6 +21,7 @@ const subjectIcons = {
   'Business Economics': <TrendingUp sx={{ fontSize: 52 }} />,
   'Business Laws': <Gavel sx={{ fontSize: 52 }} />,
   'Business Mathematics': <Calculate sx={{ fontSize: 52 }} />,
+  'Quantitative Aptitude': <Calculate sx={{ fontSize: 52 }} />,
 };
 
 const CAFoundationCourses = () => {
@@ -41,13 +42,14 @@ const CAFoundationCourses = () => {
   return (
     <Container maxWidth="xl" sx={{ py: 4 }}>
       <Box sx={{ mb: 4 }}>
-        <Chip label="ICAI Exam Preparation" color="primary" sx={{ mb: 2 }} />
+        <Chip label="May 2026 onwards · ICAI syllabus aligned" color="primary" sx={{ mb: 2 }} />
         <Typography variant="h3" fontWeight="bold" gutterBottom>
           CA Foundation
         </Typography>
         <Typography color="text.secondary" sx={{ maxWidth: 760 }}>
-          Study all four CA Foundation subjects with structured lessons, solved examples,
-          revision notes, practice problems, and exam tips.
+          Learn all four papers through original text lessons, audio teaching, guided visual
+          classes, worked reasoning, practice and a lesson-aware AI tutor. Course files are
+          delivered from your Google Drive library.
         </Typography>
       </Box>
 
@@ -82,8 +84,9 @@ const CAFoundationCourses = () => {
                   {course.description}
                 </Typography>
                 <Box display="flex" gap={1} flexWrap="wrap">
+                  <Chip size="small" label={`Paper ${course.paper}`} color="secondary" />
                   <Chip size="small" label={`${course.totalLessons} lessons`} />
-                  <Chip size="small" label={course.level} color="primary" variant="outlined" />
+                  <Chip size="small" label={course.examMode || course.level} color="primary" variant="outlined" />
                 </Box>
               </CardContent>
               <CardActions sx={{ p: 2, pt: 0 }}>

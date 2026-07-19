@@ -39,6 +39,7 @@ const courses = [
     examMode: 'Subjective',
     localFile: 'ca-f-accounting.json',
     driveEnv: 'GDRIVE_ACCOUNTING_FILE_ID',
+    driveFileId: '19Au6YbuWNOOkFXYTavuiSmbMtffbHMuE',
     modules: ['Module 1', 'Module 2'],
     lessons: [
       lesson(1, 'Theoretical Framework', [
@@ -116,6 +117,7 @@ const courses = [
     examMode: 'Subjective',
     localFile: 'ca-f-business-laws.json',
     driveEnv: 'GDRIVE_LAWS_FILE_ID',
+    driveFileId: '110O7Ct9S0LpXvGJYmGu0NnOb7JvG-jWY',
     modules: ['Business Laws'],
     lessons: [
       lesson(1, 'Indian Regulatory Framework', [
@@ -170,6 +172,7 @@ const courses = [
     examMode: 'Objective with 0.25 negative marking',
     localFile: 'ca-f-quantitative-aptitude.json',
     driveEnv: 'GDRIVE_MATHS_FILE_ID',
+    driveFileId: '1dIqWoR_v73zffRTkKb5qOlCWbzFUfkAb',
     modules: ['Business Mathematics', 'Logical Reasoning', 'Statistics'],
     lessons: [
       lesson(1, 'Ratio, Proportion, Indices and Logarithms', ['ratio and proportion', 'laws of indices', 'logarithm laws and applications'], { part: 'Business Mathematics' }),
@@ -203,6 +206,7 @@ const courses = [
     examMode: 'Objective with 0.25 negative marking',
     localFile: 'ca-f-business-economics.json',
     driveEnv: 'GDRIVE_ECONOMICS_FILE_ID',
+    driveFileId: '1YJEjP-sjlVMMWer4hYCr7NnoZkIQA-Se',
     modules: ['Business Economics'],
     lessons: [
       lesson(1, 'Nature and Scope of Business Economics', ['meaning and scope of business economics', 'microeconomics and macroeconomics', 'central economic problems and the price mechanism']),

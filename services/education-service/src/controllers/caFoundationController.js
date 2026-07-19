@@ -4,6 +4,7 @@
  */
 
 const googleDriveService = require('../services/googleDriveService');
+const tutorEngine = require('../ai/tutor-engine');
 const logger = require('../utils/logger');
 
 /**
@@ -325,6 +326,71 @@ exports.healthCheck = async (req, res) => {
       success: false,
       status: 'unhealthy',
       error: error.message
+    });
+  }
+};
+
+/**
+ * Ask the lesson-scoped CA Foundation tutor.
+ * The lesson is reloaded from Drive so the model is grounded in the same
+ * material shown to the student.
+ */
+exports.askLessonTutor = async (req, res) => {
+  try {
+    const { courseId, lessonIndex, question } = req.body;
+    const parsedLessonIndex = Number(lessonIndex);
+
+    if (!courseId || !Number.isInteger(parsedLessonIndex) || !question?.trim()) {
+      return res.status(400).json({
+        success: false,
+        message: 'courseId, integer lessonIndex, and question are required',
+      });
+    }
+
+    if (question.trim().length > 2000) {
+      return res.status(400).json({
+        success: false,
+        message: 'Question must be 2000 characters or fewer',
+      });
+    }
+
+    const lesson = await googleDriveService.getLesson(courseId, parsedLessonIndex);
+    const answer = await tutorEngine.answerQuestion(question.trim(), {
+      subject: lesson.subject,
+      topic: lesson.topic,
+      examType: 'CA Foundation',
+      examMode: lesson.examMode,
+      studentLevel: 'Foundation',
+      source: lesson.source?.disclaimer || 'MGrand Drive lesson',
+      lessonContext: {
+        learningObjectives: lesson.learningObjectives,
+        keyConcepts: lesson.keyConcepts,
+        detailedContent: lesson.detailedContent,
+        solvedExamples: lesson.solvedExamples,
+        commonMistakes: lesson.commonMistakes,
+        examTips: lesson.examTips,
+        tutorContext: lesson.tutorContext,
+      },
+    });
+
+    res.json({
+      success: true,
+      data: {
+        answer,
+        groundedIn: {
+          courseId: lesson.courseId,
+          lessonIndex: parsedLessonIndex,
+          topic: lesson.topic,
+          source: 'google-drive',
+        },
+      },
+    });
+  } catch (error) {
+    logger.error('CA lesson tutor error:', error);
+    res.status(500).json({
+      success: false,
+      message: 'The lesson tutor could not answer right now',
+      error: error.message,
     });
   }
 };

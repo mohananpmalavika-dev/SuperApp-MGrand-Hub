@@ -9,7 +9,19 @@ class TutorEngine {
    * Answer student question
    */
   async answerQuestion(question, context = {}) {
-    const { subject, topic, examType, studentLevel } = context;
+    const {
+      subject,
+      topic,
+      examType,
+      studentLevel,
+      lessonContext,
+      examMode,
+      source,
+    } = context;
+
+    const groundedLesson = lessonContext
+      ? JSON.stringify(lessonContext).slice(0, 18000)
+      : '';
 
     const systemPrompt = `
 You are an expert tutor specializing in ${subject || 'all subjects'} for ${examType || 'competitive exams'}.
@@ -30,19 +42,31 @@ Always:
 3. Use formatting (bold, bullet points) for clarity
 4. End with a practice problem or follow-up question
 5. Be supportive and encouraging
+6. Teach for durable mastery: diagnose the misconception, explain from first principles, then check understanding
+7. Use Indian rupees and Indian legal/business context unless another context is required
+8. Distinguish official ICAI syllabus facts from your own teaching examples
 
 Never:
 - Give incomplete answers
 - Use overly technical jargon without explaining
 - Make the student feel bad for asking
-- Skip important steps in solutions`;
+- Skip important steps in solutions
+- Claim that MGrand material is an official ICAI publication
+- Invent section numbers, case names, statutory amendments, official marks, or syllabus changes
+- Answer outside the supplied lesson context as if it were verified; clearly label uncertainty and direct the student to the latest ICAI announcement when currency matters`;
 
     const prompt = `
 Student Question: ${question}
 
 ${topic ? `Topic Context: ${topic}` : ''}
+${examMode ? `Exam Mode: ${examMode}` : ''}
+${source ? `Material Source: ${source}` : ''}
 
-Please provide a comprehensive answer following the teaching style above.`;
+Grounded lesson material:
+${groundedLesson || 'No lesson payload was supplied. Answer conservatively from established fundamentals.'}
+
+Please provide a comprehensive answer following the teaching style above. Use the grounded lesson as
+the primary scope, add original explanations and examples, and finish with one short retrieval check.`;
 
     try {
       const answer = await aiRouter.generate(prompt, {

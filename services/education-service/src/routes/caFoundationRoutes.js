@@ -28,6 +28,9 @@ router.get('/search', caFoundationController.searchCAContent);
 // Get statistics
 router.get('/stats', caFoundationController.getCAStatistics);
 
+// Lesson-scoped tutor (content is reloaded from Drive before each answer)
+router.post('/tutor/ask', caFoundationController.askLessonTutor);
+
 // Admin routes (add authentication middleware as needed)
 router.post('/cache/clear', caFoundationController.clearCache);
 router.post('/refresh/:courseId', caFoundationController.refreshCourse);

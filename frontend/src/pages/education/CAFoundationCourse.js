@@ -60,9 +60,11 @@ const CAFoundationCourse = () => {
         {course.description}
       </Typography>
       <Box display="flex" gap={1} flexWrap="wrap" sx={{ mb: 4 }}>
-        <Chip label={`${course.lessons.length} lessons`} color="primary" />
+        <Chip label={`Paper ${course.paper}`} color="secondary" />
+        <Chip label={`${course.totalLessons} lessons`} color="primary" />
         <Chip label={`${Math.round(course.duration / 60)} hours`} icon={<AccessTime />} />
-        <Chip label={course.source === 'google-drive' ? 'Live from Google Drive' : 'Course content ready'} />
+        <Chip label={course.examMode} variant="outlined" />
+        <Chip label={course.source === 'google-drive' ? 'Live from Google Drive' : 'Offline-safe Drive copy'} />
       </Box>
 
       <Typography variant="h5" fontWeight="bold" sx={{ mb: 2 }}>

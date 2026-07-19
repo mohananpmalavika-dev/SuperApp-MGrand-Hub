@@ -6,6 +6,11 @@
 
 const axios = require('axios');
 const logger = require('../utils/logger');
+const { courses: syllabusCourses } = require('../config/ca-foundation-syllabus-2026');
+
+const COURSE_ALIASES = {
+  'ca-f-business-mathematics': 'ca-f-quantitative-aptitude',
+};
 
 class GoogleDriveService {
   constructor() {
@@ -16,7 +21,9 @@ class GoogleDriveService {
     // Google Drive configuration
     this.driveConfig = {
       // Folder structure on Google Drive
-      baseFolderId: process.env.GDRIVE_CA_FOUNDATION_FOLDER_ID || '',
+      baseFolderId:
+        process.env.GDRIVE_CA_FOUNDATION_FOLDER_ID ||
+        '1rxwnM1vY4C_pCxbiY6FzdNNaT93Jj2Mw',
       apiKey: process.env.GDRIVE_API_KEY || '',
       
       // Local fallback if Google Drive is not configured
@@ -88,8 +95,17 @@ class GoogleDriveService {
       }
       
       // Method 2: Using public shareable link (no auth required)
-      const publicUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
-      const response = await axios.get(publicUrl);
+      const publicUrl = `https://drive.usercontent.google.com/download?id=${fileId}&export=download&confirm=t`;
+      const response = await axios.get(publicUrl, {
+        timeout: 30000,
+        responseType: 'json',
+        maxContentLength: 20 * 1024 * 1024,
+      });
+
+      if (typeof response.data === 'string' && response.data.includes('<html')) {
+        throw new Error('Drive returned a sharing or download confirmation page');
+      }
+
       return response.data;
       
     } catch (error) {
@@ -161,7 +177,9 @@ class GoogleDriveService {
       try {
         // Try Google Drive first
         if (!this.driveConfig.useLocalFallback && this.driveConfig.baseFolderId) {
-          const catalogFileId = process.env.GDRIVE_COURSE_CATALOG_FILE_ID;
+          const catalogFileId =
+            process.env.GDRIVE_COURSE_CATALOG_FILE_ID ||
+            '1GA5OvnqP9TrxllrUKLy_k1EpDa29xxRz';
           if (catalogFileId) {
             const catalog = await this.fetchFromGoogleDrive(catalogFileId);
             logger.info('Loaded course catalog from Google Drive');
@@ -186,76 +204,23 @@ class GoogleDriveService {
    */
   async getLocalCourseCatalog() {
     return {
-      courses: [
-        {
-          id: 'ca-f-accounting',
-          title: 'CA Foundation - Accounting',
-          description: 'Complete Accounting course for CA Foundation covering all topics with detailed explanations, examples, and practice questions.',
-          category: 'Professional',
-          examType: 'CA_FOUNDATION',
-          subject: 'Accounting',
-          level: 'Foundation',
-          totalLessons: 12,
-          instructor: 'CA Expert Team',
-          price: 4999,
-          currency: 'INR',
-          thumbnail: 'https://via.placeholder.com/400x225?text=CA+Foundation+Accounting',
-          tags: ['CA', 'Accounting', 'Foundation', 'Professional Course', 'Indian Exam'],
-          contentFileId: process.env.GDRIVE_ACCOUNTING_FILE_ID || null,
-          localFile: 'ca-f-accounting.json'
-        },
-        {
-          id: 'ca-f-business-economics',
-          title: 'CA Foundation - Business Economics',
-          description: 'Comprehensive Business Economics course for CA Foundation with real-world examples and exam-focused content.',
-          category: 'Professional',
-          examType: 'CA_FOUNDATION',
-          subject: 'Business Economics',
-          level: 'Foundation',
-          totalLessons: 10,
-          instructor: 'CA Expert Team',
-          price: 3999,
-          currency: 'INR',
-          thumbnail: 'https://via.placeholder.com/400x225?text=CA+Foundation+Economics',
-          tags: ['CA', 'Economics', 'Foundation', 'Professional Course', 'Indian Exam'],
-          contentFileId: process.env.GDRIVE_ECONOMICS_FILE_ID || null,
-          localFile: 'ca-f-business-economics.json'
-        },
-        {
-          id: 'ca-f-business-laws',
-          title: 'CA Foundation - Business Laws',
-          description: 'Complete Business Laws course for CA Foundation covering Indian Contract Act, Sale of Goods Act, and more.',
-          category: 'Professional',
-          examType: 'CA_FOUNDATION',
-          subject: 'Business Laws',
-          level: 'Foundation',
-          totalLessons: 10,
-          instructor: 'CA Expert Team',
-          price: 3999,
-          currency: 'INR',
-          thumbnail: 'https://via.placeholder.com/400x225?text=CA+Foundation+Laws',
-          tags: ['CA', 'Business Laws', 'Foundation', 'Professional Course', 'Indian Exam'],
-          contentFileId: process.env.GDRIVE_LAWS_FILE_ID || null,
-          localFile: 'ca-f-business-laws.json'
-        },
-        {
-          id: 'ca-f-business-mathematics',
-          title: 'CA Foundation - Business Mathematics',
-          description: 'Business Mathematics and Logical Reasoning for CA Foundation with step-by-step solutions.',
-          category: 'Professional',
-          examType: 'CA_FOUNDATION',
-          subject: 'Business Mathematics',
-          level: 'Foundation',
-          totalLessons: 10,
-          instructor: 'CA Expert Team',
-          price: 3999,
-          currency: 'INR',
-          thumbnail: 'https://via.placeholder.com/400x225?text=CA+Foundation+Maths',
-          tags: ['CA', 'Mathematics', 'Foundation', 'Professional Course', 'Indian Exam'],
-          contentFileId: process.env.GDRIVE_MATHS_FILE_ID || null,
-          localFile: 'ca-f-business-mathematics.json'
-        }
-      ]
+      courses: syllabusCourses.map((course) => ({
+        id: course.id,
+        code: course.code,
+        paper: course.paper,
+        title: course.title,
+        description: course.description,
+        category: 'Professional',
+        examType: 'CA_FOUNDATION',
+        examMode: course.examMode,
+        subject: course.subject,
+        level: 'Foundation',
+        totalLessons: course.lessons.length,
+        instructor: 'MGrand CA Foundation Tutor',
+        tags: ['CA', 'Foundation', course.subject, 'ICAI-aligned', 'May 2026 onwards'],
+        contentFileId: process.env[course.driveEnv] || course.driveFileId,
+        localFile: course.localFile,
+      })),
     };
   }
 
@@ -263,31 +228,44 @@ class GoogleDriveService {
    * Get specific course details with all lessons
    */
   async getCourseById(courseId) {
-    const cacheKey = `course_${courseId}`;
+    const resolvedCourseId = COURSE_ALIASES[courseId] || courseId;
+    const cacheKey = `course_${resolvedCourseId}`;
     
     return this.getCached(cacheKey, async () => {
       try {
         // Get course catalog first
         const catalog = await this.getCACourses();
-        const course = catalog.courses.find(c => c.id === courseId);
+        const course = catalog.courses.find(c => c.id === resolvedCourseId);
         
         if (!course) {
-          throw new Error(`Course not found: ${courseId}`);
+          throw new Error(`Course not found: ${resolvedCourseId}`);
         }
 
         // Fetch course content (lessons)
         let lessons;
+        let contentSource = 'bundled-fallback';
         
         if (course.contentFileId && !this.driveConfig.useLocalFallback) {
-          // Try Google Drive
-          lessons = await this.fetchFromGoogleDrive(course.contentFileId);
-          logger.info(`Loaded course ${courseId} from Google Drive`);
+          try {
+            lessons = await this.fetchFromGoogleDrive(course.contentFileId);
+            contentSource = 'google-drive';
+            logger.info(`Loaded course ${resolvedCourseId} from Google Drive`);
+          } catch (driveError) {
+            logger.warn(`Drive unavailable for ${resolvedCourseId}; using bundled fallback`, {
+              error: driveError.message,
+            });
+            lessons = await this.fetchFromLocal(course.localFile);
+          }
         } else if (course.localFile) {
           // Fallback to local file
           lessons = await this.fetchFromLocal(course.localFile);
-          logger.info(`Loaded course ${courseId} from local filesystem`);
+          logger.info(`Loaded course ${resolvedCourseId} from local filesystem`);
         } else {
-          throw new Error(`No content source configured for course: ${courseId}`);
+          throw new Error(`No content source configured for course: ${resolvedCourseId}`);
+        }
+
+        if (!Array.isArray(lessons)) {
+          throw new Error(`Invalid lesson file for course: ${resolvedCourseId}`);
         }
 
         // Organize lessons by modules
@@ -297,7 +275,7 @@ class GoogleDriveService {
           if (!moduleMap[moduleNum]) {
             moduleMap[moduleNum] = {
               moduleNumber: moduleNum,
-              title: `Module ${moduleNum}`,
+              title: lesson.moduleTitle || `Module ${moduleNum}`,
               lessons: []
             };
           }
@@ -308,12 +286,14 @@ class GoogleDriveService {
           ...course,
           modules: Object.values(moduleMap).sort((a, b) => a.moduleNumber - b.moduleNumber),
           totalLessons: lessons.length,
-          duration: lessons.reduce((sum, l) => sum + (l.duration || 0), 0)
+          duration: lessons.reduce((sum, l) => sum + (l.duration || 0), 0),
+          source: contentSource,
+          driveFolderId: this.driveConfig.baseFolderId,
         };
         
       } catch (error) {
         logger.error('Failed to load course', {
-          courseId,
+          courseId: resolvedCourseId,
           error: error.message
         });
         throw error;
@@ -341,7 +321,14 @@ class GoogleDriveService {
                 courseId: course.id,
                 courseTitle: course.title,
                 moduleNumber: module.moduleNumber,
-                moduleTitle: module.title
+                moduleTitle: module.title,
+                navigation: {
+                  hasPrevious: lessonIndex > 0,
+                  hasNext: lessonIndex < course.totalLessons - 1,
+                  previousIndex: lessonIndex > 0 ? lessonIndex - 1 : null,
+                  nextIndex: lessonIndex < course.totalLessons - 1 ? lessonIndex + 1 : null,
+                  totalLessons: course.totalLessons,
+                },
               };
             }
             lessonNumber++;
