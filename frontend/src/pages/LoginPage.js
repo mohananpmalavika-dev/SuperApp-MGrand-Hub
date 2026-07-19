@@ -14,9 +14,8 @@ import {
 } from '@mui/material';
 import { Visibility, VisibilityOff, ArrowBack } from '@mui/icons-material';
 import axios from 'axios';
+import { API_ENDPOINTS } from '../config/api.config';
 import './AuthPages.css';
-
-const API_URL = process.env.REACT_APP_AUTH_SERVICE_URL || 'http://localhost:3001';
 
 function LoginPage({ onLogin }) {
   const navigate = useNavigate();
@@ -40,7 +39,7 @@ function LoginPage({ onLogin }) {
     setError('');
 
     try {
-      const response = await axios.post(`${API_URL}/api/auth/login`, formData);
+      const response = await axios.post(API_ENDPOINTS.AUTH.LOGIN, formData);
       
       if (response.data.success) {
         const { user, accessToken } = response.data.data;

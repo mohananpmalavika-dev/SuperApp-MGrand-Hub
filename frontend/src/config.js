@@ -1,12 +1,14 @@
 // API Configuration - Production Ready
+const normalizeUrl = (url) => url?.replace(/\/+$/, '');
+
 const API_SERVICES = {
-  auth: process.env.REACT_APP_AUTH_SERVICE_URL || 'http://localhost:3001',
-  user: process.env.REACT_APP_USER_SERVICE_URL || 'http://localhost:3002',
-  ecommerce: process.env.REACT_APP_ECOMMERCE_SERVICE_URL || 'http://localhost:3003',
-  payment: process.env.REACT_APP_PAYMENT_SERVICE_URL || 'http://localhost:3004',
-  classifieds: process.env.REACT_APP_CLASSIFIEDS_SERVICE_URL || 'http://localhost:3005',
-  food: process.env.REACT_APP_FOOD_SERVICE_URL || 'http://localhost:3006',
-  notification: process.env.REACT_APP_NOTIFICATION_SERVICE_URL || 'http://localhost:3012',
+  auth: normalizeUrl(process.env.REACT_APP_AUTH_SERVICE_URL) || 'http://localhost:3001',
+  user: normalizeUrl(process.env.REACT_APP_USER_SERVICE_URL) || 'http://localhost:3002',
+  ecommerce: normalizeUrl(process.env.REACT_APP_ECOMMERCE_SERVICE_URL) || 'http://localhost:3003',
+  payment: normalizeUrl(process.env.REACT_APP_PAYMENT_SERVICE_URL) || 'http://localhost:3004',
+  classifieds: normalizeUrl(process.env.REACT_APP_CLASSIFIEDS_SERVICE_URL) || 'http://localhost:3005',
+  food: normalizeUrl(process.env.REACT_APP_FOOD_SERVICE_URL) || 'http://localhost:3006',
+  notification: normalizeUrl(process.env.REACT_APP_NOTIFICATION_SERVICE_URL) || 'http://localhost:3012',
 };
 
 // Legacy support - use auth service as main API

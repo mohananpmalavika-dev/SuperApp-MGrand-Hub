@@ -15,9 +15,8 @@ import {
 } from '@mui/material';
 import { Visibility, VisibilityOff, ArrowBack } from '@mui/icons-material';
 import axios from 'axios';
+import { API_ENDPOINTS } from '../config/api.config';
 import './AuthPages.css';
-
-const API_URL = process.env.REACT_APP_AUTH_SERVICE_URL || 'http://localhost:3001';
 
 function RegisterPage() {
   const navigate = useNavigate();
@@ -82,7 +81,7 @@ function RegisterPage() {
         ...registrationFields,
         name: `${firstName.trim()} ${lastName.trim()}`.trim(),
       };
-      const response = await axios.post(`${API_URL}/api/auth/register`, registerData);
+      const response = await axios.post(API_ENDPOINTS.AUTH.REGISTER, registerData);
       
       if (response.data.success) {
         navigate('/login', {
