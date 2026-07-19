@@ -41,7 +41,7 @@ nslookup cluster0.5kqyosa.mongodb.net
 ### Solution 2: Use Direct Connection String (if DNS is blocked)
 Instead of the SRV connection string, try a direct connection:
 ```
-mongodb://mgdhanyamohan_db_user:Thathu110@cluster0-shard-00-00.5kqyosa.mongodb.net:27017,cluster0-shard-00-01.5kqyosa.mongodb.net:27017,cluster0-shard-00-02.5kqyosa.mongodb.net:27017/superappmango?ssl=true&replicaSet=atlas-xxxxx-shard-0&authSource=admin&retryWrites=true&w=majority
+mongodb://mgdhanyamohan_db_user:YOUR_PASSWORD@cluster0-shard-00-00.5kqyosa.mongodb.net:27017,cluster0-shard-00-01.5kqyosa.mongodb.net:27017,cluster0-shard-00-02.5kqyosa.mongodb.net:27017/superappmango?ssl=true&replicaSet=atlas-xxxxx-shard-0&authSource=admin&retryWrites=true&w=majority
 ```
 
 ### Solution 3: Temporarily Disable Firewall/Antivirus

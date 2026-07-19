@@ -69,7 +69,7 @@ If MongoDB Atlas isn't working, install MongoDB locally:
 
 **MongoDB Connection String:**
 ```
-mongodb+srv://mgdhanyamohan_db_user:Thathu110@cluster0.5kqyosa.mongodb.net/superappmango?retryWrites=true&w=majority&appName=Cluster0
+mongodb+srv://mgdhanyamohan_db_user:YOUR_PASSWORD@cluster0.5kqyosa.mongodb.net/superappmango?retryWrites=true&w=majority&appName=Cluster0
 ```
 
 **Groq API Key:**
@@ -79,7 +79,7 @@ gsk_your_groq_api_key_here
 
 **Gemini API Key:**
 ```
-AIzaSyC9tgFBTl7sG0U6nXFFkmR8o4rEs9goFKQ
+YOUR_GEMINI_API_KEY
 ```
 
 **Backend Port:**
