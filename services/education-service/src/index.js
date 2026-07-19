@@ -29,19 +29,34 @@ app.use('/api/education/videos', express.static('uploads/videos'));
 app.use('/api/education/slides', express.static('uploads/slides'));
 app.use('/api/education/animations', express.static('uploads/animations'));
 
-// Connect to MongoDB
-mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    logger.info('MongoDB connected successfully');
-  })
-  .catch((err) => {
-    logger.error('MongoDB connection error:', err);
-    process.exit(1);
-  });
+// Connect to MongoDB with retry logic
+const connectMongoDB = async (retries = 5, delay = 5000) => {
+  for (let i = 0; i < retries; i++) {
+    try {
+      await mongoose.connect(process.env.MONGO_URI, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        serverSelectionTimeoutMS: 10000,
+      });
+      logger.info('MongoDB connected successfully');
+      return;
+    } catch (err) {
+      logger.error(`MongoDB connection attempt ${i + 1}/${retries} failed:`, {
+        message: err.message,
+        code: err.code,
+      });
+      if (i < retries - 1) {
+        logger.info(`Retrying in ${delay / 1000} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
+      } else {
+        logger.error('MongoDB connection failed after all retries. Service will continue without database.');
+        logger.error('Please check: 1) Network connectivity, 2) MongoDB Atlas IP whitelist, 3) Credentials');
+      }
+    }
+  }
+};
+
+connectMongoDB();
 
 // Connect to Redis
 cache
