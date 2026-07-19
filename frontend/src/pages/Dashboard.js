@@ -30,10 +30,40 @@ import {
   AccountBalance,
   ExitToApp,
   Menu as MenuIcon,
+  School,
+  Description,
+  Message,
 } from '@mui/icons-material';
 import './Dashboard.css';
 
 const modules = [
+  {
+    id: 'tutor',
+    name: 'Personal Tutor',
+    description: 'AI-powered learning with voice and video features',
+    icon: <School sx={{ fontSize: 48 }} />,
+    color: '#667eea',
+    status: 'Active',
+    path: '/tutor/dashboard',
+  },
+  {
+    id: 'resume',
+    name: 'Resume Builder',
+    description: 'Create professional resumes with PDF/DOCX export',
+    icon: <Description sx={{ fontSize: 48 }} />,
+    color: '#764ba2',
+    status: 'Active',
+    path: '/resume',
+  },
+  {
+    id: 'messaging',
+    name: 'Messages',
+    description: 'Chat, voice & video calls with end-to-end encryption',
+    icon: <Message sx={{ fontSize: 48 }} />,
+    color: '#00C9A7',
+    status: 'Active',
+    path: '/messaging',
+  },
   {
     id: 'ecommerce',
     name: 'E-Commerce',
@@ -100,7 +130,7 @@ const modules = [
   {
     id: 'social',
     name: 'Social',
-    description: 'Connect with friends, messaging, diary',
+    description: 'Connect with friends, social networking',
     icon: <Chat sx={{ fontSize: 48 }} />,
     color: '#FFD3B6',
     status: 'Coming Soon',
