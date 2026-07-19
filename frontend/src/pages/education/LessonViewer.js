@@ -26,6 +26,7 @@ import {
   useTheme,
   useMediaQuery,
   Collapse,
+  Avatar,
 } from '@mui/material';
 import {
   PlayArrow,
