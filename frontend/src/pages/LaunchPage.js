@@ -43,11 +43,29 @@ const modules = [
   {
     id: 'tutor',
     name: 'Personal Tutor',
-    description: 'AI-powered adaptive learning with quizzes',
+    description: 'AI-powered learning with voice and video features',
     icon: <School sx={{ fontSize: 48 }} />,
     color: '#9B59B6',
     status: 'Active',
     path: '/tutor/dashboard',
+  },
+  {
+    id: 'resume',
+    name: 'Resume Builder',
+    description: 'Create professional resumes with PDF/DOCX export',
+    icon: <Description sx={{ fontSize: 48 }} />,
+    color: '#764ba2',
+    status: 'Active',
+    path: '/resume',
+  },
+  {
+    id: 'messaging',
+    name: 'Messages',
+    description: 'Chat, voice & video calls with end-to-end encryption',
+    icon: <Message sx={{ fontSize: 48 }} />,
+    color: '#00C9A7',
+    status: 'Active',
+    path: '/messaging',
   },
   {
     id: 'ecommerce',
@@ -88,7 +106,7 @@ const modules = [
   {
     id: 'social',
     name: 'Social',
-    description: 'Connect with friends, messaging, diary',
+    description: 'Connect with friends and social networking',
     icon: <Chat sx={{ fontSize: 48 }} />,
     color: '#FFD3B6',
     status: 'Coming Soon',
@@ -122,6 +140,7 @@ function LaunchPage({ user }) {
       if (user || module.id === 'ca-foundation') {
         navigate(module.path);
       } else {
+        // Redirect to login if not authenticated (except CA Foundation)
         navigate('/login', { state: { returnTo: module.path } });
       }
     }
